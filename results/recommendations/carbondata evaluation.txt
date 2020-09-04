@@ -1,0 +1,780 @@
+CARBONDATA-2993
+0	false	core/src/main/java/org/apache/carbondata/core/locks/HdfsFileLock.java
+1	false	processing/src/main/java/org/apache/carbondata/processing/loading/steps/DataConverterProcessorStepImpl.java
+2	false	core/src/main/java/org/apache/carbondata/core/statusmanager/LoadMetadataDetails.java
+3	false	core/src/main/java/org/apache/carbondata/core/statusmanager/SegmentStatusManager.java
+4	false	processing/src/main/java/org/apache/carbondata/processing/loading/steps/DataWriterProcessorStepImpl.java
+CARBONDATA-2994
+0	false	core/src/main/java/org/apache/carbondata/core/datamap/DataMapFilter.java
+1	false	common/src/main/java/org/apache/carbondata/common/constants/LoggerAction.java
+2	false	core/src/main/java/org/apache/carbondata/core/util/ThreadLocalSessionInfo.java
+3	false	core/src/main/java/org/apache/carbondata/core/exception/InvalidConfigurationException.java
+4	false	processing/src/main/java/org/apache/carbondata/processing/loading/sort/impl/ThreadStatusObserver.java
+CARBONDATA-2996
+0	true	examples/spark2/src/main/java/org/apache/carbondata/examples/sdk/CarbonReaderExample.java
+1	true	store/sdk/src/main/java/org/apache/carbondata/sdk/file/CarbonSchemaReader.java
+2	true	store/sdk/src/main/java/org/apache/carbondata/sdk/file/Schema.java
+3	false	core/src/main/java/org/apache/carbondata/core/datamap/DataMapCatalog.java
+4	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/DataMapSchemaFactory.java
+CARBONDATA-2998
+0	false	core/src/main/java/org/apache/carbondata/core/util/AbstractDataFileFooterConverter.java
+1	false	core/src/main/java/org/apache/carbondata/core/scan/collector/impl/DictionaryBasedResultCollector.java
+2	false	core/src/main/java/org/apache/carbondata/core/indexstore/blockletindex/SegmentIndexFileStore.java
+3	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/DiskBasedDMSchemaStorageProvider.java
+4	false	core/src/main/java/org/apache/carbondata/core/datamap/DataMapStoreManager.java
+CARBONDATA-3002
+0	false	core/src/main/java/org/apache/carbondata/core/keygenerator/factory/KeyGeneratorFactory.java
+1	false	core/src/main/java/org/apache/carbondata/core/util/LoadStatistics.java
+2	false	core/src/main/java/org/apache/carbondata/core/util/CarbonLoadStatisticsDummy.java
+3	false	core/src/main/java/org/apache/carbondata/core/keygenerator/columnar/impl/MultiDimKeyVarLengthEquiSplitGenerator.java
+4	false	core/src/main/java/org/apache/carbondata/core/util/CarbonLoadStatisticsImpl.java
+CARBONDATA-3025
+0	false	integration/spark-datasource/src/main/scala/org/apache/carbondata/converter/SparkDataTypeConverterImpl.java
+1	false	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+2	false	core/src/main/java/org/apache/carbondata/core/metadata/converter/ThriftWrapperSchemaConverterImpl.java
+3	true	integration/presto/src/main/java/org/apache/carbondata/presto/impl/CarbonTableReader.java
+4	false	core/src/main/java/org/apache/carbondata/core/util/DataTypeUtil.java
+CARBONDATA-3026
+0	false	core/src/main/java/org/apache/carbondata/core/util/CarbonProperties.java
+1	false	core/src/main/java/org/apache/carbondata/core/constants/CarbonCommonConstants.java
+2	false	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+3	false	processing/src/main/java/org/apache/carbondata/processing/sort/sortdata/SortParameters.java
+4	false	processing/src/main/java/org/apache/carbondata/processing/sort/sortdata/SortDataRows.java
+CARBONDATA-3036
+0	false	core/src/main/java/org/apache/carbondata/core/scan/filter/executer/RowLevelRangeTypeExecuterFactory.java
+1	false	streaming/src/main/java/org/apache/carbondata/streaming/StreamBlockletReader.java
+2	false	core/src/main/java/org/apache/carbondata/core/constants/CarbonCommonConstants.java
+3	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/CarbonTable.java
+4	false	core/src/main/java/org/apache/carbondata/core/locks/CarbonLockUtil.java
+CARBONDATA-3040
+0	false	datamap/bloom/src/main/java/org/apache/carbondata/datamap/bloom/BloomDataMapDistributable.java
+1	false	datamap/bloom/src/main/java/org/apache/carbondata/datamap/bloom/BloomDataMapWriter.java
+2	false	datamap/bloom/src/main/java/org/apache/carbondata/datamap/bloom/BloomDataMapCache.java
+3	false	datamap/bloom/src/main/java/org/apache/hadoop/util/bloom/CarbonBloomFilter.java
+4	false	datamap/bloom/src/main/java/org/apache/carbondata/datamap/bloom/BloomCoarseGrainDataMapFactory.java
+CARBONDATA-3058
+0	false	processing/src/main/java/org/apache/carbondata/processing/loading/FailureCauses.java
+1	false	core/src/main/java/org/apache/carbondata/core/keygenerator/columnar/impl/MultiDimKeyVarLengthVariableSplitGenerator.java
+2	false	core/src/main/java/org/apache/carbondata/core/locks/ZookeeperInit.java
+3	false	core/src/main/java/org/apache/carbondata/core/writer/ThriftWriter.java
+4	false	core/src/main/java/org/apache/carbondata/core/datamap/dev/BlockletSerializer.java
+CARBONDATA-3060
+0	false	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+1	false	core/src/main/java/org/apache/carbondata/core/constants/CarbonCommonConstants.java
+2	false	store/sdk/src/main/java/org/apache/carbondata/sdk/file/CarbonWriterBuilder.java
+3	false	core/src/main/java/org/apache/carbondata/core/metadata/converter/ThriftWrapperSchemaConverterImpl.java
+4	true	tools/cli/src/main/java/org/apache/carbondata/tool/DataSummary.java
+CARBONDATA-3062
+0	false	core/src/main/java/org/apache/carbondata/core/constants/CarbonCommonConstants.java
+1	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/CarbonTable.java
+2	false	processing/src/main/java/org/apache/carbondata/processing/loading/DataLoadProcessBuilder.java
+3	false	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+4	false	core/src/main/java/org/apache/carbondata/core/metadata/SegmentFileStore.java
+CARBONDATA-3065
+0	false	core/src/main/java/org/apache/carbondata/core/datastore/chunk/store/impl/safe/SafeFixedLengthDimensionDataChunkStore.java
+1	false	core/src/main/java/org/apache/carbondata/core/scan/complextypes/ComplexQueryType.java
+2	false	core/src/main/java/org/apache/carbondata/core/scan/scanner/BlockletScanner.java
+3	false	core/src/main/java/org/apache/carbondata/core/datastore/columnar/ColumnWithRowId.java
+4	false	core/src/main/java/org/apache/carbondata/core/datastore/chunk/reader/DimensionColumnChunkReader.java
+CARBONDATA-3069
+0	false	integration/spark-common/src/main/java/org/apache/carbondata/spark/merger/CarbonDataMergerUtil.java
+1	false	core/src/main/java/org/apache/carbondata/core/util/DataTypeConverterImpl.java
+2	false	processing/src/main/java/org/apache/carbondata/processing/merger/CarbonCompactionUtil.java
+3	false	processing/src/main/java/org/apache/carbondata/processing/merger/CarbonCompactionExecutor.java
+4	false	integration/spark-common/src/main/java/org/apache/carbondata/spark/merger/CarbonCompactionUtil.java
+CARBONDATA-3077
+0	false	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+1	false	core/src/main/java/org/apache/carbondata/core/scan/executor/impl/AbstractQueryExecutor.java
+2	false	hadoop/src/main/java/org/apache/carbondata/hadoop/api/CarbonTableInputFormat.java
+3	false	core/src/main/java/org/apache/carbondata/core/metadata/AbsoluteTableIdentifier.java
+4	false	hadoop/src/main/java/org/apache/carbondata/hadoop/api/CarbonInputFormat.java
+CARBONDATA-3078
+0	false	core/src/main/java/org/apache/carbondata/core/datamap/dev/expr/DataMapWrapperSimpleInfo.java
+1	false	core/src/main/java/org/apache/carbondata/core/profiler/ExplainCollector.java
+2	false	core/src/main/java/org/apache/carbondata/core/profiler/TablePruningInfo.java
+3	false	hadoop/src/main/java/org/apache/carbondata/hadoop/api/CarbonInputFormat.java
+4	false	core/src/main/java/org/apache/carbondata/core/scan/executor/util/RestructureUtil.java
+CARBONDATA-3080
+0	false	processing/src/main/java/org/apache/carbondata/processing/store/TablePage.java
+1	false	core/src/main/java/org/apache/carbondata/core/datastore/page/ComplexColumnPage.java
+2	false	processing/src/main/java/org/apache/carbondata/processing/loading/converter/impl/FieldEncoderFactory.java
+3	false	core/src/main/java/org/apache/carbondata/core/datastore/page/LocalDictColumnPage.java
+4	false	integration/spark-datasource/src/main/scala/org/apache/carbondata/spark/vectorreader/VectorizedCarbonRecordReader.java
+CARBONDATA-3081
+0	false	core/src/main/java/org/apache/carbondata/core/datastore/page/encoding/compress/DirectCompressCodec.java
+1	false	integration/spark-datasource/src/main/scala/org/apache/carbondata/spark/vectorreader/VectorizedCarbonRecordReader.java
+2	false	core/src/main/java/org/apache/carbondata/core/scan/result/vector/MeasureDataVectorProcessor.java
+3	false	core/src/main/java/org/apache/carbondata/core/datastore/page/encoding/rle/RLECodec.java
+4	false	core/src/main/java/org/apache/carbondata/core/datastore/page/encoding/EncodingFactory.java
+CARBONDATA-3084
+0	false	core/src/main/java/org/apache/carbondata/core/datastore/page/encoding/DeltaIntegralCodec.java
+1	false	core/src/main/java/org/apache/carbondata/core/datastore/page/encoding/adaptive/AdaptiveIntegralCodec.java
+2	false	processing/src/main/java/org/apache/carbondata/processing/loading/csvinput/CSVInputFormat.java
+3	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/CarbonTableBuilder.java
+4	false	processing/src/main/java/org/apache/carbondata/processing/loading/model/CarbonLoadModel.java
+CARBONDATA-3096
+0	false	core/src/main/java/org/apache/carbondata/core/constants/CarbonCommonConstants.java
+1	false	core/src/main/java/org/apache/carbondata/core/datastore/row/CarbonRow.java
+2	false	core/src/main/java/org/apache/carbondata/core/scan/model/QueryModel.java
+3	false	streaming/src/main/java/org/apache/carbondata/streaming/CarbonStreamRecordWriter.java
+4	false	core/src/main/java/org/apache/carbondata/core/util/SessionParams.java
+CARBONDATA-3098
+0	false	core/src/main/java/org/apache/carbondata/core/scan/collector/impl/AbstractScannedResultCollector.java
+1	false	core/src/main/java/org/apache/carbondata/core/scan/expression/ExpressionResult.java
+2	false	core/src/main/java/org/apache/carbondata/core/scan/result/vector/MeasureDataVectorProcessor.java
+3	false	core/src/main/java/org/apache/carbondata/core/util/DataTypeUtil.java
+4	false	core/src/main/java/org/apache/carbondata/core/datastore/page/UnsafeDecimalColumnPage.java
+CARBONDATA-3106
+0	false	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+1	false	core/src/main/java/org/apache/carbondata/core/util/ThreadLocalTaskInfo.java
+2	false	core/src/main/java/org/apache/carbondata/core/scan/executor/impl/AbstractQueryExecutor.java
+3	false	core/src/main/java/org/apache/carbondata/core/indexstore/UnsafeMemoryDMStore.java
+4	false	processing/src/main/java/org/apache/carbondata/processing/store/CarbonFactDataHandlerColumnar.java
+CARBONDATA-3108
+0	false	core/src/main/java/org/apache/carbondata/core/indexstore/UnsafeMemoryDMStore.java
+1	false	processing/src/main/java/org/apache/carbondata/processing/loading/sort/unsafe/UnsafeSortDataRows.java
+2	false	core/src/main/java/org/apache/carbondata/core/constants/CarbonCommonConstants.java
+3	false	core/src/main/java/org/apache/carbondata/core/datamap/DataMapStoreManager.java
+4	false	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+CARBONDATA-3114
+0	true	core/src/main/java/org/apache/carbondata/core/scan/filter/executer/RangeValueFilterExecuterImpl.java
+1	true	core/src/main/java/org/apache/carbondata/core/scan/filter/executer/RowLevelRangeLessThanFilterExecuterImpl.java
+2	true	core/src/main/java/org/apache/carbondata/core/scan/filter/executer/RowLevelRangeLessThanEqualFilterExecuterImpl.java
+3	false	core/src/main/java/org/apache/carbondata/core/scan/filter/executer/ExcludeFilterExecuterImpl.java
+4	false	core/src/main/java/org/apache/carbondata/core/constants/CarbonCommonConstants.java
+CARBONDATA-3122
+0	false	core/src/main/java/org/apache/carbondata/core/constants/CarbonCommonConstants.java
+1	false	core/src/main/java/org/apache/carbondata/core/datastore/page/encoding/compress/DirectCompressCodec.java
+2	false	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+3	false	store/sdk/src/main/java/org/apache/carbondata/sdk/file/CarbonReader.java
+4	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/CarbonTable.java
+CARBONDATA-3123
+0	false	core/src/main/java/org/apache/carbondata/core/indexstore/UnsafeMemoryDMStore.java
+1	false	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+2	false	core/src/main/java/org/apache/carbondata/core/constants/CarbonCommonConstants.java
+3	false	processing/src/main/java/org/apache/carbondata/processing/loading/sort/unsafe/UnsafeSortDataRows.java
+4	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/CarbonTable.java
+CARBONDATA-3124
+0	true	core/src/main/java/org/apache/carbondata/core/memory/UnsafeMemoryManager.java
+1	false	core/src/main/java/org/apache/carbondata/core/scan/model/QueryModel.java
+2	false	core/src/main/java/org/apache/carbondata/core/memory/UnsafeSortMemoryManager.java
+3	false	core/src/main/java/org/apache/carbondata/core/memory/HeapMemoryAllocator.java
+4	false	hadoop/src/main/java/org/apache/carbondata/hadoop/CarbonRecordReader.java
+CARBONDATA-3126
+0	false	core/src/main/java/org/apache/carbondata/core/util/CarbonLoadStatisticsDummy.java
+1	false	core/src/main/java/org/apache/carbondata/core/keygenerator/factory/KeyGeneratorFactory.java
+2	false	core/src/main/java/org/apache/carbondata/core/util/LoadStatistics.java
+3	false	core/src/main/java/org/apache/carbondata/core/util/CarbonLoadStatisticsImpl.java
+4	false	core/src/main/java/org/apache/carbondata/core/keygenerator/columnar/impl/MultiDimKeyVarLengthEquiSplitGenerator.java
+CARBONDATA-3127
+0	true	integration/hive/src/main/java/org/apache/carbondata/hive/MapredCarbonInputFormat.java
+1	false	integration/hive/src/main/java/org/apache/carbondata/hive/CarbonHiveRecordReader.java
+2	false	integration/hive/src/main/java/org/apache/carbondata/hive/CarbonHiveSerDe.java
+3	false	integration/hive/src/main/java/org/apache/carbondata/hive/CarbonDictionaryDecodeReadSupport.java
+4	false	store/sdk/src/main/java/org/apache/carbondata/store/MetaCachedCarbonStore.java
+CARBONDATA-3132
+0	false	core/src/main/java/org/apache/carbondata/core/indexstore/AbstractMemoryDMStore.java
+1	false	core/src/main/java/org/apache/carbondata/core/util/CarbonTaskInfo.java
+2	false	core/src/main/java/org/apache/carbondata/core/util/ThreadLocalTaskInfo.java
+3	false	processing/src/main/java/org/apache/carbondata/processing/merger/CompactionResultSortProcessor.java
+4	false	core/src/main/java/org/apache/carbondata/core/datastore/chunk/store/impl/unsafe/UnsafeAbstractDimensionDataChunkStore.java
+CARBONDATA-3134
+0	false	core/src/main/java/org/apache/carbondata/core/constants/CarbonCommonConstants.java
+1	false	processing/src/main/java/org/apache/carbondata/processing/loading/converter/impl/NonDictionaryFieldConverterImpl.java
+2	false	hadoop/src/main/java/org/apache/carbondata/hadoop/api/CarbonTableInputFormat.java
+3	false	integration/spark-datasource/src/main/scala/org/apache/carbondata/spark/vectorreader/ColumnarVectorWrapper.java
+4	false	core/src/main/java/org/apache/carbondata/core/cache/dictionary/Dictionary.java
+CARBONDATA-3138
+0	false	core/src/main/java/org/apache/carbondata/core/datamap/dev/cgdatamap/CoarseGrainDataMap.java
+1	false	core/src/main/java/org/apache/carbondata/core/datamap/dev/fgdatamap/FineGrainDataMap.java
+2	false	core/src/main/java/org/apache/carbondata/core/datamap/SegmentDataMapGroup.java
+3	false	core/src/main/java/org/apache/carbondata/core/indexstore/blockletindex/BlockDataMap.java
+4	false	core/src/main/java/org/apache/carbondata/core/profiler/TablePruningInfo.java
+CARBONDATA-3140
+0	false	processing/src/main/java/org/apache/carbondata/processing/loading/events/LoadEvents.java
+1	false	core/src/main/java/org/apache/carbondata/core/datamap/DataMapFilter.java
+2	false	processing/src/main/java/org/apache/carbondata/processing/datamap/DataMapWriterException.java
+3	false	core/src/main/java/org/apache/carbondata/core/datamap/DataMapRegistry.java
+4	false	core/src/main/java/org/apache/carbondata/core/datamap/dev/fgdatamap/FineGrainDataMapFactory.java
+CARBONDATA-3143
+0	false	integration/presto/src/main/java/org/apache/carbondata/presto/CarbondataPlugin.java
+1	false	integration/presto/src/main/java/org/apache/carbondata/presto/Types.java
+2	false	integration/presto/src/main/java/org/apache/carbondata/presto/impl/CarbonTableCacheModel.java
+3	false	integration/presto/src/main/java/org/apache/carbondata/presto/CarbondataColumnConstraint.java
+4	false	integration/presto/src/main/java/org/apache/carbondata/presto/CarbondataSplitManager.java
+CARBONDATA-3147
+0	false	processing/src/main/java/org/apache/carbondata/processing/loading/BadRecordsLoggerProvider.java
+1	false	processing/src/main/java/org/apache/carbondata/processing/util/CarbonBadRecordUtil.java
+2	false	core/src/main/java/org/apache/carbondata/core/datastore/filesystem/AbstractDFSCarbonFile.java
+3	false	core/src/main/java/org/apache/carbondata/core/scan/executor/util/RestructureUtil.java
+4	true	processing/src/main/java/org/apache/carbondata/processing/util/CarbonLoaderUtil.java
+CARBONDATA-3153
+0	false	core/src/main/java/org/apache/carbondata/core/datastore/ColumnType.java
+1	false	processing/src/main/java/org/apache/carbondata/processing/datatypes/StructDataType.java
+2	false	processing/src/main/java/org/apache/carbondata/processing/datatypes/ArrayDataType.java
+3	false	core/src/main/java/org/apache/carbondata/core/metadata/datatype/ByteType.java
+4	false	core/src/main/java/org/apache/carbondata/core/metadata/datatype/ByteArrayType.java
+CARBONDATA-3162
+0	false	core/src/main/java/org/apache/carbondata/core/datastore/TableSpec.java
+1	false	processing/src/main/java/org/apache/carbondata/processing/store/TablePage.java
+2	false	processing/src/main/java/org/apache/carbondata/processing/sort/sortdata/SortTempFileChunkHolder.java
+3	false	processing/src/main/java/org/apache/carbondata/processing/store/CarbonFactDataHandlerModel.java
+4	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/TableSchemaBuilder.java
+CARBONDATA-3165
+0	false	core/src/main/java/org/apache/carbondata/core/cache/dictionary/DictionaryChunksWrapper.java
+1	false	core/src/main/java/org/apache/carbondata/core/keygenerator/KeyGenException.java
+2	false	core/src/main/java/org/apache/carbondata/core/cache/Cacheable.java
+3	false	core/src/main/java/org/apache/carbondata/core/reader/CarbonDictionaryColumnMetaChunk.java
+4	false	common/src/main/java/org/apache/carbondata/common/logging/impl/StatisticLevel.java
+CARBONDATA-3174
+0	false	processing/src/main/java/org/apache/carbondata/processing/loading/sort/SortStepRowHandler.java
+1	false	processing/src/main/java/org/apache/carbondata/processing/store/CarbonFactDataHandlerModel.java
+2	true	store/sdk/src/main/java/org/apache/carbondata/sdk/file/CarbonWriterBuilder.java
+3	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/TableSchemaBuilder.java
+4	false	core/src/main/java/org/apache/carbondata/core/indexstore/UnsafeMemoryDMStore.java
+CARBONDATA-3181
+0	false	core/src/main/java/org/apache/carbondata/core/scan/result/iterator/ChunkRowIterator.java
+1	false	hadoop/src/main/java/org/apache/carbondata/hadoop/CarbonRecordReader.java
+2	false	core/src/main/java/org/apache/carbondata/core/scan/filter/executer/RowLevelRangeLessThanFilterExecuterImpl.java
+3	false	core/src/main/java/org/apache/carbondata/core/scan/filter/executer/RowLevelRangeLessThanEqualFilterExecuterImpl.java
+4	false	core/src/main/java/org/apache/carbondata/core/scan/filter/executer/RowLevelRangeGrtThanFiterExecuterImpl.java
+CARBONDATA-3186
+0	false	core/src/main/java/org/apache/carbondata/core/scan/executor/impl/AbstractQueryExecutor.java
+1	true	processing/src/main/java/org/apache/carbondata/processing/store/writer/AbstractFactDataWriter.java
+2	false	processing/src/main/java/org/apache/carbondata/processing/loading/steps/DataConverterProcessorStepImpl.java
+3	false	processing/src/main/java/org/apache/carbondata/processing/store/CarbonFactDataHandlerModel.java
+4	false	processing/src/main/java/org/apache/carbondata/processing/loading/DataLoadProcessBuilder.java
+CARBONDATA-3192
+0	false	integration/spark-common/src/main/java/org/apache/carbondata/spark/merger/CarbonDataMergerUtil.java
+1	false	core/src/main/java/org/apache/carbondata/core/metadata/ColumnarFormatVersion.java
+2	false	integration/spark-common/src/main/java/org/apache/carbondata/spark/merger/CarbonCompactionUtil.java
+3	false	hadoop/src/main/java/org/apache/carbondata/hadoop/util/CarbonInputSplitTaskInfo.java
+4	false	core/src/main/java/org/apache/carbondata/core/datastore/chunk/reader/CarbonDataReaderFactory.java
+CARBONDATA-3196
+0	false	core/src/main/java/org/apache/carbondata/core/datastore/ColumnType.java
+1	false	processing/src/main/java/org/apache/carbondata/processing/datatypes/StructDataType.java
+2	false	processing/src/main/java/org/apache/carbondata/processing/datatypes/ArrayDataType.java
+3	false	processing/src/main/java/org/apache/carbondata/processing/datatypes/PrimitiveDataType.java
+4	false	core/src/main/java/org/apache/carbondata/core/datastore/page/ComplexColumnPage.java
+CARBONDATA-3202
+0	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/DataMapSchemaFactory.java
+1	false	core/src/main/java/org/apache/carbondata/core/util/ThreadLocalSessionInfo.java
+2	false	core/src/main/java/org/apache/carbondata/core/exception/InvalidConfigurationException.java
+3	false	core/src/main/java/org/apache/carbondata/core/util/CarbonSessionInfo.java
+4	false	examples/spark2/src/main/java/org/apache/carbondata/examples/sdk/CarbonReaderExample.java
+CARBONDATA-3203
+0	false	integration/spark-common/src/main/java/org/apache/carbondata/spark/merger/CarbonDataMergerUtil.java
+1	false	processing/src/main/java/org/apache/carbondata/processing/merger/CarbonCompactionUtil.java
+2	false	integration/spark-common/src/main/java/org/apache/carbondata/spark/merger/CarbonCompactionUtil.java
+3	false	core/src/main/java/org/apache/carbondata/core/datastore/ColumnType.java
+4	false	processing/src/main/java/org/apache/carbondata/processing/merger/RowResultMergerProcessor.java
+CARBONDATA-3205
+0	false	core/src/main/java/org/apache/carbondata/core/scan/model/QueryProjection.java
+1	false	core/src/main/java/org/apache/carbondata/core/scan/model/ProjectionDimension.java
+2	false	processing/src/main/java/org/apache/carbondata/processing/datatypes/ArrayDataType.java
+3	false	processing/src/main/java/org/apache/carbondata/processing/datatypes/StructDataType.java
+4	false	processing/src/main/java/org/apache/carbondata/processing/datatypes/PrimitiveDataType.java
+CARBONDATA-3206
+0	false	core/src/main/java/org/apache/carbondata/core/keygenerator/factory/KeyGeneratorFactory.java
+1	false	core/src/main/java/org/apache/carbondata/core/util/LoadStatistics.java
+2	false	core/src/main/java/org/apache/carbondata/core/util/CarbonLoadStatisticsDummy.java
+3	false	core/src/main/java/org/apache/carbondata/core/keygenerator/columnar/impl/MultiDimKeyVarLengthEquiSplitGenerator.java
+4	false	core/src/main/java/org/apache/carbondata/core/util/CarbonLoadStatisticsImpl.java
+CARBONDATA-3208
+0	false	core/src/main/java/org/apache/carbondata/core/constants/CarbonCommonConstants.java
+1	false	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+2	false	integration/hive/src/main/java/org/apache/carbondata/hive/MapredCarbonInputFormat.java
+3	false	processing/src/main/java/org/apache/carbondata/processing/loading/exception/CarbonDataLoadingException.java
+4	false	hadoop/src/main/java/org/apache/carbondata/hadoop/api/CarbonTableInputFormat.java
+CARBONDATA-3212
+0	false	processing/src/main/java/org/apache/carbondata/processing/loading/csvinput/BlockDetails.java
+1	false	processing/src/main/java/org/apache/carbondata/processing/merger/exeception/SliceMergerException.java
+2	false	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+3	false	store/sdk/src/main/java/org/apache/carbondata/sdk/file/AvroCarbonWriter.java
+4	false	processing/src/main/java/org/apache/carbondata/processing/loading/steps/InputProcessorStepImpl.java
+CARBONDATA-3217
+0	false	integration/spark-common/src/main/java/org/apache/carbondata/spark/util/Util.java
+1	false	core/src/main/java/org/apache/carbondata/core/scan/filter/resolver/resolverinfo/visitor/FilterInfoTypeVisitorFactory.java
+2	false	core/src/main/java/org/apache/carbondata/core/datastore/chunk/store/impl/unsafe/UnsafeAbstractDimensionDataChunkStore.java
+3	true	core/src/main/java/org/apache/carbondata/core/scan/filter/FilterUtil.java
+4	false	core/src/main/java/org/apache/carbondata/core/scan/filter/resolver/resolverinfo/visitor/RangeDictionaryColumnVisitor.java
+CARBONDATA-3221
+0	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/CarbonTable.java
+1	false	examples/spark2/src/main/java/org/apache/carbondata/examples/sdk/SDKS3ReadExample.java
+2	false	store/sdk/src/main/java/org/apache/carbondata/sdk/file/CarbonReaderBuilder.java
+3	false	examples/spark2/src/main/java/org/apache/carbondata/examples/sdk/SDKS3SchemaReadExample.java
+4	true	examples/spark2/src/main/java/org/apache/carbondata/examples/sdk/SDKS3Example.java
+CARBONDATA-3223
+0	false	tools/cli/src/main/java/org/apache/carbondata/tool/FileCollector.java
+1	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/datamap/DataMapProperty.java
+2	false	processing/src/main/java/org/apache/carbondata/processing/loading/converter/FieldConverter.java
+3	false	processing/src/main/java/org/apache/carbondata/processing/loading/converter/impl/ComplexFieldConverterImpl.java
+4	false	core/src/main/java/org/apache/carbondata/core/cache/dictionary/Dictionary.java
+CARBONDATA-3224
+0	false	processing/src/main/java/org/apache/carbondata/processing/loading/model/CarbonLoadModelBuilder.java
+1	false	core/src/main/java/org/apache/carbondata/core/scan/filter/FilterUtil.java
+2	false	core/src/main/java/org/apache/carbondata/core/scan/filter/executer/RowLevelFilterExecuterImpl.java
+3	false	core/src/main/java/org/apache/carbondata/core/util/DataTypeUtil.java
+4	false	processing/src/main/java/org/apache/carbondata/processing/loading/converter/impl/RowConverterImpl.java
+CARBONDATA-3233
+0	false	core/src/main/java/org/apache/carbondata/core/indexstore/UnsafeMemoryDMStore.java
+1	false	core/src/main/java/org/apache/carbondata/core/datastore/page/encoding/adaptive/AdaptiveIntegralCodec.java
+2	false	processing/src/main/java/org/apache/carbondata/processing/store/CarbonFactDataHandlerColumnar.java
+3	false	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+4	false	core/src/main/java/org/apache/carbondata/core/datastore/page/encoding/DeltaIntegralCodec.java
+CARBONDATA-3237
+0	false	integration/presto/src/main/java/org/apache/carbondata/presto/CarbondataSplitManager.java
+1	false	integration/presto/src/main/java/org/apache/carbondata/presto/readers/ObjectStreamReader.java
+2	false	core/src/main/java/org/apache/carbondata/core/datastore/page/FallbackEncodedColumnPage.java
+3	false	core/src/main/java/org/apache/carbondata/core/localdictionary/exception/DictionaryThresholdReachedException.java
+4	false	core/src/main/java/org/apache/carbondata/core/localdictionary/dictionaryholder/DictionaryStore.java
+CARBONDATA-3243
+0	false	core/src/main/java/org/apache/carbondata/core/constants/CarbonCommonConstants.java
+1	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/TableSchema.java
+2	true	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/CarbonTable.java
+3	false	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+4	false	core/src/main/java/org/apache/carbondata/core/datamap/DataMapFilter.java
+CARBONDATA-3246
+0	false	hadoop/src/main/java/org/apache/carbondata/hadoop/CarbonRecordReader.java
+1	false	core/src/main/java/org/apache/carbondata/core/util/DataFileFooterConverter2.java
+2	false	core/src/main/java/org/apache/carbondata/core/indexstore/blockletindex/BlockletDataRefNode.java
+3	false	processing/src/main/java/org/apache/carbondata/processing/store/CarbonFactDataHandlerColumnar.java
+4	true	core/src/main/java/org/apache/carbondata/core/util/CarbonProperties.java
+CARBONDATA-3257
+0	false	processing/src/main/java/org/apache/carbondata/processing/loading/steps/SortProcessorStepImpl.java
+1	false	processing/src/main/java/org/apache/carbondata/processing/loading/sort/unsafe/comparator/UnsafeRowComparator.java
+2	false	processing/src/main/java/org/apache/carbondata/processing/loading/converter/RowConverter.java
+3	false	core/src/main/java/org/apache/carbondata/core/memory/CarbonUnsafe.java
+4	false	processing/src/main/java/org/apache/carbondata/processing/loading/sort/AbstractMergeSorter.java
+CARBONDATA-3262
+0	true	core/src/main/java/org/apache/carbondata/core/writer/CarbonIndexFileMergeWriter.java
+1	false	core/src/main/java/org/apache/carbondata/core/indexstore/blockletindex/SegmentIndexFileStore.java
+2	false	core/src/main/java/org/apache/carbondata/core/keygenerator/columnar/impl/MultiDimKeyVarLengthEquiSplitGenerator.java
+3	false	processing/src/main/java/org/apache/carbondata/processing/merger/CompactionType.java
+4	false	core/src/main/java/org/apache/carbondata/core/scan/expression/UnknownExpression.java
+CARBONDATA-3267
+0	false	processing/src/main/java/org/apache/carbondata/processing/loading/sort/impl/UnsafeParallelReadMergeSorterImpl.java
+1	false	processing/src/main/java/org/apache/carbondata/processing/sort/sortdata/SortDataRows.java
+2	false	processing/src/main/java/org/apache/carbondata/processing/loading/row/CarbonRowBatch.java
+3	false	processing/src/main/java/org/apache/carbondata/processing/loading/steps/DataWriterProcessorStepImpl.java
+4	false	core/src/main/java/org/apache/carbondata/core/util/ByteUtil.java
+CARBONDATA-3268
+0	false	integration/presto/src/main/java/org/apache/carbondata/presto/impl/CarbonTableReader.java
+1	false	integration/presto/src/main/java/org/apache/carbondata/presto/impl/CarbonTableCacheModel.java
+2	false	integration/presto/src/main/java/org/apache/carbondata/presto/CarbondataConnectorFactory.java
+3	false	integration/presto/src/main/java/org/apache/carbondata/presto/impl/CarbonTableConfig.java
+4	false	integration/presto/src/main/java/org/apache/carbondata/presto/readers/TimestampStreamReader.java
+CARBONDATA-3280
+0	false	streaming/src/main/java/org/apache/carbondata/streaming/segment/StreamSegment.java
+1	false	hadoop/src/main/java/org/apache/carbondata/hadoop/api/CarbonFileInputFormat.java
+2	false	core/src/main/java/org/apache/carbondata/core/datastore/DataRefNode.java
+3	false	core/src/main/java/org/apache/carbondata/core/util/DataFileFooterConverter2.java
+4	false	core/src/main/java/org/apache/carbondata/core/datastore/chunk/AbstractRawColumnChunk.java
+CARBONDATA-3282
+0	false	examples/spark2/src/main/java/org/apache/carbondata/examples/sdk/SDKS3Example.java
+1	false	core/src/main/java/org/apache/carbondata/core/datastore/impl/FileFactory.java
+2	false	store/sdk/src/main/java/org/apache/carbondata/sdk/file/CarbonReaderBuilder.java
+3	false	core/src/main/java/org/apache/carbondata/core/constants/CarbonCommonConstants.java
+4	false	core/src/main/java/org/apache/carbondata/core/locks/CarbonLockFactory.java
+CARBONDATA-3284
+0	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/SchemaReader.java
+1	false	core/src/main/java/org/apache/carbondata/core/metadata/SegmentFileStore.java
+2	false	core/src/main/java/org/apache/carbondata/core/datamap/DataMapStoreManager.java
+3	false	core/src/main/java/org/apache/carbondata/core/datamap/Segment.java
+4	true	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+CARBONDATA-3287
+0	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/DataMapSchemaStorageProvider.java
+1	false	core/src/main/java/org/apache/carbondata/core/datamap/DataMapCatalog.java
+2	false	common/src/main/java/org/apache/carbondata/common/exceptions/sql/NoSuchDataMapException.java
+3	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/DataMapSchemaFactory.java
+4	false	integration/spark2/src/main/java/org/apache/carbondata/datamap/DataMapManager.java
+CARBONDATA-3298
+0	false	core/src/main/java/org/apache/carbondata/core/mutate/SegmentUpdateDetails.java
+1	false	processing/src/main/java/org/apache/carbondata/processing/util/Auditor.java
+2	false	examples/spark2/src/main/java/org/apache/carbondata/examples/sql/JavaCarbonSessionExample.java
+3	false	core/src/main/java/org/apache/carbondata/core/mutate/DeleteDeltaBlockDetails.java
+4	false	core/src/main/java/org/apache/carbondata/core/locks/S3FileLock.java
+CARBONDATA-3301
+0	false	integration/hive/src/main/java/org/apache/carbondata/hive/CarbonHiveRecordReader.java
+1	false	integration/hive/src/main/java/org/apache/carbondata/hive/CarbonHiveSerDe.java
+2	false	integration/hive/src/main/java/org/apache/carbondata/hive/MapredCarbonInputFormat.java
+3	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/TableInfo.java
+4	false	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+CARBONDATA-3307
+0	false	processing/src/main/java/org/apache/carbondata/processing/datamap/DataMapWriterListener.java
+1	false	core/src/main/java/org/apache/carbondata/core/datamap/DataMapMeta.java
+2	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/column/ColumnSchema.java
+3	false	core/src/main/java/org/apache/carbondata/core/scan/result/vector/CarbonColumnVector.java
+4	false	store/sdk/src/main/java/org/apache/carbondata/sdk/file/CSVCarbonWriter.java
+CARBONDATA-3313
+0	false	core/src/main/java/org/apache/carbondata/core/cache/CacheType.java
+1	false	core/src/main/java/org/apache/carbondata/core/cache/Cache.java
+2	false	core/src/main/java/org/apache/carbondata/core/datastore/block/TableBlockUniqueIdentifier.java
+3	false	core/src/main/java/org/apache/carbondata/core/datastore/TableSegmentUniqueIdentifier.java
+4	false	core/src/main/java/org/apache/carbondata/core/indexstore/blockletindex/BlockletDataMapRowIndexes.java
+CARBONDATA-3315
+0	false	core/src/main/java/org/apache/carbondata/core/scan/filter/FilterUtil.java
+1	false	core/src/main/java/org/apache/carbondata/core/scan/filter/executer/RowLevelRangeLessThanEqualFilterExecuterImpl.java
+2	false	core/src/main/java/org/apache/carbondata/core/scan/filter/executer/RowLevelRangeLessThanFilterExecuterImpl.java
+3	false	core/src/main/java/org/apache/carbondata/core/scan/filter/executer/RangeValueFilterExecuterImpl.java
+4	false	core/src/main/java/org/apache/carbondata/core/scan/filter/executer/RowLevelFilterExecuterImpl.java
+CARBONDATA-3320
+0	false	hadoop/src/main/java/org/apache/carbondata/hadoop/api/CarbonOutputCommitter.java
+1	false	core/src/main/java/org/apache/carbondata/core/scan/filter/FilterProcessor.java
+2	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/partition/PartitionType.java
+3	false	processing/src/main/java/org/apache/carbondata/processing/store/CarbonDataFileAttributes.java
+4	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/PartitionInfo.java
+CARBONDATA-3328
+0	false	core/src/main/java/org/apache/carbondata/core/indexstore/BlockMetaInfo.java
+1	false	core/src/main/java/org/apache/carbondata/core/writer/CarbonIndexFileMergeWriter.java
+2	false	core/src/main/java/org/apache/carbondata/core/indexstore/blockletindex/SegmentIndexFileStore.java
+3	false	processing/src/main/java/org/apache/carbondata/processing/merger/CompactionType.java
+4	false	core/src/main/java/org/apache/carbondata/core/indexstore/blockletindex/BlockletDataMapModel.java
+CARBONDATA-3330
+0	false	hadoop/src/main/java/org/apache/carbondata/hadoop/CarbonRecordReader.java
+1	false	store/sdk/src/main/java/org/apache/carbondata/sdk/file/CarbonReaderBuilder.java
+2	false	hadoop/src/main/java/org/apache/carbondata/hadoop/api/CarbonTableInputFormat.java
+3	false	store/sdk/src/main/java/org/apache/carbondata/sdk/file/CarbonReader.java
+4	false	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+CARBONDATA-3332
+0	false	processing/src/main/java/org/apache/carbondata/processing/util/CarbonLoaderUtil.java
+1	false	core/src/main/java/org/apache/carbondata/core/scan/collector/impl/RestructureBasedVectorResultCollector.java
+2	false	datamap/lucene/src/main/java/org/apache/carbondata/datamap/lucene/LuceneFineGrainDataMapFactory.java
+3	false	core/src/main/java/org/apache/carbondata/core/memory/MemoryType.java
+4	false	core/src/main/java/org/apache/carbondata/core/scan/executor/util/RestructureUtil.java
+CARBONDATA-3333
+0	false	integration/spark-datasource/src/main/spark2.3plus/org/apache/spark/sql/ColumnVectorFactory.java
+1	false	core/src/main/java/org/apache/carbondata/core/metadata/datatype/DataTypeAdapter.java
+2	false	hadoop/src/main/java/org/apache/carbondata/hadoop/stream/CarbonStreamUtils.java
+3	false	core/src/main/java/org/apache/carbondata/core/indexstore/blockletindex/IndexWrapper.java
+4	false	hadoop/src/main/java/org/apache/carbondata/hadoop/stream/StreamBlockletReader.java
+CARBONDATA-3341
+0	false	core/src/main/java/org/apache/carbondata/core/scan/executor/util/RestructureUtil.java
+1	false	processing/src/main/java/org/apache/carbondata/processing/sort/sortdata/SortTempFileChunkHolder.java
+2	false	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+3	false	core/src/main/java/org/apache/carbondata/core/scan/filter/executer/RowLevelFilterExecuterImpl.java
+4	false	processing/src/main/java/org/apache/carbondata/processing/loading/sort/unsafe/UnsafeCarbonRowPage.java
+CARBONDATA-3345
+0	false	integration/presto/src/main/java/org/apache/carbondata/presto/CarbondataSplitManager.java
+1	false	integration/presto/src/main/java/org/apache/carbondata/presto/PrestoFilterUtil.java
+2	true	integration/presto/src/main/java/org/apache/carbondata/presto/impl/CarbonTableReader.java
+3	false	integration/presto/src/main/java/org/apache/carbondata/presto/readers/DecimalSliceStreamReader.java
+4	false	integration/presto/src/main/java/org/apache/carbondata/presto/CarbondataPageSource.java
+CARBONDATA-3356
+0	false	store/sdk/src/main/java/org/apache/carbondata/sdk/file/AvroCarbonWriter.java
+1	false	core/src/main/java/org/apache/carbondata/core/indexstore/BlockletDetailInfo.java
+2	false	store/sdk/src/main/java/org/apache/carbondata/sdk/file/CarbonReaderBuilder.java
+3	false	core/src/main/java/org/apache/carbondata/core/scan/result/iterator/ChunkRowIterator.java
+4	false	hadoop/src/main/java/org/apache/carbondata/hadoop/CarbonRecordReader.java
+CARBONDATA-3359
+0	false	core/src/main/java/org/apache/carbondata/core/constants/CarbonCommonConstants.java
+1	false	core/src/main/java/org/apache/carbondata/core/mutate/TupleIdEnum.java
+2	false	integration/hive/src/main/java/org/apache/carbondata/hive/CarbonDictionaryDecodeReadSupport.java
+3	false	store/sdk/src/main/java/org/apache/carbondata/sdk/file/AvroCarbonWriter.java
+4	false	core/src/main/java/org/apache/carbondata/core/datastore/page/DecimalColumnPage.java
+CARBONDATA-3360
+0	false	processing/src/main/java/org/apache/carbondata/processing/util/CarbonLoaderUtil.java
+1	false	core/src/main/java/org/apache/carbondata/core/locks/HdfsFileLock.java
+2	false	core/src/main/java/org/apache/carbondata/core/datastore/filesystem/LocalCarbonFile.java
+3	false	core/src/main/java/org/apache/carbondata/core/datastore/impl/FileFactory.java
+4	false	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+CARBONDATA-3364
+0	false	core/src/main/java/org/apache/carbondata/core/scan/scanner/LazyBlockletLoader.java
+1	false	integration/spark-datasource/src/main/spark2.3plus/org/apache/spark/sql/CarbonDictionaryWrapper.java
+2	false	integration/spark-datasource/src/main/spark2.1andspark2.2/org/apache/spark/sql/CarbonDictionaryWrapper.java
+3	false	datamap/bloom/src/main/java/org/apache/carbondata/datamap/bloom/DataConvertUtil.java
+4	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/TableSchemaBuilder.java
+CARBONDATA-3367
+0	true	store/sdk/src/main/java/org/apache/carbondata/sdk/file/CarbonReader.java
+1	false	hadoop/src/main/java/org/apache/carbondata/hadoop/CarbonRecordReader.java
+2	false	core/src/main/java/org/apache/carbondata/core/scan/model/QueryModel.java
+3	false	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+4	false	core/src/main/java/org/apache/carbondata/core/constants/CarbonCommonConstants.java
+CARBONDATA-3368
+0	true	store/sdk/src/main/java/org/apache/carbondata/sdk/file/CarbonReader.java
+1	false	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+2	false	core/src/main/java/org/apache/carbondata/core/scan/executor/impl/AbstractQueryExecutor.java
+3	false	core/src/main/java/org/apache/carbondata/core/indexstore/UnsafeMemoryDMStore.java
+4	false	hadoop/src/main/java/org/apache/carbondata/hadoop/api/CarbonTableOutputFormat.java
+CARBONDATA-3371
+0	false	core/src/main/java/org/apache/carbondata/core/scan/executor/util/RestructureUtil.java
+1	false	hadoop/src/main/java/org/apache/carbondata/hadoop/api/CarbonTableInputFormat.java
+2	false	core/src/main/java/org/apache/carbondata/core/util/DataTypeUtil.java
+3	true	core/src/main/java/org/apache/carbondata/core/scan/executor/impl/AbstractQueryExecutor.java
+4	false	core/src/main/java/org/apache/carbondata/core/scan/collector/impl/DictionaryBasedVectorResultCollector.java
+CARBONDATA-3377
+0	false	core/src/main/java/org/apache/carbondata/core/util/DataTypeUtil.java
+1	false	processing/src/main/java/org/apache/carbondata/processing/merger/CompactionResultSortProcessor.java
+2	false	store/sdk/src/main/java/org/apache/carbondata/sdk/file/CarbonWriterBuilder.java
+3	false	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+4	false	core/src/main/java/org/apache/carbondata/core/scan/expression/ExpressionResult.java
+CARBONDATA-3384
+0	false	core/src/main/java/org/apache/carbondata/core/locks/HdfsFileLock.java
+1	false	integration/spark-common/src/main/java/org/apache/carbondata/spark/load/CarbonLoaderUtil.java
+2	false	common/src/main/java/org/apache/carbondata/common/constants/LoggerAction.java
+3	false	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+4	false	core/src/main/java/org/apache/carbondata/core/scan/collector/impl/RestructureBasedRawResultCollector.java
+CARBONDATA-3393
+0	false	hadoop/src/main/java/org/apache/carbondata/hadoop/api/CarbonTableInputFormat.java
+1	false	datamap/bloom/src/main/java/org/apache/carbondata/datamap/bloom/BloomCoarseGrainDataMapFactory.java
+2	false	processing/src/main/java/org/apache/carbondata/processing/util/CarbonLoaderUtil.java
+3	false	core/src/main/java/org/apache/carbondata/hadoop/CarbonInputSplit.java
+4	false	core/src/main/java/org/apache/carbondata/core/statusmanager/SegmentStatusManager.java
+CARBONDATA-3394
+0	false	processing/src/main/java/org/apache/carbondata/processing/loading/sort/AbstractMergeSorter.java
+1	false	core/src/main/java/org/apache/carbondata/core/datastore/chunk/store/impl/safe/SafeAbsractDimensionDataChunkStore.java
+2	false	core/src/main/java/org/apache/carbondata/core/mutate/DeleteDeltaBlockDetails.java
+3	false	core/src/main/java/org/apache/carbondata/core/mutate/DeleteDeltaBlockletDetails.java
+4	true	core/src/main/java/org/apache/carbondata/core/statusmanager/SegmentStatusManager.java
+CARBONDATA-3395
+0	false	core/src/main/java/org/apache/carbondata/core/datastore/filesystem/AbstractDFSCarbonFile.java
+1	false	integration/spark-datasource/src/main/scala/org/apache/carbondata/spark/vectorreader/ColumnarVectorWrapper.java
+2	false	hadoop/src/main/java/org/apache/carbondata/hadoop/api/CarbonTableInputFormat.java
+3	false	core/src/main/java/org/apache/carbondata/core/constants/CarbonCommonConstants.java
+4	false	processing/src/main/java/org/apache/carbondata/processing/model/CarbonLoadModel.java
+CARBONDATA-3396
+0	true	processing/src/main/java/org/apache/carbondata/processing/merger/CarbonCompactionUtil.java
+1	false	integration/spark-common/src/main/java/org/apache/carbondata/spark/merger/CarbonDataMergerUtil.java
+2	false	core/src/main/java/org/apache/carbondata/core/scan/expression/Expression.java
+3	false	hadoop/src/main/java/org/apache/carbondata/hadoop/util/CarbonInputSplitTaskInfo.java
+4	false	processing/src/main/java/org/apache/carbondata/processing/merger/CarbonCompactionExecutor.java
+CARBONDATA-3397
+0	false	core/src/main/java/org/apache/carbondata/core/scan/executor/util/QueryUtil.java
+1	false	hadoop/src/main/java/org/apache/carbondata/hadoop/api/CarbonTableInputFormat.java
+2	false	hadoop/src/main/java/org/apache/carbondata/hadoop/CarbonRecordReader.java
+3	false	core/src/main/java/org/apache/carbondata/core/indexstore/ExtendedBlockletWrapperContainer.java
+4	false	core/src/main/java/org/apache/carbondata/core/indexstore/ExtendedBlockletWrapper.java
+CARBONDATA-3405
+0	false	datamap/bloom/src/main/java/org/apache/carbondata/datamap/bloom/BloomDataMapModel.java
+1	false	hadoop/src/main/java/org/apache/carbondata/hadoop/CarbonRecordReader.java
+2	false	store/sdk/src/main/java/org/apache/carbondata/sdk/file/CarbonReader.java
+3	false	core/src/main/java/org/apache/carbondata/core/datamap/DataMapStoreManager.java
+4	true	store/sdk/src/main/java/org/apache/carbondata/sdk/file/CarbonReaderBuilder.java
+CARBONDATA-3406
+0	false	core/src/main/java/org/apache/carbondata/core/scan/scanner/LazyBlockletLoader.java
+1	false	processing/src/main/java/org/apache/carbondata/processing/store/TablePage.java
+2	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/TableSchemaBuilder.java
+3	false	core/src/main/java/org/apache/carbondata/core/datastore/page/LazyColumnPage.java
+4	false	store/sdk/src/main/java/org/apache/carbondata/sdk/file/Field.java
+CARBONDATA-3411
+0	false	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+1	true	core/src/main/java/org/apache/carbondata/core/datamap/DataMapStoreManager.java
+2	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/CarbonTable.java
+3	false	store/sdk/src/main/java/org/apache/carbondata/sdk/file/CarbonReader.java
+4	false	hadoop/src/main/java/org/apache/carbondata/hadoop/CarbonRecordReader.java
+CARBONDATA-3412
+0	false	datamap/bloom/src/main/java/org/apache/carbondata/datamap/bloom/DataConvertUtil.java
+1	false	core/src/main/java/org/apache/carbondata/core/indexstore/ExtendedBlockletWrapper.java
+2	false	core/src/main/java/org/apache/carbondata/core/indexstore/ExtendedBlockletWrapperContainer.java
+3	false	integration/spark-datasource/src/main/spark2.3plus/org/apache/spark/sql/CarbonDictionaryWrapper.java
+4	true	core/src/main/java/org/apache/carbondata/core/datamap/DistributableDataMapFormat.java
+CARBONDATA-3413
+0	false	core/src/main/java/org/apache/carbondata/core/util/CarbonProperties.java
+1	false	core/src/main/java/org/apache/carbondata/core/constants/CarbonCommonConstants.java
+2	false	processing/src/main/java/org/apache/carbondata/processing/store/CarbonFactDataHandlerColumnar.java
+3	false	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+4	false	core/src/main/java/org/apache/carbondata/core/scan/model/QueryModel.java
+CARBONDATA-3414
+0	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/CarbonTableBuilder.java
+1	false	processing/src/main/java/org/apache/carbondata/processing/util/CarbonLoaderUtil.java
+2	false	hadoop/src/main/java/org/apache/carbondata/hadoop/api/CarbonOutputCommitter.java
+3	false	tools/cli/src/main/java/org/apache/carbondata/tool/TableFormatter.java
+4	false	tools/cli/src/main/java/org/apache/carbondata/tool/ShardPrinter.java
+CARBONDATA-3415
+0	true	core/src/main/java/org/apache/carbondata/core/writer/CarbonIndexFileMergeWriter.java
+1	true	core/src/main/java/org/apache/carbondata/core/indexstore/blockletindex/SegmentIndexFileStore.java
+2	false	core/src/main/java/org/apache/carbondata/core/indexstore/blockletindex/BlockletDataMapModel.java
+3	true	hadoop/src/main/java/org/apache/carbondata/hadoop/api/CarbonOutputCommitter.java
+4	false	core/src/main/java/org/apache/carbondata/core/util/path/CarbonTablePath.java
+CARBONDATA-3417
+0	false	core/src/main/java/org/apache/carbondata/core/indexstore/blockletindex/IndexWrapper.java
+1	false	store/sdk/src/main/java/org/apache/carbondata/store/MetaCachedCarbonStore.java
+2	false	core/src/main/java/org/apache/carbondata/core/metadata/datatype/ByteType.java
+3	false	core/src/main/java/org/apache/carbondata/core/metadata/datatype/ByteArrayType.java
+4	false	core/src/main/java/org/apache/carbondata/core/metadata/datatype/FloatType.java
+CARBONDATA-3429
+0	false	processing/src/main/java/org/apache/carbondata/processing/loading/parser/impl/RangeColumnParserImpl.java
+1	false	common/src/main/java/org/apache/carbondata/common/exceptions/sql/MalformedCarbonCommandException.java
+2	false	processing/src/main/java/org/apache/carbondata/processing/util/CarbonDataProcessorUtil.java
+3	false	core/src/main/java/org/apache/carbondata/core/util/ByteUtil.java
+4	false	core/src/main/java/org/apache/carbondata/core/scan/collector/impl/RestructureBasedVectorResultCollector.java
+CARBONDATA-3432
+0	false	processing/src/main/java/org/apache/carbondata/processing/merger/RowResultMergerProcessor.java
+1	false	core/src/main/java/org/apache/carbondata/core/scan/result/iterator/PartitionSpliterRawResultIterator.java
+2	false	processing/src/main/java/org/apache/carbondata/processing/merger/CarbonCompactionUtil.java
+3	false	processing/src/main/java/org/apache/carbondata/processing/merger/CarbonCompactionExecutor.java
+4	false	core/src/main/java/org/apache/carbondata/core/scan/expression/Expression.java
+CARBONDATA-3434
+0	false	processing/src/main/java/org/apache/carbondata/processing/merger/CarbonCompactionUtil.java
+1	false	processing/src/main/java/org/apache/carbondata/processing/store/writer/AbstractFactDataWriter.java
+2	false	processing/src/main/java/org/apache/carbondata/processing/store/CarbonFactDataHandlerModel.java
+3	false	processing/src/main/java/org/apache/carbondata/processing/util/CarbonLoaderUtil.java
+4	false	processing/src/main/java/org/apache/carbondata/processing/store/writer/v3/CarbonFactDataWriterImplV3.java
+CARBONDATA-3437
+0	false	core/src/main/java/org/apache/carbondata/core/scan/complextypes/MapQueryType.java
+1	false	integration/hive/src/main/java/org/apache/carbondata/hive/CarbonMapInspector.java
+2	true	processing/src/main/java/org/apache/carbondata/processing/loading/parser/impl/MapParserImpl.java
+3	false	processing/src/main/java/org/apache/carbondata/processing/loading/ComplexDelimitersEnum.java
+4	false	core/src/main/java/org/apache/carbondata/core/scan/collector/impl/RowIdBasedResultCollector.java
+CARBONDATA-3441
+0	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/RelationIdentifier.java
+1	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/column/ParentColumnTableRelation.java
+2	false	core/src/main/java/org/apache/carbondata/events/OperationListenerBus.java
+3	false	core/src/main/java/org/apache/carbondata/core/indexstore/row/DataMapRowImpl.java
+4	false	core/src/main/java/org/apache/carbondata/core/metadata/converter/SchemaConverter.java
+CARBONDATA-3442
+0	false	core/src/main/java/org/apache/carbondata/core/datastore/page/statistics/LVShortStringStatsCollector.java
+1	false	core/src/main/java/org/apache/carbondata/core/datastore/page/statistics/LVLongStringStatsCollector.java
+2	false	core/src/main/java/org/apache/carbondata/core/metadata/datatype/VarcharType.java
+3	false	core/src/main/java/org/apache/carbondata/core/datastore/chunk/store/impl/unsafe/UnsafeVariableLengthDimensionDataChunkStore.java
+4	false	core/src/main/java/org/apache/carbondata/core/datastore/chunk/store/impl/safe/SafeVariableShortLengthDimensionDataChunkStore.java
+CARBONDATA-3444
+0	false	integration/hive/src/main/java/org/apache/carbondata/hive/CarbonDictionaryDecodeReadSupport.java
+1	false	streaming/src/main/java/org/apache/carbondata/streaming/CarbonStreamRecordWriter.java
+2	false	streaming/src/main/java/org/apache/carbondata/streaming/StreamBlockletWriter.java
+3	false	integration/hive/src/main/java/org/apache/carbondata/hive/MapredCarbonInputFormat.java
+4	false	core/src/main/java/org/apache/carbondata/core/datastore/row/CarbonRow.java
+CARBONDATA-3449
+0	false	core/src/main/java/org/apache/carbondata/events/OperationEventListener.java
+1	false	core/src/main/java/org/apache/carbondata/events/Event.java
+2	false	core/src/main/java/org/apache/carbondata/events/OperationContext.java
+3	true	core/src/main/java/org/apache/carbondata/events/OperationListenerBus.java
+4	false	processing/src/main/java/org/apache/carbondata/processing/loading/events/LoadEvents.java
+CARBONDATA-3452
+0	false	core/src/main/java/org/carbondata/scan/expression/ExpressionResult.java
+1	false	core/src/main/java/org/carbondata/scan/filter/FilterUtil.java
+2	false	core/src/main/java/org/apache/carbondata/core/localdictionary/PageLevelDictionary.java
+3	false	integration/spark-datasource/src/main/scala/org/apache/carbondata/spark/vectorreader/CarbonDictionaryWrapper.java
+4	false	core/src/main/java/org/apache/carbondata/core/localdictionary/generator/ColumnLocalDictionaryGenerator.java
+CARBONDATA-3456
+0	false	processing/src/main/java/org/apache/carbondata/processing/loading/steps/InputProcessorStepImpl.java
+1	false	core/src/main/java/org/apache/carbondata/core/datastore/chunk/impl/DimensionRawColumnChunk.java
+2	false	processing/src/main/java/org/apache/carbondata/processing/loading/FailureCauses.java
+3	false	processing/src/main/java/org/apache/carbondata/processing/loading/steps/DataWriterProcessorStepImpl.java
+4	false	processing/src/main/java/org/apache/carbondata/processing/merger/CarbonCompactionExecutor.java
+CARBONDATA-3460
+0	false	datamap/lucene/src/main/java/org/apache/carbondata/datamap/lucene/LuceneFineGrainDataMapFactory.java
+1	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/CarbonTable.java
+2	false	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+3	false	core/src/main/java/org/apache/carbondata/core/metadata/ColumnarFormatVersion.java
+4	false	core/src/main/java/org/apache/carbondata/core/util/ObjectSerializationUtil.java
+CARBONDATA-3466
+0	false	processing/src/main/java/org/apache/carbondata/processing/datamap/DataMapWriterException.java
+1	false	core/src/main/java/org/apache/carbondata/core/datamap/DataMapRegistry.java
+2	false	core/src/main/java/org/apache/carbondata/core/datamap/dev/fgdatamap/FineGrainDataMapFactory.java
+3	false	core/src/main/java/org/apache/carbondata/core/datastore/chunk/impl/DimensionRawColumnChunk.java
+4	false	core/src/main/java/org/apache/carbondata/core/datastore/chunk/store/impl/LocalDictDimensionDataChunkStore.java
+CARBONDATA-3473
+0	false	common/src/main/java/org/apache/carbondata/common/Strings.java
+1	false	processing/src/main/java/org/apache/carbondata/processing/store/writer/v3/CarbonFactDataWriterImplV3.java
+2	false	core/src/main/java/org/apache/carbondata/core/indexstore/BlockMetaInfo.java
+3	false	processing/src/main/java/org/apache/carbondata/processing/store/CarbonFactDataHandlerColumnar.java
+4	false	core/src/main/java/org/apache/carbondata/core/constants/SortScopeOptions.java
+CARBONDATA-3476
+0	false	processing/src/main/java/org/apache/carbondata/processing/util/Auditor.java
+1	false	examples/spark2/src/main/java/org/apache/carbondata/examples/sql/JavaCarbonSessionExample.java
+2	false	core/src/main/java/org/apache/carbondata/core/scan/processor/RawBlockletColumnChunks.java
+3	false	core/src/main/java/org/apache/carbondata/core/scan/processor/DataBlockIterator.java
+4	false	common/src/main/java/org/apache/carbondata/common/logging/LogService.java
+CARBONDATA-3478
+0	false	core/src/main/java/org/apache/carbondata/core/constants/CarbonCommonConstants.java
+1	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/CarbonTable.java
+2	false	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+3	false	integration/spark-datasource/src/main/scala/org/apache/carbondata/spark/vectorreader/ColumnarVectorWrapper.java
+4	false	processing/src/main/java/org/apache/carbondata/processing/merger/RowResultMergerProcessor.java
+CARBONDATA-3480
+0	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/WritableUtil.java
+1	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/Writable.java
+2	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/SchemaEvolution.java
+3	false	core/src/main/java/org/apache/carbondata/core/datastore/block/Distributable.java
+4	false	core/src/main/java/org/apache/carbondata/core/datastore/block/TableTaskInfo.java
+CARBONDATA-3481
+0	false	core/src/main/java/org/apache/carbondata/core/datamap/dev/cgdatamap/CoarseGrainDataMap.java
+1	false	core/src/main/java/org/apache/carbondata/core/datamap/dev/fgdatamap/FineGrainDataMap.java
+2	false	core/src/main/java/org/apache/carbondata/core/datamap/SegmentDataMapGroup.java
+3	false	core/src/main/java/org/apache/carbondata/core/indexstore/blockletindex/BlockDataMap.java
+4	false	datamap/examples/src/minmaxdatamap/main/java/org/apache/carbondata/datamap/examples/MinMaxIndexDataMap.java
+CARBONDATA-3482
+0	false	hadoop/src/main/java/org/apache/carbondata/hadoop/CarbonRecordReader.java
+1	false	core/src/main/java/org/apache/carbondata/core/datamap/DataMapStoreManager.java
+2	false	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+3	false	core/src/main/java/org/apache/carbondata/core/scan/filter/executer/RowLevelRangeLessThanFilterExecuterImpl.java
+4	false	hadoop/src/main/java/org/apache/carbondata/hadoop/api/CarbonTableInputFormat.java
+CARBONDATA-3486
+0	false	core/src/main/java/org/apache/carbondata/core/metadata/ValueEncoderMeta.java
+1	false	processing/src/main/java/org/apache/carbondata/processing/loading/sort/unsafe/comparator/UnsafeRowComparator.java
+2	false	core/src/main/java/org/apache/carbondata/core/metadata/datatype/DataTypeAdapter.java
+3	false	core/src/main/java/org/apache/carbondata/core/util/NonDictionaryUtil.java
+4	false	processing/src/main/java/org/apache/carbondata/processing/loading/sort/unsafe/holder/UnsafeInmemoryHolder.java
+CARBONDATA-3487
+0	false	core/src/main/java/org/apache/carbondata/core/statusmanager/SegmentRefreshInfo.java
+1	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/CarbonTableBuilder.java
+2	false	core/src/main/java/org/apache/carbondata/core/readcommitter/ReadCommittedIndexFileSnapShot.java
+3	false	processing/src/main/java/org/apache/carbondata/processing/loading/parser/impl/RangeColumnParserImpl.java
+4	false	hadoop/src/main/java/org/apache/carbondata/hadoop/util/CarbonInputSplitTaskInfo.java
+CARBONDATA-3492
+0	false	datamap/bloom/src/main/java/org/apache/carbondata/datamap/bloom/BloomCacheKeyValue.java
+1	false	datamap/bloom/src/main/java/org/apache/carbondata/datamap/bloom/BloomDataMapModel.java
+2	false	core/src/main/java/org/apache/carbondata/core/cache/CacheType.java
+3	false	core/src/main/java/org/apache/carbondata/core/indexstore/SafeMemoryDMStore.java
+4	false	core/src/main/java/org/apache/carbondata/core/cache/CacheProvider.java
+CARBONDATA-3494
+0	false	datamap/bloom/src/main/java/org/apache/carbondata/datamap/bloom/BloomCoarseGrainDataMap.java
+1	false	datamap/bloom/src/main/java/org/apache/carbondata/datamap/bloom/BloomCoarseGrainDataMapFactory.java
+2	true	core/src/main/java/org/apache/carbondata/core/datamap/DataMapStoreManager.java
+3	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/DiskBasedDMSchemaStorageProvider.java
+4	false	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+CARBONDATA-3495
+0	false	processing/src/main/java/org/apache/carbondata/processing/datatypes/StructDataType.java
+1	false	core/src/main/java/org/apache/carbondata/core/datastore/ColumnType.java
+2	false	processing/src/main/java/org/apache/carbondata/processing/datatypes/ArrayDataType.java
+3	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/CarbonTableBuilder.java
+4	true	core/src/main/java/org/apache/carbondata/core/datastore/page/ComplexColumnPage.java
+CARBONDATA-3496
+0	false	core/src/main/java/org/apache/carbondata/core/constants/CarbonCommonConstants.java
+1	false	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+2	false	core/src/main/java/org/apache/carbondata/core/datastore/impl/FileFactory.java
+3	false	core/src/main/java/org/apache/carbondata/core/util/path/HDFSLeaseUtils.java
+4	false	core/src/main/java/org/apache/carbondata/core/fileoperations/AtomicFileOperationsImpl.java
+CARBONDATA-3499
+0	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/CarbonTable.java
+1	false	core/src/main/java/org/apache/carbondata/core/datastore/impl/FileFactory.java
+2	false	core/src/main/java/org/apache/carbondata/core/constants/CarbonCommonConstants.java
+3	false	core/src/main/java/org/apache/carbondata/core/datastore/impl/FileTypeInterface.java
+4	true	core/src/main/java/org/apache/carbondata/core/datastore/impl/DefaultFileTypeProvider.java
+CARBONDATA-3508
+0	false	datamap/bloom/src/main/java/org/apache/carbondata/datamap/bloom/BloomDataMapWriter.java
+1	false	datamap/bloom/src/main/java/org/apache/carbondata/datamap/bloom/BloomCoarseGrainDataMapFactory.java
+2	false	datamap/bloom/src/main/java/org/apache/carbondata/datamap/bloom/BloomDataMapDistributable.java
+3	true	datamap/bloom/src/main/java/org/apache/carbondata/datamap/bloom/BloomCoarseGrainDataMap.java
+4	false	datamap/bloom/src/main/java/org/apache/carbondata/datamap/bloom/BloomDataMapCache.java
+CARBONDATA-3512
+0	false	common/src/main/java/org/apache/carbondata/common/Maps.java
+1	false	common/src/main/java/org/apache/carbondata/common/exceptions/sql/InvalidLoadOptionException.java
+2	false	common/src/main/java/org/apache/carbondata/common/exceptions/TableStatusLockException.java
+3	false	core/src/main/java/org/apache/carbondata/core/datastore/exception/IndexBuilderException.java
+4	false	core/src/main/java/org/apache/carbondata/core/scan/executor/exception/QueryExecutionException.java
+CARBONDATA-3513
+0	false	datamap/lucene/src/main/java/org/apache/carbondata/datamap/lucene/LuceneFineGrainDataMapFactory.java
+1	false	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/CarbonTable.java
+2	false	hadoop/src/main/java/org/apache/carbondata/hadoop/api/CarbonTableInputFormat.java
+3	false	core/src/main/java/org/apache/carbondata/core/scan/executor/impl/AbstractQueryExecutor.java
+4	false	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+CARBONDATA-3552
+0	false	processing/src/main/java/org/apache/carbondata/processing/loading/partition/impl/RawRowComparator.java
+1	false	processing/src/main/java/org/apache/carbondata/processing/sort/sortdata/NewRowComparator.java
+2	false	processing/src/main/java/org/apache/carbondata/processing/sort/sortdata/IntermediateSortTempRowComparator.java
+3	false	processing/src/main/java/org/apache/carbondata/processing/loading/converter/RowConverter.java
+4	false	core/src/main/java/org/apache/carbondata/core/indexstore/blockletindex/IndexWrapper.java
+CARBONDATA-3555
+0	true	hadoop/src/main/java/org/apache/carbondata/hadoop/util/CarbonInputFormatUtil.java
+1	false	store/sdk/src/main/java/org/apache/carbondata/store/CarbonRowReadSupport.java
+2	false	store/sdk/src/main/java/org/apache/carbondata/store/CarbonStore.java
+3	false	core/src/main/java/org/apache/carbondata/core/metadata/CarbonMetadata.java
+4	true	core/src/main/java/org/apache/carbondata/core/metadata/schema/table/CarbonTable.java
+CARBONDATA-3561
+0	false	core/src/main/java/org/apache/carbondata/core/util/CarbonUtil.java
+1	false	core/src/main/java/org/apache/carbondata/core/scan/collector/impl/RestructureBasedDictionaryResultCollector.java
+2	false	core/src/main/java/org/apache/carbondata/core/util/path/CarbonTablePath.java
+3	false	core/src/main/java/org/apache/carbondata/core/statusmanager/LoadMetadataDetails.java
+4	false	core/src/main/java/org/apache/carbondata/core/scan/collector/impl/RestructureBasedRawResultCollector.java

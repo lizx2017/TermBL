@@ -1,0 +1,1914 @@
+PDFBOX-3861
+0	false	tools/src/main/java/org/apache/pdfbox/tools/ExtractText.java
+1	false	tools/src/main/java/org/apache/pdfbox/tools/PDFText2HTML.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocumentCatalog.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/text/PDFTextStripper.java
+PDFBOX-3864
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDDictionaryWrapper.java
+2	false	preflight/src/main/java/org/apache/pdfbox/preflight/parser/PreflightParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/encoding/Encoding.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDDocumentOutline.java
+PDFBOX-3867
+0	false	tools/src/main/java/org/apache/pdfbox/tools/PDFText2HTML.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+2	true	fontbox/src/main/java/org/apache/fontbox/cmap/CMapParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFontFactory.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+PDFBOX-3870
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/io/RandomAccessBuffer.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.java
+PDFBOX-3874
+0	false	fontbox/src/main/java/org/apache/fontbox/type1/Token.java
+1	true	fontbox/src/main/java/org/apache/fontbox/type1/Type1Parser.java
+2	false	fontbox/src/main/java/org/apache/fontbox/type1/Type1Lexer.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/FontMapperImpl.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/util/Vector.java
+PDFBOX-3881
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfwriter/COSWriter.java
+1	true	pdfbox/src/main/java/org/apache/pdfbox/cos/COSString.java
+2	false	preflight/src/main/java/org/apache/pdfbox/preflight/parser/PreflightParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFStreamParser.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/encoding/Encoding.java
+PDFBOX-3884
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/encoding/ZapfDingbatsEncoding.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDTrueTypeFont.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType0Font.java
+PDFBOX-3887
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/action/PDActionFactory.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/action/PDActionRemoteGoTo.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/action/PDTargetDirectory.java
+PDFBOX-3894
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/COSArrayList.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+2	false	fontbox/src/main/java/org/apache/fontbox/cff/CFFParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+4	false	fontbox/src/main/java/org/apache/fontbox/cmap/CMapParser.java
+PDFBOX-3896
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.java
+2	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/io/RandomAccessBuffer.java
+PDFBOX-3898
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDTrueTypeFont.java
+2	false	examples/src/main/java/org/apache/pdfbox/examples/interactive/form/CreateSimpleFormWithEmbeddedFont.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/AppearanceGeneratorHelper.java
+4	false	examples/src/main/java/org/apache/pdfbox/examples/interactive/form/PrintFields.java
+PDFBOX-3909
+0	false	preflight/src/main/java/org/apache/pdfbox/preflight/graphic/ColorSpaces.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PDInlineImage.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/graphics/BeginInlineImage.java
+3	false	preflight/src/main/java/org/apache/pdfbox/preflight/graphic/DeviceColorSpaceHelper.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/filter/JPXFilter.java
+PDFBOX-3913
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/action/PDURIDictionary.java
+1	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/action/PDActionURI.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocumentCatalog.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLink.java
+PDFBOX-3914
+0	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSObjectKey.java
+1	false	examples/src/main/java/org/apache/pdfbox/examples/signature/CreateVisibleSignature2.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentProperties.java
+3	false	preflight/src/main/java/org/apache/pdfbox/preflight/process/PageTreeValidationProcess.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java
+PDFBOX-3916
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+1	false	fontbox/src/main/java/org/apache/fontbox/cff/CFFParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFontFactory.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+PDFBOX-3919
+0	false	fontbox/src/main/java/org/apache/fontbox/ttf/BufferedRandomAccessFile.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+2	false	preflight/src/main/java/org/apache/pdfbox/preflight/font/container/CIDType0Container.java
+3	false	xmpbox/src/main/java/org/apache/xmpbox/xml/XmpSerializationException.java
+4	false	xmpbox/src/main/java/org/apache/xmpbox/schema/XmpSchemaException.java
+PDFBOX-3923
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/io/RandomAccessBuffer.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFStreamParser.java
+PDFBOX-3925
+0	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/OperatorName.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDAppearanceContentStream.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/markedcontent/DrawObject.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/graphics/LegacyFillNonZeroRule.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/color/SetStrokingColorN.java
+PDFBOX-3928
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPageTree.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFObjectStreamParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/filter/CCITTFaxFilter.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+PDFBOX-3929
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/AppearanceGeneratorHelper.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDTrueTypeFont.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDDefaultAppearanceString.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.java
+PDFBOX-3930
+0	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/PrintBookmarks.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationPopup.java
+2	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/ExtractMetadata.java
+3	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/PrintDocumentMetaData.java
+4	false	examples/src/main/java/org/apache/pdfbox/examples/util/ExtractTextByArea.java
+PDFBOX-3932
+0	false	pdfbox/src/main/java/org/apache/pdfbox/filter/IdentityFilter.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/filter/CryptFilter.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/filter/JBIG2Filter.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/filter/JPXFilter.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+PDFBOX-3934
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPageTree.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageDestination.java
+2	false	preflight/src/main/java/org/apache/pdfbox/preflight/font/container/Type3Container.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PDFRenderer.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/multipdf/PageExtractor.java
+PDFBOX-3935
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+1	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/filter/FlateFilter.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+PDFBOX-3936
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFObjectStreamParser.java
+1	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPageTree.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/filter/CCITTFaxFilter.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/DecryptionMaterial.java
+PDFBOX-3937
+0	false	fontbox/src/main/java/org/apache/fontbox/cff/CFFParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType0Font.java
+2	false	fontbox/src/main/java/org/apache/fontbox/ttf/CmapSubtable.java
+3	false	fontbox/src/main/java/org/apache/fontbox/ttf/TrueTypeFont.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDCIDFontType0.java
+PDFBOX-3940
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+1	false	preflight/src/main/java/org/apache/pdfbox/preflight/parser/PreflightParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+3	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/ExtractMetadata.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/XrefTrailerResolver.java
+PDFBOX-3942
+0	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocumentCatalog.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.java
+PDFBOX-3943
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/AppearanceGeneratorHelper.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDButton.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+3	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDPushButton.java
+PDFBOX-3946
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/action/PDURIDictionary.java
+1	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/action/PDActionURI.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocumentCatalog.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/action/PDActionFactory.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/action/PDAdditionalActions.java
+PDFBOX-3947
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+2	false	preflight/src/main/java/org/apache/pdfbox/preflight/parser/PreflightParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFXrefStreamParser.java
+4	false	debugger/src/main/java/org/apache/pdfbox/debugger/ui/RecentFiles.java
+PDFBOX-3948
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+1	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/encoding/MacExpertEncoding.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+PDFBOX-3949
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+1	false	fontbox/src/main/java/org/apache/fontbox/type1/Type1Parser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFXrefStreamParser.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/AppearanceGeneratorHelper.java
+PDFBOX-3950
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/COSArrayList.java
+1	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+2	false	fontbox/src/main/java/org/apache/fontbox/cff/CFFParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDTrueTypeFont.java
+PDFBOX-3955
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFStreamParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+PDFBOX-3956
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/io/RandomAccessBuffer.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFStreamParser.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.java
+PDFBOX-3957
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPageTree.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageDestination.java
+2	false	preflight/src/main/java/org/apache/pdfbox/preflight/font/container/Type3Container.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocumentNameDictionary.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/multipdf/Splitter.java
+PDFBOX-3958
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/action/PDURIDictionary.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/action/PDActionJavaScript.java
+2	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/action/PDActionURI.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/fdf/FDFJavaScript.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDJavascriptNameTreeNode.java
+PDFBOX-3959
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/filter/FlateFilter.java
+2	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+PDFBOX-3963
+0	false	fontbox/src/main/java/org/apache/fontbox/ttf/TTFParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDTrueTypeFont.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDCIDFontType2.java
+4	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDCIDFont.java
+PDFBOX-3965
+0	false	preflight/src/main/java/org/apache/pdfbox/preflight/font/container/CIDType2Container.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDTrueTypeFontEmbedder.java
+2	false	preflight/src/main/java/org/apache/pdfbox/preflight/font/container/TrueTypeContainer.java
+3	false	fontbox/src/main/java/org/apache/fontbox/ttf/CmapSubtable.java
+4	false	fontbox/src/main/java/org/apache/fontbox/ttf/GlyphTable.java
+PDFBOX-3967
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+1	false	tools/src/main/java/org/apache/pdfbox/tools/PDFText2HTML.java
+2	false	tools/src/main/java/org/apache/pdfbox/tools/ExtractText.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.java
+PDFBOX-3969
+0	true	pdfbox/src/main/java/org/apache/pdfbox/multipdf/Splitter.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/text/PDFTextStripper.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDPattern.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDRectangle.java
+PDFBOX-3972
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPageTree.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/COSArrayList.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPage.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageDestination.java
+PDFBOX-3973
+0	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSObjectKey.java
+1	true	pdfbox/src/main/java/org/apache/pdfbox/multipdf/PDFMergerUtility.java
+2	false	examples/src/main/java/org/apache/pdfbox/examples/signature/CreateVisibleSignature2.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.java
+PDFBOX-3976
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFXrefStreamParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfwriter/COSWriter.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+PDFBOX-3977
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDTypedDictionaryWrapper.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/encoding/Encoding.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocumentNameDestinationDictionary.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocumentInformation.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocumentCatalog.java
+PDFBOX-3978
+0	false	examples/src/main/java/org/apache/pdfbox/examples/signature/CreateVisibleSignature.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfwriter/COSWriter.java
+2	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java
+3	false	examples/src/main/java/org/apache/pdfbox/examples/signature/CreateSignature.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SignatureOptions.java
+PDFBOX-3979
+0	false	fontbox/src/main/java/org/apache/fontbox/cff/CFFParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+PDFBOX-3990
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/SampledImageReader.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+PDFBOX-3994
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFStreamParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFXrefStreamParser.java
+PDFBOX-3997
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDTrueTypeFontEmbedder.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDCIDFontType2.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType0Font.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDTrueTypeFont.java
+PDFBOX-3999
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureTreeRoot.java
+1	true	pdfbox/src/main/java/org/apache/pdfbox/multipdf/PDFMergerUtility.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPageTree.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfwriter/COSWriter.java
+PDFBOX-4001
+0	false	fontbox/src/main/java/org/apache/fontbox/ttf/GlyfCompositeDescript.java
+1	false	fontbox/src/main/java/org/apache/fontbox/ttf/GlyphRenderer.java
+2	false	fontbox/src/main/java/org/apache/fontbox/ttf/GlyphTable.java
+3	false	fontbox/src/main/java/org/apache/fontbox/ttf/PostScriptTable.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+PDFBOX-4002
+0	false	tools/src/main/java/org/apache/pdfbox/tools/OverlayPDF.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/multipdf/Overlay.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSObjectKey.java
+3	false	tools/src/main/java/org/apache/pdfbox/tools/PDFBox.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/multipdf/PDFCloneUtility.java
+PDFBOX-4003
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceEntry.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroup.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocumentCatalog.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocumentNameDictionary.java
+4	false	preflight/src/main/java/org/apache/pdfbox/preflight/font/container/Type3Container.java
+PDFBOX-4005
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDPageLabels.java
+1	false	tools/src/main/java/org/apache/pdfbox/tools/ExtractText.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureTreeRoot.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDNameTreeNode.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDNumberTreeNode.java
+PDFBOX-4009
+0	true	pdfbox/src/main/java/org/apache/pdfbox/multipdf/PDFMergerUtility.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPageTree.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocumentCatalog.java
+PDFBOX-4011
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+3	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSigBuilder.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPageContentStream.java
+PDFBOX-4013
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/COSArrayList.java
+2	true	debugger/src/main/java/org/apache/pdfbox/debugger/PDFDebugger.java
+3	false	debugger/src/main/java/org/apache/pdfbox/debugger/ui/HighResolutionImageIcon.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+PDFBOX-4015
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/shading/GouraudShadingContext.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceRGB.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceCMYK.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDResources.java
+PDFBOX-4017
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/UniUtil.java
+1	false	fontbox/src/main/java/org/apache/fontbox/ttf/CmapSubtable.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDTrueTypeFont.java
+3	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDCIDFontType2.java
+PDFBOX-4018
+0	false	fontbox/src/main/java/org/apache/fontbox/ttf/DigitalSignatureTable.java
+1	false	fontbox/src/main/java/org/apache/fontbox/ttf/OTLTable.java
+2	false	fontbox/src/main/java/org/apache/fontbox/ttf/OTFParser.java
+3	false	fontbox/src/main/java/org/apache/fontbox/ttf/VerticalHeaderTable.java
+4	false	fontbox/src/main/java/org/apache/fontbox/ttf/VerticalOriginTable.java
+PDFBOX-4021
+0	false	fontbox/src/main/java/org/apache/fontbox/ttf/CmapSubtable.java
+1	false	preflight/src/main/java/org/apache/pdfbox/preflight/font/FontValidator.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/FontMapper.java
+3	false	preflight/src/main/java/org/apache/pdfbox/preflight/process/reflect/FontValidationProcess.java
+4	false	fontbox/src/main/java/org/apache/fontbox/cff/Type2CharString.java
+PDFBOX-4027
+0	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDColorSpace.java
+2	true	pdfbox/src/main/java/org/apache/pdfbox/util/Matrix.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/color/SetNonStrokingColor.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/color/SetStrokingColor.java
+PDFBOX-4030
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotation.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/COSArrayList.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFStreamParser.java
+PDFBOX-4038
+0	false	fontbox/src/main/java/org/apache/fontbox/cff/CFFFont.java
+1	true	fontbox/src/main/java/org/apache/fontbox/cff/CFFParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1CFont.java
+3	false	fontbox/src/main/java/org/apache/fontbox/cff/Type2CharString.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFontFactory.java
+PDFBOX-4043
+0	true	tools/src/main/java/org/apache/pdfbox/tools/ExtractImages.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/SampledImageReader.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/filter/JBIG2Filter.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+PDFBOX-4044
+0	false	pdfbox/src/main/java/org/apache/pdfbox/multipdf/Overlay.java
+1	false	tools/src/main/java/org/apache/pdfbox/tools/OverlayPDF.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDResources.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+PDFBOX-4052
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/SequentialSource.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/InputStreamSource.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/RandomAccessSource.java
+PDFBOX-4058
+0	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+1	false	tools/src/main/java/org/apache/pdfbox/tools/ExtractImages.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/PDXObject.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PDFRenderer.java
+PDFBOX-4060
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceRGB.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/filter/DCTFilter.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/JPEGFactory.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.java
+PDFBOX-4061
+0	true	pdfbox/src/main/java/org/apache/pdfbox/multipdf/PDFMergerUtility.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocumentCatalog.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureTreeRoot.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+PDFBOX-4064
+0	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/Operator.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/graphics/ShadingFill.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/graphics/GraphicsOperatorProcessor.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFGraphicsStreamEngine.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/graphics/CloseFillNonZeroAndStrokePath.java
+PDFBOX-4066
+0	false	examples/src/main/java/org/apache/pdfbox/examples/interactive/form/PrintFields.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDField.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDPushButton.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.java
+PDFBOX-4083
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDExternalDataDictionary.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotation.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationText.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.java
+PDFBOX-4084
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotation.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLink.java
+4	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPage.java
+PDFBOX-4085
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLink.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocument.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java
+PDFBOX-4088
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocumentCatalog.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotation.java
+2	true	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDPropBuildDataDict.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDField.java
+PDFBOX-4093
+0	false	preflight/src/main/java/org/apache/pdfbox/preflight/parser/PreflightParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PageLayout.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/SampledImageReader.java
+PDFBOX-4097
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFXRefStream.java
+1	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+2	false	debugger/src/main/java/org/apache/pdfbox/debugger/streampane/StreamPane.java
+3	false	debugger/src/main/java/org/apache/pdfbox/debugger/ui/Tree.java
+4	false	debugger/src/main/java/org/apache/pdfbox/debugger/streampane/Stream.java
+PDFBOX-4103
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentProperties.java
+1	false	preflight/src/main/java/org/apache/pdfbox/preflight/utils/ContextHelper.java
+2	false	preflight/src/main/java/org/apache/pdfbox/preflight/action/ActionManagerFactory.java
+3	false	preflight/src/main/java/org/apache/pdfbox/preflight/process/PageTreeValidationProcess.java
+4	false	preflight/src/main/java/org/apache/pdfbox/preflight/process/reflect/ShadingPatternValidationProcess.java
+PDFBOX-4105
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/encoding/WinAnsiEncoding.java
+1	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/CreatePDFA.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSNumber.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDSimpleFont.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1CFont.java
+PDFBOX-4107
+0	true	pdfbox/src/main/java/org/apache/pdfbox/multipdf/PDFMergerUtility.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/PDXObject.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotation.java
+PDFBOX-4108
+0	false	preflight/src/main/java/org/apache/pdfbox/preflight/content/PreflightContentStream.java
+1	false	preflight/src/main/java/org/apache/pdfbox/preflight/graphic/ICCProfileWrapper.java
+2	false	preflight/src/main/java/org/apache/pdfbox/preflight/process/CatalogValidationProcess.java
+3	false	preflight/src/main/java/org/apache/pdfbox/preflight/content/PreflightStreamEngine.java
+4	false	xmpbox/src/main/java/org/apache/xmpbox/xml/XmpSerializer.java
+PDFBOX-4113
+0	true	debugger/src/main/java/org/apache/pdfbox/debugger/PDFDebugger.java
+1	false	debugger/src/main/java/org/apache/pdfbox/debugger/ui/ExtensionFileFilter.java
+2	false	debugger/src/main/java/org/apache/pdfbox/debugger/ui/ReaderBottomPanel.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+4	false	debugger/src/main/java/org/apache/pdfbox/debugger/pagepane/PagePane.java
+PDFBOX-4114
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDColorSpace.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/color/SetStrokingColor.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/color/SetNonStrokingColor.java
+3	false	preflight/src/main/java/org/apache/pdfbox/preflight/graphic/StandardColorSpaceHelper.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceCMYK.java
+PDFBOX-4115
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDTrueTypeFont.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1CFont.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDSimpleFont.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+PDFBOX-4125
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/fdf/FDFField.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationLink.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationTextMarkup.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/fdf/FDFDictionary.java
+PDFBOX-4129
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/ResourceCache.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/DefaultResourceCache.java
+2	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/FileSystemFontProvider.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPageTree.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/state/PDSoftMask.java
+PDFBOX-4131
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDField.java
+1	false	examples/src/main/java/org/apache/pdfbox/examples/interactive/form/PrintFields.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDRadioButton.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/AppearanceGeneratorHelper.java
+PDFBOX-4140
+0	false	fontbox/src/main/java/org/apache/fontbox/cff/Type1CharStringParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDCalRGB.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceGray.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.java
+PDFBOX-4146
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SignatureOptions.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+3	false	examples/src/main/java/org/apache/pdfbox/examples/signature/CreateVisibleSignature.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/shading/AxialShadingContext.java
+PDFBOX-4149
+0	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+1	false	fontbox/src/main/java/org/apache/fontbox/ttf/OTLTable.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/shading/Line.java
+PDFBOX-4151
+0	false	pdfbox/src/main/java/org/apache/pdfbox/filter/CCITTFaxFilter.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.java
+3	true	pdfbox/src/main/java/org/apache/pdfbox/filter/FlateFilter.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java
+PDFBOX-4153
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDDocumentOutline.java
+1	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/CreateBookmarks.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDDictionaryWrapper.java
+3	false	preflight/src/main/java/org/apache/pdfbox/preflight/process/reflect/DestinationValidationProcess.java
+4	false	preflight/src/main/java/org/apache/pdfbox/preflight/action/AbstractActionManager.java
+PDFBOX-4155
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/StandardSecurityHandler.java
+1	false	tools/src/main/java/org/apache/pdfbox/tools/Decrypt.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfwriter/COSWriter.java
+PDFBOX-4157
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/filter/JPXFilter.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/SampledImageReader.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/filter/JBIG2Filter.java
+PDFBOX-4158
+0	true	pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocument.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPageTree.java
+3	true	pdfbox/src/main/java/org/apache/pdfbox/multipdf/PDFMergerUtility.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+PDFBOX-4162
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDResources.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1CFont.java
+PDFBOX-4163
+0	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java
+1	false	examples/src/main/java/org/apache/pdfbox/examples/lucene/LucenePDFDocument.java
+2	false	preflight/src/main/java/org/apache/pdfbox/preflight/metadata/SynchronizedMetaDataValidation.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocumentInformation.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/util/DateConverter.java
+PDFBOX-4164
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotation.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+2	false	fontbox/src/main/java/org/apache/fontbox/ttf/TrueTypeFont.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDCIDFontType0.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java
+PDFBOX-4167
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+1	true	pdfbox/src/main/java/org/apache/pdfbox/filter/FlateFilter.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/filter/LZWFilter.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+PDFBOX-4169
+0	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PDFRenderer.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.java
+3	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/CreateGradientShadingPDF.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPageContentStream.java
+PDFBOX-4172
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PlainText.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDPushButton.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDDefaultAppearanceString.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.java
+PDFBOX-4176
+0	false	pdfbox/src/main/java/org/apache/pdfbox/filter/CCITTFaxFilter.java
+1	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.java
+2	false	tools/src/main/java/org/apache/pdfbox/tools/ExtractImages.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+PDFBOX-4180
+0	true	tools/src/main/java/org/apache/pdfbox/tools/TextToPDF.java
+1	false	tools/src/main/java/org/apache/pdfbox/tools/PDFToImage.java
+2	false	tools/src/main/java/org/apache/pdfbox/tools/ExtractImages.java
+3	false	tools/src/main/java/org/apache/pdfbox/tools/imageio/MetaUtil.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/JPEGFactory.java
+PDFBOX-4181
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDSimpleFont.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType0Font.java
+PDFBOX-4185
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDField.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.java
+2	false	examples/src/main/java/org/apache/pdfbox/examples/interactive/form/PrintFields.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDDefaultAppearanceString.java
+PDFBOX-4193
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfwriter/COSWriter.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDResources.java
+PDFBOX-4195
+0	false	xmpbox/src/main/java/org/apache/xmpbox/DateConverter.java
+1	false	xmpbox/src/main/java/org/apache/xmpbox/type/TypeMapping.java
+2	false	preflight/src/main/java/org/apache/pdfbox/preflight/metadata/SynchronizedMetaDataValidation.java
+3	false	xmpbox/src/main/java/org/apache/xmpbox/type/IntegerType.java
+4	false	xmpbox/src/main/java/org/apache/xmpbox/type/RealType.java
+PDFBOX-4197
+0	false	preflight/src/main/java/org/apache/pdfbox/preflight/graphic/StandardColorSpaceHelper.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceN.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDTypedDictionaryWrapper.java
+4	false	xmpbox/src/main/java/org/apache/xmpbox/xml/XmpSerializer.java
+PDFBOX-4200
+0	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/CreateBlankPDF.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFontFactory.java
+2	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/RemoveFirstPage.java
+3	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/AddJavascript.java
+4	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.java
+PDFBOX-4204
+0	false	pdfbox/src/main/java/org/apache/pdfbox/multipdf/PDFMergerUtility.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfwriter/COSWriter.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocument.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+PDFBOX-4207
+0	false	debugger/src/main/java/org/apache/pdfbox/debugger/streampane/StreamImageView.java
+1	true	debugger/src/main/java/org/apache/pdfbox/debugger/pagepane/PagePane.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/AppearanceGeneratorHelper.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPageContentStream.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceCharacteristicsDictionary.java
+PDFBOX-4218
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PDImage.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/filter/JPXFilter.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PDInlineImage.java
+3	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/filter/JBIG2Filter.java
+PDFBOX-4219
+0	false	fontbox/src/main/java/org/apache/fontbox/ttf/PostScriptTable.java
+1	false	fontbox/src/main/java/org/apache/fontbox/ttf/HorizontalMetricsTable.java
+2	false	fontbox/src/main/java/org/apache/fontbox/cff/CFFParser.java
+3	false	fontbox/src/main/java/org/apache/fontbox/ttf/NamingTable.java
+4	true	fontbox/src/main/java/org/apache/fontbox/ttf/TrueTypeFont.java
+PDFBOX-4222
+0	true	pdfbox/src/main/java/org/apache/pdfbox/multipdf/PDFMergerUtility.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocumentCatalog.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotation.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+PDFBOX-4223
+0	true	pdfbox/src/main/java/org/apache/pdfbox/multipdf/PDFMergerUtility.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocumentCatalog.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfwriter/COSWriter.java
+PDFBOX-4227
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+1	true	pdfbox/src/main/java/org/apache/pdfbox/multipdf/PDFMergerUtility.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/filter/FlateFilter.java
+PDFBOX-4228
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDTrueTypeFont.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1CFont.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFontFactory.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+PDFBOX-4230
+0	true	fontbox/src/main/java/org/apache/fontbox/ttf/CmapSubtable.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/encoding/Encoding.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPageContentStream.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+PDFBOX-4233
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.java
+1	false	examples/src/main/java/org/apache/pdfbox/examples/interactive/form/PrintFields.java
+2	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/AppearanceGeneratorHelper.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDPushButton.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDDefaultAppearanceString.java
+PDFBOX-4235
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/AppearanceGeneratorHelper.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDResources.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDTrueTypeFont.java
+PDFBOX-4241
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSStream.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocument.java
+3	true	pdfbox/src/main/java/org/apache/pdfbox/pdfwriter/COSWriter.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/io/RandomAccessFile.java
+PDFBOX-4242
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/TrueTypeEmbedder.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDTrueTypeFont.java
+2	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType0Font.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDTrueTypeFontEmbedder.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+PDFBOX-4245
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/blend/NonSeparableBlendMode.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/blend/SeparableBlendMode.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroupAttributes.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.java
+4	false	preflight/src/main/java/org/apache/pdfbox/preflight/action/ActionManagerFactory.java
+PDFBOX-4248
+0	false	fontbox/src/main/java/org/apache/fontbox/cff/CFFParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotation.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/SampledImageReader.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/text/TextPosition.java
+4	false	fontbox/src/main/java/org/apache/fontbox/cff/Type1CharStringParser.java
+PDFBOX-4254
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SignatureOptions.java
+1	false	examples/src/main/java/org/apache/pdfbox/examples/signature/CreateVisibleSignature.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/filter/CCITTFaxFilter.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+4	false	tools/src/main/java/org/apache/pdfbox/tools/ExtractImages.java
+PDFBOX-4267
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PNGConverter.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/LosslessFactory.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/AppearanceGeneratorHelper.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/util/Matrix.java
+PDFBOX-4268
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/FileSystemFontProvider.java
+1	false	fontbox/src/main/java/org/apache/fontbox/cff/CFFParser.java
+2	false	fontbox/src/main/java/org/apache/fontbox/ttf/TrueTypeCollection.java
+3	false	preflight/src/main/java/org/apache/pdfbox/preflight/font/container/FontContainer.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDSimpleFont.java
+PDFBOX-4276
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/blend/BlendComposite.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/PDFontSetting.java
+2	false	preflight/src/main/java/org/apache/pdfbox/preflight/process/CatalogValidationProcess.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+PDFBOX-4278
+0	false	fontbox/src/main/java/org/apache/fontbox/encoding/Encoding.java
+1	false	preflight/src/main/java/org/apache/pdfbox/preflight/font/container/CIDType2Container.java
+2	false	preflight/src/main/java/org/apache/pdfbox/preflight/font/container/TrueTypeContainer.java
+3	false	fontbox/src/main/java/org/apache/fontbox/ttf/GlyphTable.java
+4	false	fontbox/src/main/java/org/apache/fontbox/ttf/GlyfCompositeDescript.java
+PDFBOX-4279
+0	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/color/SetColor.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/color/SetStrokingColor.java
+PDFBOX-4283
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPage.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/LosslessFactory.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+PDFBOX-4288
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDTypedDictionaryWrapper.java
+PDFBOX-4292
+0	true	preflight/src/main/java/org/apache/pdfbox/preflight/metadata/SynchronizedMetaDataValidation.java
+1	false	xmpbox/src/main/java/org/apache/xmpbox/type/AbstractSimpleProperty.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/util/DateConverter.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocumentInformation.java
+4	false	xmpbox/src/main/java/org/apache/xmpbox/type/TypeMapping.java
+PDFBOX-4298
+0	true	pdfbox/src/main/java/org/apache/pdfbox/multipdf/Overlay.java
+1	false	tools/src/main/java/org/apache/pdfbox/tools/OverlayPDF.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPageContentStream.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDResources.java
+PDFBOX-4299
+0	false	fontbox/src/main/java/org/apache/fontbox/ttf/OTLTable.java
+1	false	fontbox/src/main/java/org/apache/fontbox/ttf/DigitalSignatureTable.java
+2	false	fontbox/src/main/java/org/apache/fontbox/ttf/VerticalHeaderTable.java
+3	false	fontbox/src/main/java/org/apache/fontbox/ttf/KerningSubtable.java
+4	false	fontbox/src/main/java/org/apache/fontbox/ttf/OTFParser.java
+PDFBOX-4301
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDTypedDictionaryWrapper.java
+1	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDResources.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java
+PDFBOX-4302
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+1	false	fontbox/src/main/java/org/apache/fontbox/cmap/CMapParser.java
+2	false	fontbox/src/main/java/org/apache/fontbox/cmap/CMap.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType0Font.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDTrueTypeFont.java
+PDFBOX-4303
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDButton.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/AppearanceGeneratorHelper.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+3	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java
+PDFBOX-4305
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/MissingResourceException.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/MissingOperandException.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/state/EmptyGraphicsStackException.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/OperatorProcessor.java
+4	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/HelloWorld.java
+PDFBOX-4306
+0	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/graphics/DrawObject.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/TilingPaint.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.java
+PDFBOX-4307
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDDictionaryWrapper.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDDocumentOutline.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/multipdf/PDFMergerUtility.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.java
+4	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/CreateBookmarks.java
+PDFBOX-4308
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/AccessPermission.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/StandardSecurityHandler.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/filter/ASCII85Filter.java
+4	false	preflight/src/main/java/org/apache/pdfbox/preflight/graphic/StandardColorSpaceHelper.java
+PDFBOX-4315
+0	false	pdfbox/src/main/java/org/apache/pdfbox/filter/JPXFilter.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.java
+2	false	debugger/src/main/java/org/apache/pdfbox/debugger/PDFDebugger.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/shading/GouraudShadingContext.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+PDFBOX-4316
+0	true	examples/src/main/java/org/apache/pdfbox/examples/util/RemoveAllText.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/Operator.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/graphics/GraphicsOperatorProcessor.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/graphics/ShadingFill.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFGraphicsStreamEngine.java
+PDFBOX-4317
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPageContentStream.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/CCITTFactory.java
+2	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/AddImageToPDF.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.java
+4	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/JPEGFactory.java
+PDFBOX-4318
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDTrueTypeFont.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDSimpleFont.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/encoding/Encoding.java
+PDFBOX-4319
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDResources.java
+2	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPageContentStream.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFStreamParser.java
+PDFBOX-4322
+0	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/markedcontent/DrawObject.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/encoding/MacExpertEncoding.java
+2	false	examples/src/main/java/org/apache/pdfbox/examples/util/ExtractTextSimple.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/text/PDFTextStripper.java
+PDFBOX-4326
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/SampledImageReader.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PDInlineImage.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/graphics/BeginInlineImage.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceRGB.java
+PDFBOX-4327
+0	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/state/SetLineWidth.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/PDLineDashPattern.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDResources.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/state/SetLineMiterLimit.java
+PDFBOX-4330
+0	true	fontbox/src/main/java/org/apache/fontbox/cff/CFFParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationWidget.java
+PDFBOX-4333
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+1	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocument.java
+PDFBOX-4336
+0	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+1	false	fontbox/src/main/java/org/apache/fontbox/cff/DataInput.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+3	false	fontbox/src/main/java/org/apache/fontbox/ttf/GlyfCompositeDescript.java
+4	false	fontbox/src/main/java/org/apache/fontbox/ttf/GlyfSimpleDescript.java
+PDFBOX-4338
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFStreamParser.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/SequentialSource.java
+PDFBOX-4339
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+1	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFXrefStreamParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfwriter/COSWriter.java
+PDFBOX-4343
+0	false	examples/src/main/java/org/apache/pdfbox/examples/signature/CreateVisibleSignature.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDField.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDFieldFactory.java
+3	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfwriter/COSStandardOutputStream.java
+PDFBOX-4345
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDDocumentOutline.java
+2	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/CreateBookmarks.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDDictionaryWrapper.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.java
+PDFBOX-4347
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+1	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFXrefStreamParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdfwriter/COSWriter.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+PDFBOX-4348
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+2	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfwriter/COSWriter.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFXrefStreamParser.java
+PDFBOX-4349
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+1	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFStreamParser.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.java
+PDFBOX-4350
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFStreamParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/io/RandomAccessBuffer.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.java
+PDFBOX-4351
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFStreamParser.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/SequentialSource.java
+PDFBOX-4352
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFXrefStreamParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfwriter/COSWriter.java
+PDFBOX-4353
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDDefaultAppearanceString.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocument.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+4	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFXrefStreamParser.java
+PDFBOX-4354
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFXrefStreamParser.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+PDFBOX-4355
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDTrueTypeFont.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1CFont.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+PDFBOX-4357
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/AppearanceGeneratorHelper.java
+2	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPageTree.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDRectangle.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocumentCatalog.java
+PDFBOX-4359
+0	false	examples/src/main/java/org/apache/pdfbox/examples/signature/CreateVisibleSignature.java
+1	false	examples/src/main/java/org/apache/pdfbox/examples/signature/CreateSignature.java
+2	false	examples/src/main/java/org/apache/pdfbox/examples/signature/CreateSignatureBase.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPage.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/text/TextPositionComparator.java
+PDFBOX-4360
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDPageLabels.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfwriter/COSWriter.java
+PDFBOX-4361
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfwriter/COSWriter.java
+2	false	preflight/src/main/java/org/apache/pdfbox/preflight/parser/PreflightParser.java
+3	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFXrefStreamParser.java
+PDFBOX-4366
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDPushButton.java
+1	false	examples/src/main/java/org/apache/pdfbox/examples/interactive/form/CreateRadioButtons.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/AppearanceGeneratorHelper.java
+4	false	examples/src/main/java/org/apache/pdfbox/examples/interactive/form/CreateCheckBox.java
+PDFBOX-4367
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFStreamParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+PDFBOX-4372
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDResources.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/DrawObject.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+PDFBOX-4377
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.java
+1	false	examples/src/main/java/org/apache/pdfbox/examples/signature/CreateSignatureBase.java
+2	false	examples/src/main/java/org/apache/pdfbox/examples/signature/CreateSignature.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.java
+4	false	examples/src/main/java/org/apache/pdfbox/examples/signature/SigUtils.java
+PDFBOX-4381
+0	false	examples/src/main/java/org/apache/pdfbox/examples/signature/CreateSignature.java
+1	false	examples/src/main/java/org/apache/pdfbox/examples/signature/CreateSignatureBase.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SigningSupport.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/digitalsignature/ExternalSigningSupport.java
+4	false	examples/src/main/java/org/apache/pdfbox/examples/signature/CreateVisibleSignature.java
+PDFBOX-4383
+0	true	pdfbox/src/main/java/org/apache/pdfbox/multipdf/PDFMergerUtility.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocument.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfwriter/COSWriter.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+PDFBOX-4384
+0	true	preflight/src/main/java/org/apache/pdfbox/preflight/PreflightConfiguration.java
+1	false	preflight/src/main/java/org/apache/pdfbox/preflight/action/UndefAction.java
+2	false	preflight/src/main/java/org/apache/pdfbox/preflight/action/InvalidAction.java
+3	false	preflight/src/main/java/org/apache/pdfbox/preflight/action/HideAction.java
+4	false	preflight/src/main/java/org/apache/pdfbox/preflight/action/SubmitAction.java
+PDFBOX-4390
+0	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/graphics/DrawObject.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDResources.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/text/TextPosition.java
+PDFBOX-4391
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/filter/JPXFilter.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/filter/DCTFilter.java
+3	true	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/filter/CCITTFaxFilter.java
+PDFBOX-4392
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/color/SetColor.java
+2	false	preflight/src/main/java/org/apache/pdfbox/preflight/process/CatalogValidationProcess.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDColorSpace.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceRGB.java
+PDFBOX-4393
+0	false	examples/src/main/java/org/apache/pdfbox/examples/signature/CreateSignature.java
+1	false	examples/src/main/java/org/apache/pdfbox/examples/signature/CreateVisibleSignature.java
+2	false	examples/src/main/java/org/apache/pdfbox/examples/signature/CreateSignatureBase.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfwriter/COSStandardOutputStream.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java
+PDFBOX-4395
+0	false	fontbox/src/main/java/org/apache/fontbox/ttf/CmapSubtable.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDTrueTypeFontEmbedder.java
+2	false	fontbox/src/main/java/org/apache/fontbox/ttf/GlyphRenderer.java
+3	false	fontbox/src/main/java/org/apache/fontbox/cff/Type1CharStringParser.java
+4	false	fontbox/src/main/java/org/apache/fontbox/encoding/Encoding.java
+PDFBOX-4399
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/multipdf/PDFMergerUtility.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDTrueTypeFont.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java
+PDFBOX-4400
+0	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1CFont.java
+3	false	fontbox/src/main/java/org/apache/fontbox/ttf/TrueTypeFont.java
+4	false	fontbox/src/main/java/org/apache/fontbox/cff/CFFParser.java
+PDFBOX-4406
+0	false	preflight/src/main/java/org/apache/pdfbox/preflight/action/GoToAction.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDDestination.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/action/PDActionGoTo.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageDestination.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocumentNameDestinationDictionary.java
+PDFBOX-4407
+0	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotation.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java
+3	true	pdfbox/src/main/java/org/apache/pdfbox/multipdf/PDFMergerUtility.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfwriter/COSWriter.java
+PDFBOX-4408
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/fdf/FDFField.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDField.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDRadioButton.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroupAttributes.java
+PDFBOX-4415
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroup.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDContentStream.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocumentNameDictionary.java
+4	true	pdfbox/src/main/java/org/apache/pdfbox/multipdf/PDFMergerUtility.java
+PDFBOX-4416
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroup.java
+1	false	preflight/src/main/java/org/apache/pdfbox/preflight/font/container/Type3Container.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceEntry.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PageMode.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocumentNameDictionary.java
+PDFBOX-4417
+0	true	pdfbox/src/main/java/org/apache/pdfbox/multipdf/PDFMergerUtility.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocument.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/io/RandomAccessRead.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSStream.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/io/RandomAccessFile.java
+PDFBOX-4418
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDNumberTreeNode.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceDictionary.java
+2	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/ExtractEmbeddedFiles.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocumentCatalog.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDNameTreeNode.java
+PDFBOX-4419
+0	true	pdfbox/src/main/java/org/apache/pdfbox/multipdf/PDFMergerUtility.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/measurement/PDNumberFormatDictionary.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/measurement/PDMeasureDictionary.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDTypedDictionaryWrapper.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/measurement/PDViewportDictionary.java
+PDFBOX-4422
+0	true	preflight/src/main/java/org/apache/pdfbox/preflight/process/CatalogValidationProcess.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+2	false	preflight/src/main/java/org/apache/pdfbox/preflight/graphic/StandardColorSpaceHelper.java
+3	false	preflight/src/main/java/org/apache/pdfbox/preflight/content/PreflightStreamEngine.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDOutputIntent.java
+PDFBOX-4423
+0	false	examples/src/main/java/org/apache/pdfbox/examples/interactive/form/CreateMultiWidgetsForm.java
+1	true	pdfbox/src/main/java/org/apache/pdfbox/multipdf/PDFMergerUtility.java
+2	false	preflight/src/main/java/org/apache/pdfbox/preflight/process/AcroFormValidationProcess.java
+3	false	tools/src/main/java/org/apache/pdfbox/tools/ImageToPDF.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/AppearanceGeneratorHelper.java
+PDFBOX-4428
+0	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/HelloWorldType1.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1FontEmbedder.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+3	false	fontbox/src/main/java/org/apache/fontbox/cff/CFFParser.java
+4	false	fontbox/src/main/java/org/apache/fontbox/ttf/NamingTable.java
+PDFBOX-4429
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroup.java
+1	false	preflight/src/main/java/org/apache/pdfbox/preflight/font/container/Type3Container.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceEntry.java
+3	true	pdfbox/src/main/java/org/apache/pdfbox/multipdf/PDFMergerUtility.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocumentNameDictionary.java
+PDFBOX-4435
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDPageLabels.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDPageLabelRange.java
+2	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/CreatePageLabels.java
+3	true	tools/src/main/java/org/apache/pdfbox/tools/PrintPDF.java
+4	false	fontbox/src/main/java/org/apache/fontbox/ttf/RAFDataStream.java
+PDFBOX-4436
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/StandardSecurityHandler.java
+1	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/PDEncryption.java
+2	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/PublicKeySecurityHandler.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/AccessPermission.java
+PDFBOX-4437
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDExternalDataDictionary.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationFileAttachment.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationText.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationUnknown.java
+PDFBOX-4444
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDNumberTreeNode.java
+1	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/ExtractEmbeddedFiles.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDPageLabels.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureTreeRoot.java
+4	false	tools/src/main/java/org/apache/pdfbox/tools/ExtractText.java
+PDFBOX-4445
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfwriter/COSWriter.java
+2	true	pdfbox/src/main/java/org/apache/pdfbox/multipdf/PDFMergerUtility.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocumentCatalog.java
+PDFBOX-4446
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFObjectStreamParser.java
+1	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+2	false	tools/src/main/java/org/apache/pdfbox/tools/WriteDecodedDoc.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.java
+PDFBOX-4449
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPage.java
+1	true	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDSimpleFont.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDPattern.java
+PDFBOX-4450
+0	false	preflight/src/main/java/org/apache/pdfbox/preflight/PreflightConstants.java
+1	false	preflight/src/main/java/org/apache/pdfbox/preflight/process/StreamValidationProcess.java
+2	false	preflight/src/main/java/org/apache/pdfbox/preflight/process/reflect/ShadingPatternValidationProcess.java
+3	false	preflight/src/main/java/org/apache/pdfbox/preflight/process/reflect/ExtGStateValidationProcess.java
+4	false	preflight/src/main/java/org/apache/pdfbox/preflight/process/CatalogValidationProcess.java
+PDFBOX-4451
+0	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/UsingTextMatrix.java
+1	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/CreateLandscapePDF.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPage.java
+3	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/AddMessageToEachPage.java
+4	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/CreateGradientShadingPDF.java
+PDFBOX-4452
+0	false	pdfbox/src/main/java/org/apache/pdfbox/multipdf/PDFMergerUtility.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfwriter/COSWriter.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocument.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/PDXObject.java
+PDFBOX-4453
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.java
+1	false	tools/src/main/java/org/apache/pdfbox/tools/Decrypt.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/StandardSecurityHandler.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/PDEncryption.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/MessageDigests.java
+PDFBOX-4456
+0	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/graphics/BeginInlineImage.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/graphics/DrawObject.java
+2	false	tools/src/main/java/org/apache/pdfbox/tools/ExtractImages.java
+3	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/ExtractTTFFonts.java
+4	true	tools/src/main/java/org/apache/pdfbox/tools/PrintPDF.java
+PDFBOX-4459
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPageTree.java
+1	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageDestination.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/action/PDActionGoTo.java
+3	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/CreateBookmarks.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDDocumentOutline.java
+PDFBOX-4461
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/function/PDFunctionType0.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/function/PDFunctionType3.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/function/PDFunctionType4.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/function/PDFunction.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/function/PDFunctionType2.java
+PDFBOX-4466
+0	false	tools/src/main/java/org/apache/pdfbox/tools/Decrypt.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java
+2	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDPropBuildDataDict.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfwriter/COSWriter.java
+PDFBOX-4470
+0	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1CFont.java
+3	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+PDFBOX-4473
+0	false	examples/src/main/java/org/apache/pdfbox/examples/interactive/form/CreateSimpleForm.java
+1	false	fontbox/src/main/java/org/apache/fontbox/ttf/RAFDataStream.java
+2	false	examples/src/main/java/org/apache/pdfbox/examples/printing/Printing.java
+3	false	debugger/src/main/java/org/apache/pdfbox/debugger/streampane/OperatorMarker.java
+4	false	fontbox/src/main/java/org/apache/fontbox/util/BoundingBox.java
+PDFBOX-4474
+0	true	fontbox/src/main/java/org/apache/fontbox/type1/Type1Parser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+2	false	xmpbox/src/main/java/org/apache/xmpbox/xml/PdfaExtensionHelper.java
+3	false	preflight/src/main/java/org/apache/pdfbox/preflight/metadata/PDFAIdentificationValidation.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDNonTerminalField.java
+PDFBOX-4475
+0	false	pdfbox/src/main/java/org/apache/pdfbox/multipdf/PDFMergerUtility.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocument.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPageTree.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineNode.java
+PDFBOX-4476
+0	false	preflight/src/main/java/org/apache/pdfbox/preflight/xobject/XObjPostscriptValidator.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+2	false	preflight/src/main/java/org/apache/pdfbox/preflight/process/reflect/GraphicObjectPageValidationProcess.java
+3	false	preflight/src/main/java/org/apache/pdfbox/preflight/process/reflect/ResourcesValidationProcess.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/text/MoveText.java
+PDFBOX-4477
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfwriter/COSWriter.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/StandardSecurityHandler.java
+2	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/PublicKeySecurityHandler.java
+PDFBOX-4478
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDObjectReference.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceCharacteristicsDictionary.java
+4	false	preflight/src/main/java/org/apache/pdfbox/preflight/annotation/AnnotationValidator.java
+PDFBOX-4480
+0	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/text/PDFTextStripper.java
+2	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/ShowTextWithPositioning.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDAbstractContentStream.java
+PDFBOX-4485
+0	false	tools/src/main/java/org/apache/pdfbox/tools/TextToPDF.java
+1	false	tools/src/main/java/org/apache/pdfbox/tools/PDFToImage.java
+2	false	tools/src/main/java/org/apache/pdfbox/tools/ExtractImages.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1FontEmbedder.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/JPEGFactory.java
+PDFBOX-4487
+0	false	pdfbox/src/main/java/org/apache/pdfbox/text/PDFMarkedContentExtractor.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocumentCatalog.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotation.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocument.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+PDFBOX-4488
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/SampledImageReader.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/filter/CCITTFaxFilter.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/graphics/BeginInlineImage.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PDInlineImage.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.java
+PDFBOX-4489
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+1	false	fontbox/src/main/java/org/apache/fontbox/cff/CFFParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1CFont.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFStreamParser.java
+PDFBOX-4490
+0	false	fontbox/src/main/java/org/apache/fontbox/afm/AFMParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/XrefTrailerResolver.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/text/PDFTextStripper.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/multipdf/Overlay.java
+PDFBOX-4492
+0	true	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDPattern.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDColorSpace.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/color/SetColor.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.java
+PDFBOX-4493
+0	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSStream.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocument.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDStream.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/io/RandomAccessFile.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+PDFBOX-4494
+0	false	fontbox/src/main/java/org/apache/fontbox/cff/Type2CharStringParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFontFactory.java
+2	false	fontbox/src/main/java/org/apache/fontbox/ttf/GlyphRenderer.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+PDFBOX-4495
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+1	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFStreamParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSFloat.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+PDFBOX-4496
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentProperties.java
+1	false	preflight/src/main/java/org/apache/pdfbox/preflight/utils/ContextHelper.java
+2	false	preflight/src/main/java/org/apache/pdfbox/preflight/action/ActionManagerFactory.java
+3	false	preflight/src/main/java/org/apache/pdfbox/preflight/process/PageTreeValidationProcess.java
+4	false	preflight/src/main/java/org/apache/pdfbox/preflight/process/reflect/TilingPatternValidationProcess.java
+PDFBOX-4497
+0	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/state/SetLineDashPattern.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/PDLineDashPattern.java
+2	true	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.java
+PDFBOX-4500
+0	true	pdfbox/src/main/java/org/apache/pdfbox/multipdf/PDFMergerUtility.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineNode.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/text/PDFTextStripperByArea.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPageTree.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/multipdf/PageExtractor.java
+PDFBOX-4503
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1CFont.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType3Font.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+PDFBOX-4504
+0	true	pdfbox/src/main/java/org/apache/pdfbox/multipdf/PDFMergerUtility.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/PDXObject.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureTreeRoot.java
+PDFBOX-4513
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/fdf/FDFDictionary.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/fdf/FDFOptionElement.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationCaret.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationSquare.java
+PDFBOX-4517
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.java
+1	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/StandardSecurityHandler.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/PDEncryption.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/MessageDigests.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/PublicKeySecurityHandler.java
+PDFBOX-4518
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/shading/RadialShadingContext.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/TilingPaint.java
+3	false	tools/src/main/java/org/apache/pdfbox/tools/ImageToPDF.java
+4	false	tools/src/main/java/org/apache/pdfbox/tools/ExtractImages.java
+PDFBOX-4520
+0	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+3	true	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/SampledImageReader.java
+PDFBOX-4521
+0	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocumentInformation.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocumentCatalog.java
+PDFBOX-4525
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceRGB.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/color/SetColor.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDColorSpace.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.java
+PDFBOX-4526
+0	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/graphics/BeginInlineImage.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/graphics/DrawObject.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/shading/Type5ShadingPaint.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/shading/Type4ShadingPaint.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.java
+PDFBOX-4535
+0	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceRGB.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/SampledImageReader.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDLab.java
+PDFBOX-4540
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocument.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSArray.java
+PDFBOX-4543
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDStream.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocument.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceN.java
+PDFBOX-4549
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDTrueTypeFont.java
+1	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+4	false	fontbox/src/main/java/org/apache/fontbox/cmap/CMapParser.java
+PDFBOX-4550
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDSimpleFont.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+2	false	fontbox/src/main/java/org/apache/fontbox/ttf/PostScriptTable.java
+3	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDTrueTypeFont.java
+PDFBOX-4551
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPage.java
+1	true	tools/src/main/java/org/apache/pdfbox/tools/PrintPDF.java
+2	false	fontbox/src/main/java/org/apache/fontbox/ttf/BufferedRandomAccessFile.java
+3	false	fontbox/src/main/java/org/apache/fontbox/ttf/RAFDataStream.java
+4	false	fontbox/src/main/java/org/apache/fontbox/ttf/GlyphDescription.java
+PDFBOX-4553
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/text/PDFTextStripper.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/StandardSecurityHandler.java
+PDFBOX-4571
+0	true	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/state/SetLineDashPattern.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/encoding/DictionaryEncoding.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.java
+PDFBOX-4579
+0	false	fontbox/src/main/java/org/apache/fontbox/cff/CFFParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/FontMapperImpl.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/FileSystemFontProvider.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDTrueTypeFont.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+PDFBOX-4580
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1CFont.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+PDFBOX-4581
+0	false	fontbox/src/main/java/org/apache/fontbox/ttf/GlyphRenderer.java
+1	true	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/graphics/CurveToReplicateInitialPoint.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/graphics/CurveTo.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/graphics/LineTo.java
+PDFBOX-4585
+0	false	fontbox/src/main/java/org/apache/fontbox/ttf/TTFParser.java
+1	false	fontbox/src/main/java/org/apache/fontbox/ttf/CmapSubtable.java
+2	false	fontbox/src/main/java/org/apache/fontbox/ttf/TTFSubsetter.java
+3	false	fontbox/src/main/java/org/apache/fontbox/cff/CFFFont.java
+4	false	fontbox/src/main/java/org/apache/fontbox/cff/Type2CharStringParser.java
+PDFBOX-4586
+0	false	examples/src/main/java/org/apache/pdfbox/examples/interactive/form/CreateMultiWidgetsForm.java
+1	true	preflight/src/main/java/org/apache/pdfbox/preflight/annotation/AnnotationValidator.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDExternalDataDictionary.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotation.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationText.java
+PDFBOX-4587
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/action/PDFormFieldAdditionalActions.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDThread.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/action/PDDocumentCatalogAdditionalActions.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDThreadBead.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/filespecification/PDSimpleFileSpecification.java
+PDFBOX-4589
+0	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/UsingTextMatrix.java
+1	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/CreateLandscapePDF.java
+2	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/AddMessageToEachPage.java
+3	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/CreateGradientShadingPDF.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocument.java
+PDFBOX-4592
+0	false	preflight/src/main/java/org/apache/pdfbox/preflight/content/PreflightContentStream.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceN.java
+2	false	preflight/src/main/java/org/apache/pdfbox/preflight/process/reflect/ResourcesValidationProcess.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/color/SetColor.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDColor.java
+PDFBOX-4595
+0	false	fontbox/src/main/java/org/apache/fontbox/ttf/GlyfCompositeDescript.java
+1	false	fontbox/src/main/java/org/apache/fontbox/ttf/CmapSubtable.java
+2	false	fontbox/src/main/java/org/apache/fontbox/ttf/GlyphTable.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDSimpleFont.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDTrueTypeFontEmbedder.java
+PDFBOX-4596
+0	true	pdfbox/src/main/java/org/apache/pdfbox/multipdf/Overlay.java
+1	false	tools/src/main/java/org/apache/pdfbox/tools/OverlayPDF.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPage.java
+3	false	tools/src/main/java/org/apache/pdfbox/tools/PDFBox.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/text/TextPositionComparator.java
+PDFBOX-4604
+0	false	fontbox/src/main/java/org/apache/fontbox/ttf/TrueTypeFont.java
+1	false	fontbox/src/main/java/org/apache/fontbox/ttf/PostScriptTable.java
+2	false	fontbox/src/main/java/org/apache/fontbox/ttf/NamingTable.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDTrueTypeFont.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFontFactory.java
+PDFBOX-4607
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/JPEGFactory.java
+2	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/LosslessFactory.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+PDFBOX-4608
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.java
+1	true	tools/src/main/java/org/apache/pdfbox/tools/ImageToPDF.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/CCITTFactory.java
+3	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/RubberStampWithImage.java
+4	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/AddImageToPDF.java
+PDFBOX-4610
+0	true	pdfbox/src/main/java/org/apache/pdfbox/io/IOUtils.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDCIDFont.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1CFont.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+PDFBOX-4611
+0	true	preflight/src/main/java/org/apache/pdfbox/preflight/graphic/StandardColorSpaceHelper.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.java
+2	false	preflight/src/main/java/org/apache/pdfbox/preflight/graphic/DeviceColorSpaceHelper.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPageContentStream.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PDInlineImage.java
+PDFBOX-4615
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/AppearanceGeneratorHelper.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PlainText.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+3	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDPushButton.java
+PDFBOX-4622
+0	true	fontbox/src/main/java/org/apache/fontbox/ttf/CmapSubtable.java
+1	true	fontbox/src/main/java/org/apache/fontbox/ttf/HorizontalMetricsTable.java
+2	false	preflight/src/main/java/org/apache/pdfbox/preflight/font/descriptor/TrueTypeDescriptorHelper.java
+3	false	preflight/src/main/java/org/apache/pdfbox/preflight/process/reflect/ShadingPatternValidationProcess.java
+4	true	fontbox/src/main/java/org/apache/fontbox/ttf/PostScriptTable.java
+PDFBOX-4626
+0	true	fontbox/src/main/java/org/apache/fontbox/ttf/CmapSubtable.java
+1	false	preflight/src/main/java/org/apache/pdfbox/preflight/font/descriptor/TrueTypeDescriptorHelper.java
+2	false	fontbox/src/main/java/org/apache/fontbox/ttf/HorizontalMetricsTable.java
+3	false	fontbox/src/main/java/org/apache/fontbox/ttf/KerningSubtable.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+PDFBOX-4631
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/AppearanceGeneratorHelper.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDSimpleFont.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDTrueTypeFont.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+PDFBOX-4636
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceCharacteristicsDictionary.java
+3	false	examples/src/main/java/org/apache/pdfbox/examples/interactive/form/CreateMultiWidgetsForm.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotation.java
+PDFBOX-4638
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/AppearanceGeneratorHelper.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDDefaultAppearanceString.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDPushButton.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PlainText.java
+PDFBOX-4646
+0	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/text/ShowText.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPage.java
+3	false	fontbox/src/main/java/org/apache/fontbox/ttf/GlyphRenderer.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PDFRenderer.java
+PDFBOX-4654
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.java
+1	false	tools/src/main/java/org/apache/pdfbox/tools/ExtractImages.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/SampledImageReader.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/filter/CCITTFaxFilter.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/graphics/BeginInlineImage.java
+PDFBOX-4655
+0	true	tools/src/main/java/org/apache/pdfbox/tools/PDFToImage.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/TilingPaint.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/graphics/DrawObject.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/graphics/BeginInlineImage.java
+PDFBOX-4659
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/shading/GouraudShadingContext.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDCalGray.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/filter/JPXFilter.java
+3	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/BengaliPdfGenerationHelloWorld.java
+4	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.java
+PDFBOX-4661
+0	true	fontbox/src/main/java/org/apache/fontbox/cmap/CMapParser.java
+1	false	fontbox/src/main/java/org/apache/fontbox/cmap/CMap.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1CFont.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+PDFBOX-4662
+0	false	fontbox/src/main/java/org/apache/fontbox/cff/Type1CharStringParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLink.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceDictionary.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.java
+PDFBOX-4666
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDResources.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/filter/FlateFilter.java
+3	true	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+PDFBOX-4667
+0	false	fontbox/src/main/java/org/apache/fontbox/cff/CFFParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/FileSystemFontProvider.java
+2	false	fontbox/src/main/java/org/apache/fontbox/cff/CFFFont.java
+3	false	fontbox/src/main/java/org/apache/fontbox/type1/Type1Font.java
+4	false	preflight/src/main/java/org/apache/pdfbox/preflight/font/Type1FontValidator.java
+PDFBOX-4670
+0	false	fontbox/src/main/java/org/apache/fontbox/ttf/PostScriptTable.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+3	false	fontbox/src/main/java/org/apache/fontbox/ttf/OS2WindowsMetricsTable.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+PDFBOX-4672
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/CCITTFactory.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/JPEGFactory.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPageContentStream.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/shading/RadialShadingContext.java
+PDFBOX-4674
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/LosslessFactory.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java
+PDFBOX-4678
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDSimpleFont.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDTrueTypeFont.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType0Font.java
+PDFBOX-4687
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFXrefStreamParser.java
+1	false	fontbox/src/main/java/org/apache/fontbox/ttf/CmapSubtable.java
+2	false	fontbox/src/main/java/org/apache/fontbox/ttf/TTFSubsetter.java
+3	false	fontbox/src/main/java/org/apache/fontbox/ttf/TrueTypeFont.java
+4	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItemIterator.java
+PDFBOX-4688
+0	false	preflight/src/main/java/org/apache/pdfbox/preflight/content/ContentStreamException.java
+1	false	preflight/src/main/java/org/apache/pdfbox/preflight/metadata/XpacketParsingException.java
+2	false	preflight/src/main/java/org/apache/pdfbox/preflight/Format.java
+3	false	preflight/src/main/java/org/apache/pdfbox/preflight/process/AbstractProcess.java
+4	false	preflight/src/main/java/org/apache/pdfbox/preflight/process/ValidationProcess.java
+PDFBOX-4693
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDPushButton.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDNonTerminalField.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/AppearanceGeneratorHelper.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PlainText.java
+PDFBOX-4696
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.java
+2	false	examples/src/main/java/org/apache/pdfbox/examples/signature/CreateSignatureBase.java
+3	false	examples/src/main/java/org/apache/pdfbox/examples/signature/SigUtils.java
+4	false	examples/src/main/java/org/apache/pdfbox/examples/signature/CreateSignature.java
+PDFBOX-4701
+0	true	pdfbox/src/main/java/org/apache/pdfbox/text/TextPosition.java
+1	false	examples/src/main/java/org/apache/pdfbox/examples/util/DrawPrintTextLocations.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/text/PDFTextStripper.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/DrawObject.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+PDFBOX-4706
+0	false	fontbox/src/main/java/org/apache/fontbox/util/autodetect/OS400FontDirFinder.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/encoding/SymbolEncoding.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/action/PDActionNamed.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/fdf/FDFJavaScript.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/action/PDActionJavaScript.java
+PDFBOX-4711
+0	true	pdfbox/src/main/java/org/apache/pdfbox/multipdf/PDFMergerUtility.java
+1	false	fontbox/src/main/java/org/apache/fontbox/ttf/TrueTypeFont.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDSimpleFont.java
+3	false	fontbox/src/main/java/org/apache/fontbox/cff/Type1CharStringParser.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1CFont.java
+PDFBOX-4712
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDTypedDictionaryWrapper.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDDictionaryWrapper.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDButton.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocumentNameDestinationDictionary.java
+PDFBOX-4713
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDButton.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDCheckBox.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDExternalDataDictionary.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/measurement/PDNumberFormatDictionary.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/measurement/PDMeasureDictionary.java
+PDFBOX-4716
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/TrueTypeEmbedder.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/COSArrayList.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/RC4Cipher.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.java
+4	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/PrintURLs.java
+PDFBOX-4720
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDSimpleFont.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType0Font.java
+PDFBOX-4724
+0	false	pdfbox/src/main/java/org/apache/pdfbox/multipdf/Splitter.java
+1	false	debugger/src/main/java/org/apache/pdfbox/debugger/pagepane/DebugPageDrawer.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/AppearanceGeneratorHelper.java
+3	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/ShowTextWithPositioning.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+PDFBOX-4727
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocumentNameDictionary.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroup.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceEntry.java
+3	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/ReplaceURLs.java
+4	false	preflight/src/main/java/org/apache/pdfbox/preflight/font/container/Type3Container.java
+PDFBOX-4730
+0	false	debugger/src/main/java/org/apache/pdfbox/debugger/PDFDebugger.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDDefaultAppearanceString.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/AppearanceGeneratorHelper.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSStream.java
+4	false	tools/src/main/java/org/apache/pdfbox/tools/ExtractImages.java
+PDFBOX-4741
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotation.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/AnnotationFilter.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/text/ShowText.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+PDFBOX-4742
+0	false	fontbox/src/main/java/org/apache/fontbox/ttf/NamingTable.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPageContentStream.java
+2	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/CreatePDFA.java
+3	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDAbstractContentStream.java
+4	false	fontbox/src/main/java/org/apache/fontbox/ttf/PostScriptTable.java
+PDFBOX-4745
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDDictionaryWrapper.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFObjectStreamParser.java
+PDFBOX-4750
+0	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/io/ScratchFileBuffer.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/PDFStreamParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+PDFBOX-4753
+0	true	fontbox/src/main/java/org/apache/fontbox/cff/CFFParser.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+PDFBOX-4755
+0	false	fontbox/src/main/java/org/apache/fontbox/ttf/TTFParser.java
+1	false	fontbox/src/main/java/org/apache/fontbox/ttf/TrueTypeFont.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/util/Vector.java
+3	false	fontbox/src/main/java/org/apache/fontbox/cff/CIDKeyedType2CharString.java
+4	false	fontbox/src/main/java/org/apache/fontbox/cff/CFFExpertEncoding.java
+PDFBOX-4756
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+1	false	fontbox/src/main/java/org/apache/fontbox/type1/Type1Parser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1CFont.java
+PDFBOX-4760
+0	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/ShowTextWithPositioning.java
+1	true	pdfbox/src/main/java/org/apache/pdfbox/text/PDFTextStripper.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDAbstractContentStream.java
+4	false	examples/src/main/java/org/apache/pdfbox/examples/pdmodel/CreateSeparationColorBox.java
+PDFBOX-4763
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/filter/JBIG2Filter.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/JPEGFactory.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSStream.java
+PDFBOX-4765
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+3	true	tools/src/main/java/org/apache/pdfbox/tools/ExtractImages.java
+4	false	tools/src/main/java/org/apache/pdfbox/tools/ExtractText.java
+PDFBOX-4771
+0	false	pdfbox/src/main/java/org/apache/pdfbox/filter/DCTFilter.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDSeparation.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/LosslessFactory.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/PNGConverter.java
+PDFBOX-4772
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationPolygon.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationPolyline.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationInk.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationSound.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotation.java
+PDFBOX-4778
+0	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/text/ShowTextAdjusted.java
+1	true	pdfbox/src/main/java/org/apache/pdfbox/util/Matrix.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/text/TextPosition.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+PDFBOX-4783
+0	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDSimpleFont.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/Standard14Fonts.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+PDFBOX-4788
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDNonTerminalField.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDField.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/AppearanceGeneratorHelper.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceCharacteristicsDictionary.java
+PDFBOX-4793
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/FileSystemFontProvider.java
+1	false	fontbox/src/main/java/org/apache/fontbox/cff/CFFParser.java
+2	false	fontbox/src/main/java/org/apache/fontbox/type1/Type1Font.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/util/Vector.java
+4	false	fontbox/src/main/java/org/apache/fontbox/cff/CIDKeyedType2CharString.java
+PDFBOX-4794
+0	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDFont.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+3	true	tools/src/main/java/org/apache/pdfbox/tools/ExtractImages.java
+4	false	tools/src/main/java/org/apache/pdfbox/tools/ExtractText.java
+PDFBOX-4799
+0	false	pdfbox/src/main/java/org/apache/pdfbox/cos/COSName.java
+1	false	preflight/src/main/java/org/apache/pdfbox/preflight/font/descriptor/TrueTypeDescriptorHelper.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/state/SetLineWidth.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/rendering/PageDrawer.java
+PDFBOX-4800
+0	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/PDFStreamEngine.java
+1	true	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/BaseParser.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPageContentStream.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdfparser/COSParser.java
+4	false	preflight/src/main/java/org/apache/pdfbox/preflight/parser/PreflightParser.java
+PDFBOX-4801
+0	true	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.java
+1	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/color/SetColor.java
+2	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDColorSpace.java
+3	false	pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceRGB.java
+4	false	pdfbox/src/main/java/org/apache/pdfbox/contentstream/operator/color/SetStrokingColor.java

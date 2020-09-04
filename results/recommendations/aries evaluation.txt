@@ -1,0 +1,565 @@
+ARIES-1379
+0	true	transaction/transaction-jms/src/main/java/org/apache/aries/transaction/jms/internal/Activator.java
+1	false	application/application-api/src/main/java/org/apache/aries/application/management/spi/repository/BundleRepository.java
+2	false	application/application-api/src/main/java/org/apache/aries/application/DeploymentMetadata.java
+3	false	application/application-api/src/main/java/org/apache/aries/application/management/spi/convert/BundleConversion.java
+4	false	application/application-api/src/main/java/org/apache/aries/application/management/spi/framework/BundleFrameworkManager.java
+ARIES-1381
+0	true	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/archive/ImportPackageHeader.java
+1	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/RawSubsystemResource.java
+2	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/SubsystemResource.java
+3	false	esa-maven-plugin/src/main/java/org/apache/aries/plugin/esa/EsaMojo.java
+4	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/DependencyCalculator.java
+ARIES-1399
+0	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BlueprintExtender.java
+1	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/SubsystemResource.java
+2	false	util/src/main/java/org/apache/aries/util/filesystem/IFile.java
+3	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/Activator.java
+4	false	util/src/main/java/org/apache/aries/util/filesystem/impl/FileImpl.java
+ARIES-1404
+0	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/ResourceInstaller.java
+1	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/Subsystems.java
+2	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/archive/DeploymentManifest.java
+3	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/archive/ProvisionResourceHeader.java
+4	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/BasicSubsystem.java
+ARIES-1408
+0	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/archive/AriesSubsystemLocationHeader.java
+1	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/archive/OsgiExecutionEnvironmentRequirement.java
+2	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/archive/AbstractClauseBasedHeader.java
+3	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/archive/Patterns.java
+4	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/archive/DynamicImportPackageHeader.java
+ARIES-1410
+0	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/archive/RequireCapabilityRequirement.java
+1	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/DependencyCalculator.java
+2	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/BasicCapability.java
+3	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/services/BlueprintExtenderService.java
+4	false	blueprint/blueprint-parser/src/main/java/org/apache/aries/blueprint/Namespaces.java
+ARIES-1411
+0	false	blueprint/blueprint-authz/src/main/java/org/apache/aries/blueprint/authorization/impl/SecurityAnotationParser.java
+1	false	blueprint/blueprint-authz/src/main/java/org/apache/aries/blueprint/authorization/impl/AuthorizationInterceptor.java
+2	false	blueprint/blueprint-authz/src/main/java/org/apache/aries/blueprint/authorization/impl/AuthorizationBeanProcessor.java
+3	true	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/model/Blueprint.java
+4	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/utils/ReflectionUtils.java
+ARIES-1416
+0	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/SubsystemResource.java
+1	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/RawSubsystemResource.java
+2	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/BasicSubsystem.java
+3	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/Activator.java
+4	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/SubsystemUri.java
+ARIES-1419
+0	false	application/application-modeller/src/main/java/org/apache/aries/application/modelling/impl/ImportedServiceImpl.java
+1	false	util/src/main/java/org/apache/aries/util/manifest/ManifestHeaderProcessor.java
+2	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BlueprintExtender.java
+3	false	application/application-obr-resolver/src/main/java/org/apache/aries/application/resolver/obr/impl/OBRCapability.java
+4	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BlueprintContainerImpl.java
+ARIES-1421
+0	false	application/application-modeller/src/main/java/org/apache/aries/application/modelling/impl/ImportedServiceImpl.java
+1	false	util/src/main/java/org/apache/aries/util/manifest/ManifestHeaderProcessor.java
+2	false	blueprint/blueprint-parser/src/main/java/org/apache/aries/blueprint/reflect/ServiceReferenceMetadataImpl.java
+3	false	blueprint/blueprint-parser/src/main/java/org/apache/aries/blueprint/ExtendedServiceReferenceMetadata.java
+4	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/archive/ImportPackageRequirement.java
+ARIES-1423
+0	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/archive/ImportPackageHeader.java
+1	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/SubsystemUri.java
+2	false	jmx/jmx-core/src/main/java/org/apache/aries/jmx/util/FrameworkUtils.java
+3	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/Location.java
+4	false	jmx/jmx-core/src/main/java/org/apache/aries/jmx/framework/Framework.java
+ARIES-1426
+0	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/DependencyCalculator.java
+1	true	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/RawSubsystemResource.java
+2	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/ResourceInstaller.java
+3	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/Constants.java
+4	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/archive/SubsystemImportServiceHeader.java
+ARIES-1427
+0	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/DependencyCalculator.java
+1	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/SubsystemResource.java
+2	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/Location.java
+3	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/archive/Grammar.java
+4	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/RawSubsystemResource.java
+ARIES-1428
+0	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/RawSubsystemResource.java
+1	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/SubsystemResourceUninstaller.java
+2	false	util/src/main/java/org/apache/aries/util/tracker/RecursiveBundleTracker.java
+3	false	jmx/jmx-core/src/main/java/org/apache/aries/jmx/framework/Framework.java
+4	false	util/src/main/java/org/apache/aries/util/internal/DefaultWorker.java
+ARIES-1429
+0	false	proxy/proxy-impl/src/main/java/org/apache/aries/proxy/impl/common/AbstractWovenProxyAdapter.java
+1	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/archive/DeployedContentHeader.java
+2	false	subsystem/subsystem-executor/src/main/java/org/apache/aries/subsystem/executor/SimpleExecutor.java
+3	false	subsystem/subsystem-executor/src/main/java/org/apache/aries/subsystem/executor/Activator.java
+4	false	util/src/main/java/org/apache/aries/util/AriesFrameworkUtil.java
+ARIES-1430
+0	true	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BlueprintContainerImpl.java
+1	false	application/application-converters/src/main/java/org/apache/aries/application/converters/WabConverterService.java
+2	false	blueprint/blueprint-cm/src/main/java/org/apache/aries/blueprint/compendium/cm/CmNamespaceHandler.java
+3	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/RecipeBuilder.java
+4	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BeanRecipe.java
+ARIES-1434
+0	false	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/handlers/javax/PreDestroyHandler.java
+1	false	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/handlers/javax/PostConstructHandler.java
+2	false	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/handlers/javax/QualifierHandler.java
+3	false	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/handlers/javax/ProducesHandler.java
+4	false	blueprint/plugin/blueprint-maven-plugin-spi/src/main/java/org/apache/aries/blueprint/plugin/spi/ContextEnricher.java
+ARIES-1435
+0	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/SubsystemResourceUninstaller.java
+1	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/SatisfiableRecipe.java
+2	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/Subsystems.java
+3	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/RegionContextBundleHelper.java
+4	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/ResourceUninstaller.java
+ARIES-1437
+0	false	proxy/proxy-impl/src/main/java/org/apache/aries/proxy/impl/gen/ProxySubclassAdapter.java
+1	false	proxy/proxy-impl/src/main/java/org/apache/aries/proxy/impl/common/ConstructorFinder.java
+2	false	proxy/proxy-impl/src/main/java/org/apache/aries/proxy/impl/common/AbstractWovenProxyAdapter.java
+3	false	proxy/proxy-impl/src/main/java/org/apache/aries/proxy/impl/ProxyUtils.java
+4	false	jmx/jmx-core/src/main/java/org/apache/aries/jmx/cm/ConfigurationAdmin.java
+ARIES-1441
+0	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/BasicSubsystem.java
+1	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/SubsystemResource.java
+2	false	jmx/jmx-core-whiteboard/src/main/java/org/apache/aries/jmx/core/whiteboard/Activator.java
+3	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BlueprintContainerImpl.java
+4	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/archive/DeployedContentHeader.java
+ARIES-1442
+0	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/DependencyCalculator.java
+1	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/archive/TypeAttribute.java
+2	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/archive/RequireCapabilityRequirement.java
+3	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/archive/VersionRangeAttribute.java
+4	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/BasicCapability.java
+ARIES-1445
+0	false	jmx/jmx-core/src/main/java/org/apache/aries/jmx/framework/Framework.java
+1	false	jmx/jmx-api/src/main/java/org/osgi/jmx/framework/FrameworkMBean.java
+2	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/BundleResourceUninstaller.java
+3	true	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/SubsystemResource.java
+4	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/BasicSubsystem.java
+ARIES-1451
+0	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/RepositoryServiceRepository.java
+1	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/Activator.java
+2	false	jmx/jmx-core/src/main/java/org/apache/aries/jmx/framework/Framework.java
+3	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/ResolveContext.java
+4	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BeanRecipe.java
+ARIES-1453
+0	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/Location.java
+1	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/SubsystemResource.java
+2	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/DependencyCalculator.java
+3	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/SubsystemUri.java
+4	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/archive/RequireCapabilityRequirement.java
+ARIES-1454
+0	true	transaction/transaction-blueprint/src/main/java/org/apache/aries/transaction/TxInterceptorImpl.java
+1	false	util/src/main/java/org/apache/aries/util/AriesFrameworkUtil.java
+2	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/BundleResourceInstaller.java
+3	false	transaction/transaction-manager/src/main/java/org/apache/aries/transaction/internal/Activator.java
+4	false	application/application-runtime-framework/src/main/java/org/apache/aries/application/runtime/framework/BundleFrameworkImpl.java
+ARIES-1461
+0	false	application/application-api/src/main/java/org/apache/aries/application/management/spi/convert/ConversionException.java
+1	false	application/application-api/src/main/java/org/apache/aries/application/management/spi/runtime/LocalPlatform.java
+2	false	application/application-api/src/main/java/org/apache/aries/application/modelling/ModellingManager.java
+3	false	application/application-api/src/main/java/org/apache/aries/application/InvalidAttributeException.java
+4	false	application/application-api/src/main/java/org/apache/aries/application/management/spi/repository/PlatformRepository.java
+ARIES-1467
+0	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/services/BlueprintExtenderService.java
+1	false	spi-fly/spi-fly-core/src/main/java/org/apache/aries/spifly/ProviderPrototypeServiceFactory.java
+2	false	web/web-urlhandler/src/main/java/org/apache/aries/web/converter/impl/Activator.java
+3	false	spi-fly/spi-fly-core/src/main/java/org/apache/aries/spifly/ProviderBundleTrackerCustomizer.java
+4	false	web/web-urlhandler/src/main/java/org/apache/aries/web/converter/impl/PackageFinder.java
+ARIES-1468
+0	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BlueprintContainerImpl.java
+1	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BeanRecipe.java
+2	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/RecipeBuilder.java
+3	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/ReferenceRecipe.java
+4	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/di/RefRecipe.java
+ARIES-1472
+0	false	blueprint/blueprint-parser/src/main/java/org/apache/aries/blueprint/BeanProcessor.java
+1	false	blueprint/blueprint-cm/src/main/java/org/apache/aries/blueprint/compendium/cm/CmManagedProperties.java
+2	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/IdSpace.java
+3	false	blueprint/blueprint-parser/src/main/java/org/apache/aries/blueprint/ComponentDefinitionRegistryProcessor.java
+4	false	blueprint/blueprint-parser/src/main/java/org/apache/aries/blueprint/Processor.java
+ARIES-1474
+0	false	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/handlers/blueprint/init/BlueprintInitialization.java
+1	false	blueprint/plugin/blueprint-maven-plugin-spi/src/main/java/org/apache/aries/blueprint/plugin/spi/ContextInitializationHandler.java
+2	false	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/BlueprintConfigurationImpl.java
+3	false	blueprint/plugin/blueprint-maven-plugin-spi/src/main/java/org/apache/aries/blueprint/plugin/spi/BlueprintConfiguration.java
+4	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BlueprintContainerImpl.java
+ARIES-1477
+0	true	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/namespace/NamespaceHandlerRegistryImpl.java
+1	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/ServiceRecipe.java
+2	false	proxy/proxy-impl/src/main/java/org/apache/aries/proxy/impl/AbstractProxyManager.java
+3	false	util/src/main/java/org/apache/aries/util/AriesFrameworkUtil.java
+4	false	spi-fly/spi-fly-weaver/src/main/java/org/apache/aries/spifly/weaver/TCCLSetterVisitor.java
+ARIES-1478
+0	false	jmx/jmx-core/src/main/java/org/apache/aries/jmx/agent/JMXAgentImpl.java
+1	false	util/src/main/java/org/apache/aries/util/AriesFrameworkUtil.java
+2	false	util/src/main/java/org/apache/aries/util/tracker/SingleServiceTracker.java
+3	false	jmx/jmx-core/src/main/java/org/apache/aries/jmx/framework/ServiceState.java
+4	false	transaction/transaction-jdbc/src/main/java/org/apache/aries/transaction/jdbc/internal/Activator.java
+ARIES-1481
+0	true	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/model/Bean.java
+1	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/utils/ReflectionUtils.java
+2	true	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/BlueprintFileWriter.java
+3	false	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/model/BeanRef.java
+4	false	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/model/BeanFromFactory.java
+ARIES-1486
+0	false	proxy/proxy-impl/src/main/java/org/apache/aries/proxy/impl/interfaces/ProxyClassLoader.java
+1	false	proxy/proxy-impl/src/main/java/org/apache/aries/proxy/impl/AsmProxyManager.java
+2	false	proxy/proxy-impl/src/main/java/org/apache/aries/proxy/impl/common/WovenProxyAbstractMethodAdapter.java
+3	false	proxy/proxy-impl/src/main/java/org/apache/aries/proxy/impl/interfaces/InterfaceUsingWovenProxyAdapter.java
+4	true	proxy/proxy-impl/src/main/java/org/apache/aries/proxy/impl/interfaces/InterfaceCombiningClassAdapter.java
+ARIES-1492
+0	true	proxy/proxy-impl/src/main/java/org/apache/aries/proxy/impl/gen/ProxySubclassAdapter.java
+1	false	proxy/proxy-impl/src/main/java/org/apache/aries/proxy/impl/gen/ProxySubclassGenerator.java
+2	false	proxy/proxy-impl/src/main/java/org/apache/aries/proxy/impl/AsmProxyManager.java
+3	false	proxy/proxy-impl/src/main/java/org/apache/aries/proxy/impl/interfaces/ProxyClassLoader.java
+4	false	proxy/proxy-impl/src/main/java/org/apache/aries/proxy/impl/common/MethodCopyingClassAdapter.java
+ARIES-1498
+0	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BlueprintContainerImpl.java
+1	false	util/src/main/java/org/apache/aries/util/AriesFrameworkUtil.java
+2	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/ReferenceListRecipe.java
+3	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/ReferenceRecipe.java
+4	true	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/AbstractServiceReferenceRecipe.java
+ARIES-1500
+0	false	proxy/proxy-impl/src/main/java/org/apache/aries/proxy/impl/ProxyUtils.java
+1	false	proxy/proxy-impl/src/main/java/org/apache/aries/proxy/impl/gen/ProxySubclassAdapter.java
+2	true	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/AggregateConverter.java
+3	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/di/MapRecipe.java
+4	false	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/model/CustomTypeConverterWriter.java
+ARIES-1503
+0	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/ext/impl/ExtNamespaceHandler.java
+1	true	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/namespace/NamespaceHandlerRegistryImpl.java
+2	true	blueprint/blueprint-cm/src/main/java/org/apache/aries/blueprint/compendium/cm/CmNamespaceHandler.java
+3	true	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BlueprintContainerImpl.java
+4	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/ext/AbstractPropertyPlaceholder.java
+ARIES-1522
+0	false	proxy/proxy-impl/src/main/java/org/apache/aries/proxy/impl/common/ConstructorFinder.java
+1	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/RawSubsystemResource.java
+2	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/SubsystemResource.java
+3	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/archive/DeployedContentHeader.java
+4	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/proxy/CollaboratorFactory.java
+ARIES-1523
+0	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/archive/SubsystemContentRequirement.java
+1	false	application/application-obr-resolver/src/main/java/org/apache/aries/application/resolver/obr/impl/RequirementImpl.java
+2	false	application/application-obr-resolver/src/main/java/org/apache/aries/application/resolver/obr/OBRAriesResolver.java
+3	false	application/application-obr-resolver/src/main/java/org/apache/aries/application/resolver/obr/impl/ApplicationResourceImpl.java
+4	false	application/application-api/src/main/java/org/apache/aries/application/management/spi/resolve/PreResolveHook.java
+ARIES-1540
+0	true	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/namespace/NamespaceHandlerRegistryImpl.java
+1	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BlueprintContainerImpl.java
+2	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BlueprintExtender.java
+3	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/AbstractServiceReferenceRecipe.java
+4	false	util/src/main/java/org/apache/aries/util/tracker/BundleTrackerFactory.java
+ARIES-1542
+0	false	transaction/transaction-jdbc/src/main/java/org/apache/aries/transaction/jdbc/internal/ValidatingDelegatingManagedConnectionFactory.java
+1	false	transaction/transaction-jdbc/src/main/java/org/apache/aries/transaction/jdbc/internal/Reflections.java
+2	true	transaction/transaction-jdbc/src/main/java/org/apache/aries/transaction/jdbc/internal/ValidatingGenericConnectionManager.java
+3	false	transaction/transaction-jdbc/src/main/java/org/apache/aries/transaction/jdbc/RecoverableDataSource.java
+4	false	transaction/transaction-manager/src/main/java/org/apache/aries/transaction/internal/TransactionLogUtils.java
+ARIES-1544
+0	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/AggregateConverter.java
+1	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/utils/ReflectionUtils.java
+2	false	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/model/Introspector.java
+3	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/utils/JavaUtils.java
+4	false	blueprint/blueprint-cm/src/main/java/org/apache/aries/blueprint/compendium/cm/CmNamespaceHandler.java
+ARIES-1550
+0	false	transaction/transaction-jdbc/src/main/java/org/apache/aries/transaction/jdbc/internal/XADataSourceMCFFactory.java
+1	false	transaction/transaction-jdbc/src/main/java/org/apache/aries/transaction/jdbc/internal/ValidatingDelegatingManagedConnectionFactory.java
+2	false	transaction/transaction-jdbc/src/main/java/org/apache/aries/transaction/jdbc/internal/Reflections.java
+3	false	transaction/transaction-jdbc/src/main/java/org/apache/aries/transaction/jdbc/internal/ValidatingGenericConnectionManager.java
+4	false	transaction/transaction-jdbc/src/main/java/org/apache/aries/transaction/jdbc/RecoverableDataSource.java
+ARIES-1554
+0	false	subsystem/subsystem-api/src/main/java/org/osgi/service/subsystem/package-info.java
+1	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/archive/ProvisionResourceHeader.java
+2	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/archive/SubsystemManifest.java
+3	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/archive/DeployedContentHeader.java
+4	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/OsgiContentCapability.java
+ARIES-1567
+0	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BeanRecipe.java
+1	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/utils/ReflectionUtils.java
+2	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BlueprintContainerImpl.java
+3	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/AggregateConverter.java
+4	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/RecipeBuilder.java
+ARIES-1572
+0	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BeanRecipe.java
+1	true	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/AggregateConverter.java
+2	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/di/ValueRecipe.java
+3	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/RecipeBuilder.java
+4	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/utils/ReflectionUtils.java
+ARIES-1578
+0	false	blueprint/blueprint-cm/src/main/java/org/apache/aries/blueprint/compendium/cm/CmNamespaceHandler.java
+1	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/ReferenceRecipe.java
+2	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/namespace/NamespaceHandlerRegistryImpl.java
+3	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BlueprintContainerImpl.java
+4	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BlueprintExtender.java
+ARIES-1590
+0	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/RawSubsystemResource.java
+1	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/SubsystemResource.java
+2	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/ResolveContext.java
+3	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/Utils.java
+4	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/Activator.java
+ARIES-1603
+0	true	async/async-impl/src/main/java/org/apache/aries/async/impl/AsyncService.java
+1	false	async/async-api/src/main/java/org/osgi/service/async/delegate/AsyncDelegate.java
+2	true	async/async-impl/src/main/java/org/apache/aries/async/impl/AsyncServiceFactory.java
+3	false	async/async-impl/src/main/java/org/apache/aries/async/impl/TrackingInvocationHandler.java
+4	false	async/async-impl/src/main/java/org/apache/aries/async/impl/MethodCall.java
+ARIES-1608
+0	false	application/application-obr-resolver/src/main/java/org/apache/aries/application/resolver/obr/OBRAriesResolver.java
+1	false	application/application-obr-resolver/src/main/java/org/apache/aries/application/resolver/obr/impl/RequirementImpl.java
+2	false	application/application-obr-resolver/src/main/java/org/apache/aries/application/resolver/obr/impl/ApplicationResourceImpl.java
+3	false	application/application-modeller/src/main/java/org/apache/aries/application/modelling/impl/ImportedServiceImpl.java
+4	false	application/application-api/src/main/java/org/apache/aries/application/management/spi/resolve/PreResolveHook.java
+ARIES-1609
+0	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/BasicSubsystem.java
+1	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/RawSubsystemResource.java
+2	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/ResourceInstaller.java
+3	true	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/StartAction.java
+4	true	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/StopAction.java
+ARIES-1618
+0	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BeanRecipe.java
+1	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BlueprintContainerImpl.java
+2	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/di/RefRecipe.java
+3	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/di/CollectionRecipe.java
+4	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/AggregateConverter.java
+ARIES-1630
+0	false	jmx/jmx-core/src/main/java/org/apache/aries/jmx/cm/ConfigurationAdminMBeanHandler.java
+1	false	jmx/jmx-core/src/main/java/org/apache/aries/jmx/permissionadmin/PermissionAdminMBeanHandler.java
+2	false	jmx/jmx-core/src/main/java/org/apache/aries/jmx/useradmin/UserAdminMBeanHandler.java
+3	false	jmx/jmx-core/src/main/java/org/apache/aries/jmx/codec/RoleData.java
+4	false	jmx/jmx-core/src/main/java/org/apache/aries/jmx/codec/UserData.java
+ARIES-1637
+0	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/RawSubsystemResource.java
+1	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/SubsystemResource.java
+2	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/BasicSubsystem.java
+3	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/archive/DeployedContentHeader.java
+4	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/SubsystemUri.java
+ARIES-1641
+0	false	blueprint/plugin/blueprint-maven-plugin-pax-cdi-handlers/src/main/java/org/apache/aries/blueprint/plugin/handlers/paxcdi/ServiceProperty.java
+1	false	blueprint/plugin/blueprint-maven-plugin-pax-cdi-handlers/src/main/java/org/apache/aries/blueprint/plugin/handlers/paxcdi/OsgiServiceHandler.java
+2	true	blueprint/plugin/blueprint-maven-plugin-pax-cdi-handlers/src/main/java/org/apache/aries/blueprint/plugin/handlers/paxcdi/OsgiServiceProviderHandler.java
+3	false	jmx/jmx-core/src/main/java/org/apache/aries/jmx/codec/ServiceData.java
+4	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/utils/JavaUtils.java
+ARIES-1662
+0	false	blueprint/blueprint-parser/src/main/java/org/apache/aries/blueprint/Interceptor.java
+1	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/proxy/Collaborator.java
+2	false	blueprint/blueprint-parser/src/main/java/org/apache/aries/blueprint/ComponentDefinitionRegistry.java
+3	false	blueprint/blueprint-parser/src/main/java/org/apache/aries/blueprint/parser/ComponentDefinitionRegistryImpl.java
+4	false	blueprint/blueprint-parser/src/main/java/org/apache/aries/blueprint/NamespaceHandler.java
+ARIES-1673
+0	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/utils/ReflectionUtils.java
+1	false	blueprint/blueprint-spring-extender/src/main/java/org/apache/aries/blueprint/spring/extender/SpringOsgiExtension.java
+2	true	blueprint/blueprint-spring/src/main/java/org/apache/aries/blueprint/spring/BlueprintNamespaceHandler.java
+3	false	blueprint/blueprint-spring/src/main/java/org/apache/aries/blueprint/spring/BeansNamespaceHandler.java
+4	false	blueprint/blueprint-spring-camel/src/main/java/org/apache/camel/osgi/OsgiSpringCamelContext.java
+ARIES-1681
+0	false	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/handlers/blueprint/bean/BeanHandler.java
+1	true	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/model/BeanFromFactory.java
+2	false	blueprint/plugin/blueprint-maven-plugin-annotation/src/main/java/org/apache/aries/blueprint/annotation/bean/Scope.java
+3	false	blueprint/plugin/blueprint-maven-plugin-annotation/src/main/java/org/apache/aries/blueprint/annotation/bean/Bean.java
+4	false	blueprint/plugin/blueprint-maven-plugin-annotation/src/main/java/org/apache/aries/blueprint/annotation/bean/Activation.java
+ARIES-1682
+0	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/ext/impl/ExtNamespaceHandler.java
+1	false	blueprint/blueprint-cm/src/main/java/org/apache/aries/blueprint/compendium/cm/CmNamespaceHandler.java
+2	true	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/namespace/NamespaceHandlerRegistryImpl.java
+3	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BlueprintContainerImpl.java
+4	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/ext/AbstractPropertyPlaceholder.java
+ARIES-1683
+0	false	blueprint/blueprint-noosgi/src/main/java/org/apache/aries/blueprint/ext/AbstractPropertyPlaceholder.java
+1	false	blueprint/blueprint-cm/src/main/java/org/apache/aries/blueprint/compendium/cm/CmPropertyPlaceholder.java
+2	false	blueprint/blueprint-cm/src/main/java/org/apache/aries/blueprint/compendium/cm/CmNamespaceHandler.java
+3	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/ext/AbstractPropertyPlaceholder.java
+4	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/ext/evaluator/PropertyEvaluatorExt.java
+ARIES-1686
+0	false	eba-maven-plugin/src/main/java/org/apache/aries/plugin/eba/EbaMojo.java
+1	true	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/GenerateMojo.java
+2	false	esa-maven-plugin/src/main/java/org/apache/aries/plugin/esa/EsaMojo.java
+3	false	esa-maven-plugin/src/main/java/org/apache/aries/plugin/esa/ContentInfo.java
+4	false	blueprint/plugin/blueprint-maven-plugin-spi/src/main/java/org/apache/aries/blueprint/plugin/spi/BlueprintConfiguration.java
+ARIES-1687
+0	false	eba-maven-plugin/src/main/java/org/apache/aries/plugin/eba/EbaMojo.java
+1	true	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/GenerateMojo.java
+2	false	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/AddResourceDirMojo.java
+3	false	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/ResourceInitializer.java
+4	false	esa-maven-plugin/src/main/java/org/apache/aries/plugin/esa/EsaMojo.java
+ARIES-1690
+0	true	transaction/transaction-blueprint/src/main/java/org/apache/aries/transaction/TxInterceptorImpl.java
+1	false	tutorials/blueprint/tutorial-modules/greeter-server-osgi/src/main/java/org/apache/aries/tutorials/blueprint/greeter/server/osgi/GreeterMessageServiceImpl.java
+2	false	tutorials/blueprint/tutorial-modules/greeter-server-osgi/src/main/java/org/apache/aries/tutorials/blueprint/greeter/server/osgi/ServiceRegisteringActivator.java
+3	false	tutorials/blueprint/tutorial-modules/greeter-server-blueprint/src/main/java/org/apache/aries/tutorials/blueprint/greeter/server/blueprint/GreeterMessageServiceImpl.java
+4	false	tutorials/blueprint/tutorial-modules/greeter-api/src/main/java/org/apache/aries/tutorials/blueprint/greeter/api/GreeterMessageService.java
+ARIES-1694
+0	false	jndi/jndi-core/src/main/java/org/apache/aries/jndi/ContextHelper.java
+1	false	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/handlers/javax/CdiTransactionFactory.java
+2	false	application/application-utils/src/main/java/org/apache/aries/application/impl/ContentImpl.java
+3	false	blueprint/blueprint-cm/src/main/java/org/apache/aries/blueprint/compendium/cm/BaseManagedServiceFactory.java
+4	false	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/handlers/javax/AbstractTransactionFactory.java
+ARIES-1700
+0	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BeanRecipe.java
+1	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/RecipeBuilder.java
+2	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/ext/AbstractPropertyPlaceholder.java
+3	false	proxy/proxy-impl/src/main/java/org/apache/aries/proxy/impl/gen/ProxySubclassAdapter.java
+4	false	blueprint/blueprint-cm/src/main/java/org/apache/aries/blueprint/compendium/cm/CmNamespaceHandler.java
+ARIES-1701
+0	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/ReferenceRecipe.java
+1	false	jmx/jmx-core/src/main/java/org/apache/aries/jmx/cm/ConfigurationAdminMBeanHandler.java
+2	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/ReferenceListRecipe.java
+3	false	jndi/jndi-url/src/main/java/org/apache/aries/jndi/services/ServiceHelper.java
+4	false	jndi/jndi-core/src/main/java/org/apache/aries/jndi/ContextHelper.java
+ARIES-1707
+0	false	jmx/jmx-core/src/main/java/org/apache/aries/jmx/useradmin/UserAdmin.java
+1	false	jmx/jmx-core/src/main/java/org/apache/aries/jmx/util/FrameworkUtils.java
+2	false	jmx/jmx-core/src/main/java/org/apache/aries/jmx/framework/Framework.java
+3	false	jmx/jmx-core/src/main/java/org/apache/aries/jmx/provisioning/ProvisioningService.java
+4	false	jmx/jmx-core/src/main/java/org/apache/aries/jmx/permissionadmin/PermissionAdmin.java
+ARIES-1719
+0	false	application/application-resolve-transform-cm/src/main/java/org/apache/aries/application/resolve/transform/cm/ConfigurationPostResolveTransformerImpl.java
+1	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/ext/evaluator/PropertyEvaluatorExt.java
+2	false	blueprint/blueprint-jexl-evaluator/src/main/java/org/apache/aries/blueprint/jexl/evaluator/JexlPropertyEvaluator.java
+3	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/ext/PropertyPlaceholderExt.java
+4	false	blueprint/blueprint-parser/src/main/java/org/apache/aries/blueprint/ExtendedValueMetadata.java
+ARIES-1720
+0	true	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/RawSubsystemResource.java
+1	false	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/ResourceInitializer.java
+2	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/SubsystemResource.java
+3	false	esa-maven-plugin/src/main/java/org/apache/aries/plugin/esa/EsaMojo.java
+4	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/archive/DeployedContentHeader.java
+ARIES-1724
+0	false	proxy/proxy-impl/src/main/java/org/apache/aries/proxy/impl/common/MethodCopyingClassAdapter.java
+1	false	proxy/proxy-impl/src/main/java/org/apache/aries/proxy/impl/weaving/WovenProxyAdapter.java
+2	false	proxy/proxy-impl/src/main/java/org/apache/aries/proxy/impl/AsmProxyManager.java
+3	false	proxy/proxy-impl/src/main/java/org/apache/aries/proxy/impl/common/WovenProxyConcreteMethodAdapter.java
+4	false	proxy/proxy-impl/src/main/java/org/apache/aries/proxy/impl/interfaces/InterfaceUsingWovenProxyAdapter.java
+ARIES-1726
+0	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/archive/SubsystemContentRequirement.java
+1	false	blueprint/blueprint-noosgi/src/main/java/org/apache/aries/blueprint/ext/PropertyPlaceholder.java
+2	false	blueprint/blueprint-noosgi/src/main/java/org/apache/aries/blueprint/ext/impl/ExtNamespaceHandler.java
+3	false	blueprint/blueprint-noosgi/src/main/java/org/apache/aries/blueprint/services/ExtendedBlueprintContainer.java
+4	false	blueprint/blueprint-noosgi/src/main/java/org/apache/aries/blueprint/container/BeanRecipe.java
+ARIES-1727
+0	false	blueprint/blueprint-spring-extender/src/main/java/org/apache/aries/blueprint/spring/extender/SpringOsgiExtension.java
+1	true	blueprint/blueprint-spring/src/main/java/org/apache/aries/blueprint/spring/BlueprintNamespaceHandler.java
+2	false	blueprint/blueprint-spring/src/main/java/org/apache/aries/blueprint/spring/BeansNamespaceHandler.java
+3	false	blueprint/blueprint-spring-camel/src/main/java/org/apache/camel/osgi/OsgiSpringCamelContext.java
+4	false	blueprint/blueprint-spring-camel/src/main/java/org/apache/camel/osgi/CamelContextFactoryBean.java
+ARIES-1729
+0	true	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/RawSubsystemResource.java
+1	false	esa-maven-plugin/src/main/java/org/apache/aries/plugin/esa/EsaMojo.java
+2	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/archive/DeployedContentHeader.java
+3	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/SubsystemResource.java
+4	false	subsystem/subsystem-api/src/main/java/org/osgi/service/subsystem/package-info.java
+ARIES-1735
+0	false	blueprint/blueprint-parser/src/main/java/org/apache/aries/blueprint/BeanProcessor.java
+1	false	blueprint/blueprint-cm/src/main/java/org/apache/aries/blueprint/compendium/cm/CmManagedProperties.java
+2	false	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/model/BeanFromFactory.java
+3	false	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/model/Bean.java
+4	false	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/BlueprintFileWriter.java
+ARIES-1738
+0	false	blueprint/blueprint-parser/src/main/java/org/apache/aries/blueprint/parser/Parser.java
+1	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/RecipeBuilder.java
+2	false	blueprint/blueprint-parser/src/main/java/org/apache/aries/blueprint/reflect/MetadataUtil.java
+3	true	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BlueprintContainerImpl.java
+4	false	blueprint/blueprint-parser/src/main/java/org/apache/aries/blueprint/reflect/BeanMetadataImpl.java
+ARIES-1739
+0	true	spi-fly/spi-fly-core/src/main/java/org/apache/aries/spifly/ProviderBundleTrackerCustomizer.java
+1	false	spi-fly/spi-fly-core/src/main/java/org/apache/aries/spifly/BaseActivator.java
+2	false	application/application-modeller/src/main/java/org/apache/aries/application/modelling/impl/ImportedServiceImpl.java
+3	false	spi-fly/spi-fly-static-tool/src/main/java/org/apache/aries/spifly/statictool/Main.java
+4	false	application/application-api/src/main/java/org/apache/aries/application/modelling/ModellingManager.java
+ARIES-1744
+0	false	jmx/jmx-core/src/main/java/org/apache/aries/jmx/framework/Framework.java
+1	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/ext/PropertyPlaceholder.java
+2	false	jmx/jmx-core/src/main/java/org/apache/aries/jmx/useradmin/UserAdmin.java
+3	false	subsystem/subsystem-core/src/main/java/org/apache/aries/subsystem/core/internal/BundleResource.java
+4	false	application/application-management/src/main/java/org/apache/aries/application/management/impl/AriesApplicationManagerImpl.java
+ARIES-1766
+0	false	jmx/jmx-core/src/main/java/org/apache/aries/jmx/agent/JMXAgentContext.java
+1	false	jmx/jmx-core/src/main/java/org/apache/aries/jmx/agent/JMXAgent.java
+2	false	jmx/jmx-whiteboard/src/main/java/org/apache/aries/jmx/whiteboard/Activator.java
+3	false	jmx/jmx-core/src/main/java/org/apache/aries/jmx/agent/JMXAgentImpl.java
+4	true	jmx/jmx-whiteboard/src/main/java/org/apache/aries/jmx/whiteboard/MBeanHolder.java
+ARIES-1768
+0	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/ReferenceRecipe.java
+1	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/ReferenceListRecipe.java
+2	true	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BlueprintContainerImpl.java
+3	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BlueprintExtender.java
+4	false	util/src/main/java/org/apache/aries/util/tracker/RecursiveBundleTracker.java
+ARIES-1770
+0	false	blueprint/blueprint-noosgi/src/main/java/org/apache/aries/blueprint/container/SimpleNamespaceHandlerSet.java
+1	false	blueprint/blueprint-spring-extender/src/main/java/org/apache/aries/blueprint/spring/extender/SpringOsgiExtension.java
+2	true	blueprint/blueprint-spring/src/main/java/org/apache/aries/blueprint/spring/BlueprintNamespaceHandler.java
+3	false	blueprint/blueprint-spring/src/main/java/org/apache/aries/blueprint/spring/BeansNamespaceHandler.java
+4	false	blueprint/blueprint-spring-camel/src/main/java/org/apache/camel/osgi/OsgiSpringCamelContext.java
+ARIES-1781
+ARIES-1782
+0	false	subsystem/subsystem-example/subsystem-helloIsolation/src/main/java/org/apache/aries/subsystem/example/helloIsolation/Activator.java
+1	false	subsystem/subsystem-example/subsystem-helloIsolation/src/main/java/org/apache/aries/subsystem/example/helloIsolation/HelloIsolationImpl.java
+2	false	subsystem/subsystem-example/subsystem-helloIsolation/src/main/java/org/apache/aries/subsystem/example/helloIsolation/HelloIsolation.java
+3	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BlueprintProtectionDomain.java
+4	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BlueprintDomainCombiner.java
+ARIES-1790
+0	false	tutorials/blueprint/tutorial-modules/greeter-server-osgi/src/main/java/org/apache/aries/tutorials/blueprint/greeter/server/osgi/GreeterMessageServiceImpl.java
+1	false	tutorials/blueprint/tutorial-modules/greeter-server-osgi/src/main/java/org/apache/aries/tutorials/blueprint/greeter/server/osgi/ServiceRegisteringActivator.java
+2	false	tutorials/blueprint/tutorial-modules/greeter-server-blueprint/src/main/java/org/apache/aries/tutorials/blueprint/greeter/server/blueprint/GreeterMessageServiceImpl.java
+3	false	tutorials/blueprint/tutorial-modules/greeter-api/src/main/java/org/apache/aries/tutorials/blueprint/greeter/api/GreeterMessageService.java
+4	false	tutorials/blueprint/tutorial-modules/greeter-client-blueprint/src/main/java/org/apache/aries/tutorials/blueprint/greeter/client/GreeterBlueprintClient.java
+ARIES-1791
+0	false	eba-maven-plugin/src/main/java/org/apache/aries/plugin/eba/EbaMojo.java
+1	true	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/GenerateMojo.java
+2	false	blueprint/plugin/blueprint-maven-plugin-spi/src/main/java/org/apache/aries/blueprint/plugin/spi/BlueprintConfiguration.java
+3	false	esa-maven-plugin/src/main/java/org/apache/aries/plugin/esa/EsaMojo.java
+4	false	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/handlers/javax/JavaxTransactionFactory.java
+ARIES-1793
+0	true	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BeanRecipe.java
+1	true	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/utils/ReflectionUtils.java
+2	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/AggregateConverter.java
+3	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BlueprintContainerImpl.java
+4	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/RecipeBuilder.java
+ARIES-1800
+0	false	transaction/transaction-blueprint/src/main/java/org/apache/aries/transaction/TxInterceptorImpl.java
+1	true	transaction/transaction-blueprint/src/main/java/org/apache/aries/transaction/ComponentTxData.java
+2	false	transaction/transaction-blueprint/src/main/java/org/apache/aries/transaction/parsing/AnnotationProcessor.java
+3	false	transaction/transaction-blueprint/src/main/java/org/apache/aries/transaction/parsing/TxNamespaceHandler.java
+4	false	blueprint/plugin/blueprint-maven-plugin-spring-handlers/src/main/java/org/apache/aries/blueprint/plugin/handlers/spring/SpringTransactionalFactory.java
+ARIES-1805
+0	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/utils/JavaUtils.java
+1	false	blueprint/blueprint-cm/src/main/java/org/apache/aries/blueprint/compendium/cm/CmProperties.java
+2	false	blueprint/blueprint-cm/src/main/java/org/apache/aries/blueprint/compendium/cm/CmNamespaceHandler.java
+3	false	blueprint/plugin/blueprint-maven-plugin-pax-cdi-handlers/src/main/java/org/apache/aries/blueprint/plugin/handlers/paxcdi/ServiceProperty.java
+4	false	blueprint/plugin/blueprint-maven-plugin-pax-cdi-handlers/src/main/java/org/apache/aries/blueprint/plugin/handlers/paxcdi/OsgiServiceHandler.java
+ARIES-1816
+0	false	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/handlers/blueprint/service/ReferenceId.java
+1	false	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/handlers/blueprint/service/ReferenceParameters.java
+2	false	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/handlers/blueprint/service/ReferenceHandler.java
+3	false	blueprint/plugin/blueprint-maven-plugin-annotation/src/main/java/org/apache/aries/blueprint/annotation/service/ReferenceList.java
+4	false	blueprint/plugin/blueprint-maven-plugin-annotation/src/main/java/org/apache/aries/blueprint/annotation/service/MemberType.java
+ARIES-1849
+0	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BeanRecipe.java
+1	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/di/MapRecipe.java
+2	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/RecipeBuilder.java
+3	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/di/ValueRecipe.java
+4	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/di/RefRecipe.java
+ARIES-1860
+0	false	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/ResourceInitializer.java
+1	false	util/src/main/java/org/apache/aries/util/internal/EquinoxWorker.java
+2	false	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/handlers/javax/PreDestroyHandler.java
+3	false	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/handlers/javax/PostConstructHandler.java
+4	false	blueprint/plugin/blueprint-maven-plugin/src/main/java/org/apache/aries/blueprint/plugin/handlers/javax/QualifierHandler.java
+ARIES-1863
+0	false	proxy/proxy-impl/src/main/java/org/apache/aries/proxy/impl/ProxyUtils.java
+1	false	proxy/proxy-impl/src/main/java/org/apache/aries/proxy/impl/gen/ProxySubclassAdapter.java
+2	false	versioning/versioning-checker/src/main/java/org/apache/aries/versioning/check/BundleCompatibility.java
+3	false	spi-fly/spi-fly-dynamic-bundle/src/main/java/org/apache/aries/spifly/dynamic/ClientWeavingHook.java
+4	false	versioning/versioning-plugin/src/main/java/org/apache/aries/versioning/mojo/VersionCheckerMojo.java
+ARIES-1864
+0	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BlueprintProtectionDomain.java
+1	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BlueprintDomainCombiner.java
+2	false	application/application-modeller/src/main/java/org/apache/aries/application/modelling/internal/BundleBlueprintParser.java
+3	false	subsystem/subsystem-example/subsystem-helloIsolation/src/main/java/org/apache/aries/subsystem/example/helloIsolation/Activator.java
+4	false	subsystem/subsystem-example/subsystem-helloIsolation/src/main/java/org/apache/aries/subsystem/example/helloIsolation/HelloIsolationImpl.java
+ARIES-1901
+0	false	spi-fly/spi-fly-core/src/main/java/org/apache/aries/spifly/BaseActivator.java
+1	false	application/application-api/src/main/java/org/apache/aries/application/management/spi/convert/ConversionException.java
+2	false	application/application-api/src/main/java/org/apache/aries/application/management/spi/runtime/LocalPlatform.java
+3	false	application/application-api/src/main/java/org/apache/aries/application/modelling/ModellingManager.java
+4	false	application/application-api/src/main/java/org/apache/aries/application/InvalidAttributeException.java
+ARIES-1923
+0	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/di/RefRecipe.java
+1	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/di/CollectionRecipe.java
+2	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/di/ValueRecipe.java
+3	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/AggregateConverter.java
+4	false	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/BlueprintContainerImpl.java
