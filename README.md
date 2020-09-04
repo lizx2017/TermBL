@@ -134,7 +134,7 @@ Here are [Raw Datasets](./dataset) we use in this project.
 ## Distinctions
 The distinctions of a file are words and code names that appear in its related issue reports. The distinctions can distinguish the symptom, cause, and functionality of the file from those of other files. 
 
-In this project, we carefully separate the structured information, including code snippets, stack traces and API mentions apart from textual descriptions. And then, we follow the conventional natural language processing steps, such as splitting by white spaces, removing stopwords and extracting stems. Finally, we leverage TFIDF to extract the distinctions of each source files based on descriptions in preceding resolved issue reports. Here we exhibit the [distinctions](./distinction) of source files and the [stopwords](./stopwords/stopwords.txt) we use.
+In this project, we carefully separate the structured information, including code snippets, stack traces and API mentions apart from textual descriptions. And then, we follow the conventional natural language processing steps, such as splitting by white spaces, removing stopwords and extracting stems. Finally, we leverage TFIDF to extract the distinctions of each source files based on descriptions in preceding resolved issue reports. Here we exhibit the [distinctions](./distinctions) of source files and the [stopwords](./stopwords) we use.
 
 ## Evaluation Results
 #### Overall Effectiveness
