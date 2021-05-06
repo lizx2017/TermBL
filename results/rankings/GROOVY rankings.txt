@@ -1,0 +1,713 @@
+==== GROOVY-8816 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	0
+==== GROOVY-8819 ====
+src/main/java/org/codehaus/groovy/ast/ClassCodeExpressionTransformer.java	17
+==== GROOVY-8822 ====
+src/main/java/org/apache/groovy/ast/tools/AnnotatedNodeUtils.java	759
+==== GROOVY-8825 ====
+src/main/java/groovy/transform/ToString.java	62
+src/main/java/org/codehaus/groovy/transform/DelegateASTTransformation.java	8
+src/main/java/org/codehaus/groovy/ast/tools/GeneralUtils.java	143
+==== GROOVY-8833 ====
+src/main/java/groovy/transform/AutoClone.java	2
+src/main/java/org/codehaus/groovy/transform/ImmutableASTTransformation.java	10
+src/main/java/org/codehaus/groovy/ast/tools/GeneralUtils.java	47
+==== GROOVY-8835 ====
+subprojects/groovy-console/src/main/groovy/groovy/console/ui/AstNodeToScriptAdapter.groovy	335
+src/main/java/org/codehaus/groovy/classgen/asm/sc/StaticTypesCallSiteWriter.java	254
+==== GROOVY-8840 ====
+src/main/java/org/codehaus/groovy/classgen/asm/sc/StaticInvocationWriter.java	2
+src/main/java/org/codehaus/groovy/classgen/asm/BinaryExpressionHelper.java	15
+==== GROOVY-8868 ====
+src/main/java/groovy/transform/ExternalizeMethods.java	69
+==== GROOVY-8871 ====
+src/main/java/org/codehaus/groovy/control/OptimizerVisitor.java	232
+==== GROOVY-8873 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	0
+==== GROOVY-8881 ====
+src/main/java/org/codehaus/groovy/classgen/asm/sc/StaticTypesCallSiteWriter.java	4
+==== GROOVY-8882 ====
+src/main/java/org/codehaus/groovy/transform/sc/StaticCompilationVisitor.java	6
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	1
+==== GROOVY-8892 ====
+src/main/java/org/codehaus/groovy/transform/trait/Traits.java	0
+==== GROOVY-8895 ====
+src/main/java/org/codehaus/groovy/tools/Compiler.java	1
+==== GROOVY-8898 ====
+src/main/java/groovy/grape/GrabAnnotationTransformation.java	341
+==== GROOVY-8914 ====
+src/main/java/org/codehaus/groovy/classgen/InnerClassVisitorHelper.java	3
+==== GROOVY-8917 ====
+src/main/java/org/codehaus/groovy/transform/stc/StaticTypeCheckingSupport.java	24
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	5
+src/main/java/org/codehaus/groovy/classgen/asm/sc/StaticTypesLambdaWriter.java	18
+==== GROOVY-8920 ====
+src/main/java/org/codehaus/groovy/transform/stc/StaticTypeCheckingSupport.java	595
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	1
+==== GROOVY-8930 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	0
+==== GROOVY-8931 ====
+subprojects/groovy-console/src/main/groovy/groovy/console/ui/AstNodeToScriptAdapter.groovy	19
+==== GROOVY-8936 ====
+subprojects/groovy-xml/src/main/java/groovy/xml/NamespaceBuilder.java	100
+subprojects/groovy-xml/src/main/java/groovy/xml/slurpersupport/ReplacementNode.java	200
+==== GROOVY-8947 ====
+src/main/java/groovy/util/NodeList.java	118
+src/main/java/org/codehaus/groovy/control/ResolveVisitor.java	43
+==== GROOVY-8951 ====
+src/main/java/org/codehaus/groovy/transform/trait/Traits.java	29
+src/main/java/org/codehaus/groovy/transform/trait/TraitComposer.java	395
+src/main/java/org/codehaus/groovy/tools/Compiler.java	0
+==== GROOVY-8954 ====
+src/main/java/org/codehaus/groovy/classgen/asm/InvocationWriter.java	91
+==== GROOVY-8959 ====
+src/main/java/org/codehaus/groovy/control/StaticVerifier.java	0
+==== GROOVY-8961 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	1
+==== GROOVY-8964 ====
+src/main/java/org/codehaus/groovy/ast/ClassNode.java	17
+==== GROOVY-8966 ====
+src/main/java/groovy/lang/EmptyRange.java	0
+src/main/java/groovy/lang/NumberRange.java	3
+src/main/java/org/codehaus/groovy/runtime/DefaultGroovyMethodsSupport.java	1
+==== GROOVY-8967 ====
+src/main/java/groovy/transform/options/DefaultPropertyHandler.java	756
+==== GROOVY-8969 ====
+src/main/java/org/codehaus/groovy/transform/trait/Traits.java	0
+==== GROOVY-8970 ====
+gradle/licenses.gradle	378
+==== GROOVY-8975 ====
+subprojects/groovy-cli-commons/src/main/groovy/groovy/cli/commons/CliBuilder.groovy	1
+subprojects/groovy-cli-picocli/build.gradle	0
+==== GROOVY-8990 ====
+src/main/java/org/codehaus/groovy/ast/tools/WideningCategories.java	7
+src/main/java/org/codehaus/groovy/vmplugin/VMPluginFactory.java	38
+==== GROOVY-8991 ====
+src/main/java/org/apache/groovy/parser/antlr4/AstBuilder.java	297
+==== GROOVY-8999 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	11
+src/main/java/groovy/lang/Closure.java	5
+src/main/java/org/codehaus/groovy/transform/stc/GroovyTypeCheckingExtensionSupport.java	312
+src/main/java/org/codehaus/groovy/classgen/asm/sc/StaticTypesCallSiteWriter.java	89
+==== GROOVY-9007 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	3
+src/main/java/org/codehaus/groovy/classgen/AsmClassGenerator.java	23
+==== GROOVY-9009 ====
+src/main/java/org/codehaus/groovy/transform/EqualsAndHashCodeASTTransformation.java	50
+==== GROOVY-9012 ====
+src/main/groovy/org/codehaus/groovy/tools/GrapeMain.groovy	20
+==== GROOVY-9014 ====
+src/main/java/org/codehaus/groovy/runtime/DefaultGroovyMethods.java	0
+==== GROOVY-9015 ====
+src/main/java/org/codehaus/groovy/classgen/InnerClassVisitorHelper.java	38
+src/main/java/org/codehaus/groovy/reflection/SunClassLoader.java	39
+src/main/java/org/codehaus/groovy/classgen/asm/BytecodeHelper.java	1
+==== GROOVY-9018 ====
+src/bin/startGroovy	27
+subprojects/groovy-groovysh/src/main/groovy/org/apache/groovy/groovysh/Interpreter.groovy	122
+subprojects/groovy-groovysh/src/main/groovy/org/apache/groovy/groovysh/CommandSupport.groovy	28
+==== GROOVY-9028 ====
+src/main/groovy/groovy/transform/Immutable.groovy	0
+==== GROOVY-9031 ====
+src/main/java/org/codehaus/groovy/tools/Compiler.java	4
+==== GROOVY-9035 ====
+src/main/java/org/codehaus/groovy/control/customizers/builder/SourceAwareCustomizerFactory.java	2
+==== GROOVY-9040 ====
+src/bin/groovysh	172
+src/bin/groovyConsole	146
+src/bin/groovyc	118
+src/bin/groovy	93
+src/bin/grape	397
+src/bin/java2groovy	398
+src/bin/startGroovy	1
+src/bin/groovydoc	360
+==== GROOVY-9043 ====
+src/main/java/org/codehaus/groovy/classgen/AsmClassGenerator.java	1
+==== GROOVY-9046 ====
+build.gradle	232
+==== GROOVY-9049 ====
+src/main/java/org/codehaus/groovy/runtime/EncodingGroovyMethods.java	0
+==== GROOVY-9050 ====
+src/main/java/org/apache/groovy/ast/tools/ClassNodeUtils.java	26
+src/main/java/org/codehaus/groovy/runtime/AbstractComparator.java	53
+==== GROOVY-9051 ====
+src/main/java/org/codehaus/groovy/classgen/InnerClassVisitorHelper.java	194
+subprojects/groovy-xml/src/main/java/groovy/xml/XmlParser.java	25
+==== GROOVY-9052 ====
+src/main/java/groovy/beans/BindableASTTransformation.java	75
+==== GROOVY-9053 ====
+src/main/java/groovy/beans/VetoableASTTransformation.java	33
+==== GROOVY-9054 ====
+src/main/java/groovy/transform/builder/InitializerStrategy.java	8
+src/main/java/groovy/transform/builder/DefaultStrategy.java	7
+src/main/java/groovy/transform/builder/Builder.java	52
+src/main/java/org/apache/groovy/ast/tools/AnnotatedNodeUtils.java	346
+src/main/java/groovy/transform/builder/SimpleStrategy.java	0
+==== GROOVY-9058 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	0
+==== GROOVY-9059 ====
+src/main/java/org/codehaus/groovy/runtime/DefaultGroovyStaticMethods.java	44
+src/main/java/org/codehaus/groovy/transform/stc/StaticTypeCheckingSupport.java	25
+subprojects/groovy-xml/src/main/java/groovy/xml/XmlParser.java	43
+==== GROOVY-9061 ====
+src/main/java/org/codehaus/groovy/reflection/ReflectionUtils.java	0
+==== GROOVY-9063 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	0
+==== GROOVY-9076 ====
+src/main/java/org/codehaus/groovy/classgen/asm/CallSiteWriter.java	841
+==== GROOVY-9077 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	0
+==== GROOVY-9078 ====
+subprojects/groovy-servlet/src/main/java/groovy/servlet/GroovyServlet.java	1
+src/main/java/org/codehaus/groovy/runtime/ConversionHandler.java	0
+==== GROOVY-9079 ====
+src/main/java/org/codehaus/groovy/transform/sc/transformers/ClosureExpressionTransformer.java	1074
+src/main/java/org/codehaus/groovy/control/ResolveVisitor.java	13
+src/main/java/org/codehaus/groovy/transform/CategoryASTTransformation.java	234
+src/main/java/org/codehaus/groovy/transform/AutoFinalASTTransformation.java	596
+src/main/java/org/codehaus/groovy/ast/ClassCodeExpressionTransformer.java	70
+src/main/java/org/codehaus/groovy/transform/sc/transformers/VariableExpressionTransformer.java	149
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	0
+==== GROOVY-9080 ====
+subprojects/groovy-templates/src/main/groovy/groovy/text/markup/IncludeType.java	71
+==== GROOVY-9086 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	0
+==== GROOVY-9093 ====
+src/main/java/org/codehaus/groovy/classgen/AsmClassGenerator.java	2
+==== GROOVY-9095 ====
+src/main/java/org/codehaus/groovy/runtime/DefaultGroovyStaticMethods.java	15
+subprojects/groovy-groovydoc/src/main/java/org/codehaus/groovy/tools/groovydoc/ClasspathResourceManager.java	64
+src/main/java/org/codehaus/groovy/control/ResolveVisitor.java	54
+src/main/java/groovy/transform/AnnotationCollectorMode.java	180
+==== GROOVY-9096 ====
+src/main/java/org/codehaus/groovy/runtime/DefaultGroovyStaticMethods.java	0
+subprojects/groovy-groovydoc/src/main/java/org/codehaus/groovy/tools/groovydoc/ClasspathResourceManager.java	8
+src/main/java/org/codehaus/groovy/control/ResolveVisitor.java	3
+src/main/java/groovy/transform/AnnotationCollectorMode.java	6
+==== GROOVY-9106 ====
+src/main/java/org/codehaus/groovy/classgen/asm/sc/StaticInvocationWriter.java	4
+src/main/java/org/codehaus/groovy/classgen/AsmClassGenerator.java	0
+==== GROOVY-9115 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	3
+==== GROOVY-9120 ====
+src/main/java/org/codehaus/groovy/classgen/VariableScopeVisitor.java	51
+==== GROOVY-9121 ====
+src/main/java/groovy/ui/GroovyMain.java	1
+==== GROOVY-9126 ====
+src/main/java/org/codehaus/groovy/classgen/asm/sc/StaticTypesStatementWriter.java	46
+src/main/java/org/codehaus/groovy/classgen/asm/sc/StaticTypesCallSiteWriter.java	57
+==== GROOVY-9127 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	1
+==== GROOVY-9136 ====
+src/main/java/org/codehaus/groovy/ast/tools/ClosureUtils.java	101
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	1
+==== GROOVY-9141 ====
+src/main/java/org/apache/groovy/parser/antlr4/AstBuilder.java	11
+==== GROOVY-9146 ====
+src/main/java/org/codehaus/groovy/ast/expr/MethodCallExpression.java	50
+==== GROOVY-9151 ====
+subprojects/groovy-xml/src/main/java/groovy/xml/XmlParser.java	10
+==== GROOVY-9153 ====
+src/main/java/org/codehaus/groovy/transform/LogASTTransformation.java	123
+src/main/java/groovy/grape/Grape.java	103
+src/main/java/org/codehaus/groovy/transform/FieldASTTransformation.java	268
+src/main/java/org/codehaus/groovy/ast/tools/GeneralUtils.java	420
+src/main/java/org/codehaus/groovy/classgen/asm/sc/StaticInvocationWriter.java	1
+src/main/java/groovy/util/logging/Log4j2.java	101
+src/main/java/groovy/util/logging/Commons.java	126
+src/main/java/groovy/util/logging/Log4j.java	121
+src/main/java/groovy/util/ScriptException.java	411
+src/main/java/groovy/util/logging/Slf4j.java	120
+src/main/java/org/codehaus/groovy/classgen/asm/AssertionWriter.java	1378
+src/main/java/org/codehaus/groovy/transform/LazyASTTransformation.java	152
+src/main/java/groovy/lang/Reference.java	717
+src/main/java/org/codehaus/groovy/ast/decompiled/Annotations.java	721
+src/main/java/groovy/transform/ExternalizeMethods.java	220
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	6
+src/main/java/org/apache/groovy/parser/antlr4/Antlr4PluginFactory.java	1032
+src/main/java/org/codehaus/groovy/transform/EqualsAndHashCodeASTTransformation.java	36
+==== GROOVY-9156 ====
+subprojects/groovy-console/src/main/groovy/groovy/console/ui/ScriptToTreeNodeAdapter.groovy	482
+==== GROOVY-9163 ====
+src/main/java/org/apache/groovy/ast/tools/ClassNodeUtils.java	106
+==== GROOVY-9168 ====
+src/main/java/org/codehaus/groovy/classgen/VerifierCodeVisitor.java	367
+src/main/java/org/codehaus/groovy/tools/Compiler.java	45
+src/main/java/org/codehaus/groovy/runtime/metaclass/MixinInstanceMetaProperty.java	0
+src/main/java/org/codehaus/groovy/classgen/InnerClassCompletionVisitor.java	64
+src/main/java/org/codehaus/groovy/classgen/InnerClassVisitorHelper.java	1
+subprojects/groovy-xml/src/main/java/groovy/xml/XmlParser.java	2
+src/main/java/org/codehaus/groovy/control/StaticVerifier.java	8
+==== GROOVY-9170 ====
+src/main/java/org/apache/groovy/ast/tools/ClassNodeUtils.java	23
+==== GROOVY-9176 ====
+src/main/java/org/codehaus/groovy/transform/trait/TraitASTTransformation.java	104
+src/main/java/org/codehaus/groovy/transform/trait/Traits.java	82
+src/main/java/org/codehaus/groovy/classgen/ClassCompletionVerifier.java	37
+subprojects/groovy-xml/src/main/java/groovy/xml/XmlParser.java	8
+==== GROOVY-9183 ====
+src/main/java/groovy/transform/NamedDelegate.java	26
+==== GROOVY-9185 ====
+src/main/java/org/codehaus/groovy/vmplugin/v8/Java8.java	643
+==== GROOVY-9194 ====
+src/main/java/org/codehaus/groovy/ast/expr/MethodCallExpression.java	0
+==== GROOVY-9195 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	1
+src/main/java/org/codehaus/groovy/classgen/asm/sc/StaticTypesCallSiteWriter.java	4
+==== GROOVY-9197 ====
+subprojects/groovy-ant/src/main/java/org/codehaus/groovy/ant/Groovyc.java	55
+==== GROOVY-9200 ====
+subprojects/groovy-console/src/main/groovy/groovy/console/ui/ScriptToTreeNodeAdapter.groovy	5
+==== GROOVY-9203 ====
+src/main/java/org/apache/groovy/parser/antlr4/AstBuilder.java	235
+==== GROOVY-9204 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	4
+==== GROOVY-9215 ====
+src/main/java/org/codehaus/groovy/transform/ASTTransformationCollectorCodeVisitor.java	270
+==== GROOVY-9237 ====
+src/main/java/org/codehaus/groovy/classgen/asm/sc/StaticTypesStatementWriter.java	665
+src/main/java/org/codehaus/groovy/classgen/asm/sc/StaticTypesCallSiteWriter.java	73
+src/main/java/org/codehaus/groovy/runtime/GStringImpl.java	2
+src/main/java/org/apache/groovy/parser/antlr4/AstBuilder.java	300
+src/main/java/org/apache/groovy/parser/antlr4/Antlr4PluginFactory.java	638
+src/main/java/org/codehaus/groovy/classgen/FinalVariableAnalyzer.java	598
+src/main/java/org/codehaus/groovy/ast/expr/MethodPointerExpression.java	1194
+==== GROOVY-9238 ====
+src/main/java/org/codehaus/groovy/transform/ASTTransformationVisitor.java	84
+==== GROOVY-9243 ====
+src/main/java/groovy/util/NodeList.java	21
+src/main/java/org/codehaus/groovy/control/ResolveVisitor.java	5
+==== GROOVY-9244 ====
+src/main/java/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java	434
+==== GROOVY-9245 ====
+src/main/java/groovy/transform/builder/DefaultStrategy.java	67
+src/main/java/org/codehaus/groovy/reflection/CachedClass.java	31
+==== GROOVY-9255 ====
+src/main/java/org/codehaus/groovy/syntax/RuntimeParserException.java	1075
+src/main/java/org/codehaus/groovy/transform/trait/SuperCallTraitTransformer.java	0
+==== GROOVY-9256 ====
+src/main/java/org/codehaus/groovy/transform/trait/SuperCallTraitTransformer.java	9
+==== GROOVY-9257 ====
+subprojects/groovy-groovysh/src/main/groovy/org/apache/groovy/groovysh/util/PackageHelperImpl.groovy	4
+==== GROOVY-9265 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	1
+==== GROOVY-9270 ====
+src/main/java/org/codehaus/groovy/control/CompilationUnit.java	16
+src/main/java/org/codehaus/groovy/syntax/RuntimeParserException.java	935
+src/main/java/org/codehaus/groovy/control/InstanceOfVerifier.java	1442
+==== GROOVY-9281 ====
+src/main/java/org/codehaus/groovy/control/ResolveVisitor.java	0
+==== GROOVY-9292 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	0
+==== GROOVY-9294 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	0
+==== GROOVY-9317 ====
+src/main/java/org/codehaus/groovy/classgen/asm/sc/StaticTypesCallSiteWriter.java	4
+==== GROOVY-9323 ====
+src/main/java/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java	1
+==== GROOVY-9327 ====
+src/main/java/org/codehaus/groovy/transform/sc/StaticCompilationVisitor.java	1
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	0
+==== GROOVY-9328 ====
+src/main/java/org/codehaus/groovy/transform/sc/StaticCompilationVisitor.java	12
+==== GROOVY-9329 ====
+src/main/java/org/codehaus/groovy/runtime/MetaClassHelper.java	0
+==== GROOVY-9332 ====
+src/main/java/org/codehaus/groovy/classgen/asm/WriterController.java	572
+==== GROOVY-9333 ====
+src/main/java/org/codehaus/groovy/classgen/asm/WriterController.java	23
+==== GROOVY-9335 ====
+src/main/java/org/codehaus/groovy/vmplugin/v8/PluginDefaultGroovyMethods.java	2
+src/main/java/org/codehaus/groovy/runtime/StringGroovyMethods.java	1
+==== GROOVY-9336 ====
+src/main/java/groovy/grape/GrabAnnotationTransformation.java	0
+==== GROOVY-9337 ====
+src/main/java/org/codehaus/groovy/vmplugin/v8/PluginDefaultGroovyMethods.java	0
+==== GROOVY-9338 ====
+src/main/java/org/codehaus/groovy/ast/expr/DeclarationExpression.java	8
+==== GROOVY-9340 ====
+src/main/java/org/codehaus/groovy/transform/stc/StaticTypeCheckingSupport.java	8
+==== GROOVY-9341 ====
+src/main/java/org/codehaus/groovy/classgen/asm/sc/StaticTypesLambdaWriter.java	152
+==== GROOVY-9342 ====
+src/main/java/org/codehaus/groovy/classgen/asm/WriterController.java	3
+src/main/java/org/codehaus/groovy/classgen/asm/sc/StaticTypesLambdaWriter.java	1
+==== GROOVY-9344 ====
+src/main/java/org/codehaus/groovy/classgen/asm/sc/StaticTypesTypeChooser.java	124
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	1
+==== GROOVY-9347 ====
+src/main/java/org/codehaus/groovy/transform/stc/StaticTypeCheckingSupport.java	3
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	2
+==== GROOVY-9352 ====
+src/main/java/org/codehaus/groovy/ast/decompiled/DecompiledClassNode.java	464
+src/main/java/groovy/lang/Script.java	685
+src/main/java/org/codehaus/groovy/runtime/ConversionHandler.java	121
+src/main/java/org/codehaus/groovy/ast/decompiled/LazyMethodNode.java	1056
+src/main/java/org/codehaus/groovy/ast/decompiled/LazyConstructorNode.java	1052
+src/main/java/org/codehaus/groovy/ast/decompiled/LazyFieldNode.java	1045
+subprojects/groovy-servlet/src/main/java/groovy/servlet/GroovyServlet.java	1270
+==== GROOVY-9368 ====
+subprojects/groovy-groovydoc/src/main/resources/org/codehaus/groovy/tools/groovydoc/Main.properties	26
+src/main/java/org/codehaus/groovy/tools/javac/JavaCompilerFactory.java	1
+src/main/java/org/codehaus/groovy/control/CompilerConfiguration.java	0
+==== GROOVY-9370 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	0
+==== GROOVY-9374 ====
+src/main/java/org/codehaus/groovy/ast/expr/FieldExpression.java	406
+==== GROOVY-9376 ====
+src/resources/groovy/grape/defaultGrapeConfig.xml	5
+==== GROOVY-9385 ====
+src/main/java/org/codehaus/groovy/transform/sc/StaticCompilationVisitor.java	13
+==== GROOVY-9386 ====
+src/main/java/org/codehaus/groovy/transform/trait/TraitReceiverTransformer.java	40
+==== GROOVY-9387 ====
+src/main/java/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java	1410
+==== GROOVY-9389 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	1
+==== GROOVY-9390 ====
+build.gradle	166
+==== GROOVY-9392 ====
+src/main/java/org/codehaus/groovy/control/CompilerConfiguration.java	1
+==== GROOVY-9396 ====
+src/main/java/org/apache/groovy/ast/tools/AnnotatedNodeUtils.java	84
+src/main/java/org/codehaus/groovy/classgen/asm/ClosureWriter.java	154
+==== GROOVY-9405 ====
+src/main/java/org/codehaus/groovy/classgen/asm/sc/StaticTypesCallSiteWriter.java	19
+==== GROOVY-9406 ====
+src/main/java/groovy/transform/NullCheck.java	1
+src/main/java/org/codehaus/groovy/transform/NullCheckASTTransformation.java	325
+==== GROOVY-9409 ====
+src/main/java/org/codehaus/groovy/tools/DgmConverter.java	0
+src/main/java/org/codehaus/groovy/runtime/callsite/CallSiteGenerator.java	1
+==== GROOVY-9410 ====
+subprojects/groovy-console/build.gradle	113
+subprojects/groovy-swing/build.gradle	341
+subprojects/groovy-yaml/src/main/java/groovy/yaml/YamlRuntimeException.java	1440
+subprojects/groovy-templates/src/main/groovy/groovy/text/TemplateParseException.java	17
+subprojects/groovy-groovysh/src/main/resources/org/codehaus/groovy/tools/shell/commands/ImportCommand.properties	514
+subprojects/groovy-groovydoc/src/main/resources/org/codehaus/groovy/tools/groovydoc/gstringTemplates/topLevel/deprecated-list.html	76
+subprojects/groovy-groovysh/src/main/resources/org/codehaus/groovy/tools/shell/commands/SetCommand.properties	183
+gradle/licenses.gradle	16
+subprojects/groovy-astbuilder/build.gradle	963
+build.gradle	14
+subprojects/groovy-xml/build.gradle	1473
+subprojects/groovy-servlet/build.gradle	1472
+subprojects/groovy-json/build.gradle	1471
+subprojects/groovy-bsf/build.gradle	641
+buildSrc/src/main/groovy/org.apache.groovy-asciidoctor.gradle	525
+subprojects/groovy-ant/build.gradle	1453
+subprojects/groovy-dateutil/build.gradle	1285
+subprojects/groovy-macro/build.gradle	1284
+subprojects/groovy-datetime/build.gradle	1283
+subprojects/groovy-sql/build.gradle	1362
+subprojects/groovy-cli-picocli/src/main/groovy/groovy/cli/picocli/CliBuilder.groovy	193
+subprojects/groovy-nio/src/main/java/org/apache/groovy/nio/runtime/WritablePath.java	168
+subprojects/groovy-cli-commons/build.gradle	952
+==== GROOVY-9412 ====
+src/main/java/org/codehaus/groovy/ast/expr/DeclarationExpression.java	4
+==== GROOVY-9413 ====
+src/main/java/org/codehaus/groovy/vmplugin/v8/IndyGuardsFiltersAndSignatures.java	1306
+==== GROOVY-9414 ====
+src/main/java/org/codehaus/groovy/transform/DelegateASTTransformation.java	17
+==== GROOVY-9420 ====
+src/main/java/org/codehaus/groovy/runtime/DefaultGroovyMethods.java	35
+==== GROOVY-9422 ====
+src/main/java/org/codehaus/groovy/runtime/metaclass/MixinInstanceMetaProperty.java	97
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	2
+==== GROOVY-9424 ====
+src/main/java/org/codehaus/groovy/classgen/FinalVariableAnalyzer.java	0
+==== GROOVY-9427 ====
+src/main/java/org/apache/groovy/parser/antlr4/AstBuilder.java	198
+==== GROOVY-9429 ====
+src/main/java/groovy/lang/Closure.java	4
+==== GROOVY-9438 ====
+src/main/java/org/codehaus/groovy/classgen/FinalVariableAnalyzer.java	589
+==== GROOVY-9439 ====
+subprojects/groovy-groovydoc/src/main/java/org/codehaus/groovy/tools/groovydoc/GroovyDocParserI.java	284
+==== GROOVY-9441 ====
+build.gradle	85
+src/main/java/org/codehaus/groovy/ast/tools/GeneralUtils.java	30
+==== GROOVY-9448 ====
+src/main/java/org/codehaus/groovy/tools/Compiler.java	846
+==== GROOVY-9449 ====
+src/main/java/org/apache/groovy/parser/antlr4/AstBuilder.java	36
+==== GROOVY-9450 ====
+src/main/java/org/codehaus/groovy/runtime/DefaultGroovyMethods.java	0
+==== GROOVY-9451 ====
+src/main/java/org/apache/groovy/util/BeanUtils.java	1260
+==== GROOVY-9452 ====
+src/main/java/org/codehaus/groovy/runtime/DefaultGroovyStaticMethods.java	1
+==== GROOVY-9454 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	0
+==== GROOVY-9455 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	0
+==== GROOVY-9459 ====
+src/main/java/org/codehaus/groovy/classgen/ReturnAdder.java	2
+==== GROOVY-9460 ====
+src/main/java/org/codehaus/groovy/ast/expr/DeclarationExpression.java	17
+==== GROOVY-9462 ====
+src/main/java/org/codehaus/groovy/tools/Compiler.java	2
+==== GROOVY-9463 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	1
+==== GROOVY-9465 ====
+subprojects/groovy-groovydoc/src/main/resources/org/codehaus/groovy/tools/groovydoc/gstringTemplates/classLevel/classDocName.html	552
+==== GROOVY-9469 ====
+src/main/java/org/codehaus/groovy/transform/ASTTransformationCollectorCodeVisitor.java	0
+==== GROOVY-9480 ====
+src/main/java/org/codehaus/groovy/vmplugin/v9/ClassFinder.java	1
+src/main/java/org/codehaus/groovy/vmplugin/v9/ClassFindFailedException.java	74
+==== GROOVY-9485 ====
+subprojects/groovy-groovysh/src/main/groovy/org/apache/groovy/groovysh/Interpreter.groovy	421
+src/main/java/org/codehaus/groovy/reflection/CachedClass.java	33
+==== GROOVY-9501 ====
+src/main/java/org/codehaus/groovy/classgen/asm/sc/StaticTypesCallSiteWriter.java	3
+==== GROOVY-9505 ====
+src/main/java/org/codehaus/groovy/control/CompilerConfiguration.java	32
+==== GROOVY-9506 ====
+src/main/java/org/apache/groovy/ast/tools/MethodNodeUtils.java	45
+==== GROOVY-9508 ====
+subprojects/groovy-console/src/main/groovy/groovy/console/ui/ConsolePreferences.groovy	72
+src/main/java/org/codehaus/groovy/runtime/InvokerInvocationException.java	23
+==== GROOVY-9515 ====
+src/main/java/org/codehaus/groovy/vmplugin/v8/TypeHelper.java	735
+src/main/java/org/codehaus/groovy/ast/decompiled/TypeSignatureParser.java	731
+==== GROOVY-9516 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	0
+==== GROOVY-9517 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	1
+==== GROOVY-9518 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	1
+==== GROOVY-9519 ====
+subprojects/groovy-cli-picocli/src/main/groovy/groovy/cli/picocli/OptionAccessor.groovy	1321
+src/main/groovy/groovy/cli/internal/OptionAccessor.groovy	103
+==== GROOVY-9522 ====
+src/main/java/org/apache/groovy/parser/antlr4/AstBuilder.java	5
+==== GROOVY-9526 ====
+src/main/java/groovy/util/GroovyScriptEngine.java	931
+==== GROOVY-9529 ====
+src/main/java/org/codehaus/groovy/ast/tools/WideningCategories.java	30
+==== GROOVY-9543 ====
+src/main/java/org/codehaus/groovy/syntax/Reduction.java	1
+subprojects/groovy-groovydoc/src/main/resources/org/codehaus/groovy/tools/groovydoc/gstringTemplates/classLevel/classDocName.html	60
+subprojects/groovy-groovydoc/src/main/java/org/codehaus/groovy/tools/groovydoc/GroovyDocParserI.java	57
+subprojects/groovy-groovydoc/src/main/java/org/codehaus/groovy/tools/groovydoc/antlr4/GroovyDocParser.java	261
+==== GROOVY-9546 ====
+subprojects/groovy-groovydoc/src/main/resources/org/codehaus/groovy/tools/groovydoc/gstringTemplates/classLevel/classDocName.html	67
+subprojects/groovy-groovydoc/src/main/java/org/codehaus/groovy/tools/groovydoc/GroovyDocParserI.java	151
+subprojects/groovy-groovydoc/src/main/java/org/codehaus/groovy/tools/groovydoc/SimpleGroovyAnnotationRef.java	1301
+subprojects/groovy-groovydoc/src/main/java/org/codehaus/groovy/tools/groovydoc/antlr4/GroovyDocParser.java	145
+==== GROOVY-9547 ====
+subprojects/groovy-groovydoc/src/main/java/org/apache/groovy/groovydoc/tools/GroovyDocUtil.java	136
+==== GROOVY-9548 ====
+subprojects/groovy-groovydoc/src/main/java/org/codehaus/groovy/tools/groovydoc/antlr4/GroovyDocParser.java	31
+==== GROOVY-9554 ====
+src/main/java/org/codehaus/groovy/classgen/BytecodeInstruction.java	0
+==== GROOVY-9556 ====
+src/main/java/groovy/lang/DelegatingMetaClass.java	61
+src/main/java/org/codehaus/groovy/tools/javac/JavaCompilerFactory.java	2
+==== GROOVY-9558 ====
+src/main/java/org/codehaus/groovy/ast/tools/ClosureUtils.java	93
+==== GROOVY-9562 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	9
+==== GROOVY-9566 ====
+subprojects/groovy-swing/src/main/java/org/apache/groovy/swing/binding/ClosureTriggerBinding.java	718
+==== GROOVY-9567 ====
+subprojects/groovy-swing/src/main/groovy/groovy/swing/factory/RichActionWidgetFactory.groovy	44
+subprojects/groovy-groovydoc/src/main/resources/org/codehaus/groovy/tools/groovydoc/gstringTemplates/classLevel/classDocName.html	57
+==== GROOVY-9568 ====
+subprojects/groovy-groovydoc/src/main/java/org/codehaus/groovy/tools/groovydoc/antlr4/GroovyDocParser.java	594
+==== GROOVY-9569 ====
+src/main/java/org/codehaus/groovy/classgen/asm/sc/StaticTypesCallSiteWriter.java	0
+==== GROOVY-9570 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	2
+src/main/java/org/codehaus/groovy/ast/tools/WideningCategories.java	4
+==== GROOVY-9571 ====
+subprojects/groovy-groovydoc/src/main/java/org/codehaus/groovy/tools/groovydoc/antlr4/GroovyDocParser.java	0
+==== GROOVY-9573 ====
+subprojects/groovy-groovydoc/src/main/java/org/codehaus/groovy/tools/groovydoc/antlr4/GroovyDocParser.java	340
+==== GROOVY-9574 ====
+subprojects/groovy-swing/src/main/java/org/apache/groovy/swing/binding/ClosureTriggerBinding.java	0
+==== GROOVY-9575 ====
+src/main/java/org/codehaus/groovy/runtime/metaclass/TemporaryMethodKey.java	135
+==== GROOVY-9577 ====
+src/main/java/org/codehaus/groovy/ast/stmt/BreakStatement.java	750
+src/main/java/org/codehaus/groovy/ast/expr/MethodCallExpression.java	1
+==== GROOVY-9580 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	0
+==== GROOVY-9584 ====
+subprojects/groovy-groovysh/src/main/groovy/org/apache/groovy/groovysh/Interpreter.groovy	0
+==== GROOVY-9586 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	0
+==== GROOVY-9587 ====
+src/main/java/org/codehaus/groovy/ast/ClassCodeExpressionTransformer.java	9
+==== GROOVY-9588 ====
+subprojects/groovy-groovysh/src/main/groovy/org/apache/groovy/groovysh/CommandSupport.groovy	97
+src/main/java/org/apache/groovy/parser/antlr4/PositionInfo.java	1217
+src/main/java/org/apache/groovy/parser/antlr4/SyntaxErrorReportable.java	1215
+src/main/java/org/apache/groovy/parser/antlr4/internal/DescriptiveErrorStrategy.java	1214
+src/main/java/org/apache/groovy/parser/antlr4/util/PositionConfigureUtils.java	1213
+==== GROOVY-9591 ====
+src/main/java/org/codehaus/groovy/control/StaticVerifier.java	7
+==== GROOVY-9597 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	0
+==== GROOVY-9598 ====
+src/main/java/org/codehaus/groovy/classgen/VariableScopeVisitor.java	44
+==== GROOVY-9599 ====
+subprojects/groovy-cli-picocli/build.gradle	4
+==== GROOVY-9600 ====
+subprojects/groovy-groovydoc/src/main/resources/org/codehaus/groovy/tools/groovydoc/Main.properties	122
+src/main/java/groovy/ui/GroovyMain.java	0
+==== GROOVY-9601 ====
+src/main/java/org/codehaus/groovy/classgen/VariableScopeVisitor.java	59
+src/main/java/org/codehaus/groovy/transform/AutoImplementASTTransformation.java	565
+==== GROOVY-9603 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	0
+==== GROOVY-9604 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	0
+==== GROOVY-9605 ====
+src/main/java/org/codehaus/groovy/ast/stmt/SynchronizedStatement.java	1
+==== GROOVY-9606 ====
+src/main/java/org/codehaus/groovy/transform/stc/StaticTypeCheckingSupport.java	3
+src/main/java/org/codehaus/groovy/tools/Compiler.java	0
+==== GROOVY-9607 ====
+src/main/java/org/codehaus/groovy/classgen/asm/sc/StaticTypesTypeChooser.java	1
+==== GROOVY-9611 ====
+src/main/java/org/apache/groovy/parser/antlr4/AstBuilder.java	73
+==== GROOVY-9615 ====
+src/main/java/groovy/lang/Closure.java	0
+==== GROOVY-9618 ====
+src/main/java/groovy/lang/Closure.java	5
+==== GROOVY-9620 ====
+src/main/java/groovy/lang/Closure.java	0
+==== GROOVY-9634 ====
+src/main/java/org/codehaus/groovy/ast/ClassNode.java	0
+==== GROOVY-9635 ====
+src/main/java/org/codehaus/groovy/ast/tools/WideningCategories.java	4
+==== GROOVY-9642 ====
+src/main/java/org/codehaus/groovy/control/ResolveVisitor.java	4
+==== GROOVY-9645 ====
+src/main/java/org/codehaus/groovy/transform/sc/transformers/BinaryExpressionTransformer.java	292
+src/main/java/org/apache/groovy/ast/tools/ClassNodeUtils.java	638
+src/main/java/org/codehaus/groovy/runtime/GroovyCategorySupport.java	1104
+src/main/java/groovy/lang/Closure.java	981
+==== GROOVY-9648 ====
+src/main/java/groovy/lang/Closure.java	1
+src/main/java/org/codehaus/groovy/reflection/CachedConstructor.java	226
+==== GROOVY-9652 ====
+src/main/java/org/codehaus/groovy/transform/sc/transformers/BinaryExpressionTransformer.java	2
+src/main/java/org/codehaus/groovy/ast/tools/ClosureUtils.java	128
+==== GROOVY-9653 ====
+src/main/java/org/codehaus/groovy/transform/sc/transformers/BinaryExpressionTransformer.java	100
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	0
+src/main/java/org/codehaus/groovy/classgen/asm/sc/StaticTypesCallSiteWriter.java	11
+==== GROOVY-9654 ====
+subprojects/groovy-xml/src/main/java/groovy/xml/XmlParser.java	994
+==== GROOVY-9657 ====
+subprojects/groovy-jmx/src/main/groovy/groovy/jmx/builder/JmxMetaMapBuilder.groovy	527
+==== GROOVY-9658 ====
+src/main/java/org/codehaus/groovy/util/HashCodeHelper.java	1185
+==== GROOVY-9661 ====
+src/main/java/org/codehaus/groovy/ast/expr/NamedArgumentListExpression.java	0
+src/main/java/org/codehaus/groovy/classgen/asm/sc/StaticTypesCallSiteWriter.java	97
+==== GROOVY-9666 ====
+src/main/java/org/codehaus/groovy/ast/expr/MethodCallExpression.java	126
+==== GROOVY-9672 ====
+src/main/java/org/codehaus/groovy/transform/trait/SuperCallTraitTransformer.java	47
+==== GROOVY-9673 ====
+src/main/java/org/codehaus/groovy/transform/trait/SuperCallTraitTransformer.java	9
+==== GROOVY-9688 ====
+build.gradle	87
+gradle/licenses.gradle	31
+==== GROOVY-9691 ====
+src/main/java/org/codehaus/groovy/ast/ClassCodeExpressionTransformer.java	29
+==== GROOVY-9692 ====
+src/main/java/org/apache/groovy/parser/antlr4/AstBuilder.java	47
+==== GROOVY-9699 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	3
+src/main/java/org/codehaus/groovy/classgen/asm/sc/StaticTypesBinaryExpressionMultiTypeDispatcher.java	24
+==== GROOVY-9700 ====
+src/main/java/org/codehaus/groovy/transform/sc/transformers/BinaryExpressionTransformer.java	17
+==== GROOVY-9703 ====
+src/main/java/org/codehaus/groovy/runtime/DefaultGroovyMethods.java	0
+==== GROOVY-9704 ====
+src/main/java/org/codehaus/groovy/classgen/asm/sc/StaticTypesUnaryExpressionHelper.java	314
+==== GROOVY-9706 ====
+src/main/java/org/codehaus/groovy/ast/tools/WideningCategories.java	1
+==== GROOVY-9711 ====
+src/main/java/org/codehaus/groovy/runtime/ConvertedMap.java	26
+==== GROOVY-9717 ====
+src/main/java/org/codehaus/groovy/tools/Compiler.java	21
+==== GROOVY-9732 ====
+src/main/java/org/codehaus/groovy/transform/sc/transformers/CompareToNullExpression.java	1343
+==== GROOVY-9734 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	0
+==== GROOVY-9735 ====
+src/main/java/org/codehaus/groovy/transform/stc/StaticTypeCheckingSupport.java	5
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	0
+src/main/java/org/codehaus/groovy/ast/tools/WideningCategories.java	1
+==== GROOVY-9739 ====
+src/main/java/org/codehaus/groovy/transform/trait/TraitReceiverTransformer.java	619
+==== GROOVY-9751 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	0
+==== GROOVY-9758 ====
+subprojects/groovy-groovysh/src/main/resources/org/codehaus/groovy/tools/shell/commands/ShadowCommand.properties	0
+==== GROOVY-9760 ====
+src/main/java/org/codehaus/groovy/transform/stc/StaticTypeCheckingSupport.java	8
+==== GROOVY-9762 ====
+src/main/java/org/codehaus/groovy/ast/expr/MethodReferenceExpression.java	134
+src/main/java/org/codehaus/groovy/ast/tools/WideningCategories.java	2
+==== GROOVY-9763 ====
+src/main/java/org/codehaus/groovy/transform/trait/Traits.java	10
+==== GROOVY-9769 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	1
+==== GROOVY-9770 ====
+src/main/java/org/codehaus/groovy/classgen/asm/sc/StaticTypesLambdaWriter.java	103
+==== GROOVY-9771 ====
+src/main/java/org/codehaus/groovy/classgen/asm/sc/StaticTypesBinaryExpressionMultiTypeDispatcher.java	26
+==== GROOVY-9772 ====
+src/main/java/org/codehaus/groovy/transform/AnnotationCollectorTransform.java	0
+==== GROOVY-9779 ====
+src/main/java/org/codehaus/groovy/runtime/metaclass/MetaMethodIndex.java	33
+src/main/java/groovy/lang/Closure.java	7
+==== GROOVY-9786 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	0
+==== GROOVY-9790 ====
+src/main/java/org/codehaus/groovy/classgen/asm/sc/AbstractFunctionalInterfaceWriter.java	235
+==== GROOVY-9791 ====
+src/main/java/org/codehaus/groovy/classgen/AsmClassGenerator.java	2
+src/main/java/org/codehaus/groovy/classgen/asm/sc/StaticTypesCallSiteWriter.java	14
+==== GROOVY-9799 ====
+src/main/java/org/codehaus/groovy/ast/expr/MethodReferenceExpression.java	54
+src/main/java/org/codehaus/groovy/ast/tools/WideningCategories.java	5
+src/main/java/org/codehaus/groovy/ast/tools/ParameterUtils.java	1441
+==== GROOVY-9803 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	0
+src/main/java/org/codehaus/groovy/ast/tools/WideningCategories.java	3
+==== GROOVY-9811 ====
+gradle/idea.gradle	1290
+==== GROOVY-9814 ====
+src/main/java/groovy/lang/Closure.java	13
+==== GROOVY-9815 ====
+src/main/java/org/codehaus/groovy/runtime/metaclass/MetaMethodIndex.java	273
+src/main/java/groovy/lang/Closure.java	5
+==== GROOVY-9816 ====
+subprojects/groovy-swing/src/main/java/groovy/swing/model/ValueModel.java	307
+src/main/java/org/apache/groovy/ast/tools/MethodNodeUtils.java	1
+==== GROOVY-9821 ====
+src/main/java/org/codehaus/groovy/ast/tools/GenericsUtils.java	1
+src/main/java/org/codehaus/groovy/ast/tools/WideningCategories.java	2
+==== GROOVY-9822 ====
+src/main/java/org/codehaus/groovy/ast/tools/WideningCategories.java	1
+==== GROOVY-9824 ====
+subprojects/groovy-groovydoc/src/main/java/org/codehaus/groovy/tools/groovydoc/SimpleGroovyMemberDoc.java	7
+==== GROOVY-9825 ====
+src/main/java/org/codehaus/groovy/classgen/VariableScopeVisitor.java	0
+==== GROOVY-9826 ====
+src/main/java/org/codehaus/groovy/util/ReferenceBundle.java	949
+src/main/java/org/codehaus/groovy/runtime/ProcessGroovyMethods.java	226
+==== GROOVY-9842 ====
+src/main/java/org/codehaus/groovy/classgen/asm/sc/StaticTypesCallSiteWriter.java	0
+==== GROOVY-9852 ====
+subprojects/groovy-sql/src/main/java/groovy/sql/DataSet.java	20
+subprojects/groovy-xml/src/main/java/groovy/xml/slurpersupport/GPathResult.java	631
+src/main/java/org/codehaus/groovy/ast/tools/WideningCategories.java	12

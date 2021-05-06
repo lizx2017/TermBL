@@ -1,0 +1,870 @@
+==== DERBY-6189 ====
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/authentication/AuthenticationServiceBase.java	117
+==== DERBY-6195 ====
+java/org.apache.derby.engine/org/apache/derby/catalog/types/RoutineAliasInfo.java	1559
+java/org.apache.derby.tools/org/apache/derby/iapi/tools/ToolUtils.java	1022
+java/org.apache.derby.tools/org/apache/derby/impl/tools/ij/ijMultipleResultSetResult.java	958
+java/org.apache.derby.tools/org/apache/derby/impl/tools/ij/ijResultImpl.java	911
+java/org.apache.derby.tools/org/apache/derby/impl/tools/ij/util.java	313
+java/org.apache.derby.client/org/apache/derby/client/am/ClientSavepoint.java	1825
+==== DERBY-6197 ====
+java/org.apache.derby.engine/org/apache/derby/vti/ForeignTableVTI.java	360
+java/org.apache.derby.engine/org/apache/derby/vti/StringColumnVTI.java	1445
+java/org.apache.derby.tools/org/apache/derby/impl/tools/ij/ijException.java	382
+java/org.apache.derby.tools/org/apache/derby/impl/tools/ij/util.java	9
+java/org.apache.derby.tools/org/apache/derby/impl/tools/planexporter/CreateXMLFile.java	846
+==== DERBY-6200 ====
+java/org.apache.derby.engine/org/apache/derby/iapi/types/StreamHeaderGenerator.java	931
+java/org.apache.derby.engine/org/apache/derby/iapi/types/CharStreamHeaderGenerator.java	930
+java/org.apache.derby.engine/org/apache/derby/iapi/types/ClobStreamHeaderGenerator.java	959
+==== DERBY-6201 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/NormalizeResultSet.java	1140
+java/org.apache.derby.commons/org/apache/derby/shared/common/info/JVMInfo.java	363
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/execute/ExecAggregator.java	1138
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/BinaryOperatorNode.java	1137
+java/org.apache.derby.engine/org/apache/derby/impl/store/access/heap/D_HeapController.java	665
+==== DERBY-6202 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/catalog/SYSROUTINEPERMSRowFactory.java	1758
+java/org.apache.derby.engine/org/apache/derby/iapi/types/SQLLongVarbit.java	1244
+java/org.apache.derby.commons/org/apache/derby/shared/common/info/JVMInfo.java	8
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/DDLStatementNode.java	105
+java/org.apache.derby.client/org/apache/derby/client/am/ClientMessageId.java	512
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/dictionary/ConglomerateDescriptor.java	398
+java/org.apache.derby.tools/org/apache/derby/impl/tools/ij/URLCheck.java	1284
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/dictionary/UserDescriptor.java	591
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/dictionary/PasswordHasher.java	1985
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/BaseJoinStrategy.java	4
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/OrderableAggregator.java	380
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/AutoincrementCounter.java	373
+java/org.apache.derby.client/org/apache/derby/client/am/Lob.java	51
+==== DERBY-6206 ====
+java/org.apache.derby.engine/org/apache/derby/loc/messages_pt_BR.properties	129
+java/org.apache.derby.engine/org/apache/derby/iapi/services/property/PropertyUtil.java	290
+java/org.apache.derby.server/org/apache/derby/impl/drda/Database.java	168
+java/org.apache.derby.server/org/apache/derby/impl/drda/DDMReader.java	337
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/execute/ResultSetStatisticsFactory.java	579
+java/org.apache.derby.engine/org/apache/derby/iapi/store/raw/D_RowLock.java	431
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/ScanResultSet.java	779
+java/org.apache.derby.client/org/apache/derby/client/am/ClientDatabaseMetaData.java	118
+java/org.apache.derby.engine/org/apache/derby/impl/store/access/btree/index/package.html	1359
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/DistinctNode.java	96
+java/org.apache.derby.engine/org/apache/derby/impl/sql/catalog/SystemColumnImpl.java	716
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/dictionary/FileInfoDescriptor.java	60
+java/org.apache.derby.engine/org/apache/derby/iapi/store/access/BackingStoreHashtable.java	303
+java/org.apache.derby.server/org/apache/derby/impl/drda/NetworkServerControlImpl.java	100
+java/org.apache.derby.engine/org/apache/derby/impl/sql/catalog/SYSSTATEMENTSRowFactory.java	1696
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/HasCorrelatedCRsVisitor.java	199
+java/org.apache.derby.engine/org/apache/derby/iapi/jdbc/EngineResultSet.java	53
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/EmbedPreparedStatement.java	49
+java/org.apache.derby.server/org/apache/derby/impl/drda/DRDAConnThread.java	37
+java/org.apache.derby.server/org/apache/derby/impl/drda/XADatabase.java	122
+java/org.apache.derby.engine/org/apache/derby/iapi/store/access/conglomerate/MethodFactory.java	334
+java/org.apache.derby.engine/org/apache/derby/iapi/services/context/Context.java	117
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/DeleteVTIResultSet.java	124
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/AggregatorInfoList.java	599
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/BaseActivation.java	347
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/conn/LanguageConnectionContext.java	275
+java/org.apache.derby.engine/org/apache/derby/iapi/util/Matchable.java	420
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/SetSchemaNode.java	99
+java/org.apache.derby.engine/org/apache/derby/iapi/store/access/TransactionInfo.java	72
+java/org.apache.derby.engine/org/apache/derby/iapi/transaction/TransactionControl.java	994
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/JarUtil.java	184
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/authentication/AuthenticationServiceBase.java	39
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/execute/xplain/XPLAINable.java	1662
+java/org.apache.derby.engine/org/apache/derby/catalog/DefaultInfo.java	426
+java/build/org/apache/derbyBuild/javadoc/EndFormatTaglet.java	421
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/xplain/XPLAINUtil.java	1909
+==== DERBY-6212 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/SubqueryList.java	584
+==== DERBY-6216 ====
+java/org.apache.derby.engine/org/apache/derby/iapi/store/raw/D_RowLock.java	120
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/InListOperatorNode.java	699
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/MultiProbeTableScanResultSet.java	233
+java/org.apache.derby.server/org/apache/derby/impl/drda/SignedBinary.java	230
+java/org.apache.derby.engine/org/apache/derby/impl/sql/conn/GenericAuthorizer.java	68
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/data/OverflowInputStream.java	435
+java/org.apache.derby.commons/org/apache/derby/shared/common/i18n/LocaleFinder.java	684
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/MaterializedResultSet.java	618
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/RowChangerImpl.java	358
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/ScrollInsensitiveResultSet.java	122
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/RowCountNode.java	818
+java/org.apache.derby.engine/org/apache/derby/iapi/types/SQLVarbit.java	156
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/IndexRowToBaseRowResultSet.java	157
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/RoutinePrivilegeInfo.java	564
+java/org.apache.derby.engine/org/apache/derby/impl/sql/CursorTableReference.java	582
+java/org.apache.derby.engine/org/apache/derby/iapi/services/property/PropertyFactory.java	115
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/execute/ExecIndexRow.java	135
+java/org.apache.derby.engine/org/apache/derby/iapi/services/locks/C_LockFactory.java	378
+java/org.apache.derby.engine/org/apache/derby/iapi/types/RefDataValue.java	563
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/EmbedResultSetMetaData.java	741
+java/org.apache.derby.commons/org/apache/derby/shared/common/error/ExceptionUtil.java	657
+java/org.apache.derby.engine/org/apache/derby/catalog/types/DecimalTypeIdImpl.java	258
+java/org.apache.derby.tools/org/apache/derby/iapi/tools/i18n/LocalizedInput.java	673
+java/org.apache.derby.engine/org/apache/derby/impl/store/access/btree/BranchRow.java	132
+java/org.apache.derby.engine/org/apache/derby/diag/LockTable.java	488
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/CurrentOfResultSet.java	140
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/TableScanResultSet.java	137
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/xact/BeginXact.java	1867
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/data/TempRAFContainer.java	252
+==== DERBY-6221 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/DistinctNode.java	1
+==== DERBY-6224 ====
+java/org.apache.derby.engine/org/apache/derby/impl/services/locks/Constants.java	52
+java/org.apache.derby.engine/org/apache/derby/loc/messages.xml	42
+java/org.apache.derby.server/org/apache/derby/impl/drda/NetworkServerControlImpl.java	9
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/BinaryComparisonOperatorNode.java	0
+==== DERBY-6227 ====
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/xact/BeginXact.java	0
+==== DERBY-6228 ====
+java/org.apache.derby.client/org/apache/derby/client/am/ClientResultSet.java	8
+java/org.apache.derby.client/org/apache/derby/client/am/LOBStateTracker.java	174
+java/org.apache.derby.client/org/apache/derby/client/am/Sqlca.java	695
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/SavepointNode.java	0
+==== DERBY-6268 ====
+java/org.apache.derby.engine/org/apache/derby/iapi/services/property/PropertyFactory.java	33
+==== DERBY-6269 ====
+java/org.apache.derby.engine/org/apache/derby/loc/messages.xml	35
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/CreateIndexConstantAction.java	0
+==== DERBY-6273 ====
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/ResultDescription.java	0
+==== DERBY-6283 ====
+java/org.apache.derby.engine/org/apache/derby/impl/services/daemon/IndexStatisticsDaemonImpl.java	1
+==== DERBY-6297 ====
+java/org.apache.derby.tools/org/apache/derby/impl/tools/planexporter/CreateXMLFile.java	1
+==== DERBY-6314 ====
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/execute/ExecRowBuilder.java	1806
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/data/StreamFileContainer.java	690
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/data/InputStreamContainer.java	205
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/dictionary/SystemColumn.java	3
+java/org.apache.derby.engine/org/apache/derby/diag/StatementDuration.java	0
+==== DERBY-6317 ====
+java/org.apache.derby.engine/org/apache/derby/iapi/services/classfile/ConstantPoolEntry.java	0
+==== DERBY-6323 ====
+java/org.apache.derby.client/org/apache/derby/client/am/ClientResultSet.java	290
+java/org.apache.derby.engine/org/apache/derby/loc/messages_pt_BR.properties	27
+java/org.apache.derby.engine/org/apache/derby/impl/load/ImportReadData.java	284
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/ActivationClassBuilder.java	828
+java/org.apache.derby.engine/org/apache/derby/catalog/SystemProcedures.java	6
+java/org.apache.derby.engine/org/apache/derby/iapi/types/PositionedStream.java	1427
+java/org.apache.derby.client/org/apache/derby/client/am/SectionManager.java	366
+java/org.apache.derby.client/org/apache/derby/client/net/NetConnection.java	32
+java/org.apache.derby.engine/org/apache/derby/iapi/services/io/DataInputUtil.java	1983
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/data/BaseContainer.java	297
+java/org.apache.derby.engine/org/apache/derby/impl/services/bytecode/BCMethodCaller.java	1822
+java/org.apache.derby.engine/org/apache/derby/iapi/jdbc/JDBC.java	1207
+java/org.apache.derby.engine/org/apache/derby/io/StorageRandomAccessFile.java	1743
+java/org.apache.derby.engine/org/apache/derby/iapi/store/access/SortInfo.java	858
+java/org.apache.derby.engine/org/apache/derby/iapi/services/classfile/ClassInvestigator.java	1617
+java/org.apache.derby.client/org/apache/derby/client/net/FdocaConstants.java	312
+java/org.apache.derby.engine/org/apache/derby/iapi/types/SQLBit.java	71
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/BooleanConstantNode.java	1930
+java/demo/csfull.css	1931
+java/org.apache.derby.engine/org/apache/derby/iapi/store/raw/Transaction.java	928
+java/org.apache.derby.engine/org/apache/derby/impl/store/access/btree/index/D_B2IController.java	438
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/GenericQualifier.java	58
+java/org.apache.derby.engine/org/apache/derby/vti/DeferModification.java	31
+java/org.apache.derby.server/org/apache/derby/impl/drda/DRDAConnThread.java	3
+java/org.apache.derby.engine/org/apache/derby/impl/sql/catalog/SYSCHECKSRowFactory.java	526
+java/org.apache.derby.engine/org/apache/derby/impl/store/access/btree/BTreeCostController.java	786
+java/org.apache.derby.engine/org/apache/derby/iapi/services/classfile/VMDescriptor.java	929
+java/org.apache.derby.engine/org/apache/derby/impl/services/monitor/BaseMonitor.java	331
+java/org.apache.derby.engine/org/apache/derby/impl/store/access/conglomerate/TemplateRow.java	1993
+java/org.apache.derby.engine/org/apache/derby/impl/sql/catalog/SYSCOLPERMSRowFactory.java	1281
+java/org.apache.derby.engine/org/apache/derby/impl/store/access/RAMTransactionContext.java	1151
+plugins/eclipse/org.apache.derby.ui/src/org/apache/derby/ui/common/CommonNames.java	989
+java/org.apache.derby.engine/org/apache/derby/impl/store/access/heap/Heap.java	1756
+java/org.apache.derby.engine/org/apache/derby/impl/store/access/btree/index/B2IRowLocking1.java	139
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/data/AllocPage.java	252
+java/org.apache.derby.engine/org/apache/derby/impl/store/access/btree/index/B2IRowLockingRR.java	325
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/AvgAggregator.java	303
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/conn/LanguageConnectionContext.java	145
+java/org.apache.derby.engine/org/apache/derby/iapi/services/io/FormatableBitSet.java	1944
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/TriggerInfo.java	823
+java/org.apache.derby.server/org/apache/derby/loc/drda/messages_de_DE.properties	227
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/CurrentDatetimeOperatorNode.java	100
+java/org.apache.derby.engine/org/apache/derby/impl/services/jce/JCECipherFactoryBuilder.java	1080
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/HasNodeVisitor.java	877
+java/org.apache.derby.engine/org/apache/derby/iapi/types/HarmonySerialClob.java	1300
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/BaseTypeCompiler.java	1276
+java/org.apache.derby.engine/org/apache/derby/iapi/jdbc/ResourceAdapter.java	273
+java/org.apache.derby.engine/org/apache/derby/catalog/types/TypesImplInstanceGetter.java	1328
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/authentication/AuthenticationServiceBase.java	23
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/BulkTableScanResultSet.java	29
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/data/BaseDataFileFactory.java	82
+java/org.apache.derby.client/org/apache/derby/client/am/ClientBlob.java	839
+==== DERBY-6324 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/conn/GenericLanguageConnectionContext.java	0
+java/org.apache.derby.engine/org/apache/derby/iapi/services/property/PersistentSet.java	643
+java/org.apache.derby.client/org/apache/derby/client/am/SectionManager.java	1
+==== DERBY-6346 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/ResultColumnList.java	3
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/Util.java	59
+==== DERBY-6348 ====
+java/org.apache.derby.engine/org/apache/derby/iapi/services/compiler/LocalField.java	193
+==== DERBY-6351 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/CreateTriggerNode.java	20
+==== DERBY-6352 ====
+java/org.apache.derby.engine/org/apache/derby/impl/db/DatabaseContextImpl.java	4
+==== DERBY-6354 ====
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/data/RAFContainer4.java	50
+==== DERBY-6357 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/SelectNode.java	19
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/RowResultSetNode.java	79
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/ConstraintConstantAction.java	194
+==== DERBY-6361 ====
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/data/D_StoredPage.java	25
+==== DERBY-6362 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/CreateTriggerNode.java	100
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/GenericConstantActionFactory.java	16
+java/org.apache.derby.client/org/apache/derby/client/am/ProductLevel.java	211
+java/org.apache.derby.commons/org/apache/derby/shared/common/info/PropertyNames.java	215
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/JoinNode.java	65
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/DistinctNode.java	14
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/rts/RealHashLeftOuterJoinStatistics.java	485
+java/org.apache.derby.engine/org/apache/derby/impl/io/CPStorageFactory.java	406
+java/org.apache.derby.engine/org/apache/derby/iapi/store/access/BackingStoreHashtable.java	369
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/OrderByColumn.java	340
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/FromList.java	434
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/OffsetOrderVisitor.java	1779
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/dictionary/ConstraintDescriptor.java	533
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/data/D_StoredPage.java	0
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/DropSequenceNode.java	1240
+java/org.apache.derby.engine/org/apache/derby/iapi/services/classfile/VMOpcode.java	1058
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/CastNode.java	135
+java/org.apache.derby.engine/org/apache/derby/impl/sql/catalog/SequenceUpdater.java	815
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/StaticMethodCallNode.java	56
+java/org.apache.derby.engine/org/apache/derby/impl/sql/catalog/SequenceRange.java	844
+java/org.apache.derby.engine/org/apache/derby/iapi/services/monitor/ModuleControl.java	77
+java/org.apache.derby.engine/org/apache/derby/vti/Pushable.java	334
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/data/ContainerActionOnCommit.java	274
+java/org.apache.derby.engine/org/apache/derby/diag/TransactionTable.java	2
+java/org.apache.derby.engine/org/apache/derby/iapi/types/TypeId.java	365
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/TableElementList.java	43
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/rts/RealUnionResultSetStatistics.java	731
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/SetConstraintsNode.java	1861
+==== DERBY-6363 ====
+java/org.apache.derby.client/org/apache/derby/client/am/ClientParameterMetaData.java	86
+==== DERBY-6370 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/OrderByColumn.java	180
+java/org.apache.derby.engine/org/apache/derby/vti/Pushable.java	186
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/data/CompressSpacePageOperation.java	145
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/DDLStatementNode.java	49
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/CreateTriggerNode.java	25
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/GenericConstantActionFactory.java	92
+java/org.apache.derby.engine/org/apache/derby/diag/TransactionTable.java	17
+java/org.apache.derby.engine/org/apache/derby/impl/sql/catalog/SequenceUpdater.java	205
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/StaticMethodCallNode.java	100
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/MergeNode.java	103
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/SetConstraintsNode.java	275
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/DropSequenceNode.java	660
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/DistinctNode.java	13
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/AutoincrementCounter.java	77
+java/org.apache.derby.engine/org/apache/derby/impl/services/monitor/BaseMonitor.java	69
+java/storeless/org/apache/derby/impl/storeless/EmptyDictionary.java	291
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/dictionary/ConstraintDescriptor.java	171
+==== DERBY-6371 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/AutoincrementCounter.java	8
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/DDLStatementNode.java	3
+==== DERBY-6373 ====
+java/org.apache.derby.client/org/apache/derby/client/am/Configuration.java	0
+==== DERBY-6378 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/UnionNode.java	2
+java/org.apache.derby.engine/org/apache/derby/impl/sql/catalog/SYSCOLUMNSRowFactory.java	54
+java/org.apache.derby.engine/org/apache/derby/impl/store/access/CacheableConglomerate.java	99
+java/org.apache.derby.client/org/apache/derby/client/am/StatementCallbackInterface.java	102
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/SelectNode.java	69
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/FromSubquery.java	122
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/RowResultSetNode.java	7
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/SetOperatorNode.java	187
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/SubqueryNode.java	10
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/GroupByNode.java	181
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/ResultSetNode.java	153
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/FromTable.java	58
+==== DERBY-6383 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/CreateTriggerNode.java	8
+==== DERBY-6386 ====
+java/org.apache.derby.client/org/apache/derby/client/am/DateTime.java	123
+==== DERBY-6387 ====
+java/org.apache.derby.engine/org/apache/derby/catalog/IndexDescriptor.java	37
+==== DERBY-6396 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/IndexColumnOrder.java	1
+==== DERBY-6408 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/SelectNode.java	34
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/RowResultSetNode.java	2
+java/org.apache.derby.tools/org/apache/derby/impl/tools/dblook/DB_Check.java	129
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/ConstraintConstantAction.java	65
+==== DERBY-6411 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/ResultColumn.java	52
+java/org.apache.derby.engine/org/apache/derby/iapi/services/context/Context.java	5
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/data/CompressSpacePageOperation.java	71
+java/org.apache.derby.engine/org/apache/derby/impl/store/access/CacheableConglomerate.java	2
+==== DERBY-6414 ====
+java/org.apache.derby.engine/org/apache/derby/iapi/types/DataType.java	48
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/DropIndexConstantAction.java	18
+==== DERBY-6429 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/CharConstantNode.java	1189
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/data/CompressSpacePageOperation.java	15
+java/org.apache.derby.engine/org/apache/derby/iapi/services/monitor/ModuleControl.java	3
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/StaticMethodCallNode.java	36
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/AllResultColumn.java	0
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/MergeConstantAction.java	1990
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/DistinctNode.java	24
+java/org.apache.derby.engine/org/apache/derby/impl/services/stream/BasicHeaderPrintWriter.java	169
+java/org.apache.derby.engine/org/apache/derby/iapi/services/context/Context.java	8
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/UpdateNode.java	14
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/compile/VisitableFilter.java	1639
+==== DERBY-6433 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/catalog/SYSCOLUMNSRowFactory.java	54
+==== DERBY-6434 ====
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/compile/IgnoreFilter.java	1084
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/compile/ScopeFilter.java	1083
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/UnionNode.java	55
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/data/CompressSpacePageOperation.java	6
+java/org.apache.derby.engine/org/apache/derby/impl/sql/catalog/SYSCOLUMNSRowFactory.java	4
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/GenericScanQualifier.java	70
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/CastNode.java	332
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/OrderableAggregator.java	88
+java/org.apache.derby.engine/org/apache/derby/iapi/services/context/Context.java	1
+java/org.apache.derby.engine/org/apache/derby/impl/services/stream/BasicHeaderPrintWriter.java	8
+==== DERBY-6440 ====
+java/org.apache.derby.engine/org/apache/derby/vti/ForeignTableVTI.java	1
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/dictionary/OptionalTool.java	105
+==== DERBY-6443 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/StaticMethodCallNode.java	5
+==== DERBY-6455 ====
+java/org.apache.derby.server/org/apache/derby/impl/drda/NetworkServerControlImpl.java	0
+==== DERBY-6456 ====
+java/org.apache.derby.server/org/apache/derby/impl/drda/NetworkServerControlImpl.java	0
+java/org.apache.derby.server/org/apache/derby/impl/drda/DDMWriter.java	41
+==== DERBY-6457 ====
+java/org.apache.derby.server/org/apache/derby/impl/drda/NetworkServerControlImpl.java	0
+==== DERBY-6463 ====
+java/demo/demo.html	2
+bin/setNetworkServerCP	0
+java/demo/navbar.html	4
+==== DERBY-6477 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/LikeEscapeOperatorNode.java	543
+==== DERBY-6496 ====
+java/org.apache.derby.engine/org/apache/derby/catalog/Java5SystemProcedures.java	0
+java/org.apache.derby.tools/org/apache/derby/impl/tools/optional/DBMDWrapper.java	204
+==== DERBY-6503 ====
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/log/LogToFile.java	29
+java/org.apache.derby.engine/org/apache/derby/impl/services/jce/JCECipherFactoryBuilder.java	51
+java/org.apache.derby.engine/org/apache/derby/impl/services/monitor/ModuleInstance.java	1874
+java/org.apache.derby.engine/org/apache/derby/iapi/store/raw/log/LogFactory.java	79
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/compile/C_NodeTypes.java	25
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/IndexColumnOrder.java	933
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/execute/ExecPreparedStatement.java	7
+java/org.apache.derby.tools/build.xml	12
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/log/ReadOnly.java	13
+java/org.apache.derby.engine/org/apache/derby/impl/services/monitor/FileMonitor.java	5
+==== DERBY-6504 ====
+java/org.apache.derby.engine/org/apache/derby/loc/messages.xml	28
+java/org.apache.derby.engine/org/apache/derby/iapi/store/access/GroupFetchScanController.java	1
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/EmbedResultSet.java	35
+==== DERBY-6511 ====
+java/org.apache.derby.client/org/apache/derby/client/net/NetPackageRequest.java	0
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/AggregateSortObserver.java	1650
+==== DERBY-6515 ====
+java/org.apache.derby.runner/org/apache/derby/run/run.java	92
+==== DERBY-6518 ====
+java/org.apache.derby.engine/org/apache/derby/iapi/services/property/PersistentSet.java	2
+==== DERBY-6532 ====
+java/org.apache.derby.tools/org/apache/derby/impl/tools/ij/xaHelper.java	0
+==== DERBY-6540 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/CreateTriggerNode.java	11
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/OrderByColumn.java	44
+java/org.apache.derby.engine/org/apache/derby/diag/TransactionTable.java	14
+==== DERBY-6543 ====
+java/org.apache.derby.engine/org/apache/derby/diag/TransactionTable.java	10
+==== DERBY-6545 ====
+java/org.apache.derby.engine/org/apache/derby/loc/messages.xml	42
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/ModifyColumnNode.java	15
+==== DERBY-6552 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/DistinctGroupedAggregateResultSet.java	1301
+java/org.apache.derby.client/org/apache/derby/client/ClientPooledConnection.java	2
+java/org.apache.derby.client/org/apache/derby/client/am/ClientConnection.java	49
+java/org.apache.derby.client/org/apache/derby/client/net/NetConnection.java	28
+java/org.apache.derby.client/org/apache/derby/client/ClientXADataSourceInterface.java	41
+java/org.apache.derby.engine/org/apache/derby/iapi/jdbc/EmbeddedDataSourceInterface.java	42
+java/org.apache.derby.tools/org/apache/derby/jdbc/BasicClientConnectionPoolDataSource40.java	290
+java/org.apache.derby.engine/org/apache/derby/iapi/jdbc/EmbeddedConnectionPoolDataSourceInterface.java	294
+java/org.apache.derby.client/org/apache/derby/client/ClientDataSourceInterface.java	43
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/rts/RealHashScanStatistics.java	819
+java/org.apache.derby.engine/org/apache/derby/iapi/jdbc/EmbeddedXADataSourceInterface.java	46
+java/org.apache.derby.client/org/apache/derby/client/ClientDataSourceFactory.java	1950
+java/org.apache.derby.engine/org/apache/derby/impl/sql/catalog/TableKey.java	161
+java/org.apache.derby.tools/org/apache/derby/jdbc/ClientDataSource40.java	27
+java/org.apache.derby.tools/org/apache/derby/jdbc/ClientXADataSource40.java	0
+java/org.apache.derby.tools/org/apache/derby/jdbc/ClientXADataSource.java	26
+java/org.apache.derby.tools/org/apache/derby/jdbc/EmbeddedXADataSource.java	24
+java/org.apache.derby.tools/org/apache/derby/jdbc/EmbeddedDataSource40.java	5
+java/org.apache.derby.tools/org/apache/derby/jdbc/EmbeddedDataSource.java	1
+java/org.apache.derby.tools/org/apache/derby/jdbc/EmbeddedConnectionPoolDataSource.java	36
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/EmbedConnection.java	1014
+java/org.apache.derby.tools/org/apache/derby/jdbc/ClientDataSource.java	4
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/EmbedStatement.java	842
+java/org.apache.derby.engine/org/apache/derby/iapi/jdbc/BrokeredConnection.java	440
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/EmbedCallableStatement42.java	79
+java/org.apache.derby.engine/org/apache/derby/iapi/jdbc/BrokeredPreparedStatement42.java	80
+java/org.apache.derby.tools/build.xml	442
+java/org.apache.derby.client/org/apache/derby/client/net/NetXAConnection.java	322
+java/org.apache.derby.client/org/apache/derby/client/ClientXAConnection.java	25
+java/org.apache.derby.client/org/apache/derby/client/am/ClientJDBCObjectFactory.java	2028
+java/org.apache.derby.client/org/apache/derby/client/net/NetAgent.java	368
+java/org.apache.derby.tools/org/apache/derby/jdbc/ClientDriver.java	592
+==== DERBY-6554 ====
+java/org.apache.derby.commons/org/apache/derby/shared/common/error/StandardException.java	161
+java/org.apache.derby.engine/org/apache/derby/iapi/types/DataValueFactory.java	1895
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/DeleteVTIResultSet.java	117
+java/org.apache.derby.commons/org/apache/derby/shared/common/reference/Module.java	621
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/EmbedResultSet.java	2019
+java/org.apache.derby.engine/org/apache/derby/iapi/services/locks/LockOwner.java	898
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/log/CheckpointOperation.java	143
+java/org.apache.derby.engine/org/apache/derby/iapi/store/raw/log/LogFactory.java	30
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/CollectNodesVisitor.java	220
+java/org.apache.derby.engine/org/apache/derby/catalog/types/ReferencedColumnsDescriptorImpl.java	1437
+java/org.apache.derby.engine/org/apache/derby/loc/messages.xml	203
+java/org.apache.derby.engine/org/apache/derby/diag/TransactionTable.java	22
+java/org.apache.derby.engine/org/apache/derby/impl/store/access/heap/HeapController.java	379
+java/org.apache.derby.engine/org/apache/derby/impl/services/daemon/SingleThreadDaemonFactory.java	94
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/NextSequenceNode.java	59
+java/org.apache.derby.server/org/apache/derby/impl/drda/EXTDTAInputStream.java	617
+java/org.apache.derby.client/org/apache/derby/client/am/Lob.java	140
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/data/UpdateOperation.java	433
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/data/BaseDataFileFactory.java	44
+java/org.apache.derby.engine/org/apache/derby/impl/services/locks/AbstractPool.java	325
+==== DERBY-6555 ====
+java/org.apache.derby.engine/org/apache/derby/loc/messages.xml	3
+==== DERBY-6559 ====
+java/org.apache.derby.engine/org/apache/derby/impl/io/DirStorageFactory.java	557
+java/org.apache.derby.engine/org/apache/derby/impl/sql/catalog/PermissionsCacheable.java	530
+java/org.apache.derby.engine/org/apache/derby/loc/messages_it.properties	543
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/data/D_StoredPage.java	86
+==== DERBY-6563 ====
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/execute/RunTimeStatistics.java	0
+==== DERBY-6565 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/RowNumberFunctionNode.java	931
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/UpdateNode.java	27
+==== DERBY-6567 ====
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/execute/RunTimeStatistics.java	79
+==== DERBY-6576 ====
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/EmbedResultSet.java	33
+java/demo/toursdb/toursdb.xml	587
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/DeleteResultSet.java	251
+java/org.apache.derby.engine/org/apache/derby/iapi/store/access/XATransactionController.java	1273
+java/org.apache.derby.engine/org/apache/derby/impl/io/DirStorageFactory.java	1
+java/org.apache.derby.engine/org/apache/derby/iapi/store/access/conglomerate/MethodFactory.java	37
+java/org.apache.derby.engine/org/apache/derby/impl/sql/catalog/SystemColumnImpl.java	78
+java/org.apache.derby.engine/org/apache/derby/loc/messages.xml	91
+java/org.apache.derby.engine/org/apache/derby/iapi/store/raw/AuxObject.java	585
+java/org.apache.derby.engine/org/apache/derby/impl/sql/catalog/PermissionsCacheable.java	3
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/UpdateResultSet.java	222
+java/org.apache.derby.engine/org/apache/derby/loc/messages_it.properties	2
+==== DERBY-6577 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/UnionNode.java	42
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/OrderByList.java	33
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/RowUtil.java	17
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/SQLToJavaValueNode.java	638
+==== DERBY-6587 ====
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/xact/RowLocking1.java	0
+==== DERBY-6595 ====
+java/org.apache.derby.engine/org/apache/derby/diag/TransactionTable.java	2
+==== DERBY-6597 ====
+java/org.apache.derby.optionaltools/org/apache/derby/optional/lucene/DerbyIndexOutput.java	23
+==== DERBY-6599 ====
+java/org.apache.derby.engine/org/apache/derby/loc/messages.xml	15
+==== DERBY-6600 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/StaticMethodCallNode.java	133
+java/org.apache.derby.engine/org/apache/derby/iapi/types/RawToBinaryFormatStream.java	20
+java/org.apache.derby.optionaltools/org/apache/derby/optional/api/LuceneUtils.java	849
+java/org.apache.derby.optionaltools/org/apache/derby/optional/lucene/DerbyIndexOutput.java	820
+==== DERBY-6602 ====
+java/org.apache.derby.optionaltools/org/apache/derby/optional/api/LuceneUtils.java	24
+java/org.apache.derby.optionaltools/org/apache/derby/optional/lucene/DerbyIndexOutput.java	36
+==== DERBY-6611 ====
+java/org.apache.derby.server/org/apache/derby/mbeans/drda/NetworkServerMBean.java	0
+==== DERBY-6616 ====
+java/org.apache.derby.engine/org/apache/derby/impl/load/ImportReadData.java	259
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/BinaryToRawStream.java	448
+java/org.apache.derby.engine/org/apache/derby/iapi/security/Securable.java	1409
+java/org.apache.derby.engine/org/apache/derby/catalog/SystemProcedures.java	0
+java/org.apache.derby.engine/org/apache/derby/authentication/SystemPrincipal.java	1879
+java/org.apache.derby.engine/org/apache/derby/iapi/db/ConsistencyChecker.java	239
+java/org.apache.derby.tools/org/apache/derby/impl/tools/ij/ijVectorResult.java	37
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/dictionary/KeyConstraintDescriptor.java	365
+java/org.apache.derby.engine/org/apache/derby/iapi/db/PropertyInfo.java	559
+java/org.apache.derby.engine/org/apache/derby/iapi/services/io/FormatableBitSet.java	139
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/CurrentDatetimeOperatorNode.java	1272
+==== DERBY-6617 ====
+java/org.apache.derby.engine/org/apache/derby/impl/services/locks/Constants.java	83
+java/org.apache.derby.engine/org/apache/derby/loc/messages.xml	23
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/XATransactionState.java	1
+java/org.apache.derby.engine/org/apache/derby/impl/services/monitor/FileMonitor.java	0
+==== DERBY-6619 ====
+java/org.apache.derby.engine/org/apache/derby/impl/services/locks/Constants.java	15
+java/org.apache.derby.engine/org/apache/derby/loc/messages.xml	10
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/XATransactionState.java	1
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/DeleteNode.java	0
+==== DERBY-6620 ====
+java/org.apache.derby.client/org/apache/derby/client/ClientDataSourceInterface.java	28
+==== DERBY-6623 ====
+java/org.apache.derby.engine/org/apache/derby/iapi/services/cache/CacheManager.java	1309
+java/org.apache.derby.engine/org/apache/derby/impl/sql/conn/GenericLanguageConnectionContext.java	1953
+tools/ant/properties/dirs.properties	1950
+==== DERBY-6629 ====
+java/org.apache.derby.tools/org/apache/derby/impl/tools/planexporter/TreeNode.java	1
+java/org.apache.derby.tools/org/apache/derby/impl/tools/planexporter/AccessDatabase.java	0
+==== DERBY-6630 ====
+java/org.apache.derby.engine/org/apache/derby/impl/services/jce/JCECipherFactory.java	0
+java/org.apache.derby.engine/org/apache/derby/iapi/services/crypto/CipherFactory.java	182
+==== DERBY-6631 ====
+java/org.apache.derby.engine/org/apache/derby/iapi/types/ReaderToUTF8Stream.java	1920
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/XATransactionState.java	1
+java/org.apache.derby.engine/org/apache/derby/iapi/store/access/xa/XAXactId.java	211
+java/org.apache.derby.engine/org/apache/derby/impl/services/monitor/FileMonitor.java	0
+==== DERBY-6635 ====
+java/org.apache.derby.engine/org/apache/derby/loc/messages.xml	2
+java/org.apache.derby.tools/org/apache/derby/impl/tools/optional/DBMDWrapper.java	292
+==== DERBY-6636 ====
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/xact/Xact.java	0
+==== DERBY-6637 ====
+java/org.apache.derby.engine/org/apache/derby/iapi/types/XMLDataValue.java	11
+==== DERBY-6648 ====
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/log/LogToFile.java	30
+java/org.apache.derby.tools/org/apache/derby/tools/ij.java	465
+java/org.apache.derby.engine/org/apache/derby/iapi/services/io/FormatableLongHolder.java	137
+java/org.apache.derby.engine/org/apache/derby/mbeans/VersionMBean.java	107
+java/org.apache.derby.engine/org/apache/derby/mbeans/JDBCMBean.java	1802
+java/org.apache.derby.engine/org/apache/derby/iapi/store/access/xa/XAXactId.java	60
+java/org.apache.derby.client/org/apache/derby/client/net/ConnectionRequestInterface.java	794
+java/org.apache.derby.engine/org/apache/derby/iapi/jdbc/EngineResultSet.java	10
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/EmbedPreparedStatement.java	12
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/EmbedXAResource.java	197
+java/org.apache.derby.engine/org/apache/derby/iapi/services/classfile/VMDescriptor.java	1140
+java/org.apache.derby.engine/org/apache/derby/catalog/types/ReferencedColumnsDescriptorImpl.java	468
+java/org.apache.derby.engine/org/apache/derby/authentication/SystemPrincipal.java	1849
+java/org.apache.derby.engine/org/apache/derby/iapi/security/SecurityUtil.java	752
+java/storeless/build.xml	1010
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/LOBStreamControl.java	133
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/AutoincrementCounter.java	340
+java/demo/nserverdemo/simpleserversample.html	496
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/CreateTableNode.java	57
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/CreateAliasNode.java	941
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/compile/TypeCompiler.java	157
+java/org.apache.derby.engine/org/apache/derby/diag/StatementDuration.java	69
+java/org.apache.derby.engine/org/apache/derby/diag/TransactionTable.java	6
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/XMLConstantNode.java	1660
+java/org.apache.derby.engine/org/apache/derby/impl/sql/conn/GenericLanguageConnectionContext.java	58
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/EmbedDatabaseMetaData.java	691
+java/org.apache.derby.client/org/apache/derby/client/am/Lob.java	40
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/xact/Xact.java	9
+java/org.apache.derby.engine/org/apache/derby/iapi/store/access/conglomerate/TransactionManager.java	1865
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/AlterTableConstantAction.java	245
+java/org.apache.derby.engine/org/apache/derby/impl/load/ExportWriteData.java	33
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/AggregatorInfo.java	813
+java/org.apache.derby.engine/org/apache/derby/impl/services/cache/CacheEntry.java	724
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/rts/RealBasicNoPutResultSetStatistics.java	559
+java/org.apache.derby.engine/org/apache/derby/iapi/types/SQLBinary.java	187
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/GenericQualifier.java	52
+java/org.apache.derby.tools/org/apache/derby/iapi/tools/i18n/LocalizedResource.java	8
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/dictionary/DataDictionary.java	36
+java/org.apache.derby.engine/org/apache/derby/impl/db/DatabaseContextImpl.java	0
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/XATransactionState.java	167
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/GenericExecutionContext.java	121
+java/org.apache.derby.engine/org/apache/derby/iapi/services/context/ContextService.java	180
+java/org.apache.derby.engine/org/apache/derby/iapi/services/context/SystemContext.java	46
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/dictionary/StatementSchemaPermission.java	1119
+java/org.apache.derby.tools/org/apache/derby/loc/toolsmessages_es.properties	1491
+java/org.apache.derby.engine/org/apache/derby/impl/services/locks/TableNameInfo.java	747
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/BaseActivation.java	13
+java/org.apache.derby.engine/org/apache/derby/iapi/types/SQLRef.java	212
+java/org.apache.derby.engine/org/apache/derby/impl/db/SlaveDatabase.java	1814
+java/org.apache.derby.engine/org/apache/derby/impl/services/jce/JCECipherFactoryBuilder.java	826
+java/org.apache.derby.engine/org/apache/derby/iapi/store/raw/log/LogFactory.java	45
+java/org.apache.derby.engine/org/apache/derby/iapi/store/access/TransactionInfo.java	15
+java/org.apache.derby.client/org/apache/derby/client/net/ConnectionReply.java	576
+java/org.apache.derby.engine/org/apache/derby/impl/services/daemon/IndexStatisticsDaemonImpl.java	7
+java/org.apache.derby.engine/org/apache/derby/iapi/types/CharStreamHeaderGenerator.java	1667
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/dictionary/SystemColumn.java	706
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/rts/RealHashLeftOuterJoinStatistics.java	1069
+java/org.apache.derby.tools/org/apache/derby/impl/tools/ij/StatementFinder.java	289
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/data/InsertOperation.java	696
+java/org.apache.derby.server/org/apache/derby/impl/drda/NetworkServerControlImpl.java	63
+java/org.apache.derby.engine/org/apache/derby/impl/io/JarStorageFactory.java	1246
+java/org.apache.derby.engine/org/apache/derby/iapi/types/SQLBit.java	150
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/BinaryToRawStream.java	206
+java/org.apache.derby.engine/org/apache/derby/impl/services/monitor/ServiceBootContext.java	514
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/NextSequenceNode.java	291
+java/org.apache.derby.engine/org/apache/derby/iapi/util/InterruptDetectedException.java	1
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/LengthOperatorNode.java	1452
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/dictionary/ConglomerateDescriptor.java	1472
+java/org.apache.derby.engine/org/apache/derby/diag/DiagUtil.java	1721
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/authentication/NativeAuthenticationServiceImpl.java	65
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/CollectNodesVisitor.java	476
+java/org.apache.derby.optionaltools/org/apache/derby/optional/lucene/DerbyIndexOutput.java	866
+java/org.apache.derby.engine/org/apache/derby/catalog/Java5SystemProcedures.java	424
+java/org.apache.derby.client/org/apache/derby/client/ClientXADataSourceInterface.java	1921
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/rts/RealHashScanStatistics.java	95
+java/org.apache.derby.engine/org/apache/derby/impl/store/access/btree/LeafControlRow.java	232
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/BinaryLogicalOperatorNode.java	5
+java/org.apache.derby.server/org/apache/derby/loc/drda/messages_es.properties	621
+java/org.apache.derby.engine/org/apache/derby/impl/services/bytecode/BCMethodDescriptor.java	1211
+java/org.apache.derby.engine/org/apache/derby/impl/sql/GenericColumnDescriptor.java	580
+java/org.apache.derby.tools/org/apache/derby/impl/tools/optional/DBMDWrapper.java	351
+java/org.apache.derby.engine/org/apache/derby/iapi/store/raw/Transaction.java	1131
+java/demo/readme.html	1155
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/dictionary/KeyConstraintDescriptor.java	338
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/dictionary/PrivilegedSQLObject.java	1791
+java/org.apache.derby.commons/org/apache/derby/shared/common/stream/HeaderPrintWriter.java	1122
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/dictionary/ConstraintDescriptorList.java	377
+java/org.apache.derby.engine/org/apache/derby/iapi/services/diag/Diagnosticable.java	122
+java/org.apache.derby.engine/org/apache/derby/iapi/services/io/TypedFormat.java	1390
+java/org.apache.derby.engine/org/apache/derby/iapi/services/io/FormatableHashtable.java	384
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/data/CompressSpacePageOperation.java	35
+java/org.apache.derby.engine/org/apache/derby/impl/services/bytecode/VMTypeIdCacheable.java	717
+java/org.apache.derby.engine/org/apache/derby/iapi/services/io/FileUtil.java	151
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/BulkTableScanResultSet.java	332
+java/org.apache.derby.engine/org/apache/derby/iapi/services/locks/ShExQual.java	523
+==== DERBY-6650 ====
+java/org.apache.derby.optionaltools/org/apache/derby/optional/api/LuceneIndexDescriptor.java	320
+java/org.apache.derby.optionaltools/org/apache/derby/optional/api/LuceneUtils.java	70
+java/org.apache.derby.optionaltools/org/apache/derby/optional/lucene/LuceneSupport.java	330
+==== DERBY-6652 ====
+java/org.apache.derby.engine/org/apache/derby/loc/messages.xml	97
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/MergeNode.java	178
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/EmbedResultSet.java	78
+==== DERBY-6654 ====
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/xact/SavePoint.java	219
+==== DERBY-6661 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/rts/RealAnyResultSetStatistics.java	115
+java/org.apache.derby.engine/org/apache/derby/impl/store/access/sort/SortBufferRowSource.java	1409
+java/org.apache.derby.engine/org/apache/derby/iapi/services/classfile/CONSTANT_Long_info.java	1501
+==== DERBY-6662 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/conn/GenericLanguageConnectionContext.java	0
+==== DERBY-6663 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/catalog/PermissionsCacheable.java	471
+==== DERBY-6664 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/catalog/PermissionsCacheable.java	1
+==== DERBY-6665 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/AlterTableConstantAction.java	159
+java/org.apache.derby.engine/org/apache/derby/iapi/types/TypeId.java	156
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/CreateIndexConstantAction.java	29
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/TableElementList.java	14
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/DropTableNode.java	116
+==== DERBY-6666 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/ValidateCheckConstraintResultSet.java	1851
+==== DERBY-6667 ====
+java/org.apache.derby.engine/org/apache/derby/loc/messages.xml	23
+==== DERBY-6668 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/DDLStatementNode.java	19
+==== DERBY-6670 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/DDLStatementNode.java	1
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/DistinctNode.java	24
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/SubqueryNode.java	84
+java/org.apache.derby.engine/org/apache/derby/impl/io/DirStorageFactory.java	91
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/UpdateResultSet.java	10
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/data/D_StoredPage.java	65
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/DeleteVTIResultSet.java	17
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/InsertVTIResultSet.java	57
+java/org.apache.derby.engine/org/apache/derby/iapi/services/property/PropertyFactory.java	3
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/xact/RowLocking1.java	218
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/NOPStatementNode.java	1303
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/conn/LanguageConnectionContext.java	8
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/UTF8Reader.java	75
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/OrderableAggregator.java	347
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/CurrentOfNode.java	270
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/CallStatementNode.java	27
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/GenericResultSetFactory.java	11
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/InsertConstantAction.java	54
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/conn/SQLSessionContext.java	254
+java/org.apache.derby.engine/org/apache/derby/impl/sql/conn/SQLSessionContextImpl.java	253
+java/org.apache.derby.engine/org/apache/derby/impl/store/access/btree/index/B2I_10_3.java	320
+java/org.apache.derby.engine/org/apache/derby/impl/sql/catalog/SYSFILESRowFactory.java	16
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/CreateIndexConstantAction.java	69
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/CreateConstraintConstantAction.java	90
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/authentication/AuthenticationServiceBase.java	38
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/AndNoShortCircuitNode.java	572
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/ValidateCheckConstraintResultSet.java	373
+java/org.apache.derby.engine/org/apache/derby/iapi/store/raw/AuxObject.java	187
+java/org.apache.derby.engine/org/apache/derby/impl/sql/catalog/PermissionsCacheable.java	94
+==== DERBY-6680 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/GenericParameter.java	0
+java/org.apache.derby.server/org/apache/derby/impl/drda/NetworkServerControlImpl.java	2
+java/org.apache.derby.tools/org/apache/derby/impl/tools/ij/xaHelper.java	5
+java/org.apache.derby.server/org/apache/derby/drda/NetServlet.java	209
+==== DERBY-6683 ====
+bin/setNetworkServerCP	0
+==== DERBY-6688 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/RowResultSetNode.java	5
+==== DERBY-6689 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/MergeNode.java	2
+==== DERBY-6690 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/TableElementList.java	75
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/GenerationClauseNode.java	525
+==== DERBY-6691 ====
+java/org.apache.derby.client/org/apache/derby/client/net/NetPackageRequest.java	51
+==== DERBY-6692 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/DeleteVTIResultSet.java	0
+==== DERBY-6693 ====
+java/org.apache.derby.engine/org/apache/derby/loc/messages.xml	67
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/MergeNode.java	0
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/EmbedResultSet.java	127
+==== DERBY-6703 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/ResultColumn.java	33
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/MergeNode.java	0
+java/org.apache.derby.engine/org/apache/derby/iapi/services/monitor/ModuleControl.java	450
+==== DERBY-6705 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/MergeNode.java	1
+java/org.apache.derby.engine/org/apache/derby/iapi/types/LocatedRow.java	52
+==== DERBY-6714 ====
+java/org.apache.derby.server/org/apache/derby/impl/drda/DRDAStatement.java	3
+java/org.apache.derby.engine/org/apache/derby/iapi/jdbc/EngineResultSet.java	1
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/xact/RowLocking3.java	6
+==== DERBY-6717 ====
+java/org.apache.derby.engine/org/apache/derby/iapi/security/SecurityUtil.java	0
+==== DERBY-6719 ====
+bin/templates/sysinfo	199
+bin/setNetworkClientCP	1572
+bin/templates/startNetworkServer	1909
+tools/release/build.xml	1908
+==== DERBY-6720 ====
+maven2/derbyLocale_cs/pom.xml	18
+maven2/SetDerbyVersion.java	1969
+maven2/optionaltools/pom.xml	1677
+==== DERBY-6722 ====
+java/org.apache.derby.tools/org/apache/derby/iapi/tools/i18n/LocalizedResource.java	40
+==== DERBY-6724 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/DefaultVTIModDeferPolicy.java	3
+==== DERBY-6726 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/AutoincrementCounter.java	6
+==== DERBY-6730 ====
+java/org.apache.derby.optionaltools/org/apache/derby/optional/lucene/DerbyLuceneDir.java	1739
+java/org.apache.derby.optionaltools/org/apache/derby/optional/api/LuceneUtils.java	201
+java/org.apache.derby.optionaltools/org/apache/derby/optional/lucene/DerbyIndexOutput.java	224
+==== DERBY-6737 ====
+java/org.apache.derby.client/org/apache/derby/client/am/ClientResultSet.java	0
+==== DERBY-6741 ====
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/EmbedXAResource.java	298
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/EmbedPreparedStatement.java	0
+==== DERBY-6751 ====
+java/org.apache.derby.engine/org/apache/derby/loc/messages_pt_BR.properties	8
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/dictionary/SubConstraintDescriptor.java	69
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/EmbedConnection.java	11
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/EmbedPreparedStatement.java	0
+java/org.apache.derby.engine/org/apache/derby/impl/sql/conn/GenericLanguageConnectionContext.java	20
+java/org.apache.derby.engine/org/apache/derby/iapi/services/classfile/ClassInput.java	71
+java/org.apache.derby.server/org/apache/derby/impl/drda/XADatabase.java	7
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/EmbedXAResource.java	30
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/rts/RealHashScanStatistics.java	160
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/compile/CompilerContext.java	29
+==== DERBY-6774 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/rts/RealTableScanStatistics.java	1845
+java/org.apache.derby.engine/org/apache/derby/impl/store/access/conglomerate/RowPosition.java	194
+==== DERBY-6783 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/DDLStatementNode.java	10
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/CreateTriggerNode.java	11
+java/org.apache.derby.engine/org/apache/derby/diag/TransactionTable.java	6
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/AutoincrementCounter.java	52
+java/org.apache.derby.engine/org/apache/derby/impl/services/monitor/BaseMonitor.java	45
+java/storeless/org/apache/derby/impl/storeless/EmptyDictionary.java	47
+==== DERBY-6807 ====
+java/org.apache.derby.engine/org/apache/derby/iapi/types/XMLDataValue.java	32
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/compile/OptTrace.java	138
+==== DERBY-6828 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/GenericParameter.java	1
+java/org.apache.derby.engine/org/apache/derby/loc/messages_de_DE.properties	511
+==== DERBY-6857 ====
+java/build/org/apache/derbyBuild/ReleaseNoteReader.java	0
+releaseSummary.xml	13
+tools/release/templates/releaseSummaryTemplate.xml	1860
+java/org.apache.derby.tools/org/apache/derby/impl/tools/sysinfo/ZipInfoProperties.java	1487
+BUILDING.html	642
+java/org.apache.derby.server/build.xml	103
+java/build/org/apache/derbyBuild/odbcgen_fragments.properties	175
+tools/ant/properties/extrapath.properties	309
+java/org.apache.derby.commons/build.xml	385
+java/demo/build.xml	410
+java/demo/toursdb/build.xml	127
+java/demo/toursdb/loadCOUNTRIES.sql	1395
+tools/ide/netbeans/nbproject/project.xml	218
+java/org.apache.derby.server/org/apache/derby/impl/drda/XADatabase.java	78
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/BaseJoinStrategy.java	258
+java/org.apache.derby.tools/build.xml	5
+tools/l10n/LocCompare.java	322
+java/org.apache.derby.engine/org/apache/derby/impl/store/access/heap/HeapRowLocation.java	1455
+java/org.apache.derby.engine/org/apache/derby/iapi/services/property/PersistentSet.java	197
+java/storeless/org/apache/derby/impl/storeless/StorelessService.java	408
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/data/EncryptContainerUndoOperation.java	361
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/SetSchemaNode.java	76
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/dictionary/TableDescriptor.java	252
+tools/ant/properties/release.properties	22
+java/org.apache.derby.engine/org/apache/derby/impl/jdbc/Util.java	11
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/GrantNode.java	455
+java/org.apache.derby.optionaltools/build.xml	1041
+==== DERBY-6860 ====
+java/org.apache.derby.tools/build.xml	0
+==== DERBY-6861 ====
+releaseSummary.xml	990
+==== DERBY-6864 ====
+java/org.apache.derby.optionaltools/org/apache/derby/optional/dump/RawDBReader.java	1973
+==== DERBY-6865 ====
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/execute/ExecPreparedStatement.java	161
+java/org.apache.derby.tools/build.xml	31
+==== DERBY-6879 ====
+java/org.apache.derby.engine/org/apache/derby/iapi/services/context/ContextService.java	0
+==== DERBY-6880 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/UpdateResultSet.java	3
+==== DERBY-6884 ====
+java/org.apache.derby.engine/org/apache/derby/catalog/types/UserDefinedTypeIdImpl.java	2
+java/org.apache.derby.engine/org/apache/derby/impl/load/ImportClob.java	35
+==== DERBY-6890 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/DDLStatementNode.java	1
+==== DERBY-6918 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/GenericScanQualifier.java	85
+java/org.apache.derby.engine/org/apache/derby/impl/store/raw/data/D_StoredPage.java	48
+==== DERBY-6956 ====
+java/org.apache.derby.tools/org/apache/derby/impl/tools/ij/ijExceptionResult.java	5
+==== DERBY-6961 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/compile/DDLStatementNode.java	0
+==== DERBY-6973 ====
+bin/setNetworkServerCP	21
+releaseSummary.xml	246
+==== DERBY-6981 ====
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/TableScanResultSet.java	26
+==== DERBY-7016 ====
+java/org.apache.derby.commons/module-info.java	1655
+bin/setNetworkClientCP	2007
+tools/release/build.xml	7
+bin/templates/sysinfo	167
+bin/templates/startNetworkServer	99
+==== DERBY-7020 ====
+java/stubs/felix/module-info.java	1106
+java/org.apache.derby.engine/module-info.java	1102
+java/org.apache.derby.commons/module-info.java	5
+java/org.apache.derby.commons/org/apache/derby/shared/api/DerbyModuleAPI.java	1972
+maven2/SetDerbyVersion.java	3
+java/build/org/apache/derbyPreBuild/ReleaseProperties.java	747
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/dictionary/TableDescriptor.java	247
+java/org.apache.derby.runner/build.xml	1104
+java/org.apache.derby.client/module-info.java	1107
+java/build/org/apache/derbyPreBuild/build.xml	1071
+bin/setNetworkServerCP	39
+java/org.apache.derby.server/module-info.java	1103
+java/org.apache.derby.tools/build.xml	10
+tools/ant/properties/extrapath.properties	453
+java/org.apache.derby.engine/org/apache/derby/impl/sql/execute/TriggerEvent.java	1234
+java/org.apache.derby.runner/module-info.java	1105
+==== DERBY-7028 ====
+java/stubs/felix/module-info.java	49
+java/org.apache.derby.commons/module-info.java	52
+java/org.apache.derby.runner/build.xml	47
+java/org.apache.derby.client/module-info.java	46
+java/org.apache.derby.engine/module-info.java	45
+java/org.apache.derby.server/module-info.java	48
+java/org.apache.derby.tools/build.xml	12
+java/org.apache.derby.runner/module-info.java	44
+==== DERBY-7041 ====
+java/org.apache.derby.engine/org/apache/derby/iapi/sql/dictionary/ConstraintDescriptor.java	83
+==== DERBY-7046 ====
+java/org.apache.derby.tools/build.xml	2

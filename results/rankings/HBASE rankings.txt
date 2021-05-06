@@ -1,0 +1,1623 @@
+==== HBASE-21507 ====
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/MultithreadedTableMapper.java	4
+==== HBASE-21518 ====
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/Import.java	236
+==== HBASE-21535 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java	0
+==== HBASE-21545 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/ColumnFamilyDescriptorBuilder.java	924
+==== HBASE-21547 ====
+dev-support/hbase-personality.sh	15
+==== HBASE-21550 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java	17
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/MasterServices.java	7
+hbase-zookeeper/src/main/java/org/apache/hadoop/hbase/zookeeper/ZKAclReset.java	2
+==== HBASE-21551 ====
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapred/TableInputFormatBase.java	0
+hbase-zookeeper/src/main/java/org/apache/hadoop/hbase/zookeeper/LoadBalancerTracker.java	3
+==== HBASE-21559 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/DisableTableProcedure.java	20
+==== HBASE-21565 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/RegionStateNode.java	20
+hbase-server/src/main/java/org/apache/hadoop/hbase/snapshot/SnapshotInfo.java	1
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/balancer/FavoredStochasticBalancer.java	0
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/ServerManager.java	4
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/util/MemorySizeUtil.java	5
+hbase-examples/src/main/java/org/apache/hadoop/hbase/coprocessor/example/RefreshHFilesEndpoint.java	9
+hbase-balancer/src/main/java/org/apache/hadoop/hbase/master/assignment/ServerState.java	13
+==== HBASE-21568 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/FixedFileTrailer.java	10
+hbase-common/src/main/java/org/apache/hadoop/hbase/util/ReflectionUtils.java	3
+hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/RegionReplicaReplicationEndpoint.java	50
+hbase-thrift/pom.xml	41
+hbase-common/src/main/java/org/apache/hadoop/hbase/conf/ConfigurationManager.java	87
+==== HBASE-21575 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/MemStoreFlusher.java	0
+==== HBASE-21582 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/DisableTableProcedure.java	2
+==== HBASE-21592 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/AsyncRpcRetryingCaller.java	1
+==== HBASE-21596 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java	19
+==== HBASE-21610 ====
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/TableOutputFormat.java	0
+==== HBASE-21614 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/OpenRegionProcedure.java	102
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/balancer/FavoredStochasticBalancer.java	0
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/ServerCrashException.java	10
+hbase-server/src/main/java/org/apache/hadoop/hbase/snapshot/SnapshotInfo.java	1
+==== HBASE-21618 ====
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/model/NamespacesInstanceModel.java	14
+==== HBASE-21620 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/StoreScanner.java	10
+hbase-client/src/main/java/org/apache/hadoop/hbase/filter/FilterListWithAND.java	85
+==== HBASE-21621 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/StoreScanner.java	2
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/CompoundBloomFilterBase.java	6
+==== HBASE-21626 ====
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/provider/consumer/ProtobufMessageBodyConsumer.java	104
+hbase-server/src/main/java/org/apache/hadoop/hbase/ipc/FifoRpcScheduler.java	2429
+==== HBASE-21629 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/security/access/Permission.java	82
+==== HBASE-21630 ====
+hbase-shell/src/main/ruby/shell/commands/scan.rb	19
+==== HBASE-21639 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/ipc/NettyRpcConnection.java	313
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/ModifyNamespaceProcedure.java	1
+==== HBASE-21644 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java	34
+==== HBASE-21657 ====
+hbase-protocol-shaded/src/main/protobuf/server/master/RegionServerStatus.proto	559
+hbase-common/src/main/java/org/apache/hadoop/hbase/ChoreService.java	190
+hbase-client/src/main/java/org/apache/hadoop/hbase/filter/NullComparator.java	210
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java	8
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/StoreScanner.java	6
+hbase-common/src/main/java/org/apache/hadoop/hbase/util/Bytes.java	13
+hbase-common/src/main/java/org/apache/hadoop/hbase/ExtendedCell.java	2
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/OnheapChunk.java	286
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/DefaultStoreFileManager.java	124
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/CellSerialization.java	1
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/MasterDDLOperationHelper.java	97
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/CellSortReducer.java	9
+hbase-common/src/main/java/org/apache/hadoop/hbase/Cell.java	7
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/AsyncRpcRetryingCaller.java	40
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/Mutation.java	139
+hbase-common/src/main/java/org/apache/hadoop/hbase/ByteBufferKeyValue.java	258
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/filter/RestCsrfPreventionFilter.java	121
+hbase-common/src/main/java/org/apache/hadoop/hbase/SizeCachedKeyValue.java	73
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/metrics2/lib/DynamicMetricsRegistry.java	134
+hbase-common/src/main/java/org/apache/hadoop/hbase/PrivateCellUtil.java	198
+hbase-client/src/main/java/org/apache/hadoop/hbase/filter/Filter.java	519
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/MemStoreSizing.java	0
+==== HBASE-21660 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java	1
+==== HBASE-21668 ====
+dev-support/Jenkinsfile	297
+==== HBASE-21683 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/security/visibility/VisibilityLabelServiceManager.java	0
+==== HBASE-21688 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/FixedFileTrailer.java	1
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/compactions/Compactor.java	2141
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/StorefileRefresherChore.java	1933
+hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/impl/BackupSystemTable.java	1690
+hbase-common/src/main/java/org/apache/hadoop/hbase/util/UnsafeAvailChecker.java	2196
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/Compressor.java	1899
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/HFile.java	311
+==== HBASE-21707 ====
+hbase-endpoint/src/main/java/org/apache/hadoop/hbase/coprocessor/Export.java	253
+==== HBASE-21732 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/querymatcher/NormalUserScanQueryMatcher.java	196
+==== HBASE-21733 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/HealthCheckChore.java	0
+==== HBASE-21736 ====
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/ScannerResultGenerator.java	15
+==== HBASE-21740 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java	0
+==== HBASE-21746 ====
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/hbase/mapreduce/JobUtil.java	386
+==== HBASE-21749 ====
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/TableInputFormatBase.java	0
+==== HBASE-21751 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/FSHLog.java	27
+==== HBASE-21754 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/MasterAnnotationReadingPriorityFunction.java	0
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/hbase/ipc/MetricsHBaseServerSource.java	159
+hbase-server/src/main/java/org/apache/hadoop/hbase/ipc/MetricsHBaseServerWrapperImpl.java	67
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/hbase/ipc/MetricsHBaseServerSourceImpl.java	33
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/hbase/ipc/MetricsHBaseServerWrapper.java	86
+hbase-server/src/main/java/org/apache/hadoop/hbase/ipc/SimpleRpcScheduler.java	4
+hbase-server/src/main/java/org/apache/hadoop/hbase/ipc/RpcScheduler.java	90
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/AbstractStateMachineRegionProcedure.java	1172
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/RecoverMetaProcedure.java	3
+bin/region_mover.rb	57
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/RpcSchedulerFactory.java	21
+==== HBASE-21765 ====
+hbase-server/pom.xml	19
+==== HBASE-21773 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/compactions/DefaultCompactor.java	99
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/NamespacesInstanceResource.java	1
+==== HBASE-21777 ====
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/MultiTableSnapshotInputFormatImpl.java	0
+==== HBASE-21781 ====
+hbase-shell/src/main/ruby/shell/commands/clear_deadservers.rb	15
+hbase-shell/src/main/ruby/shell/commands/list_deadservers.rb	16
+==== HBASE-21785 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/OpenRegionProcedure.java	76
+hbase-server/src/main/java/org/apache/hadoop/hbase/security/visibility/ParseException.java	276
+hbase-server/src/main/java/org/apache/hadoop/hbase/snapshot/SnapshotInfo.java	92
+==== HBASE-21795 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/snapshot/SnapshotInfo.java	97
+==== HBASE-21800 ====
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/hbase/regionserver/MetricsUserAggregateSourceImpl.java	234
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/hbase/regionserver/MetricsUserSource.java	0
+==== HBASE-21811 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/TransitRegionStateProcedure.java	4
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/AsyncRpcRetryingCaller.java	55
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/HThreadedSelectorServerArgs.java	923
+==== HBASE-21840 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/VersionedSegmentsList.java	16
+==== HBASE-21843 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/balancer/BalancerChore.java	144
+==== HBASE-21862 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/ipc/IPCUtil.java	4
+hbase-client/src/main/java/org/apache/hadoop/hbase/exceptions/ClientExceptionsUtil.java	260
+==== HBASE-21866 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/FSDataInputStreamWrapper.java	64
+==== HBASE-21889 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/AbstractMemStore.java	109
+==== HBASE-21890 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/RegionSplitter.java	0
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/RestoreSnapshotProcedure.java	1135
+==== HBASE-21899 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/ReopenTableRegionsProcedure.java	0
+hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/SerialReplicationChecker.java	1
+==== HBASE-21900 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/Get.java	1771
+hbase-common/src/main/java/org/apache/hadoop/hbase/trace/HBaseHTraceConfiguration.java	1582
+hbase-common/src/main/java/org/apache/hadoop/hbase/util/FutureUtils.java	237
+==== HBASE-21910 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/RawAsyncTableImpl.java	407
+==== HBASE-21915 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/constraint/ConstraintProcessor.java	4
+==== HBASE-21922 ====
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TCellVisibility.java	314
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/generated/TCell.java	887
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TRowMutations.java	1339
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TPut.java	881
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TAuthorization.java	1326
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TColumn.java	912
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/generated/AlreadyExists.java	880
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TIOError.java	1328
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/generated/Mutation.java	1325
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TColumnIncrement.java	1307
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapred/TableInputFormatBase.java	150
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TGet.java	1184
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/generated/TRegionInfo.java	387
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/generated/TColumn.java	1330
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TColumnValue.java	1639
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TAppend.java	1336
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TTimeRange.java	1324
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TIncrement.java	1300
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/generated/TRowResult.java	1343
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/generated/TIncrement.java	1338
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/THBaseService.java	1340
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TMutation.java	1332
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/generated/IOError.java	1299
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TCompareOperator.java	2740
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TBloomFilterType.java	1218
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TThriftServerType.java	2001
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TKeepDeletedCells.java	1220
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/ThriftHBaseServiceHandler.java	1994
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TConsistency.java	1995
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TTableDescriptor.java	1997
+hbase-examples/src/main/python/thrift1/gen-py/hbase/Hbase-remote	1221
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/generated/TThriftServerType.java	1219
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TCompressionAlgorithm.java	2000
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/RowResource.java	98
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/HFileBlockIndex.java	198
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TReadType.java	2705
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TDeleteType.java	1650
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TDurability.java	1417
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TScan.java	100
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/generated/TScan.java	259
+hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/RegionReplicaReplicationEndpoint.java	119
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/generated/ColumnDescriptor.java	1345
+hbase-client/src/main/java/org/apache/hadoop/hbase/snapshot/SnapshotDoesNotExistException.java	162
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/generated/Hbase.java	1329
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/generated/TAppend.java	36
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/THRegionLocation.java	1319
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TServerName.java	1320
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/THRegionInfo.java	1318
+hbase-common/src/main/java/org/apache/hadoop/hbase/NoTagsKeyValue.java	50
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TIllegalArgument.java	1327
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/generated/IllegalArgument.java	251
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TResult.java	1331
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TDelete.java	1199
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/generated/BatchMutation.java	924
+==== HBASE-21928 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/DefaultStoreFileManager.java	11
+bin/region_mover.rb	0
+hbase-server/src/main/java/org/apache/hadoop/hbase/ipc/SimpleRpcScheduler.java	6
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/MasterAnnotationReadingPriorityFunction.java	16
+==== HBASE-21938 ====
+hbase-protocol-shaded/src/main/protobuf/server/ClusterStatus.proto	263
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java	0
+hbase-client/src/main/java/org/apache/hadoop/hbase/RegionMetricsBuilder.java	1315
+hbase-client/src/main/java/org/apache/hadoop/hbase/ClusterMetrics.java	2393
+==== HBASE-21942 ====
+hbase-server/src/main/resources/hbase-webapps/master/rsgroup.jsp	2
+==== HBASE-21943 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/wal/FSHLogProvider.java	0
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/AsyncRegionLocatorHelper.java	3
+==== HBASE-21947 ====
+hbase-shell/src/main/ruby/hbase/taskmonitor.rb	0
+==== HBASE-21959 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/bucket/FileIOEngine.java	0
+==== HBASE-21960 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/snapshot/SnapshotFileCache.java	255
+hbase-server/src/main/java/org/apache/hadoop/hbase/quotas/MasterQuotaManager.java	23
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/RESTServletContainer.java	0
+hbase-shaded/pom.xml	22
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/ServerRegionReplicaUtil.java	592
+==== HBASE-21961 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/wal/FSHLogProvider.java	32
+==== HBASE-21983 ====
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/hbase/regionserver/MetricsTableAggregateSourceImpl.java	2048
+==== HBASE-21990 ====
+hbase-checkstyle/pom.xml	328
+hbase-checkstyle/src/main/resources/hbase/checkstyle.xml	972
+==== HBASE-21991 ====
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/hbase/regionserver/MetricsUserAggregateSourceImpl.java	56
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/hbase/regionserver/MetricsUserSource.java	8
+==== HBASE-22006 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java	0
+==== HBASE-22011 ====
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/RowResource.java	0
+==== HBASE-22012 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/RecoveredReplicationSource.java	9
+hbase-mapreduce/pom.xml	3
+==== HBASE-22013 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/RecoveredReplicationSource.java	25
+==== HBASE-22045 ====
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/metrics2/lib/MutableSizeHistogram.java	0
+==== HBASE-22053 ====
+bin/local-master-backup.sh	1
+==== HBASE-22054 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/HFileReaderImpl.java	105
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java	4
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/LogRoller.java	1
+==== HBASE-22057 ====
+hbase-replication/src/main/java/org/apache/hadoop/hbase/replication/ReplicationPeerImpl.java	8
+hbase-zookeeper/src/main/java/org/apache/hadoop/hbase/zookeeper/ZKUtil.java	7
+==== HBASE-22061 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMasterCommandLine.java	0
+==== HBASE-22067 ====
+hbase-zookeeper/src/main/java/org/apache/hadoop/hbase/zookeeper/MiniZooKeeperCluster.java	0
+==== HBASE-22070 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/DumpReplicationQueues.java	10
+==== HBASE-22072 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/StoreScanner.java	30
+==== HBASE-22073 ====
+hbase-server/src/main/resources/hbase-webapps/master/rits.jsp	2106
+==== HBASE-22074 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java	0
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/balancer/SimpleLoadBalancer.java	17
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/model/NamespacesInstanceModel.java	83
+hbase-client/src/main/java/org/apache/hadoop/hbase/exceptions/RegionMovedException.java	113
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/snapshot/SnapshotManager.java	68
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/CloseRegionProcedure.java	716
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/TransitRegionStateProcedure.java	427
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/ServerStateNode.java	715
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/RegionRemoteProcedureBase.java	105
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/AsyncRpcRetryingCaller.java	12
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/handler/AssignRegionHandler.java	247
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/handler/UnassignRegionHandler.java	171
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/WALPlayer.java	37
+hbase-client/src/main/java/org/apache/hadoop/hbase/security/access/ShadedAccessControlUtil.java	128
+hbase-server/src/main/java/org/apache/hadoop/hbase/snapshot/SnapshotInfo.java	6
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/DeleteTableProcedure.java	8
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/RegionSplitter.java	33
+hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/ReplicationSourceShipper.java	10
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/RegionServerAccounting.java	93
+hbase-protocol-shaded/src/main/protobuf/server/region/Admin.proto	120
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/MetricsMasterFileSystem.java	274
+==== HBASE-22086 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/BloomFilterFactory.java	43
+hbase-server/src/main/java/org/apache/hadoop/hbase/HealthCheckChore.java	42
+==== HBASE-22095 ====
+hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/impl/IncrementalBackupManager.java	2
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/CompoundBloomFilterWriter.java	3
+==== HBASE-22096 ====
+hbase-server/src/main/resources/hbase-webapps/regionserver/storeFile.jsp	23
+==== HBASE-22100 ====
+dev-support/hbase-personality.sh	383
+==== HBASE-22103 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/compactions/DateTieredCompactor.java	0
+==== HBASE-22115 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/ipc/CallRunner.java	2520
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/MemStoreFlusher.java	1904
+==== HBASE-22121 ====
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/ImportTsv.java	70
+==== HBASE-22123 ====
+hbase-http/src/main/java/org/apache/hadoop/hbase/http/HttpRequestLog.java	483
+==== HBASE-22133 ====
+hbase-server/src/main/resources/hbase-webapps/master/rits.jsp	2381
+==== HBASE-22142 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/quotas/MasterQuotasObserver.java	1403
+hbase-mapreduce/pom.xml	8
+==== HBASE-22144 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/filter/MultiRowRangeFilter.java	0
+==== HBASE-22146 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/BloomFilterFactory.java	19
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/GCMergedRegionsProcedure.java	29
+==== HBASE-22150 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java	0
+==== HBASE-22163 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java	58
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/bucket/FileIOEngine.java	50
+hbase-server/src/main/java/org/apache/hadoop/hbase/snapshot/SnapshotInfo.java	10
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HStore.java	4
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/AsyncRpcRetryingCaller.java	99
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java	12
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/ZKDataMigrator.java	41
+==== HBASE-22169 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java	2
+==== HBASE-22177 ====
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/ImportTsv.java	1797
+==== HBASE-22178 ====
+hbase-protocol-shaded/src/main/protobuf/server/master/Master.proto	5
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/client/ThriftClientBuilder.java	3
+==== HBASE-22179 ====
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/ImportTsv.java	2
+==== HBASE-22185 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/quotas/SpaceQuotaRefresherChore.java	7
+==== HBASE-22190 ====
+hbase-common/src/main/java/org/apache/hadoop/hbase/io/ByteBufferListOutputStream.java	18
+==== HBASE-22200 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/AssignmentManagerUtil.java	346
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/ModifyNamespaceProcedure.java	0
+==== HBASE-22202 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/wal/RegionGroupingProvider.java	1734
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsckRepair.java	650
+hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/flush/FlushTableSubprocedure.java	613
+hbase-server/src/main/java/org/apache/hadoop/hbase/quotas/QuotaObserverChore.java	635
+hbase-server/src/main/java/org/apache/hadoop/hbase/ipc/RpcResponse.java	452
+hbase-server/src/main/java/org/apache/hadoop/hbase/quotas/QuotaSnapshotStore.java	618
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/AsyncFSWAL.java	133
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/MultiTableOutputFormat.java	147
+==== HBASE-22206 ====
+src/site/xdoc/downloads.xml	1
+==== HBASE-22222 ====
+hbase-server/pom.xml	8
+hbase-resource-bundle/src/main/resources/META-INF/LICENSE.vm	765
+==== HBASE-22230 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/security/token/AuthenticationTokenSelector.java	134
+hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/Subprocedure.java	19
+==== HBASE-22235 ====
+bin/region_mover.rb	107
+hbase-zookeeper/src/main/java/org/apache/hadoop/hbase/zookeeper/ZKListener.java	1
+==== HBASE-22236 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/wal/FSHLogProvider.java	526
+hbase-client/src/main/java/org/apache/hadoop/hbase/RegionLocations.java	1049
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/AsyncRegionLocatorHelper.java	1883
+==== HBASE-22268 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/HFilePrettyPrinter.java	1
+hbase-shaded/hbase-shaded-client/pom.xml	34
+==== HBASE-22274 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java	2
+==== HBASE-22278 ====
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/ImportTsv.java	46
+==== HBASE-22282 ====
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/ImportTsv.java	1804
+==== HBASE-22286 ====
+hbase-resource-bundle/src/main/resources/META-INF/LICENSE.vm	0
+hbase-resource-bundle/src/main/resources/META-INF/NOTICE.vm	3
+==== HBASE-22287 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/RegionSplitter.java	0
+==== HBASE-22292 ====
+bin/region_mover.rb	37
+==== HBASE-22298 ====
+hbase-common/src/main/java/org/apache/hadoop/hbase/ServiceNotRunningException.java	0
+==== HBASE-22312 ====
+hbase-shaded/hbase-shaded-mapreduce/pom.xml	35
+==== HBASE-22314 ====
+hbase-shaded/hbase-shaded-client-byo-hadoop/pom.xml	8
+==== HBASE-22323 ====
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TCellVisibility.java	29
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/generated/TCell.java	28
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TRowMutations.java	62
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TPut.java	22
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TAuthorization.java	39
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TColumn.java	34
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/generated/AlreadyExists.java	21
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TIOError.java	38
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/generated/Mutation.java	40
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TColumnIncrement.java	79
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TGet.java	61
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/generated/TRegionInfo.java	86
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/generated/TColumn.java	90
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TColumnValue.java	199
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TAppend.java	85
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TTimeRange.java	37
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TIncrement.java	3
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/generated/TRowResult.java	59
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/generated/TIncrement.java	1
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/THBaseService.java	23
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TMutation.java	92
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/generated/IOError.java	70
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TCompareOperator.java	0
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TBloomFilterType.java	156
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TThriftServerType.java	264
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TKeepDeletedCells.java	155
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/ThriftHBaseServiceHandler.java	260
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TConsistency.java	261
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TTableDescriptor.java	262
+hbase-examples/src/main/python/thrift1/gen-py/hbase/Hbase-remote	157
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/generated/TThriftServerType.java	154
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TCompressionAlgorithm.java	263
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/RowResource.java	19
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/TableSplit.java	2
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TReadType.java	265
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TDeleteType.java	438
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TDurability.java	276
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TScan.java	58
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/generated/TScan.java	26
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/generated/ColumnDescriptor.java	96
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/generated/Hbase.java	76
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/generated/TAppend.java	42
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/THRegionLocation.java	31
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TServerName.java	32
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/THRegionInfo.java	33
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TIllegalArgument.java	36
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/generated/IllegalArgument.java	25
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TResult.java	91
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/generated/TDelete.java	24
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/generated/BatchMutation.java	35
+==== HBASE-22324 ====
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/VersionResource.java	3
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/MemStoreSegmentsIterator.java	4
+==== HBASE-22340 ====
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/CellSortReducer.java	2
+hbase-common/src/main/java/org/apache/hadoop/hbase/util/ByteBufferArray.java	0
+==== HBASE-22343 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/RegionRemoteProcedureBase.java	0
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/replication/RefreshPeerProcedure.java	356
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/replication/AbstractPeerNoLockProcedure.java	1356
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/replication/SyncReplicationReplayWALProcedure.java	987
+hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/SimpleProcedureScheduler.java	64
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/SplitWALProcedure.java	1951
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/DualAsyncFSWAL.java	2209
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/SwitchRpcThrottleRemoteProcedure.java	2250
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/ReopenTableRegionsProcedure.java	31
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/InitMetaProcedure.java	625
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/TransitRegionStateProcedure.java	5
+==== HBASE-22354 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java	1
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java	2
+==== HBASE-22360 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java	0
+==== HBASE-22370 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/ipc/CallRunner.java	2
+hbase-asyncfs/src/main/java/org/apache/hadoop/hbase/io/asyncfs/FanOutOneBlockAsyncDFSOutput.java	1
+==== HBASE-22376 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/ServerManager.java	1915
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java	1900
+==== HBASE-22378 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/ClusterStatusListener.java	0
+==== HBASE-22380 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/tool/BulkLoadHFilesTool.java	650
+hbase-server/src/main/java/org/apache/hadoop/hbase/client/ClusterConnectionFactory.java	2072
+hbase-examples/src/main/java/org/apache/hadoop/hbase/coprocessor/example/BulkDeleteEndpoint.java	126
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/normalizer/MergeNormalizationPlan.java	8
+hbase-it/pom.xml	45
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/AsyncRpcRetryingCaller.java	27
+hbase-protocol-shaded/src/main/protobuf/server/ErrorHandling.proto	2581
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/model/NamespacesInstanceModel.java	131
+hbase-client/src/main/java/org/apache/hadoop/hbase/exceptions/RegionMovedException.java	84
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java	4
+hbase-server/src/main/java/org/apache/hadoop/hbase/client/AsyncClusterConnectionImpl.java	1973
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/ClientUtil.java	587
+==== HBASE-22404 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/ServerStateNode.java	4
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/handler/RSProcedureHandler.java	628
+hbase-server/src/main/java/org/apache/hadoop/hbase/coordination/ZkSplitLogWorkerCoordination.java	875
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/RestoreSnapshotProcedure.java	1057
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java	12
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/replication/RecoverStandbyProcedure.java	777
+hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/ReplicationSourceShipper.java	992
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/balancer/SimpleLoadBalancer.java	528
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/AsyncRpcRetryingCaller.java	44
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/SplitWALManager.java	1002
+hbase-shell/src/main/ruby/shell/commands/enable_rpc_throttle.rb	1003
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/handler/AssignRegionHandler.java	22
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/handler/UnassignRegionHandler.java	11
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/CloseRegionProcedure.java	3
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/TransitRegionStateProcedure.java	2
+==== HBASE-22408 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/security/visibility/ParseException.java	128
+hbase-server/src/main/java/org/apache/hadoop/hbase/snapshot/SnapshotInfo.java	1
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/ServerManager.java	2
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/util/MemorySizeUtil.java	19
+hbase-client/src/main/java/org/apache/hadoop/hbase/ipc/ServerTooBusyException.java	149
+hbase-server/src/main/java/org/apache/hadoop/hbase/ipc/SimpleRpcServer.java	151
+==== HBASE-22417 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/replication/master/ReplicationLogCleaner.java	0
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/locking/LockManager.java	1
+==== HBASE-22425 ====
+hbase-shell/src/main/ruby/shell/commands/describe.rb	0
+==== HBASE-22440 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java	5
+==== HBASE-22441 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/BlockCacheUtil.java	13
+==== HBASE-22442 ====
+dev-support/hbase-personality.sh	488
+hbase-client/pom.xml	84
+==== HBASE-22453 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/mob/DefaultMobStoreCompactor.java	4
+==== HBASE-22462 ====
+dev-support/hbase-personality.sh	704
+==== HBASE-22471 ====
+dev-support/Jenkinsfile	64
+==== HBASE-22477 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/ProcedureSyncWait.java	685
+==== HBASE-22481 ====
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/MultiTableSnapshotInputFormat.java	1
+hbase-checkstyle/src/main/resources/hbase/checkstyle.xml	2754
+==== HBASE-22486 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/StripeStoreEngine.java	1
+==== HBASE-22487 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java	0
+==== HBASE-22490 ====
+dev-support/Jenkinsfile	812
+==== HBASE-22502 ====
+hbase-common/src/main/java/org/apache/hadoop/hbase/util/ByteBufferArray.java	0
+==== HBASE-22503 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/AuthManager.java	2
+==== HBASE-22513 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/FSTableDescriptors.java	25
+==== HBASE-22518 ====
+dev-support/hbase-personality.sh	47
+==== HBASE-22520 ====
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/MultiRowResource.java	0
+==== HBASE-22525 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/quotas/QuotaTableUtil.java	0
+==== HBASE-22529 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/TableDescriptorChecker.java	2485
+==== HBASE-22530 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/Size.java	115
+==== HBASE-22539 ====
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/provider/consumer/ProtobufMessageBodyConsumer.java	34
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/FSHLog.java	66
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/TableDescriptorBuilder.java	81
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/FSWALEntry.java	91
+hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/LockedResourceType.java	448
+==== HBASE-22559 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/cleaner/HFileCleaner.java	2
+==== HBASE-22562 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/quotas/DefaultOperationQuota.java	0
+hbase-client/src/main/java/org/apache/hadoop/hbase/ipc/AbstractRpcClient.java	11
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/MultiTableSnapshotInputFormatImpl.java	23
+==== HBASE-22563 ====
+dev-support/Jenkinsfile	3
+dev-support/Jenkinsfile_GitHub	2041
+==== HBASE-22565 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/FSHLog.java	279
+==== HBASE-22571 ====
+hbase-zookeeper/pom.xml	636
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/CopyTable.java	109
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/throttle/PressureAwareThroughputController.java	1420
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/AsyncRpcRetryingCaller.java	170
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapred/TableInputFormat.java	872
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java	10
+hbase-server/src/main/java/org/apache/hadoop/hbase/client/VersionInfoUtil.java	2753
+hbase-server/src/main/java/org/apache/hadoop/hbase/security/token/AuthenticationTokenSecretManager.java	1430
+==== HBASE-22582 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/StoreScanner.java	14
+hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/WALEntryStream.java	3
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/FlushLargeStoresPolicy.java	29
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/SimpleRequestController.java	287
+==== HBASE-22584 ====
+src/site/xdoc/downloads.xml	1
+==== HBASE-22586 ====
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/WALInputFormat.java	2433
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/TBoundedThreadPoolServer.java	1311
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/AbstractProtobufLogWriter.java	828
+hbase-common/src/main/java/org/apache/hadoop/hbase/log/HBaseMarkers.java	2268
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/compactions/Compactor.java	791
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/MemStoreSizing.java	352
+hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/RegionReplicaReplicationEndpoint.java	507
+hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/impl/FullTableBackupClient.java	2421
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/SyncFuture.java	559
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/RowResultGenerator.java	1073
+==== HBASE-22601 ====
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/TableInputFormatBase.java	2
+==== HBASE-22603 ====
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/CellSerialization.java	48
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/DeleteTableProcedure.java	498
+==== HBASE-22611 ====
+hbase-common/src/main/java/org/apache/hadoop/hbase/io/encoding/RowIndexCodecV1.java	303
+==== HBASE-22617 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/ipc/NettyRpcServer.java	18
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/CacheConfig.java	7
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/balancer/ClusterStatusChore.java	17
+hbase-server/src/main/java/org/apache/hadoop/hbase/wal/WALSplitUtil.java	2540
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/locking/LockManager.java	36
+hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/ZKPermissionWatcher.java	12
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/RegionSplitCalculator.java	3
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/AssignProcedure.java	1042
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMasterCommandLine.java	1
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/AsyncFSWAL.java	27
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java	2
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/normalizer/SplitNormalizationPlan.java	499
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/SecureProtobufLogReader.java	6
+==== HBASE-22632 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/RegionSplitCalculator.java	2
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMasterCommandLine.java	0
+==== HBASE-22649 ====
+hbase-server/src/main/resources/hbase-webapps/regionserver/region.jsp	18
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/StoreFile.java	33
+hbase-zookeeper/src/main/java/org/apache/hadoop/hbase/zookeeper/LoadBalancerTracker.java	1531
+==== HBASE-22652 ====
+hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/DelayedProcedure.java	2
+==== HBASE-22656 ====
+hbase-common/src/main/java/org/apache/hadoop/hbase/types/OrderedBytesBase.java	259
+==== HBASE-22658 ====
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/hbase/mapreduce/JobUtil.java	0
+==== HBASE-22661 ====
+hbase-shell/src/main/ruby/shell/commands/describe_namespace.rb	304
+==== HBASE-22681 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/TableDescriptorBuilder.java	1434
+==== HBASE-22684 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/TableDescriptorBuilder.java	1
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/FSHLog.java	5
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/CompactSplit.java	0
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/provider/consumer/ProtobufMessageBodyConsumer.java	233
+==== HBASE-22686 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/FSRegionScanner.java	0
+==== HBASE-22700 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/AsyncRegionLocatorHelper.java	1232
+hbase-client/src/main/java/org/apache/hadoop/hbase/exceptions/ClientExceptionsUtil.java	2610
+bin/local-master-backup.sh	4
+==== HBASE-22710 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/querymatcher/ScanQueryMatcher.java	90
+==== HBASE-22714 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/BufferedMutatorParams.java	689
+==== HBASE-22715 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/HalfStoreFileReader.java	0
+==== HBASE-22722 ====
+hbase-server/pom.xml	13
+==== HBASE-22735 ====
+hbase-shell/src/main/ruby/shell/commands/describe_namespace.rb	0
+==== HBASE-22738 ====
+hbase-endpoint/src/main/java/org/apache/hadoop/hbase/coprocessor/Export.java	125
+==== HBASE-22739 ====
+hbase-http/pom.xml	1
+==== HBASE-22751 ====
+hbase-server/src/main/resources/hbase-webapps/master/table.jsp	220
+==== HBASE-22758 ====
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/client/Client.java	2
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/locking/LockManager.java	0
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/AssignProcedure.java	617
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/cleaner/TimeToLiveLogCleaner.java	264
+hbase-client/src/main/java/org/apache/hadoop/hbase/zookeeper/ReadOnlyZKClient.java	361
+==== HBASE-22767 ====
+hbase-common/src/saveVersion.sh	662
+hbase-balancer/src/main/java/org/apache/hadoop/hbase/master/AssignmentVerificationReport.java	101
+hbase-server/src/main/java/org/apache/hadoop/hbase/snapshot/SnapshotInfo.java	0
+==== HBASE-22778 ====
+hbase-server/pom.xml	17
+==== HBASE-22779 ====
+hbase-shell/src/main/ruby/hbase/table.rb	1
+==== HBASE-22793 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/ipc/CallRunner.java	0
+==== HBASE-22801 ====
+dev-support/Jenkinsfile_GitHub	362
+==== HBASE-22806 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/AsyncScanSingleRegionRpcRetryingCaller.java	10
+==== HBASE-22838 ====
+hbase-hbtop/pom.xml	0
+==== HBASE-22852 ====
+dev-support/jenkins-scripts/cache-apache-project-artifact.sh	2853
+==== HBASE-22856 ====
+dev-support/Dockerfile	15
+==== HBASE-22860 ====
+hbase-server/src/main/resources/hbase-webapps/master/zk.jsp	1
+==== HBASE-22863 ====
+hbase-shaded/hbase-shaded-client-byo-hadoop/pom.xml	4
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/ReaderBase.java	2
+hbase-server/pom.xml	0
+pom.xml	1
+hbase-shaded/hbase-shaded-mapreduce/pom.xml	3
+==== HBASE-22867 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/cleaner/DirScanPool.java	2421
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/ThriftHBaseServiceHandler.java	30
+==== HBASE-22870 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java	0
+==== HBASE-22875 ====
+hbase-shell/src/main/ruby/shell/commands/merge_region.rb	294
+hbase-shell/src/main/ruby/shell/commands/list_table_snapshots.rb	587
+==== HBASE-22879 ====
+hbase-shell/src/main/ruby/hbase/security.rb	10
+==== HBASE-22881 ====
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/hbase/metrics/impl/HBaseMetrics2HadoopMetricsAdapter.java	1731
+hbase-procedure/pom.xml	1882
+hbase-server/src/main/java/org/apache/hadoop/hbase/snapshot/SnapshotReferenceUtil.java	2086
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/LogRoller.java	36
+hbase-server/src/main/java/org/apache/hadoop/hbase/tool/BulkLoadHFilesTool.java	927
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/FSHLog.java	0
+hbase-examples/src/main/java/org/apache/hadoop/hbase/coprocessor/example/BulkDeleteEndpoint.java	1992
+hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/ZKPermissionWatcher.java	1817
+hbase-server/src/main/java/org/apache/hadoop/hbase/tool/HFileContentValidator.java	1369
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMasterCommandLine.java	2013
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/RegionInfoBuilder.java	4
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/StoreUtils.java	1745
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/RegionServerCoprocessorHost.java	1854
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/AsyncFSWAL.java	2114
+hbase-http/src/main/java/org/apache/hadoop/hbase/util/JSONMetricUtil.java	2117
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/AnnotationReadingPriorityFunction.java	1526
+==== HBASE-22882 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/replication/BulkLoadCellFilter.java	1185
+==== HBASE-22887 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/RegionReplicaReplicationEndpoint.java	0
+==== HBASE-22903 ====
+hbase-protocol-shaded/src/main/protobuf/server/ClusterStatus.proto	1530
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java	1
+hbase-client/src/main/java/org/apache/hadoop/hbase/ClusterMetrics.java	880
+hbase-server/src/main/java/org/apache/hadoop/hbase/snapshot/SnapshotInfo.java	4
+hbase-shell/src/main/ruby/shell/commands/describe.rb	6
+hbase-client/src/main/java/org/apache/hadoop/hbase/RegionMetricsBuilder.java	940
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/RegionStatesCount.java	1517
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/model/NamespacesInstanceModel.java	219
+==== HBASE-22904 ====
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/ScannerResultGenerator.java	1
+==== HBASE-22922 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/RegionSplitCalculator.java	0
+==== HBASE-22928 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/StripeMultiFileWriter.java	0
+==== HBASE-22929 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/StoreScanner.java	8
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapred/TableInputFormat.java	35
+==== HBASE-22935 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/snapshot/CorruptedSnapshotException.java	194
+==== HBASE-22941 ====
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/ScannerResultGenerator.java	60
+==== HBASE-22943 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/SplitRequest.java	510
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMasterCommandLine.java	563
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/cleaner/TimeToLiveLogCleaner.java	501
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/SimpleTotalOrderPartitioner.java	302
+==== HBASE-22944 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/security/visibility/FeedUserAuthScanLabelGenerator.java	0
+==== HBASE-22955 ====
+dev-support/hbase-personality.sh	2
+dev-support/hbase_nightly_yetus.sh	1738
+dev-support/Jenkinsfile_GitHub	196
+==== HBASE-22961 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/FixedFileTrailer.java	0
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/HbckErrorReporter.java	2860
+hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/ZKPermissionWatcher.java	5
+==== HBASE-22963 ====
+hbase-server/pom.xml	2458
+hbase-common/src/main/java/org/apache/hadoop/hbase/util/MD5Hash.java	5
+==== HBASE-22965 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/WALEntryStream.java	7
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionFileSystem.java	1
+hbase-common/src/main/java/org/apache/hadoop/hbase/io/encoding/RowIndexCodecV1.java	725
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/StoreFileInfo.java	27
+hbase-common/src/main/java/org/apache/hadoop/hbase/io/encoding/HFileBlockEncodingContext.java	753
+==== HBASE-22970 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/RegionInfoDisplay.java	23
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/HbckChore.java	70
+==== HBASE-22980 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/StripeStoreFileManager.java	1
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/CompactedHFilesDischarger.java	0
+==== HBASE-22981 ====
+dev-support/hbase-personality.sh	3
+dev-support/hbase_nightly_yetus.sh	6
+==== HBASE-22989 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/tool/BulkLoadHFilesTool.java	804
+==== HBASE-23005 ====
+hbase-server/src/main/resources/hbase-webapps/master/table.jsp	6
+==== HBASE-23006 ====
+hbase-endpoint/src/main/java/org/apache/hadoop/hbase/coprocessor/Export.java	0
+==== HBASE-23007 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/HFilePrettyPrinter.java	299
+==== HBASE-23022 ====
+src/site/xdoc/downloads.xml	0
+==== HBASE-23040 ====
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/hbase/mapreduce/JobUtil.java	3
+==== HBASE-23042 ====
+hbase-server/src/main/resources/hbase-webapps/master/procedures.jsp	177
+==== HBASE-23043 ====
+hbase-server/pom.xml	20
+==== HBASE-23054 ====
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/hbase/regionserver/MetricsUserAggregateSourceImpl.java	1
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/hbase/regionserver/MetricsUserSource.java	0
+==== HBASE-23056 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/quotas/SpaceQuotaRefresherChore.java	1
+==== HBASE-23078 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/util/MemorySizeUtil.java	32
+hbase-http/pom.xml	7
+==== HBASE-23079 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/TransitRegionStateProcedure.java	3
+==== HBASE-23094 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/snapshot/DisabledTableSnapshotHandler.java	8
+==== HBASE-23098 ====
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/TableInputFormatBase.java	18
+==== HBASE-23115 ====
+hbase-server/src/main/jamon/org/apache/hadoop/hbase/tmpl/regionserver/RegionListTmpl.jamon	169
+hbase-server/src/main/resources/hbase-webapps/master/rsgroup.jsp	12
+hbase-server/src/main/jamon/org/apache/hadoop/hbase/tmpl/master/RSGroupListTmpl.jamon	2013
+hbase-server/src/main/resources/hbase-webapps/master/table.jsp	7
+hbase-server/src/main/jamon/org/apache/hadoop/hbase/tmpl/master/RegionServerListTmpl.jamon	357
+==== HBASE-23119 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/MemStoreSizing.java	0
+==== HBASE-23121 ====
+dev-support/create-release/release-util.sh	1225
+dev-support/create-release/do-release.sh	1090
+==== HBASE-23123 ====
+hbase-shell/src/main/ruby/shell/commands/describe.rb	12
+==== HBASE-23134 ====
+hbase-shell/src/main/ruby/shell/commands/describe.rb	5
+==== HBASE-23137 ====
+dev-support/create-release/hbase-rm/Dockerfile	1599
+==== HBASE-23138 ====
+hbase-shell/src/main/ruby/shell/commands/describe.rb	0
+==== HBASE-23139 ====
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/TableMapReduceUtil.java	5
+==== HBASE-23144 ====
+hbase-shell/src/main/ruby/shell/commands/describe.rb	6
+==== HBASE-23152 ====
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/ImportTsv.java	86
+hbase-shell/src/main/ruby/shell/commands/compaction_switch.rb	2424
+==== HBASE-23153 ====
+hbase-zookeeper/src/main/java/org/apache/hadoop/hbase/zookeeper/MiniZooKeeperCluster.java	0
+==== HBASE-23154 ====
+hbase-shell/src/main/ruby/shell/commands/clear_deadservers.rb	98
+==== HBASE-23155 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/wal/FSHLogProvider.java	1876
+==== HBASE-23156 ====
+hbase-server/pom.xml	25
+hbase-assembly/src/main/assembly/hadoop-three-compat.xml	1762
+==== HBASE-23157 ====
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/provider/consumer/ProtobufMessageBodyConsumer.java	10
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/FlushPolicy.java	36
+hbase-server/src/main/java/org/apache/hadoop/hbase/ipc/FifoRpcScheduler.java	259
+hbase-common/src/main/java/org/apache/hadoop/hbase/util/ImmutableByteArray.java	2808
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/TableStateManager.java	22
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java	1
+==== HBASE-23159 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HStore.java	2
+==== HBASE-23175 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/errorhandling/TimeoutExceptionInjector.java	1
+==== HBASE-23176 ====
+hbase-shell/src/main/ruby/shell/commands/list_snapshots.rb	661
+hbase-shell/src/main/ruby/shell/commands/delete_table_snapshots.rb	544
+==== HBASE-23177 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/constraint/ConstraintProcessor.java	199
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/MemStoreCompactor.java	35
+hbase-server/src/main/java/org/apache/hadoop/hbase/security/visibility/EnforcingScanLabelGenerator.java	237
+==== HBASE-23181 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java	25
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/provider/consumer/ProtobufMessageBodyConsumer.java	42
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/CompactSplit.java	0
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/FlushPolicy.java	3
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java	2
+hbase-common/src/main/java/org/apache/hadoop/hbase/ChoreService.java	208
+hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/ReplicationSourceWALActionListener.java	2335
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/FSHLog.java	59
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/AsyncRegionLocator.java	129
+hbase-server/src/main/java/org/apache/hadoop/hbase/ipc/FifoRpcScheduler.java	96
+hbase-common/src/main/java/org/apache/hadoop/hbase/util/ImmutableByteArray.java	274
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/CellSerialization.java	401
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/TableStateManager.java	206
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java	4
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/TableDescriptorBuilder.java	161
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/FSWALEntry.java	232
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/bucket/BucketCache.java	201
+==== HBASE-23182 ====
+dev-support/create-release/release-util.sh	1
+dev-support/create-release/do-release.sh	0
+==== HBASE-23184 ====
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/hbase/regionserver/MetricsRegionServerSource.java	1
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/hbase/regionserver/MetricsRegionServerWrapper.java	0
+hbase-common/src/main/java/org/apache/hadoop/hbase/io/ByteBuffAllocator.java	2
+==== HBASE-23187 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/util/MemorySizeUtil.java	9
+==== HBASE-23192 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/HbckChore.java	19
+==== HBASE-23195 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/AbstractFSWAL.java	0
+==== HBASE-23197 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/ipc/NettyRpcServer.java	0
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionWALFileSystem.java	2041
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/HFileArchiveUtil.java	746
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/AsyncFSWAL.java	2
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java	1
+==== HBASE-23199 ====
+hbase-server/src/main/resources/hbase-webapps/master/table.jsp	304
+==== HBASE-23202 ====
+hbase-common/src/main/java/org/apache/hadoop/hbase/io/ByteBufferListOutputStream.java	2
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/metrics2/lib/DefaultMetricsSystemHelper.java	17
+hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/impl/IncrementalBackupManager.java	3
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/CompoundBloomFilterWriter.java	11
+==== HBASE-23203 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/AdminOverAsyncAdmin.java	0
+hbase-server/src/main/resources/hbase-webapps/master/rsgroup.jsp	134
+hbase-protocol-shaded/src/main/protobuf/server/master/Master.proto	3
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/client/ThriftClientBuilder.java	4
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/ImportTsv.java	1
+==== HBASE-23222 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/mob/ManualMobMaintHFileCleaner.java	2516
+hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/ProcedureMember.java	0
+==== HBASE-23231 ====
+hbase-http/src/main/java/org/apache/hadoop/hbase/util/JSONMetricUtil.java	2
+hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/ReplicationSourceInterface.java	1
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/TableInputFormatBase.java	9
+==== HBASE-23237 ====
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/hbase/regionserver/MetricsRegionServerWrapper.java	18
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java	2
+==== HBASE-23243 ====
+hbase-server/src/main/resources/hbase-webapps/master/procedures.jsp	36
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/HbckChore.java	197
+==== HBASE-23244 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java	0
+==== HBASE-23247 ====
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/ScannerResultGenerator.java	3
+hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/ProcedureException.java	9
+==== HBASE-23262 ====
+hbase-server/src/main/resources/hbase-webapps/master/zk.jsp	0
+==== HBASE-23263 ====
+hbase-server/src/main/resources/hbase-webapps/master/quotas.jsp	178
+==== HBASE-23282 ====
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/ScannerResultGenerator.java	2
+hbase-server/src/main/java/org/apache/hadoop/hbase/snapshot/SnapshotInfo.java	4
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/balancer/FavoredStochasticBalancer.java	0
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/ServerCrashException.java	38
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/ServerManager.java	7
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/HBCKServerCrashProcedure.java	2008
+hbase-zookeeper/src/main/java/org/apache/hadoop/hbase/zookeeper/ZKNodeTracker.java	37
+==== HBASE-23290 ====
+hbase-shell/src/main/ruby/hbase/taskmonitor.rb	2162
+==== HBASE-23294 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/cleaner/ReplicationBarrierCleaner.java	1286
+==== HBASE-23312 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/AsyncTableResultScanner.java	1
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/BusyRegionSplitPolicy.java	0
+==== HBASE-23313 ====
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/ScannerResultGenerator.java	10
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/ChecksumUtil.java	123
+hbase-protocol-shaded/src/main/protobuf/HBase.proto	718
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/Admin.java	48
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/HBaseHbck.java	113
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/Hbck.java	118
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/model/NamespacesInstanceModel.java	55
+hbase-client/src/main/java/org/apache/hadoop/hbase/exceptions/RegionMovedException.java	51
+==== HBASE-23318 ====
+dev-support/make_rc.sh	10
+==== HBASE-23328 ====
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/client/Client.java	4
+==== HBASE-23336 ====
+hbase-shell/src/main/ruby/shell/commands/list_deadservers.rb	91
+==== HBASE-23337 ====
+hbase-server/pom.xml	8
+dev-support/create-release/do-release.sh	647
+==== HBASE-23342 ====
+hbase-common/src/main/java/org/apache/hadoop/hbase/io/encoding/EncodedDataBlock.java	0
+==== HBASE-23345 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/FixedFileTrailer.java	77
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/replication/RefreshPeerProcedure.java	39
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/replication/AbstractPeerProcedure.java	103
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/HashTable.java	53
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/replication/EnablePeerProcedure.java	66
+hbase-client/src/main/java/org/apache/hadoop/hbase/replication/ReplicationPeerConfigBuilder.java	78
+hbase-client/src/main/java/org/apache/hadoop/hbase/replication/ReplicationPeerConfig.java	0
+hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/RejectRequestsFromClientStateChecker.java	1
+==== HBASE-23356 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/StoreScanner.java	0
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HStore.java	6
+==== HBASE-23360 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/quotas/QuotaScope.java	8
+==== HBASE-23364 ====
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/hbase/regionserver/MetricsUserAggregateSourceImpl.java	2139
+==== HBASE-23369 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/OpenRegionProcedure.java	1
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java	3
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/client/Client.java	11
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/RegionRemoteProcedureBase.java	59
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java	7
+hbase-server/src/main/java/org/apache/hadoop/hbase/snapshot/SnapshotInfo.java	0
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/ServerManager.java	2
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/util/MemorySizeUtil.java	20
+==== HBASE-23376 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/wal/FSHLogProvider.java	0
+==== HBASE-23553 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/backup/example/LongTermArchivingHFileCleaner.java	46
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java	7
+==== HBASE-23554 ====
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/ScannerResultGenerator.java	208
+hbase-shell/src/main/ruby/shell/commands/regioninfo.rb	2524
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/RegionInfoDisplay.java	0
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/AsyncRpcRetryingCaller.java	2
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/model/NamespacesInstanceModel.java	35
+hbase-shell/src/main/ruby/shell.rb	128
+==== HBASE-23561 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/util/MemorySizeUtil.java	6
+==== HBASE-23564 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java	11
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/util/MemorySizeUtil.java	2
+==== HBASE-23570 ====
+hbase-http/src/main/java/org/apache/hadoop/hbase/http/ProfileServlet.java	3
+==== HBASE-23572 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/HbckChore.java	33
+==== HBASE-23581 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/TableDescriptorChecker.java	151
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java	0
+==== HBASE-23582 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/ipc/NettyRpcDuplexHandler.java	171
+==== HBASE-23587 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/TableDescriptorBuilder.java	95
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/FSHLog.java	3
+==== HBASE-23589 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java	1
+==== HBASE-23590 ====
+hbase-protocol-shaded/src/main/protobuf/server/ClusterStatus.proto	79
+hbase-client/src/main/java/org/apache/hadoop/hbase/Size.java	21
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java	38
+hbase-client/src/main/java/org/apache/hadoop/hbase/ClusterMetricsBuilder.java	85
+hbase-client/src/main/java/org/apache/hadoop/hbase/RegionMetrics.java	30
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HStore.java	22
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/RegionsRecoveryChore.java	0
+bin/local-master-backup.sh	53
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/locking/LockProcedure.java	41
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/hbase/regionserver/MetricsRegionSource.java	36
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/hbase/regionserver/MetricsRegionServerSourceImpl.java	37
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/ScannerInstanceResource.java	15
+==== HBASE-23594 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/balancer/FavoredStochasticBalancer.java	9
+==== HBASE-23596 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/HBCKServerCrashProcedure.java	0
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/client/Client.java	79
+==== HBASE-23633 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java	0
+==== HBASE-23636 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/balancer/FavoredStochasticBalancer.java	0
+hbase-server/src/main/java/org/apache/hadoop/hbase/snapshot/SnapshotInfo.java	13
+==== HBASE-23648 ====
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/ImportTsv.java	0
+==== HBASE-23659 ====
+hbase-http/pom.xml	1
+==== HBASE-23660 ====
+hbase-server/src/main/resources/hbase-webapps/master/table.jsp	50
+==== HBASE-23663 ====
+hbase-http/src/main/java/org/apache/hadoop/hbase/http/ProfileOutputServlet.java	0
+==== HBASE-23677 ====
+hbase-server/src/main/resources/hbase-webapps/regionserver/region.jsp	642
+==== HBASE-23679 ====
+hbase-it/pom.xml	0
+==== HBASE-23682 ====
+hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/RootProcedureState.java	2
+==== HBASE-23694 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/region/MasterRegionFlusherAndCompactor.java	51
+==== HBASE-23702 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/MemStoreFlusher.java	1
+==== HBASE-23709 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/security/provider/DigestSaslClientAuthenticationProvider.java	2312
+==== HBASE-23715 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/balancer/ClusterStatusChore.java	0
+==== HBASE-23720 ====
+dev-support/create-release/release-util.sh	0
+==== HBASE-23737 ====
+hbase-balancer/src/main/java/org/apache/hadoop/hbase/favored/FavoredNodesPlan.java	54
+hbase-client/src/main/java/org/apache/hadoop/hbase/shaded/protobuf/RequestConverter.java	156
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/balancer/StochasticLoadBalancer.java	9
+==== HBASE-23741 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HStore.java	13
+hbase-server/src/main/java/org/apache/hadoop/hbase/wal/RecoveredEditsOutputSink.java	1992
+hbase-server/src/main/java/org/apache/hadoop/hbase/wal/WALSplitUtil.java	1907
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java	0
+==== HBASE-23744 ====
+hbase-protocol-shaded/src/main/protobuf/server/io/HFile.proto	0
+==== HBASE-23782 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/JvmPauseMonitor.java	1596
+==== HBASE-23804 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java	2
+hbase-server/src/main/java/org/apache/hadoop/hbase/wal/RegionGroupingProvider.java	698
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java	0
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/FSUtils.java	2047
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/AsyncRpcRetryingCaller.java	4
+hbase-common/src/main/java/org/apache/hadoop/hbase/util/DNS.java	1425
+hbase-client/src/main/java/org/apache/hadoop/hbase/exceptions/MasterRegistryFetchException.java	306
+bin/region_mover.rb	22
+==== HBASE-23813 ====
+hbase-archetypes/hbase-shaded-client-project/src/main/resources/log4j.properties	415
+hbase-archetypes/hbase-archetype-builder/installArchetypes.sh	522
+==== HBASE-23832 ====
+bin/local-master-backup.sh	6
+==== HBASE-23833 ====
+hbase-asyncfs/src/main/java/org/apache/hadoop/hbase/io/asyncfs/ProtobufDecoder.java	1899
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/RowResultGenerator.java	1
+hbase-asyncfs/src/main/java/org/apache/hadoop/hbase/io/asyncfs/FanOutOneBlockAsyncDFSOutput.java	3
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/compactions/DateTieredCompactor.java	2
+==== HBASE-23834 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java	1
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/RegionStates.java	1192
+hbase-resource-bundle/src/main/resources/META-INF/LICENSE.vm	5
+hbase-server/src/main/java/org/apache/hadoop/hbase/wal/AbstractFSWALProvider.java	24
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/HFilePrettyPrinter.java	48
+hbase-server/src/main/java/org/apache/hadoop/hbase/quotas/MasterQuotaManager.java	15
+hbase-shaded/pom.xml	12
+hbase-http/src/main/java/org/apache/hadoop/hbase/http/HttpServerUtil.java	21
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/RESTServletContainer.java	18
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/AsyncTableResultScanner.java	39
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/AbstractMemStore.java	4
+hbase-http/src/main/java/org/apache/hadoop/hbase/http/HttpConfig.java	3
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/filter/GZIPResponseStream.java	518
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/StoreFileWriter.java	16
+hbase-http/src/main/java/org/apache/hadoop/hbase/http/ProfileOutputServlet.java	2384
+hbase-rest/pom.xml	0
+hbase-server/pom.xml	2
+pom.xml	11
+hbase-shaded/hbase-shaded-client/pom.xml	178
+==== HBASE-23881 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/ConnectionCache.java	503
+hbase-server/src/main/java/org/apache/hadoop/hbase/security/provider/AttemptingUserProvidingSaslServer.java	580
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/hbck/HFileCorruptionChecker.java	186
+hbase-server/src/main/java/org/apache/hadoop/hbase/coprocessor/BaseEnvironment.java	1145
+hbase-client/src/main/java/org/apache/hadoop/hbase/security/provider/SaslAuthMethod.java	581
+hbase-metrics-api/src/main/java/org/apache/hadoop/hbase/metrics/Timer.java	716
+==== HBASE-23895 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/ipc/RpcServer.java	10
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/region/MasterRegionFlusherAndCompactor.java	8
+==== HBASE-23904 ====
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/client/Client.java	0
+==== HBASE-23909 ====
+hbase-shell/src/main/ruby/shell/commands/describe_namespace.rb	0
+==== HBASE-23921 ====
+dev-support/hbase-personality.sh	363
+==== HBASE-23933 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/SimpleRpcSchedulerFactory.java	2056
+hbase-assembly/src/main/assembly/hadoop-three-compat.xml	2815
+hbase-balancer/src/main/java/org/apache/hadoop/hbase/favored/StartcodeAgnosticServerName.java	1750
+hbase-balancer/src/main/java/org/apache/hadoop/hbase/favored/FavoredNodesPromoter.java	613
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/ConnectionUtils.java	2055
+hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/PermissionStorage.java	1731
+hbase-balancer/src/main/java/org/apache/hadoop/hbase/master/balancer/ServerAndLoad.java	1306
+hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/DefaultSourceFSConfigurationProvider.java	1396
+hbase-balancer/src/main/java/org/apache/hadoop/hbase/master/RegionPlan.java	1191
+hbase-balancer/pom.xml	2634
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/hbase/master/balancer/MetricsStochasticBalancerSourceImpl.java	2435
+hbase-balancer/src/main/java/org/apache/hadoop/hbase/master/assignment/ServerState.java	1310
+hbase-balancer/src/main/java/org/apache/hadoop/hbase/master/balancer/MetricsStochasticBalancer.java	2553
+hbase-hbtop/pom.xml	65
+hbase-balancer/src/main/java/org/apache/hadoop/hbase/favored/FavoredNodesPlan.java	1412
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/AssignmentManager.java	1716
+hbase-server/pom.xml	104
+hbase-balancer/src/main/java/org/apache/hadoop/hbase/master/balancer/RegionInfoComparator.java	2726
+pom.xml	91
+==== HBASE-23944 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/CompactionPipeline.java	21
+==== HBASE-23949 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java	8
+hbase-endpoint/src/main/java/org/apache/hadoop/hbase/coprocessor/Export.java	9
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/snapshot/ExportSnapshot.java	1122
+hbase-http/pom.xml	11
+hbase-backup/pom.xml	30
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/LoadBalancer.java	7
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/CompactionPipeline.java	17
+hbase-zookeeper/src/main/java/org/apache/hadoop/hbase/zookeeper/MiniZooKeeperCluster.java	19
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/util/MemorySizeUtil.java	39
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/RegionPlacementMaintainer.java	201
+==== HBASE-23953 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/CompactionPipeline.java	2134
+==== HBASE-23954 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/util/MemorySizeUtil.java	35
+==== HBASE-23987 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/security/SaslChallengeDecoder.java	267
+==== HBASE-23998 ====
+hbase-resource-bundle/src/main/resources/META-INF/LICENSE.vm	4
+==== HBASE-24016 ====
+dev-support/Jenkinsfile	5
+==== HBASE-24040 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/balancer/BalancerChore.java	0
+==== HBASE-24041 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/quotas/MasterQuotaManager.java	3
+==== HBASE-24043 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/locking/LockManager.java	0
+==== HBASE-24057 ====
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/TableMapReduceUtil.java	5
+==== HBASE-24074 ====
+hbase-http/src/main/java/org/apache/hadoop/hbase/util/JSONMetricUtil.java	3
+==== HBASE-24096 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/rsgroup/RSGroupUtil.java	3
+hbase-backup/pom.xml	0
+==== HBASE-24117 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java	18
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/balancer/FavoredStochasticBalancer.java	0
+==== HBASE-24121 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/ipc/RpcServer.java	25
+==== HBASE-24122 ====
+dev-support/gather_machine_environment.sh	68
+==== HBASE-24158 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/AsyncRegionLocatorHelper.java	284
+==== HBASE-24160 ====
+dev-support/create-release/release-util.sh	10
+==== HBASE-24163 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/SimpleRequestController.java	7
+==== HBASE-24174 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/ipc/RpcServerInterface.java	22
+hbase-server/src/main/java/org/apache/hadoop/hbase/ipc/RpcServer.java	0
+==== HBASE-24176 ====
+hbase-shell/src/main/ruby/hbase/security.rb	0
+==== HBASE-24186 ====
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/hbase/mapreduce/JobUtil.java	0
+==== HBASE-24189 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/SecureProtobufLogReader.java	56
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/ModifyNamespaceProcedure.java	18
+==== HBASE-24190 ====
+hbase-examples/src/main/java/org/apache/hadoop/hbase/coprocessor/example/ExampleMasterObserverWithMetrics.java	0
+hbase-http/src/main/java/org/apache/hadoop/hbase/http/lib/package-info.java	159
+==== HBASE-24197 ====
+hbase-rest/pom.xml	0
+==== HBASE-24203 ====
+dev-support/create-release/do-release-docker.sh	1081
+dev-support/docker/Dockerfile	1
+dev-support/hbase_docker.sh	39
+==== HBASE-24211 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/security/SaslUtil.java	0
+hbase-zookeeper/src/main/java/org/apache/hadoop/hbase/zookeeper/ZKUtil.java	12
+==== HBASE-24215 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/quotas/MasterQuotaManager.java	134
+hbase-shaded/pom.xml	175
+hbase-server/pom.xml	20
+==== HBASE-24220 ====
+hbase-zookeeper/pom.xml	194
+hbase-server/src/main/java/org/apache/hadoop/hbase/snapshot/RestoreSnapshotHelper.java	499
+hbase-zookeeper/src/main/java/org/apache/hadoop/hbase/zookeeper/ZKUtil.java	6
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/StripeMultiFileWriter.java	1285
+==== HBASE-24246 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java	10
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/janitor/MetaFixer.java	18
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/RegionInfoDisplay.java	14
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/RegionSplitCalculator.java	0
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/HbckChore.java	70
+==== HBASE-24247 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/RegionSplitCalculator.java	3
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/RegionInfoDisplay.java	35
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/janitor/MetaFixer.java	1
+==== HBASE-24251 ====
+dev-support/create-release/do-release-docker.sh	125
+dev-support/docker/Dockerfile	2
+dev-support/hbase_docker.sh	16
+==== HBASE-24253 ====
+dev-support/Dockerfile	51
+==== HBASE-24263 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/hbck/HFileCorruptionChecker.java	3
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/ConnectionCache.java	4
+==== HBASE-24273 ====
+hbase-server/src/main/resources/hbase-webapps/master/hbck.jsp	67
+==== HBASE-24274 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/StoreFileWriter.java	12
+==== HBASE-24280 ====
+dev-support/hbase-personality.sh	10
+hbase-shaded/pom.xml	15
+dev-support/jenkins_precommit_github_yetus.sh	546
+dev-support/hbase_nightly_yetus.sh	80
+==== HBASE-24281 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/MemStoreCompactorSegmentsIterator.java	46
+hbase-examples/pom.xml	34
+hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/AbstractProcedureScheduler.java	33
+hbase-client/pom.xml	32
+==== HBASE-24282 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/ipc/RpcServer.java	0
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/AsyncRpcRetryingCaller.java	1
+==== HBASE-24284 ====
+hbase-archetypes/hbase-shaded-client-project/src/main/resources/log4j.properties	2778
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/RegionStates.java	594
+hbase-client/pom.xml	77
+hbase-shaded/pom.xml	210
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/AbstractMemStore.java	217
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/MemStoreCompactorSegmentsIterator.java	97
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/StoreFileWriter.java	94
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/DefaultVisibilityExpressionResolver.java	193
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/ReaderBase.java	198
+hbase-zookeeper/src/main/java/org/apache/hadoop/hbase/zookeeper/RegionNormalizerTracker.java	182
+hbase-examples/pom.xml	197
+pom.xml	9
+hbase-shaded/hbase-shaded-mapreduce/pom.xml	226
+==== HBASE-24288 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/security/NettyHBaseSaslRpcClientHandler.java	0
+==== HBASE-24307 ====
+hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/AbstractProcedureScheduler.java	167
+==== HBASE-24314 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/PeerProcedureHandler.java	1682
+hbase-server/src/main/java/org/apache/hadoop/hbase/procedure2/RSProcedureCallable.java	1464
+==== HBASE-24316 ====
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/client/Client.java	0
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/GCMultipleMergedRegionsProcedure.java	1580
+==== HBASE-24322 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/snapshot/TakeSnapshotHandler.java	6
+==== HBASE-24336 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/AbstractFSWAL.java	1825
+==== HBASE-24365 ====
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/hbase/regionserver/MetricsTableSource.java	0
+==== HBASE-24368 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/HBCKServerCrashProcedure.java	2
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/balancer/FavoredStochasticBalancer.java	0
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/GCMultipleMergedRegionsProcedure.java	749
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/HbckChore.java	428
+==== HBASE-24376 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/AsyncNonMetaRegionLocator.java	3
+==== HBASE-24377 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/MemStoreFlusher.java	0
+==== HBASE-24381 ====
+hbase-server/src/main/resources/hbase-webapps/master/rsgroup.jsp	360
+hbase-server/src/main/jamon/org/apache/hadoop/hbase/tmpl/master/RegionServerListTmpl.jamon	375
+hbase-server/src/main/jamon/org/apache/hadoop/hbase/tmpl/master/RSGroupListTmpl.jamon	219
+==== HBASE-24393 ====
+dev-support/create-release/release-util.sh	2
+==== HBASE-24401 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/AsyncRpcRetryingCaller.java	5
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java	0
+==== HBASE-24413 ====
+hbase-shell/src/main/ruby/shell/commands/describe.rb	1927
+==== HBASE-24425 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/HbckChore.java	4
+==== HBASE-24426 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/HBCKServerCrashProcedure.java	770
+==== HBASE-24434 ====
+hbase-examples/src/main/cpp/Makefile	197
+hbase-examples/src/main/cpp/gen-cpp/Hbase.h	323
+hbase-examples/src/main/cpp/gen-cpp/Hbase_server.skeleton.cpp	2070
+hbase-examples/src/main/cpp/gen-cpp/Hbase.cpp	322
+==== HBASE-24446 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/ServerManager.java	2
+==== HBASE-24454 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/quotas/SpaceQuotaRefresherChore.java	0
+==== HBASE-24481 ====
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/SyncTable.java	401
+==== HBASE-24496 ====
+hbase-server/src/main/resources/hbase-webapps/master/header.jsp	0
+hbase-server/src/main/resources/hbase-webapps/regionserver/footer.jsp	1
+==== HBASE-24499 ====
+hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/impl/BackupManifest.java	232
+==== HBASE-24506 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/ipc/IPCUtil.java	188
+hbase-server/src/main/java/org/apache/hadoop/hbase/coprocessor/BaseEnvironment.java	854
+==== HBASE-24511 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/RegionSplitter.java	22
+==== HBASE-24513 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/AsyncSingleRequestRpcRetryingCaller.java	268
+==== HBASE-24515 ====
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/model/NamespacesInstanceModel.java	4
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/AsyncRpcRetryingCaller.java	1
+==== HBASE-24517 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/snapshot/SnapshotInfo.java	0
+==== HBASE-24518 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java	1
+==== HBASE-24529 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HStore.java	1928
+==== HBASE-24532 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java	1
+==== HBASE-24545 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/balancer/FavoredStochasticBalancer.java	2
+hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/BackupObserver.java	3
+==== HBASE-24546 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/SplitRequest.java	0
+==== HBASE-24550 ====
+bin/hbase-config.sh	19
+bin/hbase	2
+==== HBASE-24552 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/RegionRemoteProcedureBase.java	22
+==== HBASE-24564 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java	12
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java	13
+==== HBASE-24568 ====
+dev-support/create-release/release-util.sh	21
+dev-support/create-release/do-release.sh	344
+==== HBASE-24579 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/snapshot/EnabledTableSnapshotHandler.java	0
+==== HBASE-24583 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/KeyPrefixRegionSplitPolicy.java	300
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/AsyncNonMetaRegionLocator.java	18
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/snapshot/DisabledTableSnapshotHandler.java	0
+==== HBASE-24588 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java	1
+hbase-protocol-shaded/src/main/protobuf/server/master/Master.proto	58
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/AsyncNonMetaRegionLocator.java	10
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/KeyPrefixRegionSplitPolicy.java	53
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/normalizer/RegionNormalizer.java	144
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/ImportTsv.java	106
+==== HBASE-24591 ====
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/ScannerResultGenerator.java	0
+==== HBASE-24600 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/exceptions/RegionMovedException.java	0
+==== HBASE-24615 ====
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/metrics2/lib/MutableSizeHistogram.java	0
+==== HBASE-24616 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/procedure2/RSProcedureCallable.java	2168
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java	39
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/balancer/FavoredStochasticBalancer.java	248
+hbase-zookeeper/src/main/java/org/apache/hadoop/hbase/zookeeper/LoadBalancerTracker.java	922
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/SplitWALCallable.java	2690
+hbase-server/src/main/java/org/apache/hadoop/hbase/wal/RecoveredEditsOutputSink.java	0
+hbase-endpoint/src/main/java/org/apache/hadoop/hbase/coprocessor/AggregateImplementation.java	2
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/ModifyNamespaceProcedure.java	3
+==== HBASE-24625 ====
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/provider/consumer/ProtobufMessageBodyConsumer.java	11
+hbase-asyncfs/src/main/java/org/apache/hadoop/hbase/io/asyncfs/AsyncFSOutput.java	41
+hbase-asyncfs/src/main/java/org/apache/hadoop/hbase/io/asyncfs/WrapperAsyncFSOutput.java	524
+hbase-asyncfs/src/main/java/org/apache/hadoop/hbase/io/asyncfs/FanOutOneBlockAsyncDFSOutput.java	5
+hbase-server/src/main/java/org/apache/hadoop/hbase/protobuf/ReplicationProtobufUtil.java	4
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/CombinedAsyncWriter.java	911
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/IncreasingToUpperBoundRegionSplitPolicy.java	30
+hbase-server/src/main/java/org/apache/hadoop/hbase/wal/WALFactory.java	3
+==== HBASE-24651 ====
+dev-support/create-release/release-build.sh	0
+dev-support/create-release/release-util.sh	1
+==== HBASE-24661 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java	0
+==== HBASE-24665 ====
+hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/store/LeaseRecovery.java	183
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/CompactSplit.java	0
+==== HBASE-24675 ====
+hbase-backup/pom.xml	2
+==== HBASE-24693 ====
+bin/region_mover.rb	126
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/RegionInfoDisplay.java	0
+==== HBASE-24705 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/HRegionLocation.java	2630
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/janitor/MetaFixer.java	726
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/SimpleTotalOrderPartitioner.java	1938
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/FSDataInputStreamWrapper.java	2107
+==== HBASE-24710 ====
+hbase-common/src/saveVersion.sh	0
+==== HBASE-24711 ====
+dev-support/create-release/release-util.sh	0
+==== HBASE-24713 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/FSHLog.java	0
+==== HBASE-24714 ====
+hbase-server/src/main/resources/hbase-webapps/master/table.jsp	51
+==== HBASE-24720 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/ServerManager.java	4
+==== HBASE-24721 ====
+hbase-backup/pom.xml	11
+==== HBASE-24738 ====
+hbase-shell/src/main/ruby/hbase/taskmonitor.rb	5
+==== HBASE-24742 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/StoreScanner.java	0
+==== HBASE-24746 ====
+hbase-thrift/src/main/resources/hbase-webapps/static/css/hbase.css	248
+==== HBASE-24752 ====
+hbase-server/src/main/resources/hbase-webapps/master/zk.jsp	0
+==== HBASE-24766 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/ServerRemoteProcedure.java	0
+==== HBASE-24767 ====
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/hbase/regionserver/MetricsUserAggregateSource.java	7
+==== HBASE-24775 ====
+hbase-hbtop/src/main/java/org/apache/hadoop/hbase/hbtop/Record.java	1801
+==== HBASE-24788 ====
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/hbase/regionserver/MetricsRegionSourceImpl.java	708
+hbase-common/src/main/java/org/apache/hadoop/hbase/AuthUtil.java	0
+==== HBASE-24794 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java	0
+==== HBASE-24797 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java	2
+==== HBASE-24799 ====
+dev-support/create-release/do-release.sh	602
+==== HBASE-24808 ====
+hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/ThriftHBaseServiceHandler.java	1
+==== HBASE-24830 ====
+hbase-endpoint/src/main/java/org/apache/hadoop/hbase/coprocessor/AggregateImplementation.java	0
+==== HBASE-24838 ====
+dev-support/Jenkinsfile_GitHub	0
+==== HBASE-24844 ====
+hbase-zookeeper/src/main/java/org/apache/hadoop/hbase/zookeeper/ZKWatcher.java	0
+==== HBASE-24856 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/backup/example/HFileArchiveManager.java	0
+==== HBASE-24871 ====
+hbase-http/src/main/java/org/apache/hadoop/hbase/util/JSONMetricUtil.java	0
+==== HBASE-24874 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/ipc/NettyRpcDuplexHandler.java	2
+hbase-shell/src/main/ruby/shell/commands/describe.rb	4
+hbase-shell/src/main/ruby/shell/commands/scan.rb	3
+hbase-shell/src/main/ruby/shell/commands/alter.rb	198
+==== HBASE-24884 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/tool/BulkLoadHFilesTool.java	0
+==== HBASE-24885 ====
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/ScannerResultGenerator.java	27
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/OpenRegionProcedure.java	5
+hbase-server/src/main/java/org/apache/hadoop/hbase/snapshot/SnapshotInfo.java	0
+==== HBASE-24890 ====
+hbase-shell/src/main/ruby/shell/commands/regioninfo.rb	2640
+==== HBASE-24892 ====
+hbase-common/src/main/java/org/apache/hadoop/hbase/io/compress/Compression.java	5
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java	16
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/MemStoreLAB.java	7
+==== HBASE-24896 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/RegionInfoDisplay.java	2
+==== HBASE-24926 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/util/RegionSplitCalculator.java	1935
+==== HBASE-24958 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/compactions/AbstractMultiOutputCompactor.java	5
+hbase-client/src/main/java/org/apache/hadoop/hbase/filter/ParseFilter.java	9
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/compactions/ExploringCompactionPolicy.java	8
+==== HBASE-24968 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/WALEntryStream.java	86
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMaster.java	9
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/Scan.java	0
+hbase-server/src/main/java/org/apache/hadoop/hbase/wal/RecoveredEditsOutputSink.java	440
+hbase-common/src/main/java/org/apache/hadoop/hbase/MetaCellComparator.java	1
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java	16
+hbase-common/src/main/java/org/apache/hadoop/hbase/util/Bytes.java	5
+==== HBASE-24971 ====
+hbase-server/src/main/resources/hbase-webapps/static/js/jquery.min.js	0
+hbase-thrift/src/main/resources/hbase-webapps/static/js/jquery.min.js	1
+hbase-server/src/main/resources/hbase-webapps/static/js/jquery.tablesorter.min.js	1373
+==== HBASE-24995 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/janitor/MetaFixer.java	0
+==== HBASE-25009 ====
+hbase-server/src/main/resources/hbase-webapps/master/hbck.jsp	357
+==== HBASE-25012 ====
+hbase-procedure/pom.xml	1
+==== HBASE-25014 ====
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapred/TableRecordReaderImpl.java	0
+==== HBASE-25016 ====
+hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/client/Client.java	70
+==== HBASE-25021 ====
+dev-support/Jenkinsfile	126
+==== HBASE-25047 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/ModifyNamespaceProcedure.java	1644
+==== HBASE-25048 ====
+hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/RootProcedureState.java	0
+==== HBASE-25054 ====
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/TableMapReduceUtil.java	33
+==== HBASE-25077 ====
+hbase-server/src/main/resources/hbase-webapps/master/hbck.jsp	3
+==== HBASE-25081 ====
+dev-support/hbase-personality.sh	6
+==== HBASE-25088 ====
+hbase-client/src/main/java/org/apache/hadoop/hbase/CatalogFamilyFormat.java	2176
+==== HBASE-25093 ====
+hbase-endpoint/src/main/java/org/apache/hadoop/hbase/coprocessor/Export.java	1
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/snapshot/ExportSnapshot.java	34
+hbase-http/pom.xml	0
+hbase-server/src/main/java/org/apache/hadoop/hbase/snapshot/SnapshotInfo.java	138
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/LoadBalancer.java	5
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/RegionPlacementMaintainer.java	82
+==== HBASE-25096 ====
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/hbase/regionserver/MetricsRegionServerWrapper.java	0
+==== HBASE-25097 ====
+hbase-server/src/main/jamon/org/apache/hadoop/hbase/tmpl/master/AssignmentManagerStatusTmpl.jamon	39
+hbase-server/src/main/resources/hbase-webapps/master/zk.jsp	30
+==== HBASE-25098 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/replication/ReplicationSinkServiceImpl.java	970
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/snapshot/RegionServerSnapshotManager.java	1762
+==== HBASE-25100 ====
+hbase-procedure/pom.xml	1
+hbase-external-blockcache/src/main/java/org/apache/hadoop/hbase/io/hfile/MemcachedBlockCache.java	0
+==== HBASE-25115 ====
+hbase-thrift/pom.xml	0
+==== HBASE-25117 ====
+hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/TableInputFormatBase.java	2
+hbase-procedure/pom.xml	0
+==== HBASE-25135 ====
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/hbase/regionserver/MetricsTableWrapperAggregate.java	11
+hbase-hadoop-compat/src/main/java/org/apache/hadoop/hbase/regionserver/MetricsTableSource.java	20
+hbase-client/src/main/java/org/apache/hadoop/hbase/client/ClientIdGenerator.java	19
+==== HBASE-25147 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/ReopenTableRegionsProcedure.java	0
+hbase-client/src/main/java/org/apache/hadoop/hbase/security/access/ShadedAccessControlUtil.java	20
+==== HBASE-25165 ====
+hbase-server/src/main/jamon/org/apache/hadoop/hbase/tmpl/master/RegionServerListTmpl.jamon	652
+==== HBASE-25166 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/mob/MobFileCompactionChore.java	12
+==== HBASE-25168 ====
+hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/FlushPolicy.java	2
+hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/TruncateTableProcedure.java	1
+hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/HFile.java	3
+==== HBASE-25186 ====
+hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/store/LeaseRecovery.java	0
+hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/store/InMemoryProcedureIterator.java	3
+==== HBASE-25204 ====
+dev-support/Jenkinsfile	37

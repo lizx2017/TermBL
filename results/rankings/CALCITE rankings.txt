@@ -1,0 +1,1040 @@
+==== CALCITE-3807 ====
+core/src/main/java/org/apache/calcite/plan/ConventionTraitDef.java	7
+core/src/main/java/org/apache/calcite/schema/Statistics.java	5
+splunk/src/main/java/org/apache/calcite/adapter/splunk/search/SplunkConnectionImpl.java	0
+==== CALCITE-3809 ====
+core/src/main/java/org/apache/calcite/rex/RexAnalyzer.java	72
+core/src/main/java/org/apache/calcite/rex/RexSimplify.java	3
+core/src/main/java/org/apache/calcite/rel/metadata/NullSentinel.java	45
+==== CALCITE-3811 ====
+core/src/main/java/org/apache/calcite/sql/SqlBinaryOperator.java	236
+core/src/main/java/org/apache/calcite/sql/SqlDynamicParam.java	28
+core/src/main/java/org/apache/calcite/rel/rel2sql/SqlImplementor.java	17
+==== CALCITE-3814 ====
+core/src/main/java/org/apache/calcite/rel/rules/SortProjectTransposeRule.java	898
+core/src/main/java/org/apache/calcite/schema/ExtensibleTable.java	173
+==== CALCITE-3815 ====
+core/src/main/java/org/apache/calcite/util/BuiltInMethod.java	3
+core/src/main/java/org/apache/calcite/sql/SqlUtil.java	9
+core/src/main/java/org/apache/calcite/sql/fun/SqlAvgAggFunction.java	46
+core/src/main/java/org/apache/calcite/sql/fun/SqlMinMaxAggFunction.java	260
+core/src/main/java/org/apache/calcite/sql/fun/SqlSingleValueAggFunction.java	34
+==== CALCITE-3817 ====
+splunk/src/main/java/org/apache/calcite/adapter/splunk/search/SplunkConnectionImpl.java	0
+==== CALCITE-3821 ====
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableFilterRule.java	394
+core/src/main/java/org/apache/calcite/plan/RelOptPredicateList.java	12
+core/src/main/java/org/apache/calcite/rel/rules/SortRemoveRule.java	390
+core/src/main/java/org/apache/calcite/rel/rules/SortProjectTransposeRule.java	107
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableValuesRule.java	378
+==== CALCITE-3822 ====
+ubenchmark/src/jmh/java/org/apache/calcite/benchmarks/FlightRecorderProfiler.java	1315
+==== CALCITE-3823 ====
+core/src/main/java/org/apache/calcite/prepare/CalciteCatalogReader.java	13
+mongodb/src/main/java/org/apache/calcite/adapter/mongodb/MongoSchema.java	1222
+core/src/main/java/org/apache/calcite/rel/type/StructKind.java	1122
+core/src/main/java/org/apache/calcite/sql/fun/SqlTrimFunction.java	181
+core/src/main/java/org/apache/calcite/sql/type/MultisetOperandTypeChecker.java	295
+core/src/main/java/org/apache/calcite/sql/pretty/SqlPrettyWriter.java	251
+core/src/main/java/org/apache/calcite/sql/SqlWriter.java	72
+core/src/main/java/org/apache/calcite/sql/validate/SelectScope.java	134
+core/src/main/java/org/apache/calcite/sql/parser/SqlParserUtil.java	81
+core/src/main/java/org/apache/calcite/config/NullCollation.java	205
+plus/src/main/java/org/apache/calcite/adapter/os/package-info.java	91
+elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/ElasticsearchSchema.java	583
+==== CALCITE-3824 ====
+core/src/main/java/org/apache/calcite/plan/Strong.java	5
+==== CALCITE-3826 ====
+core/src/main/java/org/apache/calcite/sql/validate/SelectScope.java	0
+==== CALCITE-3828 ====
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableTableModify.java	0
+==== CALCITE-3830 ====
+core/src/main/java/org/apache/calcite/util/Pair.java	0
+==== CALCITE-3835 ====
+core/src/main/java/org/apache/calcite/sql/type/SqlTypeUtil.java	10
+==== CALCITE-3839 ====
+core/src/main/java/org/apache/calcite/tools/RelBuilder.java	1
+==== CALCITE-3840 ====
+core/src/main/java/org/apache/calcite/rel/rel2sql/SqlImplementor.java	1
+==== CALCITE-3845 ====
+core/src/main/java/org/apache/calcite/rel/metadata/RelMdPredicates.java	0
+==== CALCITE-3846 ====
+core/src/main/java/org/apache/calcite/sql/SqlUtil.java	31
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableTableModify.java	0
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableMergeJoin.java	9
+==== CALCITE-3848 ====
+core/src/main/java/org/apache/calcite/sql/fun/SqlAbstractGroupFunction.java	0
+core/src/main/java/org/apache/calcite/rel/rules/materialize/MaterializedViewAggregateRule.java	1
+==== CALCITE-3862 ====
+core/src/main/java/org/apache/calcite/rel/rules/materialize/MaterializedViewAggregateRule.java	0
+==== CALCITE-3866 ====
+core/src/main/java/org/apache/calcite/rel/metadata/RelMdSize.java	21
+core/src/main/java/org/apache/calcite/sql/SqlSplittableAggFunction.java	7
+==== CALCITE-3876 ====
+core/src/main/java/org/apache/calcite/sql/SqlCollation.java	253
+core/src/main/java/org/apache/calcite/plan/RelOptPredicateList.java	12
+core/src/main/java/org/apache/calcite/rel/rel2sql/SqlImplementor.java	3
+==== CALCITE-3877 ====
+core/src/main/java/org/apache/calcite/sql/SqlCollation.java	13
+core/src/main/java/org/apache/calcite/rel/AbstractRelNode.java	121
+piglet/src/main/java/org/apache/calcite/piglet/PigRelBuilder.java	305
+linq4j/src/main/java/org/apache/calcite/linq4j/function/NullableIntegerFunction1.java	6
+core/src/main/java/org/apache/calcite/adapter/jdbc/JdbcSchema.java	61
+core/src/main/java/org/apache/calcite/rel/logical/LogicalMatch.java	0
+core/src/main/java/org/apache/calcite/sql2rel/SqlToRelConverter.java	7
+core/src/main/java/org/apache/calcite/sql/fun/SqlArgumentAssignmentOperator.java	4
+core/src/main/java/org/apache/calcite/sql/validate/SelectScope.java	192
+core/src/main/java/org/apache/calcite/rex/RexWindowBounds.java	227
+core/src/main/java/org/apache/calcite/rex/RexBuilder.java	8
+core/src/main/java/org/apache/calcite/tools/RelRunners.java	434
+core/src/main/java/org/apache/calcite/sql/validate/AbstractNamespace.java	225
+==== CALCITE-3881 ====
+core/src/main/java/org/apache/calcite/prepare/CalciteCatalogReader.java	0
+==== CALCITE-3888 ====
+core/src/main/java/org/apache/calcite/rel/rules/SpatialRules.java	31
+==== CALCITE-3894 ====
+core/src/main/java/org/apache/calcite/sql/type/SqlTypeAssignmentRule.java	88
+==== CALCITE-3898 ====
+core/src/main/java/org/apache/calcite/rex/RexUtil.java	0
+==== CALCITE-3907 ====
+cassandra/src/main/java/org/apache/calcite/adapter/cassandra/CassandraTableScan.java	0
+==== CALCITE-3908 ====
+core/src/main/java/org/apache/calcite/util/ReflectUtil.java	1
+==== CALCITE-3909 ====
+core/src/main/java/org/apache/calcite/rel/metadata/BuiltInMetadata.java	104
+==== CALCITE-3915 ====
+druid/src/main/java/org/apache/calcite/adapter/druid/DruidQuery.java	34
+core/src/main/java/org/apache/calcite/schema/Statistics.java	15
+core/src/main/java/org/apache/calcite/sql/advise/SqlAdvisor.java	208
+splunk/src/main/java/org/apache/calcite/adapter/splunk/search/SplunkConnectionImpl.java	0
+core/src/main/java/org/apache/calcite/sql/fun/SqlDefaultOperator.java	998
+core/src/main/java/org/apache/calcite/plan/RelOptPlanner.java	133
+core/src/main/java/org/apache/calcite/plan/ConventionTraitDef.java	18
+==== CALCITE-3921 ====
+core/src/main/java/org/apache/calcite/runtime/ResultSetEnumerable.java	2
+core/src/main/java/org/apache/calcite/rel/externalize/RelEnumTypes.java	15
+druid/src/main/java/org/apache/calcite/adapter/druid/Granularity.java	7
+core/src/main/java/org/apache/calcite/rel/core/TableModify.java	1791
+==== CALCITE-3923 ====
+core/src/main/java/org/apache/calcite/sql/dialect/JethroDataSqlDialect.java	405
+core/src/main/java/org/apache/calcite/sql/SqlWriter.java	232
+core/src/main/java/org/apache/calcite/rel/metadata/RelMdPredicates.java	13
+core/src/main/java/org/apache/calcite/plan/RelOptPredicateList.java	27
+core/src/main/java/org/apache/calcite/rel/core/Filter.java	101
+core/src/main/java/org/apache/calcite/sql/validate/JoinScope.java	1019
+core/src/main/java/org/apache/calcite/rel/RelNode.java	5
+core/src/main/java/org/apache/calcite/sql/SqlJdbcFunctionCall.java	25
+core/src/main/java/org/apache/calcite/rel/logical/LogicalCorrelate.java	133
+.travis.yml	15
+core/src/main/java/org/apache/calcite/rel/rules/ProjectToWindowRule.java	135
+core/src/main/java/org/apache/calcite/rel/rules/FilterTableScanRule.java	10
+core/src/main/java/org/apache/calcite/rel/rules/FilterJoinRule.java	322
+core/src/main/java/org/apache/calcite/runtime/PredicateImpl.java	258
+core/src/main/java/org/apache/calcite/rel/rules/AggregateProjectPullUpConstantsRule.java	29
+core/src/main/java/org/apache/calcite/rel/rules/ProjectRemoveRule.java	44
+core/src/main/java/org/apache/calcite/schema/FunctionParameter.java	0
+core/src/main/java/org/apache/calcite/util/ReflectUtil.java	34
+pig/src/main/java/org/apache/calcite/adapter/pig/PigDataType.java	1118
+pig/src/main/java/org/apache/calcite/adapter/pig/PigRel.java	1292
+pig/src/main/java/org/apache/calcite/adapter/pig/PigFilter.java	1565
+core/src/main/java/org/apache/calcite/rel/rules/SubQueryRemoveRule.java	50
+core/src/main/java/org/apache/calcite/tools/Programs.java	98
+core/src/main/java/org/apache/calcite/rel/rules/PruneEmptyRules.java	245
+core/src/main/java/org/apache/calcite/util/Util.java	6
+core/src/main/java/org/apache/calcite/rel/metadata/RelMdMinRowCount.java	1016
+core/src/main/java/org/apache/calcite/adapter/enumerable/JavaRelImplementor.java	1056
+linq4j/src/main/java/org/apache/calcite/linq4j/function/Function0.java	41
+core/src/main/java/org/apache/calcite/util/Stacks.java	291
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableBatchNestedLoopJoinRule.java	1097
+core/src/main/java/org/apache/calcite/rel/rules/AggregateUnionTransposeRule.java	670
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableInterpreter.java	132
+core/src/main/java/org/apache/calcite/sql/fun/SqlAbstractGroupFunction.java	53
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableMinusRule.java	163
+core/src/main/java/org/apache/calcite/adapter/enumerable/impl/WinAggResultContextImpl.java	99
+core/src/main/java/org/apache/calcite/sql/validate/AggFinder.java	16
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableWindowRule.java	289
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableCollectRule.java	290
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableUncollectRule.java	122
+core/src/main/java/org/apache/calcite/rel/rules/FilterAggregateTransposeRule.java	52
+core/src/main/java/org/apache/calcite/sql/validate/DelegatingNamespace.java	441
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableSort.java	147
+core/src/main/java/org/apache/calcite/rel/core/RelFactories.java	31
+core/src/main/java/org/apache/calcite/adapter/enumerable/AggResultContext.java	35
+core/src/main/java/org/apache/calcite/rel/rules/AggregateFilterTransposeRule.java	58
+core/src/main/java/org/apache/calcite/adapter/enumerable/impl/AggResultContextImpl.java	11
+core/src/main/java/org/apache/calcite/rel/rules/materialize/MaterializedViewRule.java	57
+piglet/src/main/java/org/apache/calcite/piglet/PigUdfFinder.java	1155
+piglet/src/main/java/org/apache/calcite/piglet/PigRelOpVisitor.java	1115
+core/src/main/java/org/apache/calcite/sql/type/SqlTypeTransform.java	20
+core/src/main/java/org/apache/calcite/rel/rules/AggregateCaseToFilterRule.java	281
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableCorrelate.java	105
+core/src/main/java/org/apache/calcite/util/trace/CalciteTimingTracer.java	21
+core/src/main/java/org/apache/calcite/rel/rules/JoinPushExpressionsRule.java	9
+core/src/main/java/org/apache/calcite/rel/rules/ExchangeRemoveConstantKeysRule.java	221
+core/src/main/java/org/apache/calcite/rel/rules/FilterProjectTransposeRule.java	7
+core/src/main/java/org/apache/calcite/rel/rules/SemiJoinProjectTransposeRule.java	60
+ubenchmark/src/jmh/java/org/apache/calcite/benchmarks/AbstractRelNodeGetRelTypeNameBenchmark.java	19
+ubenchmark/src/jmh/java/org/apache/calcite/adapter/enumerable/CodeGenerationBenchmark.java	1107
+core/src/main/java/org/apache/calcite/rel/rules/AggregateJoinJoinRemoveRule.java	314
+core/src/main/java/org/apache/calcite/rel/rules/ProjectJoinJoinRemoveRule.java	313
+core/src/main/java/org/apache/calcite/rel/rules/ProjectJoinRemoveRule.java	286
+core/src/main/java/org/apache/calcite/rel/rules/AggregateJoinRemoveRule.java	352
+core/src/main/java/org/apache/calcite/schema/TransientTable.java	403
+core/src/main/java/org/apache/calcite/schema/impl/ListTransientTable.java	404
+core/src/main/java/org/apache/calcite/util/CalciteParserException.java	423
+cassandra/src/main/java/org/apache/calcite/adapter/cassandra/CassandraRel.java	1085
+cassandra/src/main/java/org/apache/calcite/adapter/cassandra/CassandraToEnumerableConverter.java	1463
+cassandra/src/main/java/org/apache/calcite/adapter/cassandra/CassandraRules.java	1402
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableFilter.java	38
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableProject.java	194
+core/src/main/java/org/apache/calcite/rel/logical/LogicalCalc.java	8
+core/src/main/java/org/apache/calcite/interpreter/UncollectNode.java	224
+core/src/main/java/org/apache/calcite/plan/RelOptRuleCall.java	158
+core/src/main/java/org/apache/calcite/rel/core/Join.java	375
+core/src/main/java/org/apache/calcite/rel/rules/ProjectJoinTransposeRule.java	92
+druid/src/main/java/org/apache/calcite/adapter/druid/DruidJson.java	757
+druid/src/main/java/org/apache/calcite/adapter/druid/DruidSchema.java	335
+druid/src/main/java/org/apache/calcite/adapter/druid/DruidQuery.java	86
+core/src/main/java/org/apache/calcite/rel/rules/JoinUnionTransposeRule.java	77
+core/src/main/java/org/apache/calcite/schema/impl/StarTable.java	1182
+example/csv/src/main/java/org/apache/calcite/adapter/csv/CsvTableScan.java	1053
+core/src/main/java/org/apache/calcite/rel/rules/AggregateRemoveRule.java	39
+core/src/main/java/org/apache/calcite/plan/RelOptRule.java	1
+core/src/main/java/org/apache/calcite/plan/RelOptRuleOperandChildren.java	71
+core/src/main/java/org/apache/calcite/rel/convert/ConverterRule.java	26
+core/src/main/java/org/apache/calcite/plan/RelDigest.java	1165
+core/src/main/java/org/apache/calcite/rel/rules/materialize/MaterializedViewProjectFilterRule.java	1916
+core/src/main/java/org/apache/calcite/rel/rules/materialize/MaterializedViewRules.java	1885
+core/src/main/java/org/apache/calcite/rel/rules/AggregateMergeRule.java	160
+core/src/main/java/org/apache/calcite/rel/rules/materialize/MaterializedViewOnlyFilterRule.java	1884
+core/src/main/java/org/apache/calcite/rel/rel2sql/SqlImplementor.java	564
+core/src/main/java/org/apache/calcite/rel/rules/materialize/MaterializedViewProjectAggregateRule.java	1881
+core/src/main/java/org/apache/calcite/rel/rules/materialize/package-info.java	1883
+core/src/main/java/org/apache/calcite/rel/rules/materialize/MaterializedViewOnlyJoinRule.java	1882
+core/src/main/java/org/apache/calcite/rel/rules/materialize/MaterializedViewOnlyAggregateRule.java	1886
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableSortedAggregate.java	1862
+splunk/src/main/java/org/apache/calcite/adapter/splunk/SplunkTableScan.java	149
+core/src/main/java/org/apache/calcite/rel/rules/AggregateProjectStarTableRule.java	1745
+core/src/main/java/org/apache/calcite/rel/rules/CoreRules.java	401
+example/csv/src/main/java/org/apache/calcite/adapter/csv/CsvRules.java	1133
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableMatchRule.java	729
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableMatch.java	111
+core/src/main/java/org/apache/calcite/rel/type/StructKind.java	148
+core/src/main/java/org/apache/calcite/plan/RelRule.java	319
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableTableScan.java	97
+core/src/main/java/org/apache/calcite/interpreter/MatchNode.java	323
+core/src/main/java/org/apache/calcite/runtime/Matcher.java	395
+linq4j/src/main/java/org/apache/calcite/linq4j/MemoryEnumerable.java	321
+core/src/main/java/org/apache/calcite/rel/rules/materialize/MaterializedViewAggregateRule.java	1168
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableLimitRule.java	249
+core/src/main/java/org/apache/calcite/schema/TableFunction.java	36
+core/src/main/java/org/apache/calcite/rel/rules/JoinPushThroughJoinRule.java	23
+elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/package-info.java	1335
+elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/ElasticsearchMethod.java	1108
+linq4j/src/main/java/org/apache/calcite/linq4j/QueryableDefaults.java	78
+elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/ElasticsearchTable.java	1859
+core/src/main/java/org/apache/calcite/sql/type/OrdinalReturnTypeInference.java	12
+core/src/main/java/org/apache/calcite/model/JsonTable.java	63
+core/src/main/java/org/apache/calcite/sql/dialect/RedshiftSqlDialect.java	344
+core/src/main/java/org/apache/calcite/rel/rules/CalcRelSplitter.java	61
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableUnionRule.java	191
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableAggregateRule.java	167
+spark/src/main/java/org/apache/calcite/adapter/spark/SparkRules.java	530
+core/src/main/java/org/apache/calcite/adapter/jdbc/JdbcToEnumerableConverterRule.java	75
+core/src/main/java/org/apache/calcite/rel/rules/SortRemoveRule.java	121
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableInterpreterRule.java	24
+core/src/main/java/org/apache/calcite/rel/rules/CalcMergeRule.java	161
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableValuesRule.java	119
+core/src/main/java/org/apache/calcite/rel/rules/CoerceInputsRule.java	1081
+core/src/main/java/org/apache/calcite/rel/rules/ProjectMultiJoinMergeRule.java	65
+core/src/main/java/org/apache/calcite/rel/rules/TableScanRule.java	73
+core/src/main/java/org/apache/calcite/rel/rules/SemiJoinJoinTransposeRule.java	59
+example/csv/src/main/java/org/apache/calcite/adapter/csv/CsvProjectTableScanRule.java	81
+core/src/main/java/org/apache/calcite/rel/rules/CalcRemoveRule.java	68
+core/src/main/java/org/apache/calcite/rel/convert/TraitMatchingRule.java	70
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableProjectToCalcRule.java	66
+core/src/main/java/org/apache/calcite/rel/rules/MultiJoinProjectTransposeRule.java	46
+core/src/main/java/org/apache/calcite/rel/rules/CalcSplitRule.java	85
+core/src/main/java/org/apache/calcite/rel/rules/ProjectCalcMergeRule.java	30
+core/src/main/java/org/apache/calcite/rel/rules/ProjectToCalcRule.java	80
+core/src/main/java/org/apache/calcite/rel/rules/JoinToCorrelateRule.java	37
+core/src/main/java/org/apache/calcite/rel/rules/FilterToCalcRule.java	56
+core/src/main/java/org/apache/calcite/rel/rules/UnionEliminatorRule.java	129
+core/src/main/java/org/apache/calcite/rel/rules/FilterMultiJoinMergeRule.java	819
+spark/src/main/java/org/apache/calcite/adapter/spark/JdbcToSparkConverterRule.java	67
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableFilterRule.java	140
+core/src/main/java/org/apache/calcite/sql/fun/SqlExtractFunction.java	304
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableCorrelateRule.java	284
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableFilterToCalcRule.java	93
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableBindable.java	250
+core/src/main/java/org/apache/calcite/rel/rules/JoinExtractFilterRule.java	196
+core/src/main/java/org/apache/calcite/plan/Strong.java	22
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableTableScanRule.java	128
+core/src/main/java/org/apache/calcite/rel/rules/ProjectSetOpTransposeRule.java	33
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableCalcRule.java	195
+core/src/main/java/org/apache/calcite/rel/rules/PushProjector.java	84
+core/src/main/java/org/apache/calcite/rel/rules/FilterCalcMergeRule.java	88
+mongodb/src/main/java/org/apache/calcite/adapter/mongodb/MongoToEnumerableConverterRule.java	1031
+core/src/main/java/org/apache/calcite/rel/rules/SortProjectTransposeRule.java	541
+druid/src/main/java/org/apache/calcite/adapter/druid/DruidDateTimeUtils.java	18
+core/src/main/java/org/apache/calcite/plan/volcano/AbstractConverter.java	42
+core/src/main/java/org/apache/calcite/rel/rules/UnionPullUpConstantsRule.java	94
+core/src/main/java/org/apache/calcite/rel/rules/SemiJoinRemoveRule.java	74
+core/src/main/java/org/apache/calcite/rel/rules/FilterTableFunctionTransposeRule.java	72
+core/src/main/java/org/apache/calcite/rel/rules/JoinAddRedundantSemiJoinRule.java	165
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableProjectRule.java	166
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableTableFunctionScanRule.java	55
+core/src/main/java/org/apache/calcite/rel/rules/SemiJoinFilterTransposeRule.java	234
+core/src/main/java/org/apache/calcite/interpreter/NoneToBindableConverterRule.java	164
+core/src/main/java/org/apache/calcite/rel/rules/JoinAssociateRule.java	127
+core/src/main/java/org/apache/calcite/model/JsonTypeAttribute.java	1166
+geode/src/main/java/org/apache/calcite/adapter/geode/rel/GeodeSort.java	1439
+core/src/main/java/org/apache/calcite/rel/rules/UnionMergeRule.java	17
+core/src/main/java/org/apache/calcite/rel/core/Values.java	47
+core/src/main/java/org/apache/calcite/rel/rules/AggregateValuesRule.java	116
+geode/src/main/java/org/apache/calcite/adapter/geode/simple/GeodeSimpleSchemaFactory.java	1143
+core/src/main/java/org/apache/calcite/plan/RelOptPlanner.java	102
+core/src/main/java/org/apache/calcite/plan/RelOptMaterializations.java	471
+core/src/main/java/org/apache/calcite/plan/RelOptMaterialization.java	175
+core/src/main/java/org/apache/calcite/plan/hep/HepProgram.java	45
+core/src/main/java/org/apache/calcite/model/JsonCustomSchema.java	28
+core/src/main/java/org/apache/calcite/rel/rules/SortJoinTransposeRule.java	69
+core/src/main/java/org/apache/calcite/sql2rel/SubQueryConverter.java	450
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableMergeJoinRule.java	104
+core/src/main/java/org/apache/calcite/sql/SqlValuesOperator.java	237
+spark/src/main/java/org/apache/calcite/adapter/spark/JdbcToSparkConverter.java	1033
+==== CALCITE-3924 ====
+core/src/main/java/org/apache/calcite/rel/type/RelDataTypePrecedenceList.java	0
+==== CALCITE-3926 ====
+core/src/main/java/org/apache/calcite/rel/rules/PruneEmptyRules.java	7
+core/src/main/java/org/apache/calcite/rel/logical/LogicalProject.java	3
+core/src/main/java/org/apache/calcite/rel/rules/SortUnionTransposeRule.java	4
+core/src/main/java/org/apache/calcite/rel/rules/JoinAssociateRule.java	298
+==== CALCITE-3927 ====
+core/src/main/java/org/apache/calcite/plan/ConventionTraitDef.java	2
+==== CALCITE-3928 ====
+core/src/main/java/org/apache/calcite/plan/RelOptMaterializations.java	29
+==== CALCITE-3929 ====
+core/src/main/java/org/apache/calcite/adapter/jdbc/JdbcSchema.java	45
+==== CALCITE-3936 ====
+core/src/main/java/org/apache/calcite/rel/rel2sql/package-info.java	2
+piglet/src/main/java/org/apache/calcite/piglet/PigConverter.java	1543
+core/src/main/java/org/apache/calcite/rel/rel2sql/SqlImplementor.java	1
+piglet/src/main/java/org/apache/calcite/piglet/PigUdfFinder.java	626
+core/src/main/java/org/apache/calcite/statistic/MapSqlStatisticProvider.java	33
+core/src/main/java/org/apache/calcite/adapter/jdbc/JdbcToEnumerableConverter.java	1231
+core/src/main/java/org/apache/calcite/sql/fun/SqlRowOperator.java	639
+==== CALCITE-3949 ====
+core/src/main/java/org/apache/calcite/rel/RelCollations.java	31
+linq4j/src/main/java/org/apache/calcite/linq4j/tree/TryStatement.java	206
+==== CALCITE-3950 ====
+core/src/main/java/org/apache/calcite/sql/fun/SqlGroupIdFunction.java	276
+==== CALCITE-3957 ====
+core/src/main/java/org/apache/calcite/rel/rules/ProjectAggregateMergeRule.java	196
+core/src/main/java/org/apache/calcite/rel/rules/AggregateMergeRule.java	1
+core/src/main/java/org/apache/calcite/sql/SqlSplittableAggFunction.java	85
+==== CALCITE-3961 ====
+druid/src/main/java/org/apache/calcite/adapter/druid/DruidQuery.java	3
+core/src/main/java/org/apache/calcite/plan/ConventionTraitDef.java	2
+splunk/src/main/java/org/apache/calcite/adapter/splunk/search/SplunkConnectionImpl.java	0
+==== CALCITE-3969 ====
+linq4j/src/main/java/org/apache/calcite/linq4j/tree/TryStatement.java	3
+core/src/main/java/org/apache/calcite/rel/RelDistribution.java	612
+core/src/main/java/org/apache/calcite/adapter/jdbc/JdbcUtils.java	16
+core/src/main/java/org/apache/calcite/rel/rules/ProjectJoinTransposeRule.java	172
+core/src/main/java/org/apache/calcite/rel/RelCollationImpl.java	0
+core/src/main/java/org/apache/calcite/plan/volcano/package-info.java	29
+core/src/main/java/org/apache/calcite/rex/RexUtil.java	2
+linq4j/src/main/java/org/apache/calcite/linq4j/AbstractEnumerable2.java	72
+druid/src/main/java/org/apache/calcite/adapter/druid/DruidDateTimeUtils.java	217
+==== CALCITE-3972 ====
+core/src/main/java/org/apache/calcite/rel/rules/JoinPushThroughJoinRule.java	71
+core/src/main/java/org/apache/calcite/tools/RelBuilder.java	1
+core/src/main/java/org/apache/calcite/sql/advise/SqlAdvisor.java	75
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableRelFactories.java	1112
+core/src/main/java/org/apache/calcite/plan/Convention.java	601
+core/src/main/java/org/apache/calcite/plan/RelTraitDef.java	993
+==== CALCITE-3973 ====
+core/src/main/java/org/apache/calcite/sql/SqlDialect.java	0
+==== CALCITE-3975 ====
+druid/src/main/java/org/apache/calcite/adapter/druid/DruidJson.java	164
+core/src/main/java/org/apache/calcite/rel/rules/ProjectSetOpTransposeRule.java	0
+==== CALCITE-3979 ====
+core/src/main/java/org/apache/calcite/rel/metadata/RelMdPredicates.java	0
+==== CALCITE-3981 ====
+splunk/src/main/java/org/apache/calcite/adapter/splunk/search/SplunkConnectionImpl.java	4
+==== CALCITE-3982 ====
+core/src/main/java/org/apache/calcite/sql/type/OrdinalReturnTypeInference.java	2
+==== CALCITE-3991 ====
+core/src/main/java/org/apache/calcite/plan/ConventionTraitDef.java	0
+core/src/main/java/org/apache/calcite/schema/Statistics.java	1
+splunk/src/main/java/org/apache/calcite/adapter/splunk/search/SplunkConnectionImpl.java	7
+==== CALCITE-3997 ====
+core/src/main/java/org/apache/calcite/sql/dialect/JethroDataSqlDialect.java	362
+core/src/main/java/org/apache/calcite/rel/metadata/RelMdPredicates.java	44
+core/src/main/java/org/apache/calcite/sql/SqlJdbcFunctionCall.java	148
+.travis.yml	564
+core/src/main/java/org/apache/calcite/rel/rules/FilterJoinRule.java	375
+splunk/src/main/java/org/apache/calcite/adapter/splunk/search/SplunkConnectionImpl.java	5
+core/src/main/java/org/apache/calcite/schema/FunctionParameter.java	103
+core/src/main/java/org/apache/calcite/rel/rules/AggregateProjectPullUpConstantsRule.java	1137
+core/src/main/java/org/apache/calcite/rel/rules/FilterTableScanRule.java	496
+core/src/main/java/org/apache/calcite/rel/rules/ProjectRemoveRule.java	329
+core/src/main/java/org/apache/calcite/util/ReflectUtil.java	354
+core/src/main/java/org/apache/calcite/rel/rules/SubQueryRemoveRule.java	1277
+core/src/main/java/org/apache/calcite/rel/rules/PruneEmptyRules.java	202
+core/src/main/java/org/apache/calcite/util/Util.java	364
+core/src/main/java/org/apache/calcite/sql/validate/AggregatingSelectScope.java	323
+core/src/main/java/org/apache/calcite/rel/rules/AggregateUnionTransposeRule.java	428
+core/src/main/java/org/apache/calcite/sql/validate/AggFinder.java	124
+core/src/main/java/org/apache/calcite/rel/rules/FilterAggregateTransposeRule.java	1345
+core/src/main/java/org/apache/calcite/sql/validate/DelegatingNamespace.java	1271
+core/src/main/java/org/apache/calcite/rel/core/RelFactories.java	1147
+core/src/main/java/org/apache/calcite/adapter/enumerable/AggResultContext.java	370
+core/src/main/java/org/apache/calcite/rel/rules/AggregateFilterTransposeRule.java	290
+core/src/main/java/org/apache/calcite/adapter/enumerable/impl/AggResultContextImpl.java	178
+core/src/main/java/org/apache/calcite/rel/rules/materialize/MaterializedViewRule.java	386
+core/src/main/java/org/apache/calcite/rel/rules/AggregateCaseToFilterRule.java	524
+core/src/main/java/org/apache/calcite/util/trace/CalciteTimingTracer.java	520
+core/src/main/java/org/apache/calcite/rel/rules/JoinPushExpressionsRule.java	9
+core/src/main/java/org/apache/calcite/rel/rules/ExchangeRemoveConstantKeysRule.java	312
+core/src/main/java/org/apache/calcite/rel/rules/FilterProjectTransposeRule.java	1335
+core/src/main/java/org/apache/calcite/rel/rules/SemiJoinProjectTransposeRule.java	1571
+ubenchmark/src/jmh/java/org/apache/calcite/benchmarks/AbstractRelNodeGetRelTypeNameBenchmark.java	34
+core/src/main/java/org/apache/calcite/rel/rules/AggregateJoinJoinRemoveRule.java	130
+core/src/main/java/org/apache/calcite/rel/rules/ProjectJoinJoinRemoveRule.java	129
+core/src/main/java/org/apache/calcite/rel/rules/ProjectJoinRemoveRule.java	109
+core/src/main/java/org/apache/calcite/rel/rules/AggregateJoinRemoveRule.java	139
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableFilter.java	1333
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableProject.java	1831
+core/src/main/java/org/apache/calcite/interpreter/UncollectNode.java	198
+core/src/main/java/org/apache/calcite/rel/rules/ProjectJoinTransposeRule.java	52
+druid/src/main/java/org/apache/calcite/adapter/druid/DruidQuery.java	8
+core/src/main/java/org/apache/calcite/rel/rules/JoinUnionTransposeRule.java	535
+core/src/main/java/org/apache/calcite/plan/volcano/VolcanoTimeoutException.java	1098
+core/src/main/java/org/apache/calcite/rel/rules/AggregateRemoveRule.java	1084
+core/src/main/java/org/apache/calcite/rel/rules/AggregateMergeRule.java	359
+splunk/src/main/java/org/apache/calcite/adapter/splunk/SplunkTableScan.java	282
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableMatchRule.java	415
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableTableScan.java	422
+core/src/main/java/org/apache/calcite/rel/rules/TransformationRule.java	551
+linq4j/src/main/java/org/apache/calcite/linq4j/MemoryEnumerable.java	361
+core/src/main/java/org/apache/calcite/schema/TableFunction.java	250
+core/src/main/java/org/apache/calcite/rel/rules/JoinPushThroughJoinRule.java	319
+linq4j/src/main/java/org/apache/calcite/linq4j/QueryableDefaults.java	382
+core/src/main/java/org/apache/calcite/sql/type/OrdinalReturnTypeInference.java	1286
+core/src/main/java/org/apache/calcite/rel/rules/CalcRelSplitter.java	20
+core/src/main/java/org/apache/calcite/adapter/jdbc/JdbcToEnumerableConverterRule.java	1617
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableInterpreterRule.java	77
+core/src/main/java/org/apache/calcite/rel/rules/ProjectMultiJoinMergeRule.java	120
+core/src/main/java/org/apache/calcite/rel/rules/TableScanRule.java	371
+core/src/main/java/org/apache/calcite/rel/rules/SemiJoinJoinTransposeRule.java	502
+example/csv/src/main/java/org/apache/calcite/adapter/csv/CsvProjectTableScanRule.java	426
+core/src/main/java/org/apache/calcite/rel/rules/CalcRemoveRule.java	343
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableProjectToCalcRule.java	342
+core/src/main/java/org/apache/calcite/rel/rules/MultiJoinProjectTransposeRule.java	41
+core/src/main/java/org/apache/calcite/rel/rules/CalcSplitRule.java	373
+core/src/main/java/org/apache/calcite/rel/rules/ProjectCalcMergeRule.java	501
+core/src/main/java/org/apache/calcite/rel/rules/ProjectToCalcRule.java	427
+core/src/main/java/org/apache/calcite/rel/rules/JoinToCorrelateRule.java	1125
+core/src/main/java/org/apache/calcite/rel/rules/FilterToCalcRule.java	94
+linq4j/src/main/java/org/apache/calcite/linq4j/function/Function0.java	397
+spark/src/main/java/org/apache/calcite/adapter/spark/JdbcToSparkConverterRule.java	341
+core/src/main/java/org/apache/calcite/sql/type/SqlTypeTransform.java	331
+core/src/main/java/org/apache/calcite/sql/fun/SqlExtractFunction.java	1300
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableFilterToCalcRule.java	1272
+core/src/main/java/org/apache/calcite/plan/Strong.java	32
+core/src/main/java/org/apache/calcite/rel/rules/FilterCalcMergeRule.java	186
+core/src/main/java/org/apache/calcite/rel/rules/ProjectSetOpTransposeRule.java	88
+core/src/main/java/org/apache/calcite/plan/volcano/AbstractConverter.java	327
+core/src/main/java/org/apache/calcite/rel/rules/PushProjector.java	80
+core/src/main/java/org/apache/calcite/rel/rules/FilterTableFunctionTransposeRule.java	293
+druid/src/main/java/org/apache/calcite/adapter/druid/DruidDateTimeUtils.java	320
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableTableFunctionScanRule.java	93
+core/src/main/java/org/apache/calcite/rel/rules/UnionPullUpConstantsRule.java	1844
+core/src/main/java/org/apache/calcite/rel/rules/UnionMergeRule.java	280
+core/src/main/java/org/apache/calcite/rel/core/Values.java	325
+core/src/main/java/org/apache/calcite/rel/rules/AggregateValuesRule.java	385
+core/src/main/java/org/apache/calcite/model/JsonCustomSchema.java	413
+core/src/main/java/org/apache/calcite/rel/rules/SortJoinTransposeRule.java	1210
+core/src/main/java/org/apache/calcite/plan/hep/HepProgram.java	1315
+==== CALCITE-4019 ====
+core/src/main/java/org/apache/calcite/schema/CustomColumnResolvingTable.java	0
+core/src/main/java/org/apache/calcite/jdbc/JavaRecordType.java	3
+==== CALCITE-4026 ====
+druid/src/main/java/org/apache/calcite/adapter/druid/TimeExtractionFunction.java	178
+druid/src/main/java/org/apache/calcite/adapter/druid/ExtractionFunction.java	695
+druid/src/main/java/org/apache/calcite/adapter/druid/package-info.java	28
+core/src/main/java/org/apache/calcite/sql/SqlWriter.java	84
+druid/src/main/java/org/apache/calcite/adapter/druid/DruidSqlOperatorConverter.java	1791
+core/src/main/java/org/apache/calcite/util/DateTimeStringUtils.java	1388
+sqlline	389
+==== CALCITE-4033 ====
+core/src/main/java/org/apache/calcite/sql/fun/SqlAvgAggFunction.java	68
+==== CALCITE-4038 ====
+core/src/main/java/org/apache/calcite/rex/RexBiVisitor.java	6
+core/src/main/java/org/apache/calcite/rex/RexVisitor.java	171
+core/src/main/java/org/apache/calcite/sql/validate/MatchRecognizeNamespace.java	1024
+core/src/main/java/org/apache/calcite/rel/logical/LogicalMatch.java	2
+core/src/main/java/org/apache/calcite/rex/RexPatternFieldRef.java	3
+core/src/main/java/org/apache/calcite/tools/RelBuilder.java	107
+core/src/main/java/org/apache/calcite/sql2rel/SqlToRelConverter.java	8
+core/src/main/java/org/apache/calcite/sql/validate/IdentifierNamespace.java	59
+core/src/main/java/org/apache/calcite/plan/RelOptPredicateList.java	0
+core/src/main/java/org/apache/calcite/rel/rules/SemiJoinRule.java	1805
+piglet/src/main/java/org/apache/calcite/piglet/PigRelOpVisitor.java	1868
+core/src/main/java/org/apache/calcite/rex/RexProgramBuilder.java	28
+linq4j/src/main/java/org/apache/calcite/linq4j/tree/LabelTarget.java	450
+core/src/main/java/org/apache/calcite/rel/rules/ProjectToWindowRule.java	1821
+core/src/main/java/org/apache/calcite/rel/rules/FilterTableScanRule.java	235
+core/src/main/java/org/apache/calcite/sql/fun/SqlExtractFunction.java	1037
+core/src/main/java/org/apache/calcite/rel/metadata/RelMdNodeTypes.java	1752
+core/src/main/java/org/apache/calcite/plan/RelOptCluster.java	1725
+core/src/main/java/org/apache/calcite/plan/volcano/AbstractConverter.java	1692
+core/src/main/java/org/apache/calcite/rel/rules/UnionPullUpConstantsRule.java	1762
+splunk/src/main/java/org/apache/calcite/adapter/splunk/SplunkTableScan.java	152
+core/src/main/java/org/apache/calcite/rex/RexSimplify.java	62
+core/src/main/java/org/apache/calcite/sql2rel/RelStructuredTypeFlattener.java	160
+geode/src/main/java/org/apache/calcite/adapter/geode/rel/GeodeSort.java	942
+core/src/main/java/org/apache/calcite/rex/RexUtil.java	9
+core/src/main/java/org/apache/calcite/rex/LogicVisitor.java	269
+core/src/main/java/org/apache/calcite/rel/rules/materialize/MaterializedViewAggregateRule.java	1892
+core/src/main/java/org/apache/calcite/rel/metadata/RelMdColumnOrigins.java	155
+core/src/main/java/org/apache/calcite/sql/fun/SqlArgumentAssignmentOperator.java	1
+core/src/main/java/org/apache/calcite/rex/RexBiVisitorImpl.java	5
+core/src/main/java/org/apache/calcite/rex/RexUnaryBiVisitor.java	4
+core/src/main/java/org/apache/calcite/sql/fun/SqlTrimFunction.java	220
+core/src/main/java/org/apache/calcite/sql2rel/SubQueryConverter.java	1086
+core/src/main/java/org/apache/calcite/plan/hep/HepRuleCall.java	203
+core/src/main/java/org/apache/calcite/rex/RexAnalyzer.java	207
+core/src/main/java/org/apache/calcite/rel/metadata/NullSentinel.java	140
+elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/PredicateAnalyzer.java	245
+druid/src/main/java/org/apache/calcite/adapter/druid/DruidJson.java	766
+elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/ElasticsearchTable.java	1687
+==== CALCITE-4042 ====
+core/src/main/java/org/apache/calcite/util/ReflectUtil.java	0
+==== CALCITE-4053 ====
+core/src/main/java/org/apache/calcite/rex/RexSimplify.java	0
+==== CALCITE-4055 ====
+core/src/main/java/org/apache/calcite/sql/validate/IdentifierNamespace.java	0
+core/src/main/java/org/apache/calcite/tools/RelBuilder.java	1
+==== CALCITE-4059 ====
+core/src/main/java/org/apache/calcite/runtime/Utilities.java	0
+==== CALCITE-4060 ====
+core/src/main/java/org/apache/calcite/sql/type/ComparableOperandTypeChecker.java	0
+==== CALCITE-4061 ====
+core/src/main/java/org/apache/calcite/rel/AbstractRelNode.java	159
+druid/build.gradle.kts	553
+core/src/main/java/org/apache/calcite/sql/validate/SelectScope.java	8
+cassandra/src/main/java/org/apache/calcite/adapter/cassandra/CassandraTableScan.java	762
+core/src/main/java/org/apache/calcite/tools/RelRunners.java	607
+core/src/main/java/org/apache/calcite/sql/SqlFilterOperator.java	67
+druid/src/main/java/org/apache/calcite/adapter/druid/DruidJson.java	107
+core/src/main/java/org/apache/calcite/util/IntegerIntervalSet.java	1363
+==== CALCITE-4063 ====
+core/src/main/java/org/apache/calcite/prepare/CalciteCatalogReader.java	1
+core/src/main/java/org/apache/calcite/sql/SqlUtil.java	23
+core/src/main/java/org/apache/calcite/rel/core/Uncollect.java	297
+==== CALCITE-4066 ====
+core/src/main/java/org/apache/calcite/runtime/Utilities.java	1215
+==== CALCITE-4073 ====
+core/src/main/java/org/apache/calcite/rel/RelWriter.java	358
+core/src/main/java/org/apache/calcite/rex/RexNormalize.java	1828
+core/src/main/java/org/apache/calcite/runtime/Utilities.java	227
+core/src/main/java/org/apache/calcite/rex/RexCall.java	13
+core/src/main/java/org/apache/calcite/sql/fun/SqlAvgAggFunction.java	52
+core/src/main/java/org/apache/calcite/sql/SqlFunction.java	7
+==== CALCITE-4077 ====
+piglet/src/main/java/org/apache/calcite/piglet/PigRelSqlUdfs.java	567
+core/src/main/java/org/apache/calcite/sql/type/OperandMetadataImpl.java	864
+core/src/main/java/org/apache/calcite/sql/validate/SqlUserDefinedFunction.java	725
+core/src/main/java/org/apache/calcite/sql2rel/SqlToRelConverter.java	3
+core/src/main/java/org/apache/calcite/sql/validate/SelectScope.java	2
+==== CALCITE-4080 ====
+core/src/main/java/org/apache/calcite/sql/validate/SqlConformanceEnum.java	19
+core/src/main/java/org/apache/calcite/sql/validate/SqlDelegatingConformance.java	1
+core/src/main/java/org/apache/calcite/runtime/CalciteResource.java	127
+core/src/main/resources/org/apache/calcite/runtime/CalciteResource.properties	126
+core/src/main/java/org/apache/calcite/prepare/CalciteSqlValidator.java	17
+==== CALCITE-4081 ====
+core/src/main/java/org/apache/calcite/runtime/Utilities.java	166
+core/src/main/java/org/apache/calcite/rex/RexBuilder.java	5
+==== CALCITE-4083 ====
+core/src/main/java/org/apache/calcite/plan/ConventionTraitDef.java	19
+core/src/main/java/org/apache/calcite/adapter/clone/CloneSchema.java	0
+core/src/main/java/org/apache/calcite/rel/type/DynamicRecordTypeImpl.java	1055
+==== CALCITE-4089 ====
+core/src/main/java/org/apache/calcite/prepare/CalciteCatalogReader.java	5
+core/src/main/java/org/apache/calcite/plan/volcano/VolcanoRuleMatch.java	94
+core/src/main/java/org/apache/calcite/sql/type/SqlTypeExplicitPrecedenceList.java	49
+core/src/main/java/org/apache/calcite/config/CalciteConnectionConfigImpl.java	37
+core/src/main/java/org/apache/calcite/util/BuiltInMethod.java	6
+core/src/main/java/org/apache/calcite/sql/type/OperandTypes.java	55
+core/src/main/java/org/apache/calcite/sql/fun/SqlLibraryOperators.java	3
+core/src/main/java/org/apache/calcite/sql/fun/SqlLibrary.java	39
+==== CALCITE-4090 ====
+core/src/main/java/org/apache/calcite/rel/rel2sql/SqlImplementor.java	0
+==== CALCITE-4092 ====
+core/src/main/java/org/apache/calcite/sql/validate/WithScope.java	149
+==== CALCITE-4117 ====
+README	0
+==== CALCITE-4118 ====
+core/src/main/java/org/apache/calcite/rex/RexSimplify.java	0
+==== CALCITE-4128 ====
+example/csv/src/main/java/org/apache/calcite/adapter/csv/CsvTableScan.java	722
+file/src/main/java/org/apache/calcite/adapter/file/JsonScannableTable.java	4
+file/src/main/java/org/apache/calcite/adapter/file/FileRowConverter.java	34
+linq4j/src/main/java/org/apache/calcite/linq4j/tree/ExpressionVisitor.java	74
+file/src/main/java/org/apache/calcite/adapter/file/FileSchemaFactory.java	3
+file/src/main/java/org/apache/calcite/adapter/file/FileSchema.java	1
+file/src/main/java/org/apache/calcite/adapter/file/JsonTable.java	9
+core/src/main/java/org/apache/calcite/util/mapping/package-info.java	481
+file/src/main/java/org/apache/calcite/adapter/file/CsvEnumerator.java	2
+example/csv/src/main/java/org/apache/calcite/adapter/csv/CsvStreamTableFactory.java	27
+example/csv/src/main/java/org/apache/calcite/adapter/csv/CsvTable.java	22
+file/src/main/java/org/apache/calcite/adapter/file/CsvStreamReader.java	18
+example/csv/src/main/java/org/apache/calcite/adapter/csv/CsvSchema.java	10
+file/src/main/java/org/apache/calcite/adapter/file/CsvFieldType.java	466
+ubenchmark/gradle.properties	483
+core/src/main/java/org/apache/calcite/interpreter/Node.java	286
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableInterpretable.java	5
+file/src/main/java/org/apache/calcite/adapter/file/CsvTableScan.java	1086
+file/src/main/java/org/apache/calcite/adapter/file/CsvTranslatableTable.java	1135
+file/src/main/java/org/apache/calcite/adapter/file/CsvProjectTableScanRule.java	1116
+file/src/main/java/org/apache/calcite/adapter/file/FileRules.java	1159
+file/src/main/java/org/apache/calcite/adapter/file/CsvTableFactory.java	1163
+file/src/main/java/org/apache/calcite/adapter/file/CsvTable.java	1168
+core/src/main/java/org/apache/calcite/sql/SqlInsertKeyword.java	287
+==== CALCITE-4137 ====
+core/src/main/java/org/apache/calcite/rel/rel2sql/package-info.java	207
+core/src/main/java/org/apache/calcite/plan/CommonRelSubExprRule.java	770
+linq4j/src/main/java/org/apache/calcite/linq4j/tree/MemberInitExpression.java	119
+druid/src/main/java/org/apache/calcite/adapter/druid/DirectOperatorConversion.java	1907
+druid/src/main/java/org/apache/calcite/adapter/druid/BinaryOperatorConversion.java	287
+linq4j/src/main/java/org/apache/calcite/linq4j/tree/ListInitExpression.java	113
+core/src/main/java/org/apache/calcite/tools/RelBuilder.java	72
+core/src/main/java/org/apache/calcite/sql2rel/SqlToRelConverter.java	22
+druid/src/main/java/org/apache/calcite/adapter/druid/DruidSqlCastConverter.java	1920
+core/src/main/java/org/apache/calcite/rel/metadata/RelMdUtil.java	120
+druid/src/main/java/org/apache/calcite/adapter/druid/ExtractOperatorConversion.java	1906
+druid/src/main/java/org/apache/calcite/adapter/druid/CeilOperatorConversion.java	276
+druid/src/main/java/org/apache/calcite/adapter/druid/DruidSqlOperatorConverter.java	1377
+druid/src/main/java/org/apache/calcite/adapter/druid/NaryOperatorConverter.java	1368
+core/src/main/java/org/apache/calcite/plan/RelOptPredicateList.java	18
+druid/src/main/java/org/apache/calcite/adapter/druid/VirtualColumn.java	1904
+core/src/main/java/org/apache/calcite/rel/rules/ReduceExpressionsRule.java	15
+core/src/main/java/org/apache/calcite/util/Bug.java	6
+core/src/main/java/org/apache/calcite/model/ModelHandler.java	290
+druid/src/main/java/org/apache/calcite/adapter/druid/DruidJsonFilter.java	1349
+druid/src/main/java/org/apache/calcite/adapter/druid/DruidExpressions.java	1363
+druid/src/main/java/org/apache/calcite/adapter/druid/FloorOperatorConversion.java	292
+core/src/main/java/org/apache/calcite/rel/core/Filter.java	592
+druid/src/main/java/org/apache/calcite/adapter/druid/SubstringOperatorConversion.java	1902
+core/src/main/java/org/apache/calcite/runtime/Enumerables.java	168
+core/src/main/java/org/apache/calcite/rel/RelNode.java	808
+core/src/main/java/org/apache/calcite/sql/util/SqlVisitor.java	743
+core/src/main/java/org/apache/calcite/sql/SqlJdbcFunctionCall.java	7
+core/src/main/java/org/apache/calcite/rex/RexProgramBuilder.java	118
+core/src/main/java/org/apache/calcite/plan/SubstitutionVisitor.java	2
+core/src/main/java/org/apache/calcite/util/ImmutableBitSet.java	13
+.travis.yml	9
+core/src/main/java/org/apache/calcite/adapter/clone/CloneSchema.java	350
+core/src/main/java/org/apache/calcite/sql/advise/SqlAdvisor.java	414
+splunk/src/main/java/org/apache/calcite/adapter/splunk/search/SplunkConnectionImpl.java	117
+core/src/main/java/org/apache/calcite/plan/volcano/VolcanoPlanner.java	351
+core/src/main/java/org/apache/calcite/plan/AbstractRelOptPlanner.java	1214
+core/src/main/java/org/apache/calcite/sql/fun/SqlAvgAggFunction.java	58
+core/src/main/java/org/apache/calcite/sql/SqlWindow.java	1137
+mongodb/src/main/java/org/apache/calcite/adapter/mongodb/MongoRel.java	749
+core/src/main/java/org/apache/calcite/sql/validate/SqlIdentifierMoniker.java	297
+core/src/main/java/org/apache/calcite/tools/RelRunners.java	1099
+core/src/main/java/org/apache/calcite/sql/fun/SqlSingleValueAggFunction.java	16
+core/src/main/java/org/apache/calcite/prepare/CalciteCatalogReader.java	27
+core/src/main/java/org/apache/calcite/adapter/enumerable/RexToLixTranslator.java	491
+core/src/main/java/org/apache/calcite/sql/type/SqlTypeExplicitPrecedenceList.java	17
+pig/src/main/java/org/apache/calcite/adapter/pig/PigTableFactory.java	1282
+pig/src/main/java/org/apache/calcite/adapter/pig/PigJoin.java	1772
+core/src/main/java/org/apache/calcite/adapter/enumerable/StrictAggImplementor.java	215
+core/src/main/java/org/apache/calcite/sql/type/FamilyOperandTypeChecker.java	1041
+core/src/main/java/org/apache/calcite/rel/rules/LoptJoinTree.java	1044
+core/src/main/java/org/apache/calcite/plan/Contexts.java	874
+core/src/main/java/org/apache/calcite/sql/type/SqlTypeUtil.java	90
+core/src/main/java/org/apache/calcite/runtime/Utilities.java	471
+core/src/main/java/org/apache/calcite/runtime/ObjectEnumeratorCursor.java	626
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableRelImplementor.java	1116
+linq4j/src/main/java/org/apache/calcite/linq4j/tree/DeterministicCodeOptimizer.java	184
+core/src/main/java/org/apache/calcite/rel/core/Aggregate.java	980
+core/src/main/java/org/apache/calcite/sql/SqlOverOperator.java	200
+plus/src/main/java/org/apache/calcite/chinook/StringConcatFunction.java	1860
+spark/src/main/java/org/apache/calcite/adapter/spark/SparkHandlerImpl.java	861
+core/src/main/java/org/apache/calcite/rex/RexUtil.java	180
+core/src/main/java/org/apache/calcite/schema/impl/TableMacroImpl.java	322
+core/src/main/java/org/apache/calcite/sql/util/ReflectiveSqlOperatorTable.java	432
+core/src/main/java/org/apache/calcite/sql/SqlFunction.java	359
+core/src/main/java/org/apache/calcite/sql/fun/SqlJsonObjectFunction.java	1819
+core/src/main/java/org/apache/calcite/adapter/enumerable/JavaRowFormat.java	1258
+core/src/main/java/org/apache/calcite/rel/rules/AggregateReduceFunctionsRule.java	1021
+core/src/main/java/org/apache/calcite/util/Util.java	380
+core/src/main/java/org/apache/calcite/sql/fun/SqlCurrentDateFunction.java	665
+core/src/main/java/org/apache/calcite/sql/fun/OracleSqlOperatorTable.java	1213
+core/src/main/java/org/apache/calcite/sql/fun/SqlLiteralChainOperator.java	1225
+core/src/main/java/org/apache/calcite/sql/fun/SqlTrimFunction.java	203
+core/src/main/java/org/apache/calcite/rel/mutable/MutableMultiRel.java	1692
+core/src/main/java/org/apache/calcite/sql/SqlIntervalLiteral.java	175
+core/src/main/java/org/apache/calcite/rel/mutable/MutableBiRel.java	1356
+core/src/main/java/org/apache/calcite/sql2rel/RelDecorrelator.java	801
+plus/src/main/java/org/apache/calcite/chinook/ChosenCustomerEmail.java	1810
+core/src/main/java/org/apache/calcite/util/Stacks.java	23
+core/src/main/java/org/apache/calcite/util/StackWriter.java	1211
+core/src/main/java/org/apache/calcite/sql/validate/SelectScope.java	146
+elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/QueryBuilders.java	1809
+elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/PredicateAnalyzer.java	1250
+core/src/main/java/org/apache/calcite/util/XmlOutput.java	969
+elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/ElasticsearchConstants.java	1808
+core/src/main/java/org/apache/calcite/rex/RexTransformer.java	867
+core/src/main/java/org/apache/calcite/sql/JoinConditionType.java	714
+elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/ElasticsearchEnumerators.java	1806
+core/src/main/java/org/apache/calcite/adapter/enumerable/AggContext.java	962
+core/src/main/java/org/apache/calcite/sql/fun/SqlAbstractGroupFunction.java	26
+core/src/main/java/org/apache/calcite/sql/advise/SqlAdvisorGetHintsFunction2.java	1331
+plus/src/main/java/org/apache/calcite/chinook/CodesFunction.java	1803
+core/src/main/java/org/apache/calcite/util/BlackholeMap.java	1830
+core/src/main/java/org/apache/calcite/rel/externalize/RelJsonWriter.java	334
+core/src/main/java/org/apache/calcite/rex/RexNode.java	1015
+core/src/main/java/org/apache/calcite/sql/validate/SqlQualified.java	935
+piglet/src/main/java/org/apache/calcite/piglet/PigRelBuilder.java	1671
+piglet/src/main/java/org/apache/calcite/piglet/DynamicTupleRecordType.java	1475
+piglet/src/main/java/org/apache/calcite/piglet/PigTypes.java	1537
+druid/src/main/java/org/apache/calcite/adapter/druid/UnaryPrefixOperatorConversion.java	1901
+core/src/main/java/org/apache/calcite/rex/RexShuttle.java	1701
+piglet/src/main/java/org/apache/calcite/piglet/PigRelExWalker.java	1527
+piglet/src/main/java/org/apache/calcite/piglet/PigRelOpWalker.java	1526
+piglet/src/main/java/org/apache/calcite/piglet/PigConverter.java	1525
+core/src/main/java/org/apache/calcite/tools/FrameworkConfig.java	1261
+elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/ElasticsearchJson.java	1343
+linq4j/src/main/java/org/apache/calcite/linq4j/tree/Primitive.java	296
+linq4j/src/main/java/org/apache/calcite/linq4j/tree/FieldDeclaration.java	169
+core/src/main/java/org/apache/calcite/util/NlsString.java	256
+plus/src/main/java/org/apache/calcite/adapter/tpch/TpchSchema.java	1324
+linq4j/src/main/java/org/apache/calcite/linq4j/tree/AbstractNode.java	281
+core/src/main/java/org/apache/calcite/interpreter/TableScanNode.java	429
+linq4j/src/main/java/org/apache/calcite/linq4j/tree/ClassDeclaration.java	393
+core/src/main/java/org/apache/calcite/util/Template.java	589
+elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/Scrolling.java	1417
+example/csv/src/main/java/org/apache/calcite/adapter/csv/CsvSchemaFactory.java	587
+elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/ElasticsearchTransport.java	1799
+core/src/main/java/org/apache/calcite/util/ImmutableBeans.java	377
+linq4j/src/main/java/org/apache/calcite/linq4j/tree/NewArrayExpression.java	1002
+core/src/main/java/org/apache/calcite/jdbc/JavaRecordType.java	422
+core/src/main/java/org/apache/calcite/rel/metadata/RelMdAllPredicates.java	442
+core/src/main/java/org/apache/calcite/rex/RexTableInputRef.java	1727
+core/src/main/java/org/apache/calcite/rel/metadata/RelMdUniqueKeys.java	795
+core/src/main/java/org/apache/calcite/plan/RelOptRuleOperand.java	966
+redis/src/main/java/org/apache/calcite/adapter/redis/RedisTableFieldInfo.java	1618
+linq4j/src/main/java/org/apache/calcite/linq4j/tree/MethodDeclaration.java	396
+ubenchmark/src/jmh/java/org/apache/calcite/adapter/enumerable/CodeGenerationBenchmark.java	382
+mongodb/src/main/java/org/apache/calcite/adapter/mongodb/MongoSchemaFactory.java	201
+core/src/main/java/org/apache/calcite/rel/RelDistributions.java	397
+core/src/main/java/org/apache/calcite/rex/RexLiteral.java	1095
+druid/src/main/java/org/apache/calcite/adapter/druid/TimeExtractionFunction.java	51
+core/src/main/java/org/apache/calcite/rel/core/TableSpool.java	1856
+druid/src/main/java/org/apache/calcite/adapter/druid/ExtractionFunction.java	317
+core/src/main/java/org/apache/calcite/rel/RelFieldCollation.java	49
+core/src/main/java/org/apache/calcite/schema/Statistics.java	319
+cassandra/src/main/java/org/apache/calcite/adapter/cassandra/CassandraMethod.java	181
+cassandra/src/main/java/org/apache/calcite/adapter/cassandra/CassandraSort.java	123
+cassandra/src/main/java/org/apache/calcite/adapter/cassandra/CassandraTableScan.java	335
+cassandra/src/main/java/org/apache/calcite/adapter/cassandra/CassandraSchemaFactory.java	1418
+core/src/main/java/org/apache/calcite/schema/impl/AbstractTable.java	1470
+plus/src/main/java/org/apache/calcite/adapter/os/PsTableFunction.java	1473
+cassandra/src/main/java/org/apache/calcite/adapter/cassandra/CassandraRules.java	211
+core/src/main/java/org/apache/calcite/sql/SqlPrefixOperator.java	218
+core/src/main/java/org/apache/calcite/rel/rules/LoptSemiJoinOptimizer.java	225
+core/src/main/java/org/apache/calcite/sql/SqlCall.java	859
+core/src/main/java/org/apache/calcite/rex/RexChecker.java	238
+core/src/main/java/org/apache/calcite/rel/logical/LogicalCalc.java	333
+core/src/main/java/org/apache/calcite/sql/SqlIdentifier.java	328
+core/src/main/java/org/apache/calcite/plan/VisitorDataContext.java	1412
+core/src/main/java/org/apache/calcite/sql/parser/SqlParserUtil.java	326
+core/src/main/java/org/apache/calcite/prepare/PlannerImpl.java	97
+druid/src/main/java/org/apache/calcite/adapter/druid/DruidTableFactory.java	298
+druid/src/main/java/org/apache/calcite/adapter/druid/DruidJson.java	21
+druid/src/main/java/org/apache/calcite/adapter/druid/DruidConnectionImpl.java	389
+core/src/main/java/org/apache/calcite/runtime/GeoFunctions.java	1274
+file/src/main/java/org/apache/calcite/adapter/file/FileTable.java	1589
+core/src/main/java/org/apache/calcite/interpreter/Row.java	344
+core/src/main/java/org/apache/calcite/materialize/LatticeTable.java	1704
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableConvention.java	1245
+core/src/main/java/org/apache/calcite/plan/RelTraitDef.java	789
+kafka/build.gradle.kts	851
+core/src/main/java/org/apache/calcite/plan/ConventionTraitDef.java	260
+ubenchmark/src/jmh/java/org/apache/calcite/benchmarks/package-info.java	853
+core/src/main/java/org/apache/calcite/sql/type/SqlTypeName.java	1177
+core/src/main/java/org/apache/calcite/prepare/RelOptTableImpl.java	483
+core/src/main/java/org/apache/calcite/plan/RelOptRule.java	95
+core/src/main/java/org/apache/calcite/rel/rel2sql/SqlImplementor.java	306
+core/src/main/java/org/apache/calcite/sql/type/ComparableOperandTypeChecker.java	1291
+ubenchmark/src/jmh/java/org/apache/calcite/benchmarks/DefaultDirectedGraphBenchmark.java	1628
+core/src/main/java/org/apache/calcite/rex/RexBuilder.java	270
+core/src/main/java/org/apache/calcite/rel/metadata/RelMdLowerBoundCost.java	1635
+core/src/main/java/org/apache/calcite/sql/validate/ListScope.java	1217
+core/src/main/java/org/apache/calcite/plan/volcano/TopDownRuleQueue.java	1638
+core/src/main/java/org/apache/calcite/util/ImmutableIntList.java	112
+core/src/main/java/org/apache/calcite/sql/validate/SqlValidatorCatalogReader.java	1174
+core/src/main/java/org/apache/calcite/runtime/Automaton.java	1454
+linq4j/src/main/java/org/apache/calcite/linq4j/function/FloatFunction1.java	1130
+core/src/main/java/org/apache/calcite/rex/RexCallBinding.java	1017
+core/src/main/java/org/apache/calcite/interpreter/Nodes.java	1456
+kafka/src/main/java/org/apache/calcite/adapter/kafka/KafkaStreamTable.java	1847
+kafka/src/main/java/org/apache/calcite/adapter/kafka/KafkaRowConverterImpl.java	1846
+kafka/src/main/java/org/apache/calcite/adapter/kafka/KafkaRowConverter.java	1857
+core/src/main/java/org/apache/calcite/runtime/DeterministicAutomaton.java	1469
+core/src/main/java/org/apache/calcite/runtime/Matcher.java	1315
+core/src/main/java/org/apache/calcite/sql/validate/TableNamespace.java	190
+core/src/main/java/org/apache/calcite/sql/validate/WithNamespace.java	971
+core/src/main/java/org/apache/calcite/util/DateTimeStringUtils.java	582
+core/src/main/java/org/apache/calcite/sql/validate/AbstractNamespace.java	186
+core/src/main/java/org/apache/calcite/schema/QueryableTable.java	872
+core/src/main/java/org/apache/calcite/prepare/QueryableRelBuilder.java	102
+linq4j/src/main/java/org/apache/calcite/linq4j/AbstractEnumerable.java	899
+core/src/main/java/org/apache/calcite/schema/TableFunction.java	209
+core/src/main/java/org/apache/calcite/tools/PigRelBuilder.java	1735
+core/src/main/java/org/apache/calcite/sql/type/OperandTypes.java	247
+elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/ElasticsearchSchemaFactory.java	243
+core/src/main/java/org/apache/calcite/util/CompositeMap.java	627
+core/src/main/java/org/apache/calcite/plan/RelOptCostFactory.java	954
+elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/ElasticsearchRel.java	1423
+core/src/main/java/org/apache/calcite/sql/fun/SqlMapValueConstructor.java	388
+elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/ElasticsearchTable.java	253
+core/src/main/java/org/apache/calcite/sql/type/SqlTypeFactoryImpl.java	305
+core/src/main/java/org/apache/calcite/plan/volcano/VolcanoRuleMatch.java	20
+core/src/main/java/org/apache/calcite/model/JsonSchema.java	274
+core/src/main/java/org/apache/calcite/sql/SqlSelectKeyword.java	875
+mongodb/src/main/java/org/apache/calcite/adapter/mongodb/MongoFilter.java	699
+core/src/main/java/org/apache/calcite/sql/dialect/RedshiftSqlDialect.java	40
+core/src/main/java/org/apache/calcite/sql/SqlBinaryStringLiteral.java	1050
+core/src/main/java/org/apache/calcite/sql/SqlCharStringLiteral.java	1158
+core/src/main/java/org/apache/calcite/config/NullCollation.java	1397
+core/src/main/java/org/apache/calcite/rel/rules/SemiJoinRule.java	1239
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableTableModify.java	176
+core/src/main/java/org/apache/calcite/rel/type/RelDataTypeSystemImpl.java	477
+core/src/main/java/org/apache/calcite/adapter/jdbc/JdbcTableScan.java	269
+core/src/main/java/org/apache/calcite/plan/RelOptTable.java	1238
+core/src/main/java/org/apache/calcite/plan/Strong.java	171
+core/src/main/java/org/apache/calcite/sql/fun/SqlSubstringFunction.java	1260
+core/src/main/java/org/apache/calcite/rel/rules/ProjectFilterTransposeRule.java	219
+core/src/main/java/org/apache/calcite/rel/rules/SortProjectTransposeRule.java	98
+core/src/main/java/org/apache/calcite/interpreter/Bindables.java	320
+core/src/main/java/org/apache/calcite/rex/RexSimplify.java	463
+core/src/main/java/org/apache/calcite/rel/InvalidRelException.java	1155
+core/src/main/java/org/apache/calcite/runtime/Hook.java	788
+core/src/main/java/org/apache/calcite/util/Benchmark.java	466
+core/src/main/java/org/apache/calcite/tools/Planner.java	1180
+geode/src/main/java/org/apache/calcite/adapter/geode/rel/package-info.java	1352
+core/src/main/java/org/apache/calcite/adapter/enumerable/NotNullImplementor.java	945
+core/src/main/java/org/apache/calcite/schema/CustomColumnResolvingTable.java	332
+core/src/main/java/org/apache/calcite/schema/impl/ReflectiveFunctionBase.java	418
+geode/src/main/java/org/apache/calcite/adapter/geode/rel/GeodeFilter.java	303
+geode/src/main/java/org/apache/calcite/adapter/geode/simple/GeodeSimpleEnumerator.java	1379
+linq4j/src/main/java/org/apache/calcite/linq4j/tree/GotoExpressionKind.java	616
+linq4j/src/main/java/org/apache/calcite/linq4j/tree/MemberMemberBinding.java	923
+geode/src/main/java/org/apache/calcite/adapter/geode/rel/GeodeToEnumerableConverterRule.java	1342
+geode/src/main/java/org/apache/calcite/adapter/geode/rel/GeodeRules.java	495
+core/src/main/java/org/apache/calcite/tools/Program.java	1277
+geode/src/main/java/org/apache/calcite/adapter/geode/rel/GeodeTableScan.java	494
+geode/src/main/java/org/apache/calcite/adapter/geode/rel/GeodeTable.java	496
+core/src/main/java/org/apache/calcite/sql/SqlSessionTableFunction.java	1207
+core/src/main/java/org/apache/calcite/plan/Context.java	1178
+core/src/main/java/org/apache/calcite/sql/validate/SqlUserDefinedFunction.java	1256
+core/src/main/java/org/apache/calcite/sql/SqlWindowTableFunction.java	469
+linq4j/src/main/java/org/apache/calcite/linq4j/ExtendedOrderedQueryable.java	656
+mongodb/src/main/java/org/apache/calcite/adapter/mongodb/MongoRules.java	1223
+core/src/main/java/org/apache/calcite/sql/advise/SqlSimpleParser.java	934
+plus/src/main/java/org/apache/calcite/chinook/PreferredAlbumsTableFactory.java	1915
+plus/src/main/java/org/apache/calcite/chinook/package-info.java	408
+core/src/main/java/org/apache/calcite/adapter/enumerable/WinAggResultContext.java	764
+linq4j/src/main/java/org/apache/calcite/linq4j/tree/ConstantUntypedNull.java	757
+core/src/main/java/org/apache/calcite/plan/RelOptQuery.java	944
+==== CALCITE-4145 ====
+core/src/main/java/org/apache/calcite/runtime/Utilities.java	4
+core/src/main/java/org/apache/calcite/rex/RexFieldAccess.java	1570
+==== CALCITE-4150 ====
+core/src/main/java/org/apache/calcite/sql/validate/implicit/TypeCoercionImpl.java	85
+core/src/main/java/org/apache/calcite/rel/rel2sql/package-info.java	0
+core/src/main/java/org/apache/calcite/runtime/Utilities.java	3
+core/src/main/java/org/apache/calcite/sql/SqlWriter.java	13
+==== CALCITE-4154 ====
+core/src/main/java/org/apache/calcite/rel/rules/ProjectAggregateMergeRule.java	1909
+example/csv/src/main/java/org/apache/calcite/adapter/csv/CsvRules.java	1169
+core/src/main/java/org/apache/calcite/runtime/Matcher.java	696
+==== CALCITE-4167 ====
+core/src/main/java/org/apache/calcite/sql2rel/SqlToRelConverter.java	0
+==== CALCITE-4170 ====
+core/src/main/java/org/apache/calcite/rex/RexSimplify.java	0
+core/src/main/java/org/apache/calcite/util/RangeSets.java	1456
+==== CALCITE-4171 ====
+core/src/main/java/org/apache/calcite/sql/type/SqlTypeExplicitPrecedenceList.java	1098
+core/src/main/java/org/apache/calcite/util/trace/CalciteTrace.java	199
+piglet/src/main/java/org/apache/calcite/piglet/PigRelSqlUdfs.java	392
+core/src/main/java/org/apache/calcite/sql/type/OperandMetadataImpl.java	429
+core/src/main/java/org/apache/calcite/sql/SqlOperatorBinding.java	108
+core/src/main/java/org/apache/calcite/sql/validate/SqlUserDefinedFunction.java	393
+core/src/main/java/org/apache/calcite/sql/SqlTumbleTableFunction.java	408
+core/src/main/java/org/apache/calcite/runtime/CalciteResource.java	1
+core/src/main/java/org/apache/calcite/sql/validate/SelectScope.java	0
+core/src/main/resources/org/apache/calcite/runtime/CalciteResource.properties	2
+==== CALCITE-4172 ====
+core/src/main/java/org/apache/calcite/sql/validate/SelectScope.java	0
+==== CALCITE-4173 ====
+core/src/main/java/org/apache/calcite/rel/rel2sql/package-info.java	1
+core/src/main/java/org/apache/calcite/tools/RelBuilder.java	51
+druid/src/main/java/org/apache/calcite/adapter/druid/DruidSqlOperatorConverter.java	1115
+core/src/main/java/org/apache/calcite/util/mapping/AbstractSourceMapping.java	734
+core/src/main/java/org/apache/calcite/util/NlsString.java	5
+core/src/main/java/org/apache/calcite/jdbc/CalciteMetaImpl.java	152
+core/src/main/java/org/apache/calcite/prepare/RelOptTableImpl.java	264
+core/src/main/java/org/apache/calcite/plan/RexImplicationChecker.java	138
+core/src/main/java/org/apache/calcite/sql/SqlJoin.java	748
+core/src/main/java/org/apache/calcite/rel/rel2sql/SqlImplementor.java	3
+core/src/main/java/org/apache/calcite/sql/fun/SqlAvgAggFunction.java	31
+core/src/main/java/org/apache/calcite/rex/RexCall.java	0
+core/src/main/java/org/apache/calcite/rex/RexBuilder.java	6
+core/src/main/java/org/apache/calcite/sql/validate/SqlIdentifierMoniker.java	47
+core/src/main/java/org/apache/calcite/sql/fun/SqlSingleValueAggFunction.java	95
+core/src/main/java/org/apache/calcite/interpreter/Bindables.java	70
+core/src/main/java/org/apache/calcite/rex/RexSimplify.java	18
+core/src/main/java/org/apache/calcite/adapter/enumerable/StrictAggImplementor.java	50
+geode/src/main/java/org/apache/calcite/adapter/geode/rel/GeodeSort.java	1531
+core/src/main/java/org/apache/calcite/rel/rules/SubQueryRemoveRule.java	144
+core/src/main/java/org/apache/calcite/rex/RexUtil.java	8
+geode/src/main/java/org/apache/calcite/adapter/geode/rel/GeodeToEnumerableConverterRule.java	299
+core/src/main/java/org/apache/calcite/sql/SqlOperator.java	550
+core/src/main/java/org/apache/calcite/sql/fun/SqlInOperator.java	1097
+core/src/main/java/org/apache/calcite/sql/fun/SqlTrimFunction.java	155
+core/src/main/java/org/apache/calcite/sql/SqlBinaryOperator.java	262
+core/src/main/java/org/apache/calcite/util/RangeSets.java	1913
+core/src/main/java/org/apache/calcite/sql/fun/SqlSearchOperator.java	1707
+core/src/main/java/org/apache/calcite/util/Sarg.java	1709
+core/src/main/java/org/apache/calcite/sql/fun/SqlInternalOperators.java	1722
+core/src/main/java/org/apache/calcite/model/JsonLattice.java	563
+==== CALCITE-4180 ====
+elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/ElasticsearchRel.java	0
+==== CALCITE-4182 ====
+core/src/main/java/org/apache/calcite/plan/RexImplicationChecker.java	17
+==== CALCITE-4190 ====
+core/src/main/java/org/apache/calcite/rex/RexSimplify.java	0
+==== CALCITE-4192 ====
+core/src/main/java/org/apache/calcite/rel/metadata/RelMdColumnOrigins.java	221
+==== CALCITE-4195 ====
+linq4j/src/main/java/org/apache/calcite/linq4j/tree/TypeBinaryExpression.java	846
+==== CALCITE-4200 ====
+druid/src/main/java/org/apache/calcite/adapter/druid/DruidJson.java	2
+==== CALCITE-4201 ====
+druid/src/main/java/org/apache/calcite/adapter/druid/DruidJson.java	3
+==== CALCITE-4206 ====
+core/src/main/java/org/apache/calcite/util/Stacks.java	6
+==== CALCITE-4207 ====
+core/src/main/java/org/apache/calcite/sql/validate/OverScope.java	356
+==== CALCITE-4210 ====
+core/src/main/java/org/apache/calcite/sql2rel/SqlToRelConverter.java	0
+==== CALCITE-4220 ====
+piglet/src/main/java/org/apache/calcite/piglet/DynamicTupleRecordType.java	63
+core/src/main/java/org/apache/calcite/tools/PigRelBuilder.java	60
+core/src/main/java/org/apache/calcite/tools/RelBuilder.java	1
+core/src/main/java/org/apache/calcite/sql2rel/SqlToRelConverter.java	0
+core/src/main/java/org/apache/calcite/util/StackWriter.java	3
+==== CALCITE-4230 ====
+core/src/main/java/org/apache/calcite/sql/validate/SqlDelegatingConformance.java	1
+core/src/main/java/org/apache/calcite/sql/validate/SqlConformanceEnum.java	2
+core/src/main/java/org/apache/calcite/prepare/CalciteSqlValidator.java	0
+==== CALCITE-4237 ====
+core/src/main/java/org/apache/calcite/rex/RexSimplify.java	15
+==== CALCITE-4240 ====
+core/src/main/java/org/apache/calcite/runtime/Utilities.java	1215
+==== CALCITE-4246 ====
+core/src/main/java/org/apache/calcite/sql/validate/SqlConformanceEnum.java	2
+core/src/main/java/org/apache/calcite/sql/validate/SqlDelegatingConformance.java	1
+core/src/main/java/org/apache/calcite/sql/parser/SqlParserUtil.java	214
+core/src/main/java/org/apache/calcite/prepare/CalciteSqlValidator.java	0
+core/src/main/java/org/apache/calcite/rex/RexOver.java	22
+core/src/main/java/org/apache/calcite/sql/parser/SqlParser.java	11
+==== CALCITE-4247 ====
+core/src/main/java/org/apache/calcite/config/CharLiteralStyle.java	1
+core/src/main/java/org/apache/calcite/config/NullCollation.java	8
+core/src/main/java/org/apache/calcite/schema/ProjectableFilterableTable.java	80
+core/src/main/java/org/apache/calcite/prepare/CalciteSqlValidator.java	31
+core/src/main/java/org/apache/calcite/rex/RexOver.java	19
+core/src/main/java/org/apache/calcite/sql/parser/SqlParser.java	0
+==== CALCITE-4248 ====
+core/src/main/java/org/apache/calcite/prepare/CalcitePrepareImpl.java	40
+core/src/main/java/org/apache/calcite/tools/Hoist.java	897
+core/src/main/java/org/apache/calcite/jdbc/CalciteConnectionImpl.java	132
+core/src/main/java/org/apache/calcite/sql/SqlWriter.java	18
+cassandra/src/main/java/org/apache/calcite/adapter/cassandra/CassandraTableScan.java	375
+core/src/main/java/org/apache/calcite/sql/parser/SqlParser.java	0
+==== CALCITE-4249 ====
+core/src/main/java/org/apache/calcite/sql/type/SqlTypeUtil.java	60
+core/src/main/java/org/apache/calcite/rel/rel2sql/SqlImplementor.java	2
+==== CALCITE-4254 ====
+core/src/main/java/org/apache/calcite/util/ImmutableNullableMap.java	1907
+core/src/main/java/org/apache/calcite/sql/util/IdPair.java	1908
+core/src/main/java/org/apache/calcite/sql/SqlNode.java	38
+core/src/main/java/org/apache/calcite/util/ImmutableBeans.java	0
+==== CALCITE-4258 ====
+core/src/main/java/org/apache/calcite/plan/RelOptUtil.java	38
+==== CALCITE-4259 ====
+core/src/main/java/org/apache/calcite/rel/rules/SpatialRules.java	344
+core/src/main/java/org/apache/calcite/rel/externalize/RelJsonReader.java	915
+core/src/main/java/org/apache/calcite/rel/rules/ReduceDecimalsRule.java	4
+src/main/config/licenses/respond/LICENSE	191
+core/src/main/java/org/apache/calcite/util/RangeSets.java	1166
+example/csv/sqlline	360
+core/src/main/java/org/apache/calcite/sql/util/SqlOperatorTables.java	153
+gradle.properties	341
+==== CALCITE-4261 ====
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableBatchNestedLoopJoinRule.java	0
+==== CALCITE-4266 ====
+core/src/main/java/org/apache/calcite/rel/rel2sql/SqlImplementor.java	0
+==== CALCITE-4271 ====
+core/src/main/java/org/apache/calcite/rex/RexBuilder.java	1
+==== CALCITE-4275 ====
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableMergeJoin.java	0
+==== CALCITE-4279 ====
+druid/src/main/java/org/apache/calcite/adapter/druid/DruidTableFactory.java	20
+druid/src/main/java/org/apache/calcite/adapter/druid/DruidJson.java	32
+druid/src/main/java/org/apache/calcite/adapter/druid/DruidSqlOperatorConverter.java	6
+core/src/main/java/org/apache/calcite/rel/rules/ReduceExpressionsRule.java	40
+==== CALCITE-4283 ====
+core/src/main/java/org/apache/calcite/adapter/enumerable/impl/WinAggResultContextImpl.java	170
+==== CALCITE-4287 ====
+core/src/main/java/org/apache/calcite/rel/rules/ProjectJoinJoinRemoveRule.java	56
+core/src/main/java/org/apache/calcite/rel/rules/ProjectJoinRemoveRule.java	0
+==== CALCITE-4295 ====
+core/src/main/java/org/apache/calcite/sql/type/CompositeOperandTypeChecker.java	0
+==== CALCITE-4297 ====
+core/src/main/java/org/apache/calcite/sql/validate/SqlDelegatingConformance.java	27
+core/src/main/java/org/apache/calcite/sql/fun/SqlLibraryOperators.java	24
+==== CALCITE-4298 ====
+core/src/main/java/org/apache/calcite/runtime/HttpUtils.java	1078
+==== CALCITE-4300 ====
+core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableBatchNestedLoopJoin.java	2
+==== CALCITE-4315 ====
+core/src/main/java/org/apache/calcite/rel/metadata/RelMdUtil.java	0
+==== CALCITE-4321 ====
+core/src/main/java/org/apache/calcite/sql/SqlWriter.java	12
+core/src/main/java/org/apache/calcite/sql/dialect/HiveSqlDialect.java	319
+core/src/main/java/org/apache/calcite/sql/dialect/RedshiftSqlDialect.java	27
+core/src/main/java/org/apache/calcite/rel/rel2sql/SqlImplementor.java	11
+core/src/main/java/org/apache/calcite/config/NullCollation.java	200
+==== CALCITE-4324 ====
+core/src/main/java/org/apache/calcite/util/mapping/package-info.java	1092
+core/src/main/java/org/apache/calcite/sql/pretty/package-info.java	1920
+druid/build.gradle.kts	58
+example/csv/sqlline	169
+cassandra/src/main/java/org/apache/calcite/adapter/cassandra/CassandraEnumerator.java	14
+plus/src/main/java/org/apache/calcite/adapter/os/Processes.java	49
+==== CALCITE-4325 ====
+core/src/main/java/org/apache/calcite/sql/fun/SqlSearchOperator.java	385
+core/src/main/java/org/apache/calcite/rex/RexSimplify.java	26
+==== CALCITE-4333 ====
+core/src/main/java/org/apache/calcite/util/Stacks.java	6
